@@ -1,7 +1,7 @@
 # Martillion design
 
 Date: 2026-09-01
-Status: awaiting review
+Status: implemented (2026-09-01)
 
 ## Overview
 
