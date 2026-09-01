@@ -48,6 +48,7 @@ const TOPIC_LABELS = {
 
 let uprising = null;
 let timerId = null;
+let roundStartedAt = 0;
 
 function startGame() {
   const questions = sampleQuestions(bank, state.recentQuestionIds, Math.random);
@@ -63,6 +64,7 @@ function playRound() {
   $("answer-input").value = "";
   showScreen("screen-round");
   $("answer-input").focus();
+  roundStartedAt = Date.now();
   startTimer();
 }
 
@@ -139,6 +141,11 @@ function renderResults(summary) {
     summary.total >= state.bestScore
       ? "A new personal best. The politburo is pleased."
       : `Personal best: ${state.bestScore}.`;
+  const plans = fiveYearPlans(state.totalPoints);
+  $("results-plan").textContent =
+    plans.completed === 0
+      ? `${plans.progress} / ${plans.target} points toward your first five-year plan`
+      : `Five-year plans completed: ${plans.completed} - ${plans.progress} / ${plans.target} toward the next`;
   $("screen-results").classList.toggle("perfect", summary.total === 700);
   showScreen("screen-results");
 }
@@ -148,6 +155,7 @@ $("start-button").addEventListener("click", startGame);
 $("next-button").addEventListener("click", nextRound);
 $("answer-form").addEventListener("submit", (event) => {
   event.preventDefault();
+  if (Date.now() - roundStartedAt < 300) return;
   submitAnswer();
 });
 $("share-button").addEventListener("click", async () => {
