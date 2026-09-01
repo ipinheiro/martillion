@@ -128,8 +128,8 @@ Constructivist propaganda poster: deep red, black, and aged cream; bold condense
 One line plus an emoji row, copied to the clipboard:
 
 ```
-Martillion ✊ 620 - Socialism achieved
-⭐🚩✊✊👥🐑💭
+Martillion ✊ 630 - Socialism achieved
+⭐⭐⭐⭐🚩🚩✊
 ```
 
 Emoji per tier: ⭐ Full Marx, 🚩 Vanguard, ✊ Comrade, 👥 The Masses, 🐑 False Consciousness, 💭 Utopian, ⬛ no answer.
