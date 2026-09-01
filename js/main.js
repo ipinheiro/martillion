@@ -21,6 +21,7 @@ function renderTitle() {
   $("plans-completed").textContent = plans.completed;
   $("plan-bar").style.width = `${(plans.progress / plans.target) * 100}%`;
   $("plan-label").textContent = `${plans.progress} / ${plans.target} points toward the next plan`;
+  $("start-button").disabled = false;
   showScreen("screen-title");
 }
 

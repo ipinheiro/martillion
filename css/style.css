@@ -498,6 +498,11 @@ button.primary {
   color: var(--cream);
 }
 
+button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 #start-button,
 #next-button,
 #retry-button {
