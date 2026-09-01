@@ -12,7 +12,7 @@ https://ipinheiro.github.io/martillion/
 
 No build step, no dependencies. Serve the folder and open it:
 
-    python3 -m http.server 8123
+    uv run python -m http.server 8123
 
 Run the tests (Node 20+):
 
