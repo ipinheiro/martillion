@@ -12,29 +12,33 @@ function isValid(state) {
   );
 }
 
+function clone(state) {
+  return { ...state, recentQuestionIds: [...state.recentQuestionIds] };
+}
+
 export function createStorage(backend) {
-  let memory = { ...DEFAULTS };
+  let memory = clone(DEFAULTS);
 
   function load() {
     let raw;
     try {
       raw = backend.getItem(KEY);
     } catch {
-      return { ...memory };
+      return clone(memory);
     }
-    if (raw === null) return { ...memory };
+    if (raw === null) return clone(memory);
     try {
       const parsed = JSON.parse(raw);
-      if (!isValid(parsed)) return { ...DEFAULTS };
-      memory = parsed;
-      return { ...parsed };
+      if (!isValid(parsed)) return clone(DEFAULTS);
+      memory = clone(parsed);
+      return clone(parsed);
     } catch {
-      return { ...DEFAULTS };
+      return clone(DEFAULTS);
     }
   }
 
   function save(state) {
-    memory = { ...state };
+    memory = clone(state);
     try {
       backend.setItem(KEY, JSON.stringify(state));
     } catch {

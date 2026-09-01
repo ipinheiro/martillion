@@ -47,3 +47,24 @@ test("throwing backend degrades to in-memory state", () => {
   storage.save(state);
   assert.deepEqual(storage.load(), state);
 });
+
+test("load returns distinct array objects (no shared reference)", () => {
+  const storage = createStorage(fakeBackend());
+  const load1 = storage.load();
+  const load2 = storage.load();
+
+  // Both should be defaults
+  assert.deepEqual(load1, DEFAULTS);
+  assert.deepEqual(load2, DEFAULTS);
+
+  // But the arrays should be distinct objects
+  assert.notStrictEqual(load1.recentQuestionIds, load2.recentQuestionIds);
+
+  // Mutating one should not affect the other
+  load1.recentQuestionIds.push("test-id");
+  assert.deepEqual(load2.recentQuestionIds, []);
+
+  // And a fresh storage should still get a fresh empty array
+  const storage2 = createStorage(fakeBackend());
+  assert.deepEqual(storage2.load().recentQuestionIds, []);
+});
