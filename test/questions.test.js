@@ -34,3 +34,10 @@ for (const question of bank) {
     }
   });
 }
+
+test("every topic has at least 18 questions", () => {
+  for (const topic of TOPICS) {
+    const count = bank.filter((q) => q.topic === topic).length;
+    assert.ok(count >= 18, `${topic} has ${count} questions`);
+  }
+});
