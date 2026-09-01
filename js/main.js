@@ -1,6 +1,7 @@
 import { createStorage } from "./storage.js";
 import { fiveYearPlans } from "./scorer.js";
-import { sampleQuestions, createUprising, ROUNDS } from "./game.js";
+import { sampleQuestions, createUprising, updateRecent, ROUNDS } from "./game.js";
+import { shareText, copyShare } from "./share.js";
 
 const storage = createStorage(window.localStorage);
 let state = storage.load();
@@ -105,9 +106,40 @@ function nextRound() {
   }
 }
 
+let lastShare = "";
+
 function finishGame(finished) {
-  console.log("results screen arrives in the next task", finished.summary());
-  renderTitle();
+  const summary = finished.summary();
+  state = {
+    bestScore: Math.max(state.bestScore, summary.total),
+    totalPoints: state.totalPoints + summary.total,
+    gamesPlayed: state.gamesPlayed + 1,
+    recentQuestionIds: updateRecent(state.recentQuestionIds, summary.rounds.map((r) => r.questionId)),
+  };
+  storage.save(state);
+  lastShare = shareText(summary.rounds.map((r) => r.points), summary.total);
+  renderResults(summary);
+}
+
+function renderResults(summary) {
+  $("results-score").textContent = `${summary.total} points`;
+  $("results-stage").textContent = summary.stage.name;
+  $("results-flavour").textContent = summary.stage.flavour;
+  const list = $("results-rounds");
+  list.replaceChildren(
+    ...summary.rounds.map((round) => {
+      const item = document.createElement("li");
+      const shown = round.matchedAnswer ?? (round.input.trim() || "no answer");
+      item.textContent = `${round.tier.emoji} ${round.prompt} - ${shown} (+${round.points})`;
+      return item;
+    })
+  );
+  $("results-records").textContent =
+    summary.total >= state.bestScore
+      ? "A new personal best. The politburo is pleased."
+      : `Personal best: ${state.bestScore}.`;
+  $("screen-results").classList.toggle("perfect", summary.total === 700);
+  showScreen("screen-results");
 }
 
 $("retry-button").addEventListener("click", boot);
@@ -117,5 +149,11 @@ $("answer-form").addEventListener("submit", (event) => {
   event.preventDefault();
   submitAnswer();
 });
+$("share-button").addEventListener("click", async () => {
+  const copied = await copyShare(lastShare);
+  $("share-button").textContent = copied ? "Copied to clipboard" : "Copy failed, comrade";
+  setTimeout(() => { $("share-button").textContent = "Share the struggle"; }, 2000);
+});
+$("again-button").addEventListener("click", startGame);
 
 boot();
