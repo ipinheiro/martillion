@@ -63,7 +63,7 @@ Match order:
 1. Exact match against a question's canonical answers and aliases.
 2. Edit-distance match: Levenshtein distance of at most 1 for normalised strings of 5 or more characters, at most 2 for 10 or more. Strings under 5 characters must match exactly.
 3. No match, non-empty input: **Utopian**, 15 points.
-4. Empty input or timeout: 0 points.
+4. Empty input, input that normalises to empty (punctuation only), or timeout: 0 points.
 
 ## Question bank
 
