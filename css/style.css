@@ -419,6 +419,16 @@ h1 {
   box-shadow: var(--offset) var(--offset) 0 var(--red);
 }
 
+/* Told when an answer is not recognised. Reserves its line so the form does not jump. */
+.round-feedback {
+  min-height: 1.5rem;
+  margin-top: 0.9rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--red);
+  overflow-wrap: break-word;
+}
+
 /* Reveal screen -------------------------------------------------------- */
 
 #reveal-tier {

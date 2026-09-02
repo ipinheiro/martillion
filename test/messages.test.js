@@ -4,6 +4,7 @@ import {
   planLabel,
   planMessage,
   recordsMessage,
+  rejectionMessage,
   revealDetail,
   roundCounter,
   roundLine,
@@ -36,15 +37,19 @@ test("revealDetail appends a remark when the answer carries one", () => {
   );
 });
 
-test("revealDetail explains utopian and silence", () => {
+test("revealDetail explains a timeout after unverified attempts, and silence", () => {
   assert.equal(
-    revealDetail(round({ matchedAnswer: null, tier: tierById("utopian") })),
-    "The committee cannot verify this. Zero points, comrade.",
+    revealDetail(round({ input: " roomba ", matchedAnswer: null, tier: tierById("utopian") })),
+    'Time\'s up. The committee could not verify "roomba". Zero points, comrade.',
   );
   assert.equal(
     revealDetail(round({ input: "", matchedAnswer: null, tier: tierById("no-answer") })),
-    "Silence. The revolution needs answers.",
+    "Time's up. Silence. The revolution needs answers.",
   );
+});
+
+test("rejectionMessage names the attempt and invites another", () => {
+  assert.equal(rejectionMessage(" Roomba "), '"Roomba" is not a recognised answer. Try another.');
 });
 
 test("recordsMessage announces a record only when the total beats the previous best", () => {

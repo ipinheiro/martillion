@@ -108,18 +108,19 @@ function fakeStorage(initial = {}) {
 }
 
 const flush = () => new Promise((resolve) => setTimeout(resolve, 0));
+const tick = () => new Promise((resolve) => setTimeout(resolve, 250));
 
-async function boot({ bank = makeBank(), storage = fakeStorage(), fetchImpl, now } = {}) {
+async function boot({ bank = makeBank(), storage = fakeStorage(), fetchImpl } = {}) {
   const doc = await fakeDocumentFromIndexHtml();
-  const errorHandlers = [];
+  const clock = { now: 0 };
   const originalListener = globalThis.addEventListener;
-  globalThis.addEventListener = (type, handler) => errorHandlers.push([type, handler]);
+  globalThis.addEventListener = () => {};
   try {
     init(doc, {
       storageBackend: storage,
       fetchImpl: fetchImpl ?? fakeFetch(bank),
       random: () => 0.5,
-      now: now ?? (() => 0),
+      now: () => clock.now,
     });
   } finally {
     globalThis.addEventListener = originalListener;
@@ -129,7 +130,15 @@ async function boot({ bank = makeBank(), storage = fakeStorage(), fetchImpl, now
   const $ = (id) => doc.getElementById(id);
   const visible = () =>
     doc.elements.filter((el) => el.classes.has("screen") && !el.hidden).map((el) => el.id);
-  return { doc, $, visible, storage, errorHandlers };
+  const type = (value) => {
+    $("answer-input").value = value;
+    $("answer-form").dispatch("submit");
+  };
+  const runOutTheClock = async () => {
+    clock.now += 31_000;
+    await tick();
+  };
+  return { doc, $, visible, storage, type, runOutTheClock };
 }
 
 test("boot renders stored stats immediately, then enables start once the bank loads", async () => {
@@ -160,28 +169,70 @@ test("a failed load shows the error screen and retry reloads", async (t) => {
   assert.equal($("start-button").disabled, false);
 });
 
+test("an unrecognised answer is rejected with feedback and the round carries on", async () => {
+  const { $, visible, type } = await boot();
+  $("start-button").dispatch("click");
+  type("something the bank lacks");
+  assert.deepEqual(visible(), ["screen-round"]);
+  assert.equal(
+    $("round-feedback").textContent,
+    '"something the bank lacks" is not a recognised answer. Try another.',
+  );
+  assert.equal($("answer-input").value, "", "the box is cleared for the next try");
+  type("   ");
+  assert.deepEqual(visible(), ["screen-round"], "empty input is ignored");
+  type("Anything");
+  assert.deepEqual(visible(), ["screen-reveal"]);
+  assert.equal($("reveal-tier").textContent, "Comrade");
+  assert.equal($("reveal-detail").textContent, 'The committee recognises "Anything".');
+});
+
+test("running out of time after rejected attempts scores utopian at zero", async () => {
+  const { $, visible, type, runOutTheClock } = await boot();
+  $("start-button").dispatch("click");
+  type("something the bank lacks");
+  await runOutTheClock();
+  assert.deepEqual(visible(), ["screen-reveal"]);
+  assert.equal($("reveal-tier").textContent, "Utopian");
+  assert.equal($("reveal-points").textContent, "+0");
+  assert.equal(
+    $("reveal-detail").textContent,
+    'Time\'s up. The committee could not verify "something the bank lacks". Zero points, comrade.',
+  );
+  assert.equal($("reveal-sprite").children[0].getAttribute("aria-label"), "Marx, doubtful");
+  $("next-button").dispatch("click");
+  assert.equal($("round-feedback").textContent, "", "feedback is cleared for the next round");
+  await runOutTheClock();
+});
+
 test("a full game scores, saves, and reports a new personal best only when earned", async () => {
-  const { $, visible, storage } = await boot();
+  const { $, visible, storage, type, runOutTheClock } = await boot();
   $("start-button").dispatch("click");
   assert.deepEqual(visible(), ["screen-round"]);
   assert.equal($("round-count").textContent, "Round 1 of 7");
 
-  const inputs = ["Anything", "Rare thing", "", "roomba", "Anything", "Anything", "Anything"];
-  for (const [i, value] of inputs.entries()) {
-    $("answer-input").value = value;
-    $("answer-form").dispatch("submit");
-    assert.deepEqual(visible(), ["screen-reveal"], `round ${i + 1} reveals`);
+  const next = () => $("next-button").dispatch("click");
+  type("Anything");
+  next();
+  type("Rare thing");
+  next();
+  await runOutTheClock();
+  next();
+  type("roomba");
+  await runOutTheClock();
+  next();
+  for (let i = 0; i < 3; i++) {
+    type("Anything");
     assert.equal($("reveal-sprite").children[0].tagName, "svg");
-    $("next-button").dispatch("click");
+    next();
   }
 
   assert.deepEqual(visible(), ["screen-results"]);
-  assert.equal($("reveal-detail").textContent, 'The committee recognises "Anything".');
   assert.equal($("results-score").textContent, "340 points");
   assert.equal($("results-stage").textContent, "Capitalism");
   assert.equal($("results-records").textContent, "A new personal best. The politburo is pleased.");
   assert.equal($("results-rounds").children.length, 7);
-  assert.match($("results-rounds").children[2].textContent, /no answer \(\+0\)/);
+  assert.match($("results-rounds").children[2].textContent, /⬛ .* - no answer \(\+0\)/);
   assert.match($("results-rounds").children[3].textContent, /💭 .* - roomba \(\+0\)/);
   const saved = JSON.parse(storage.data.get(KEY));
   assert.equal(saved.bestScore, 340);
@@ -190,41 +241,24 @@ test("a full game scores, saves, and reports a new personal best only when earne
 
   $("again-button").dispatch("click");
   for (let i = 0; i < 7; i++) {
-    $("answer-input").value = "";
-    $("answer-form").dispatch("submit");
-    $("next-button").dispatch("click");
+    await runOutTheClock();
+    next();
   }
   assert.equal($("results-score").textContent, "0 points");
   assert.equal($("results-records").textContent, "Personal best: 340.");
 });
 
-test("the utopian reveal says zero points and the reveal detail matches the tier", async () => {
-  const { $ } = await boot();
-  $("start-button").dispatch("click");
-  $("answer-input").value = "something the bank lacks";
-  $("answer-form").dispatch("submit");
-  assert.equal($("reveal-tier").textContent, "Utopian");
-  assert.equal($("reveal-points").textContent, "+0");
-  assert.equal(
-    $("reveal-detail").textContent,
-    "The committee cannot verify this. Zero points, comrade.",
-  );
-  assert.equal($("reveal-sprite").children[0].getAttribute("aria-label"), "Marx, doubtful");
-});
-
-test("the timer submits whatever is in the box when the round runs out", async () => {
-  let clock = 0;
-  const { $, visible } = await boot({ now: () => clock });
+test("the timer gives whatever is in the box one last try when the round runs out", async () => {
+  const { $, visible, runOutTheClock } = await boot();
   $("start-button").dispatch("click");
   $("answer-input").value = "Anything";
-  clock = 31_000;
-  await new Promise((resolve) => setTimeout(resolve, 250));
+  await runOutTheClock();
   assert.deepEqual(visible(), ["screen-reveal"]);
   assert.equal($("reveal-tier").textContent, "Comrade");
   $("next-button").dispatch("click");
   assert.deepEqual(visible(), ["screen-round"]);
-  clock = 62_000;
-  await new Promise((resolve) => setTimeout(resolve, 250));
+  await runOutTheClock();
   assert.deepEqual(visible(), ["screen-reveal"], "the next round's timer runs out too");
   assert.equal($("reveal-tier").textContent, "No answer");
+  assert.equal($("reveal-detail").textContent, "Time's up. Silence. The revolution needs answers.");
 });

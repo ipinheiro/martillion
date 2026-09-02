@@ -6,12 +6,20 @@ import { NO_ANSWER } from "./scorer.js";
 
 /** @param {RoundResult} result */
 export function revealDetail(result) {
-  if (result.tier.id === NO_ANSWER.id) return "Silence. The revolution needs answers.";
+  if (result.tier.id === NO_ANSWER.id) return "Time's up. Silence. The revolution needs answers.";
   if (result.matchedAnswer === null) {
-    return "The committee cannot verify this. Zero points, comrade.";
+    return `Time's up. The committee could not verify "${result.input.trim()}". Zero points, comrade.`;
   }
   const line = `The committee recognises "${result.matchedAnswer}".`;
   return result.remark ? `${line} ${result.remark}` : line;
+}
+
+/**
+ * Shown on the round screen when an answer is not recognised; the round carries on.
+ * @param {string} input
+ */
+export function rejectionMessage(input) {
+  return `"${input.trim()}" is not a recognised answer. Try another.`;
 }
 
 /**

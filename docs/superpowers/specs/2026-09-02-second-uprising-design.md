@@ -30,8 +30,14 @@ Today a tier is looked up by its point value, so no two tiers can share a score 
 | `comrade` | Comrade | 60 | ✊ | Uncommon |
 | `masses` | The Masses | 30 | 👥 | Common |
 | `false-consciousness` | False Consciousness | 10 | 🐑 | The obvious answer everyone gives |
-| `utopian` | Utopian | 0 | 💭 | Non-empty input the bank does not recognise |
-| `no-answer` | No answer | 0 | ⬛ | Empty input, punctuation-only input, or timeout |
+| `utopian` | Utopian | 0 | 💭 | Time ran out after one or more answers the bank does not recognise |
+| `no-answer` | No answer | 0 | ⬛ | Time ran out with nothing offered |
+
+### An unrecognised answer does not end the round
+
+Submitting an answer the bank does not recognise is a rejection, not a score. The round screen says `"Roomba" is not a recognised answer. Try another.`, clears the box, keeps focus in it, and the clock keeps running. Empty or punctuation-only input is ignored. Only a recognised answer or the clock ends a round.
+
+When the clock runs out, whatever is in the box gets one last try. If it is recognised, it scores as normal. Otherwise the round scores zero: Utopian when the player offered anything unverified during the round (the results list shows their last attempt), No answer when they offered nothing.
 
 The bank keeps authoring tiers as the numbers 10, 30, 60, 85, and 100, because that is the vocabulary the authoring rules use and 4,578 answers already carry it. The scorer maps an authored number to its tier record and throws on any other value. The data test asserts against the scorer's exported list of authored values rather than its own copy.
 
@@ -40,8 +46,8 @@ Utopian keeps its name and emoji so that "typed nothing" and "typed something th
 Reveal copy:
 
 - Matched: `The committee recognises "Bender".` If the answer carries a remark, it follows as its own sentence.
-- Utopian: `The committee cannot verify this. Zero points, comrade.`
-- No answer: `Silence. The revolution needs answers.`
+- Utopian: `Time's up. The committee could not verify "roomba". Zero points, comrade.`
+- No answer: `Time's up. Silence. The revolution needs answers.`
 
 ### Personal best
 
@@ -146,7 +152,7 @@ The error screen becomes generic (a heading, a detail line set by the UI, a retr
 
 The timer is owned by one idempotent `stopTimer`, which `startTimer` calls first, and the interval checks it is still the current timer before acting. Time is read from `performance.now()`. Held Enter is handled at the root: a keydown with `repeat` set is ignored on the answer input and on the next button, and the 300ms guard goes away.
 
-The game module throws if `submit` or `current` is called after the last round, and `sampleQuestions` throws when the bank cannot yield a full game, so the invariant lives with its owner.
+The game module exposes `submit(input)`, which returns a status and closes the round only on a match, and `timeout(input)`, which closes it either way. Both throw after the last round, and `sampleQuestions` throws when the bank cannot yield a full game, so the invariant lives with its owner.
 
 ### Storage
 

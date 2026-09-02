@@ -11,6 +11,7 @@ import {
   planLabel,
   planMessage,
   recordsMessage,
+  rejectionMessage,
   revealDetail,
   roundCounter,
   roundLine,
@@ -164,6 +165,7 @@ export function init(doc, options = {}) {
     $("round-topic").textContent = topicLabel(question.topic);
     $("round-count").textContent = roundCounter(uprising.round + 1, ROUNDS);
     $("round-prompt").textContent = question.prompt;
+    $("round-feedback").textContent = "";
     input.value = "";
     showScreen("screen-round");
     input.focus();
@@ -189,16 +191,34 @@ export function init(doc, options = {}) {
       const percent = clamp((remaining / ROUND_MS) * 100, 0, 100);
       $("timer-bar").style.width = `${percent}%`;
       $("timer").setAttribute("aria-valuenow", String(Math.round(percent)));
-      if (remaining <= 0) submitAnswer();
+      if (remaining <= 0) expireRound();
     }, TICK_MS);
     timerId = id;
   }
 
-  function submitAnswer() {
+  /** The player offers an answer. Only a recognised one ends the round. */
+  function tryAnswer() {
+    if (timerId === null || !uprising) return;
+    const input = /** @type {HTMLInputElement} */ ($("answer-input"));
+    const outcome = uprising.submit(input.value);
+    if (outcome.status === "matched" && outcome.result) {
+      stopTimer();
+      renderReveal(outcome.result);
+      return;
+    }
+    if (outcome.status === "unverified") {
+      $("round-feedback").textContent = rejectionMessage(input.value);
+      input.value = "";
+    }
+    input.focus();
+  }
+
+  /** The clock ran out. Whatever is in the box gets one last try. */
+  function expireRound() {
     if (timerId === null || !uprising) return;
     stopTimer();
     const input = /** @type {HTMLInputElement} */ ($("answer-input"));
-    renderReveal(uprising.submit(input.value));
+    renderReveal(uprising.timeout(input.value));
   }
 
   /** @param {import("./game.js").RoundResult} result */
@@ -288,7 +308,7 @@ export function init(doc, options = {}) {
   $("answer-input").addEventListener("keydown", ignoreHeldEnter);
   $("answer-form").addEventListener("submit", (event) => {
     event.preventDefault();
-    submitAnswer();
+    tryAnswer();
   });
   shareButton.addEventListener("click", () => {
     share();

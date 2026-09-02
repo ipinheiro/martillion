@@ -129,44 +129,84 @@ export function updateRecent(recentIds, playedIds) {
   return [...recentIds, ...playedIds].slice(-RECENT_LIMIT);
 }
 
-/** @param {import("./matcher.js").MatchResult} match */
-function tierFor(match) {
-  if (match.status === "empty") return NO_ANSWER;
-  if (match.entry === null) return UTOPIAN;
-  return tierForAuthored(match.entry.tier);
-}
+/**
+ * @typedef {object} SubmitOutcome
+ * @property {"matched" | "unverified" | "empty"} status
+ * @property {RoundResult | null} result set only when the answer was recognised
+ */
 
 /** @param {Question[]} questions */
 export function createUprising(questions) {
   /** @type {RoundResult[]} */
   const rounds = [];
+  /** @type {string[]} unverified attempts in the round in progress */
+  let rejected = [];
 
   function current() {
     if (rounds.length >= questions.length) throw new Error("The uprising is over");
     return questions[rounds.length];
   }
 
+  /**
+   * @param {Question} question
+   * @param {string} input
+   * @param {import("./matcher.js").AnswerEntry | null} entry
+   * @param {import("./scorer.js").Tier} tier
+   */
+  function close(question, input, entry, tier) {
+    /** @type {RoundResult} */
+    const result = {
+      questionId: question.id,
+      prompt: question.prompt,
+      input,
+      matchedAnswer: entry?.answer ?? null,
+      remark: entry?.remark ?? null,
+      tier,
+    };
+    rounds.push(result);
+    rejected = [];
+    return result;
+  }
+
   return {
     get round() {
       return rounds.length;
     },
+    /** Unverified attempts offered so far in the round in progress. */
+    get rejected() {
+      return [...rejected];
+    },
     isOver: () => rounds.length >= questions.length,
     current,
-    /** @param {string} input */
+    /**
+     * Offer an answer. Only a recognised answer closes the round; an unverified one is
+     * remembered and the player may try again.
+     * @param {string} input
+     * @returns {SubmitOutcome}
+     */
     submit(input) {
       const question = current();
       const match = matchAnswer(input, question.answers);
-      /** @type {RoundResult} */
-      const result = {
-        questionId: question.id,
-        prompt: question.prompt,
-        input,
-        matchedAnswer: match.entry?.answer ?? null,
-        remark: match.entry?.remark ?? null,
-        tier: tierFor(match),
-      };
-      rounds.push(result);
-      return result;
+      if (match.status === "matched" && match.entry) {
+        const result = close(question, input, match.entry, tierForAuthored(match.entry.tier));
+        return { status: "matched", result };
+      }
+      if (match.status === "unverified") rejected.push(input);
+      return { status: match.status, result: null };
+    },
+    /**
+     * Time is up. Whatever is in the box gets one last try; otherwise the round scores zero,
+     * as Utopian when something unverified was offered and as no answer when nothing was.
+     * @param {string} input
+     */
+    timeout(input) {
+      const question = current();
+      const match = matchAnswer(input, question.answers);
+      if (match.status === "matched" && match.entry) {
+        return close(question, input, match.entry, tierForAuthored(match.entry.tier));
+      }
+      const lastTry = match.status === "unverified" ? input : (rejected.at(-1) ?? "");
+      return close(question, lastTry, null, lastTry ? UTOPIAN : NO_ANSWER);
     },
     /** @returns {Summary} */
     summary() {

@@ -104,11 +104,12 @@ test("updateRecent appends and caps at the limit", () => {
   assert.ok(!next.includes("old-0"));
 });
 
-test("submit returns the full round object for a matched answer", () => {
+test("a recognised answer closes the round with the full round object", () => {
   const [question] = makeBank();
   const uprising = createUprising([question]);
-  const result = uprising.submit("rarest");
-  assert.deepEqual(result, {
+  const outcome = uprising.submit("rarest");
+  assert.equal(outcome.status, "matched");
+  assert.deepEqual(outcome.result, {
     questionId: question.id,
     prompt: question.prompt,
     input: "rarest",
@@ -116,13 +117,53 @@ test("submit returns the full round object for a matched answer", () => {
     remark: "The committee is impressed.",
     tier: { id: "full-marx", name: "Full Marx", points: 100, emoji: "⭐" },
   });
+  assert.equal(uprising.round, 1);
 });
 
-test("submit scores unverified input as utopian and empty input as no answer", () => {
+test("an unrecognised answer is rejected, remembered, and the round carries on", () => {
   const [question] = makeBank();
-  const uprising = createUprising([question, question]);
-  assert.equal(uprising.submit("something else").tier, UTOPIAN);
-  assert.equal(uprising.submit("   ").tier, NO_ANSWER);
+  const uprising = createUprising([question]);
+  assert.deepEqual(uprising.submit("roomba"), { status: "unverified", result: null });
+  assert.deepEqual(uprising.submit("hoover"), { status: "unverified", result: null });
+  assert.equal(uprising.round, 0);
+  assert.deepEqual(uprising.rejected, ["roomba", "hoover"]);
+  assert.equal(uprising.submit("Anything").status, "matched");
+  assert.deepEqual(uprising.rejected, []);
+});
+
+test("empty input is neither accepted nor remembered", () => {
+  const uprising = createUprising(makeBank().slice(0, 1));
+  assert.deepEqual(uprising.submit("   "), { status: "empty", result: null });
+  assert.deepEqual(uprising.rejected, []);
+  assert.equal(uprising.round, 0);
+});
+
+test("timeout gives whatever is in the box one last try", () => {
+  const uprising = createUprising(makeBank().slice(0, 1));
+  const result = uprising.timeout("anything");
+  assert.equal(result.matchedAnswer, "Anything");
+  assert.equal(result.tier.id, "comrade");
+  assert.equal(uprising.isOver(), true);
+});
+
+test("timeout after rejected attempts scores utopian and keeps the last attempt", () => {
+  const [question] = makeBank();
+  const uprising = createUprising([question, question, question]);
+  uprising.submit("roomba");
+  uprising.submit("hoover");
+  const afterEmptyBox = uprising.timeout("");
+  assert.equal(afterEmptyBox.tier, UTOPIAN);
+  assert.equal(afterEmptyBox.input, "hoover");
+  assert.equal(afterEmptyBox.matchedAnswer, null);
+
+  uprising.submit("roomba");
+  const withUnverifiedBox = uprising.timeout("dyson");
+  assert.equal(withUnverifiedBox.tier, UTOPIAN);
+  assert.equal(withUnverifiedBox.input, "dyson");
+
+  const silence = uprising.timeout("");
+  assert.equal(silence.tier, NO_ANSWER);
+  assert.equal(silence.input, "");
   assert.equal(uprising.summary().total, 0);
 });
 
@@ -133,7 +174,8 @@ test("createUprising plays seven rounds and summarises", () => {
   for (let i = 0; i < ROUNDS; i++) {
     assert.equal(uprising.round, i);
     assert.equal(uprising.current().id, questions[i].id);
-    uprising.submit(i === 0 ? "" : "Anything");
+    if (i === 0) uprising.timeout("");
+    else uprising.submit("Anything");
   }
   assert.equal(uprising.isOver(), true);
   const summary = uprising.summary();
@@ -144,11 +186,12 @@ test("createUprising plays seven rounds and summarises", () => {
   assert.equal(summary.rounds[1].tier.id, "comrade");
 });
 
-test("submit and current throw once the uprising is over", () => {
+test("submit, timeout, and current throw once the uprising is over", () => {
   const uprising = createUprising(makeBank().slice(0, 1));
   uprising.submit("Anything");
   assert.throws(() => uprising.current(), /over/);
   assert.throws(() => uprising.submit("Anything"), /over/);
+  assert.throws(() => uprising.timeout(""), /over/);
 });
 
 test("summary returns a snapshot the caller cannot mutate", () => {
