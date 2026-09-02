@@ -1,5 +1,14 @@
 /* Martillion - constructivist poster, printed in two inks on aged cream. */
 
+/* Oswald, self-hosted. One variable file covers the 500 and 700 weights. OFL licence in fonts/. */
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500 700;
+  font-display: swap;
+  src: url("fonts/oswald-variable.woff2") format("woff2");
+}
+
 :root {
   --red: #c8102e;
   --red-deep: #8f0a1e;
