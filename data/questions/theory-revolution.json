@@ -1,0 +1,5195 @@
+[
+  {
+    "id": "theory-revolution-01",
+    "topic": "theory-revolution",
+    "prompt": "Name a work by Karl Marx or Friedrich Engels",
+    "answers": [
+      {
+        "answer": "The Communist Manifesto",
+        "aliases": [
+          "manifesto",
+          "manifesto of the communist party"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Das Kapital",
+        "aliases": [
+          "capital",
+          "kapital"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The German Ideology",
+        "aliases": [
+          "die deutsche ideologie"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Condition of the Working Class in England",
+        "aliases": [
+          "condition of the working class"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Critique of the Gotha Programme",
+        "aliases": [
+          "gotha programme",
+          "gotha program"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Eighteenth Brumaire of Louis Bonaparte",
+        "aliases": [
+          "eighteenth brumaire",
+          "18th brumaire"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Economic and Philosophic Manuscripts of 1844",
+        "aliases": [
+          "paris manuscripts",
+          "1844 manuscripts"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Grundrisse",
+        "aliases": [
+          "outlines of the critique of political economy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Civil War in France",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Wage Labour and Capital",
+        "aliases": [
+          "wage labor and capital"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Theses on Feuerbach",
+        "aliases": [
+          "eleven theses on feuerbach"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Origin of the Family, Private Property and the State",
+        "aliases": [
+          "origin of the family"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Socialism: Utopian and Scientific",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Anti-Dühring",
+        "aliases": [
+          "anti duehring",
+          "herr eugen duhrings revolution in science"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Poverty of Philosophy",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "A Contribution to the Critique of Political Economy",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Dialectics of Nature",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "On the Jewish Question",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Holy Family",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Value, Price and Profit",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Theories of Surplus Value",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Principles of Communism",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Class Struggles in France",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-02",
+    "topic": "theory-revolution",
+    "prompt": "Name a revolution",
+    "answers": [
+      {
+        "answer": "The French Revolution",
+        "aliases": [
+          "1789 revolution",
+          "storming of the bastille"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The Russian Revolution",
+        "aliases": [
+          "october revolution",
+          "bolshevik revolution",
+          "1917 revolution"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The American Revolution",
+        "aliases": [
+          "american war of independence",
+          "war of independence"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The Industrial Revolution",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Cuban Revolution",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Chinese Revolution",
+        "aliases": [
+          "chinese communist revolution"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Iranian Revolution",
+        "aliases": [
+          "islamic revolution"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Haitian Revolution",
+        "aliases": [
+          "saint domingue revolution"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Cultural Revolution",
+        "aliases": [
+          "great proletarian cultural revolution",
+          "chinese cultural revolution"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Glorious Revolution",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Mexican Revolution",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Velvet Revolution",
+        "aliases": [
+          "czechoslovak velvet revolution"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Hungarian Revolution",
+        "aliases": [
+          "hungarian uprising",
+          "1956 uprising"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Green Revolution",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Scientific Revolution",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Egyptian Revolution",
+        "aliases": [
+          "tahrir square revolution",
+          "arab spring"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The sexual revolution",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Romanian Revolution",
+        "aliases": [
+          "ceausescu revolution"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The English Revolution",
+        "aliases": [
+          "english civil war"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Revolutions of 1989",
+        "aliases": [
+          "1989 revolutions",
+          "1989 revolution",
+          "fall of communism",
+          "autumn of nations"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The February Revolution",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Carnation Revolution",
+        "aliases": [
+          "revolucao dos cravos",
+          "25 april revolution",
+          "25 de abril",
+          "25 de abril de 1974",
+          "25 april",
+          "carnation",
+          "cravos",
+          "revolucao de abril",
+          "portuguese revolution"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Orange Revolution",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Neolithic Revolution",
+        "aliases": [
+          "agricultural revolution"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Nicaraguan Revolution",
+        "aliases": [
+          "sandinista revolution"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Revolutions of 1848",
+        "aliases": [
+          "springtime of nations",
+          "1848 revolutions"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The digital revolution",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Jasmine Revolution",
+        "aliases": [
+          "tunisian revolution"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Algerian Revolution",
+        "aliases": [
+          "algerian war of independence"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Greek War of Independence",
+        "aliases": [
+          "greek revolution"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Revolution of Dignity",
+        "aliases": [
+          "euromaidan",
+          "maidan revolution",
+          "ukrainian revolution"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Xinhai Revolution",
+        "aliases": [
+          "chinese republican revolution"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Rose Revolution",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The German Revolution",
+        "aliases": [
+          "november revolution"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Bolivarian Revolution",
+        "aliases": [
+          "chavez revolution"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Saur Revolution",
+        "aliases": [
+          "afghan april revolution"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Young Turk Revolution",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Spanish Revolution",
+        "aliases": [
+          "spanish revolution of 1936",
+          "anarchist revolution"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The 5 October 1910 Revolution",
+        "aliases": [
+          "5 de outubro",
+          "implantacao da republica",
+          "republican revolution of 1910",
+          "portuguese republican revolution"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Liberal Revolution of 1820",
+        "aliases": [
+          "revolucao liberal",
+          "revolucao liberal do porto",
+          "liberal revolution"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-03",
+    "topic": "theory-revolution",
+    "prompt": "Name a country that has called itself socialist or communist",
+    "answers": [
+      {
+        "answer": "The Soviet Union",
+        "aliases": [
+          "ussr",
+          "union of soviet socialist republics",
+          "soviet russia",
+          "russia"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "China",
+        "aliases": [
+          "prc",
+          "people's republic of china"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Cuba",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "North Korea",
+        "aliases": [
+          "dprk",
+          "democratic people's republic of korea"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Vietnam",
+        "aliases": [
+          "socialist republic of vietnam",
+          "north vietnam"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "East Germany",
+        "aliases": [
+          "gdr",
+          "german democratic republic",
+          "ddr"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Yugoslavia",
+        "aliases": [
+          "socialist federal republic of yugoslavia",
+          "sfry"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Venezuela",
+        "aliases": [
+          "bolivarian republic of venezuela"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Poland",
+        "aliases": [
+          "polish people's republic"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Romania",
+        "aliases": [
+          "socialist republic of romania"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hungary",
+        "aliases": [
+          "hungarian people's republic"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Czechoslovakia",
+        "aliases": [
+          "czechoslovak socialist republic"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bulgaria",
+        "aliases": [
+          "people's republic of bulgaria"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cambodia",
+        "aliases": [
+          "kampuchea",
+          "democratic kampuchea"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Laos",
+        "aliases": [
+          "lao people's democratic republic"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Albania",
+        "aliases": [
+          "people's socialist republic of albania"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mongolia",
+        "aliases": [
+          "mongolian people's republic"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Angola",
+        "aliases": [
+          "people's republic of angola"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ethiopia",
+        "aliases": [
+          "derg",
+          "people's democratic republic of ethiopia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mozambique",
+        "aliases": [
+          "people's republic of mozambique"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Libya",
+        "aliases": [
+          "jamahiriya",
+          "socialist people's libyan arab jamahiriya"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Nicaragua",
+        "aliases": [
+          "sandinista nicaragua"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sri Lanka",
+        "aliases": [
+          "democratic socialist republic of sri lanka"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Burma",
+        "aliases": [
+          "socialist republic of the union of burma"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Somalia",
+        "aliases": [
+          "somali democratic republic"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "South Yemen",
+        "aliases": [
+          "people's democratic republic of yemen"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Algeria",
+        "aliases": [
+          "people's democratic republic of algeria"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "India",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Tanzania",
+        "aliases": [
+          "ujamaa"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-04",
+    "topic": "theory-revolution",
+    "prompt": "Name a famous communist who was not Marx",
+    "answers": [
+      {
+        "answer": "Vladimir Lenin",
+        "aliases": [
+          "lenin",
+          "vladimir ilyich lenin"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Joseph Stalin",
+        "aliases": [
+          "stalin",
+          "josef stalin",
+          "uncle joe"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Che Guevara",
+        "aliases": [
+          "che",
+          "ernesto guevara"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Fidel Castro",
+        "aliases": [
+          "castro",
+          "fidel"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Mao Zedong",
+        "aliases": [
+          "mao",
+          "chairman mao",
+          "mao tse tung"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Leon Trotsky",
+        "aliases": [
+          "trotsky"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Friedrich Engels",
+        "aliases": [
+          "engels"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ho Chi Minh",
+        "aliases": [
+          "uncle ho"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Pol Pot",
+        "aliases": [
+          "saloth sar"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mikhail Gorbachev",
+        "aliases": [
+          "gorbachev"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Kim Il-sung",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Xi Jinping",
+        "aliases": [
+          "xi"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Kim Jong-un",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Rosa Luxemburg",
+        "aliases": [
+          "luxemburg",
+          "red rosa"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Josip Broz Tito",
+        "aliases": [
+          "tito",
+          "josip broz"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Nikita Khrushchev",
+        "aliases": [
+          "khrushchev"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Deng Xiaoping",
+        "aliases": [
+          "deng"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Angela Davis",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Frida Kahlo",
+        "aliases": [
+          "frida"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kim Jong-il",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Antonio Gramsci",
+        "aliases": [
+          "gramsci"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Nicolae Ceaușescu",
+        "aliases": [
+          "ceausescu"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Enver Hoxha",
+        "aliases": [
+          "hoxha"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Zhou Enlai",
+        "aliases": [
+          "chou en lai"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Nelson Mandela",
+        "aliases": [
+          "mandela"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Erich Honecker",
+        "aliases": [
+          "honecker"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Pablo Picasso",
+        "aliases": [
+          "picasso"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Alexandra Kollontai",
+        "aliases": [
+          "kollontai"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Nikolai Bukharin",
+        "aliases": [
+          "bukharin"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Karl Liebknecht",
+        "aliases": [
+          "liebknecht"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Louis Althusser",
+        "aliases": [
+          "althusser"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Amadeo Bordiga",
+        "aliases": [
+          "bordiga"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Georgi Dimitrov",
+        "aliases": [
+          "dimitrov"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-05",
+    "topic": "theory-revolution",
+    "prompt": "Name a concept from Marxist theory",
+    "answers": [
+      {
+        "answer": "Class struggle",
+        "aliases": [
+          "class war",
+          "class conflict"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The means of production",
+        "aliases": [
+          "seizing the means of production"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The proletariat",
+        "aliases": [
+          "working class"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The bourgeoisie",
+        "aliases": [
+          "ruling class",
+          "capitalist class"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Communism",
+        "aliases": [
+          "classless society"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Surplus value",
+        "aliases": [
+          "surplus labour"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Alienation",
+        "aliases": [
+          "estrangement",
+          "alienated labour"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dictatorship of the proletariat",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Historical materialism",
+        "aliases": [
+          "materialist conception of history"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dialectical materialism",
+        "aliases": [
+          "diamat"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Class consciousness",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Mode of production",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Exploitation",
+        "aliases": [
+          "exploitation of labour"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Capitalism",
+        "aliases": [
+          "the capitalist mode of production"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Socialism",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Commodity fetishism",
+        "aliases": [
+          "fetishism of commodities"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "False consciousness",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Base and superstructure",
+        "aliases": [
+          "superstructure",
+          "base"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The labour theory of value",
+        "aliases": [
+          "labor theory of value"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Use value",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Exchange value",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The reserve army of labour",
+        "aliases": [
+          "industrial reserve army"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Primitive accumulation",
+        "aliases": [
+          "original accumulation"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The vanguard party",
+        "aliases": [
+          "vanguard"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hegemony",
+        "aliases": [
+          "cultural hegemony"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lumpenproletariat",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Permanent revolution",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Praxis",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Reification",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Species-being",
+        "aliases": [
+          "gattungswesen"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The falling rate of profit",
+        "aliases": [
+          "tendency of the rate of profit to fall"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Overdetermination",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Immiseration",
+        "aliases": [
+          "immiseration thesis"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The withering away of the state",
+        "aliases": [
+          "state withering away"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-06",
+    "topic": "theory-revolution",
+    "prompt": "Name a monarch or ruler overthrown by a revolution",
+    "answers": [
+      {
+        "answer": "Louis XVI",
+        "aliases": [
+          "king louis xvi"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Tsar Nicholas II",
+        "aliases": [
+          "nicholas ii",
+          "the last tsar"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Marie Antoinette",
+        "aliases": [
+          "antoinette"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Nicolae Ceaușescu",
+        "aliases": [
+          "ceausescu"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mohammad Reza Pahlavi",
+        "aliases": [
+          "the shah",
+          "shah of iran",
+          "reza pahlavi"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Muammar Gaddafi",
+        "aliases": [
+          "gaddafi",
+          "colonel gaddafi",
+          "qaddafi"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hosni Mubarak",
+        "aliases": [
+          "mubarak"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bashar al-Assad",
+        "aliases": [
+          "assad"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Fulgencio Batista",
+        "aliases": [
+          "batista"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Charles I",
+        "aliases": [
+          "charles i of england"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "James II",
+        "aliases": [
+          "james ii of england"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kaiser Wilhelm II",
+        "aliases": [
+          "wilhelm ii",
+          "the kaiser"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Puyi",
+        "aliases": [
+          "pu yi",
+          "the last emperor"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Viktor Yanukovych",
+        "aliases": [
+          "yanukovych"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sheikh Hasina",
+        "aliases": [
+          "hasina"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Haile Selassie",
+        "aliases": [
+          "selassie"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "King Farouk",
+        "aliases": [
+          "farouk",
+          "farouk i"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Zine El Abidine Ben Ali",
+        "aliases": [
+          "ben ali"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ferdinand Marcos",
+        "aliases": [
+          "marcos"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Anastasio Somoza",
+        "aliases": [
+          "somoza"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Porfirio Díaz",
+        "aliases": [
+          "diaz"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "King Idris",
+        "aliases": [
+          "idris i of libya"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Louis Philippe I",
+        "aliases": [
+          "louis philippe"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Faisal II",
+        "aliases": [
+          "faisal ii of iraq"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Manuel II",
+        "aliases": [
+          "manuel ii of portugal"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-07",
+    "topic": "theory-revolution",
+    "prompt": "Name a protest song or workers' anthem",
+    "answers": [
+      {
+        "answer": "We Shall Overcome",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Imagine",
+        "aliases": [
+          "john lennon imagine"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The Internationale",
+        "aliases": [
+          "l'internationale"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bella Ciao",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Blowin' in the Wind",
+        "aliases": [
+          "blowing in the wind"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Times They Are a-Changin'",
+        "aliases": [
+          "the times they are changing"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Fight the Power",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Get Up, Stand Up",
+        "aliases": [
+          "get up stand up for your rights"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Give Peace a Chance",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Killing in the Name",
+        "aliases": [
+          "killing in the name of"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Solidarity Forever",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Red Flag",
+        "aliases": [
+          "keep the red flag flying"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Do You Hear the People Sing?",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Fortunate Son",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Zombie",
+        "aliases": [
+          "cranberries zombie"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Strange Fruit",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Sunday Bloody Sunday",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "This Land Is Your Land",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Born in the U.S.A.",
+        "aliases": [
+          "born in the usa"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Another Brick in the Wall",
+        "aliases": [
+          "we don't need no education"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bread and Roses",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Which Side Are You On?",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Ohio",
+        "aliases": [
+          "four dead in ohio"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Masters of War",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Talkin' About a Revolution",
+        "aliases": [
+          "talking about a revolution"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Free Nelson Mandela",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Revolution Will Not Be Televised",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Joe Hill",
+        "aliases": [
+          "i dreamed i saw joe hill last night"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Partisan",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Nkosi Sikelel' iAfrika",
+        "aliases": [
+          "nkosi sikelela"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "El Pueblo Unido Jamás Será Vencido",
+        "aliases": [
+          "el pueblo unido"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Warszawianka",
+        "aliases": [
+          "whirlwinds of danger"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-08",
+    "topic": "theory-revolution",
+    "prompt": "Name a philosopher who influenced Marx or responded to him",
+    "answers": [
+      {
+        "answer": "Hegel",
+        "aliases": [
+          "georg wilhelm friedrich hegel"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Adam Smith",
+        "aliases": [
+          "smith"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Friedrich Engels",
+        "aliases": [
+          "engels"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Jean-Jacques Rousseau",
+        "aliases": [
+          "rousseau"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Vladimir Lenin",
+        "aliases": [
+          "lenin"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ludwig Feuerbach",
+        "aliases": [
+          "feuerbach"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "David Ricardo",
+        "aliases": [
+          "ricardo"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Karl Popper",
+        "aliases": [
+          "popper"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Jean-Paul Sartre",
+        "aliases": [
+          "sartre"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mikhail Bakunin",
+        "aliases": [
+          "bakunin"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Max Weber",
+        "aliases": [
+          "weber"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Antonio Gramsci",
+        "aliases": [
+          "gramsci"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Slavoj Žižek",
+        "aliases": [
+          "zizek"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pierre-Joseph Proudhon",
+        "aliases": [
+          "proudhon"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Theodor Adorno",
+        "aliases": [
+          "adorno"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Walter Benjamin",
+        "aliases": [
+          "benjamin"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Herbert Marcuse",
+        "aliases": [
+          "marcuse"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hannah Arendt",
+        "aliases": [
+          "arendt"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Aristotle",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Georg Lukács",
+        "aliases": [
+          "lukacs"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Louis Althusser",
+        "aliases": [
+          "althusser"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Jürgen Habermas",
+        "aliases": [
+          "habermas"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Henri de Saint-Simon",
+        "aliases": [
+          "saint simon"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Charles Fourier",
+        "aliases": [
+          "fourier"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Epicurus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Isaiah Berlin",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-09",
+    "topic": "theory-revolution",
+    "prompt": "Name something you might see on a Soviet propaganda poster",
+    "answers": [
+      {
+        "answer": "A hammer and sickle",
+        "aliases": [
+          "sickle and hammer",
+          "a hammer",
+          "a sickle"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "A red star",
+        "aliases": [
+          "five pointed star"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Lenin",
+        "aliases": [
+          "vladimir lenin",
+          "lenin pointing"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "A red flag",
+        "aliases": [
+          "red banner"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "A worker",
+        "aliases": [
+          "factory worker",
+          "steelworker"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Stalin",
+        "aliases": [
+          "joseph stalin"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "A tractor",
+        "aliases": [
+          "tractor driver"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "A soldier",
+        "aliases": [
+          "red army soldier",
+          "soviet soldier",
+          "the red army"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Wheat",
+        "aliases": [
+          "sheaf of wheat",
+          "grain"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "A factory",
+        "aliases": [
+          "smokestacks",
+          "factory chimneys"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "A clenched fist",
+        "aliases": [
+          "raised fist"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "A rocket",
+        "aliases": [
+          "space rocket"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Karl Marx",
+        "aliases": [
+          "marx",
+          "bearded marx"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "A cosmonaut",
+        "aliases": [
+          "yuri gagarin",
+          "gagarin"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sputnik",
+        "aliases": [
+          "a satellite"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "A peasant woman",
+        "aliases": [
+          "peasant",
+          "woman in a headscarf"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "A five-year plan",
+        "aliases": [
+          "pyatiletka"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Workers of the world, unite!",
+        "aliases": [
+          "proletarians of all countries unite",
+          "workers unite"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Kremlin",
+        "aliases": [
+          "spasskaya tower",
+          "moscow kremlin"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "A rifle",
+        "aliases": [
+          "a gun"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "A dove of peace",
+        "aliases": [
+          "dove",
+          "peace dove"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Motherland Calls",
+        "aliases": [
+          "rodina mat",
+          "mother russia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "A capitalist in a top hat",
+        "aliases": [
+          "fat capitalist",
+          "top hat"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "A combine harvester",
+        "aliases": [
+          "harvester"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "A lightbulb",
+        "aliases": [
+          "ilyich's lamp",
+          "electric light"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "A bayonet",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "A blast furnace",
+        "aliases": [
+          "steel mill"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cyrillic lettering",
+        "aliases": [
+          "cyrillic",
+          "russian writing"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Young Pioneers",
+        "aliases": [
+          "pioneer scarf",
+          "red neckerchief"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "A laurel wreath",
+        "aliases": [
+          "wreath"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The cruiser Aurora",
+        "aliases": [
+          "aurora"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "A cogwheel",
+        "aliases": [
+          "a gear",
+          "a cog"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-10",
+    "topic": "theory-revolution",
+    "prompt": "Name a Soviet-era project or achievement",
+    "answers": [
+      {
+        "answer": "Sputnik",
+        "aliases": [
+          "sputnik 1",
+          "the first satellite"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Yuri Gagarin",
+        "aliases": [
+          "gagarin",
+          "first man in space",
+          "vostok 1"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Laika",
+        "aliases": [
+          "first dog in space",
+          "the space dog"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Mir space station",
+        "aliases": [
+          "mir"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Moscow Metro",
+        "aliases": [
+          "moscow underground"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Soviet atomic bomb",
+        "aliases": [
+          "rds 1",
+          "first soviet nuclear test"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The AK-47",
+        "aliases": [
+          "kalashnikov",
+          "avtomat kalashnikova"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Chernobyl nuclear power plant",
+        "aliases": [
+          "chernobyl"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The defeat of Nazi Germany",
+        "aliases": [
+          "great patriotic war",
+          "battle of stalingrad"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Valentina Tereshkova",
+        "aliases": [
+          "tereshkova",
+          "first woman in space"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Tsar Bomba",
+        "aliases": [
+          "biggest nuclear bomb"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Soyuz",
+        "aliases": [
+          "soyuz spacecraft"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Tetris",
+        "aliases": [
+          "alexey pajitnov"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The five-year plans",
+        "aliases": [
+          "pyatiletka",
+          "first five year plan"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The 1980 Moscow Olympics",
+        "aliases": [
+          "moscow olympics"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Luna 2",
+        "aliases": [
+          "first spacecraft to reach the moon"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Venera probes",
+        "aliases": [
+          "venera",
+          "first landing on venus"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Salyut",
+        "aliases": [
+          "the first space station"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Buran",
+        "aliases": [
+          "soviet space shuttle"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The White Sea Canal",
+        "aliases": [
+          "belomorkanal"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Obninsk nuclear power plant",
+        "aliases": [
+          "obninsk",
+          "first nuclear power plant"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The mass literacy campaign",
+        "aliases": [
+          "likbez"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lunokhod",
+        "aliases": [
+          "first moon rover"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Baikal-Amur Mainline",
+        "aliases": [
+          "bam"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Kola Superdeep Borehole",
+        "aliases": [
+          "kola borehole"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "DnieproGES",
+        "aliases": [
+          "dnieper dam",
+          "dnieper hydroelectric station"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Belka and Strelka",
+        "aliases": [
+          "belka",
+          "strelka"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Virgin Lands Campaign",
+        "aliases": [
+          "virgin lands"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-11",
+    "topic": "theory-revolution",
+    "prompt": "Name a revolutionary whose face has been on a t-shirt",
+    "answers": [
+      {
+        "answer": "Che Guevara",
+        "aliases": [
+          "che",
+          "ernesto guevara"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Karl Marx",
+        "aliases": [
+          "marx"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Vladimir Lenin",
+        "aliases": [
+          "lenin"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mao Zedong",
+        "aliases": [
+          "mao",
+          "chairman mao"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Malcolm X",
+        "aliases": [
+          "malcolm little"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Fidel Castro",
+        "aliases": [
+          "castro"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Nelson Mandela",
+        "aliases": [
+          "mandela",
+          "madiba"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Martin Luther King",
+        "aliases": [
+          "mlk",
+          "martin luther king jr"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mahatma Gandhi",
+        "aliases": [
+          "gandhi",
+          "mohandas gandhi"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Frida Kahlo",
+        "aliases": [
+          "frida"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Leon Trotsky",
+        "aliases": [
+          "trotsky"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Emiliano Zapata",
+        "aliases": [
+          "zapata"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Angela Davis",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Simón Bolívar",
+        "aliases": [
+          "bolivar"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ho Chi Minh",
+        "aliases": [
+          "uncle ho"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Guy Fawkes",
+        "aliases": [
+          "the guy fawkes mask"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Rosa Luxemburg",
+        "aliases": [
+          "luxemburg"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Pancho Villa",
+        "aliases": [
+          "villa"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Emma Goldman",
+        "aliases": [
+          "goldman",
+          "red emma"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Thomas Sankara",
+        "aliases": [
+          "sankara"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Patrice Lumumba",
+        "aliases": [
+          "lumumba"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Huey Newton",
+        "aliases": [
+          "huey p newton"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Subcomandante Marcos",
+        "aliases": [
+          "marcos"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Michael Collins",
+        "aliases": [
+          "the big fella"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Fred Hampton",
+        "aliases": [
+          "chairman fred"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Assata Shakur",
+        "aliases": [
+          "joanne chesimard"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Toussaint Louverture",
+        "aliases": [
+          "toussaint",
+          "toussaint l'ouverture"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Nestor Makhno",
+        "aliases": [
+          "makhno"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Leila Khaled",
+        "aliases": [
+          "khaled"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Augusto César Sandino",
+        "aliases": [
+          "sandino"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-12",
+    "topic": "theory-revolution",
+    "prompt": "Name a form of collective living or ownership",
+    "answers": [
+      {
+        "answer": "A commune",
+        "aliases": [
+          "hippie commune",
+          "communal living"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "A co-operative",
+        "aliases": [
+          "cooperative",
+          "co op",
+          "coop"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "A kibbutz",
+        "aliases": [
+          "kibbutzim"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "A collective farm",
+        "aliases": [
+          "kolkhoz",
+          "collective farming"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "A worker co-operative",
+        "aliases": [
+          "workers cooperative",
+          "worker owned business"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Public ownership",
+        "aliases": [
+          "nationalisation",
+          "nationalization",
+          "state ownership"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "A monastery",
+        "aliases": [
+          "monastic community",
+          "abbey"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "A flatshare",
+        "aliases": [
+          "house share",
+          "shared house"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "A squat",
+        "aliases": [
+          "squatting",
+          "squatted building"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Co-housing",
+        "aliases": [
+          "cohousing"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "A credit union",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Shared ownership",
+        "aliases": [
+          "part buy part rent"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Employee ownership",
+        "aliases": [
+          "employee owned company",
+          "esop",
+          "john lewis partnership"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The commons",
+        "aliases": [
+          "common land"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "A convent",
+        "aliases": [
+          "nunnery"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "An ashram",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "A timeshare",
+        "aliases": [
+          "holiday timeshare"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Barracks",
+        "aliases": [
+          "army barracks"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "A moshav",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "A community land trust",
+        "aliases": [
+          "land trust"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "An intentional community",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "An ecovillage",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "A building society",
+        "aliases": [
+          "mutual society"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "A condominium",
+        "aliases": [
+          "condo"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "An ejido",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "A sovkhoz",
+        "aliases": [
+          "state farm"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "A Hutterite colony",
+        "aliases": [
+          "hutterites"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The mir",
+        "aliases": [
+          "obshchina",
+          "russian peasant commune"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-13",
+    "topic": "theory-revolution",
+    "prompt": "Name a banned or censored book",
+    "answers": [
+      {
+        "answer": "1984",
+        "aliases": [
+          "nineteen eighty four"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Animal Farm",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Mein Kampf",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Lady Chatterley's Lover",
+        "aliases": [
+          "lady chatterleys lover"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Lolita",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Catcher in the Rye",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "To Kill a Mockingbird",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Harry Potter",
+        "aliases": [
+          "harry potter and the philosopher's stone"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Satanic Verses",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Handmaid's Tale",
+        "aliases": [
+          "handmaids tale"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Diary of Anne Frank",
+        "aliases": [
+          "diary of a young girl"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ulysses",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Fahrenheit 451",
+        "aliases": [
+          "fahrenheit four fifty one"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Brave New World",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Doctor Zhivago",
+        "aliases": [
+          "dr zhivago"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Gulag Archipelago",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Grapes of Wrath",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Of Mice and Men",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Maus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Bible",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Communist Manifesto",
+        "aliases": [
+          "manifesto of the communist party"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Adventures of Huckleberry Finn",
+        "aliases": [
+          "huckleberry finn"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Tropic of Cancer",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Naked Lunch",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Master and Margarita",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Persepolis",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Gender Queer",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Beloved",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "American Psycho",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Anarchist Cookbook",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Das Kapital",
+        "aliases": [
+          "kapital"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Alice's Adventures in Wonderland",
+        "aliases": [
+          "alice in wonderland"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Well of Loneliness",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Spycatcher",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Rights of Man",
+        "aliases": [
+          "the rights of man by thomas paine"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Wild Swans",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Little Red Schoolbook",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-14",
+    "topic": "theory-revolution",
+    "prompt": "Name a wall, curtain, or border from Cold War history",
+    "answers": [
+      {
+        "answer": "The Berlin Wall",
+        "aliases": [
+          "the wall",
+          "berliner mauer",
+          "anti fascist protection rampart"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The Iron Curtain",
+        "aliases": [
+          "eiserner vorhang"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The 38th parallel",
+        "aliases": [
+          "thirty eighth parallel"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Korean DMZ",
+        "aliases": [
+          "dmz",
+          "demilitarised zone",
+          "demilitarized zone",
+          "korean border"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Checkpoint Charlie",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Bamboo Curtain",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The inner German border",
+        "aliases": [
+          "east west german border",
+          "inner german frontier"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The 17th parallel",
+        "aliases": [
+          "seventeenth parallel",
+          "vietnamese dmz"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Green Line in Cyprus",
+        "aliases": [
+          "green line",
+          "cyprus buffer zone"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The death strip",
+        "aliases": [
+          "todesstreifen",
+          "no man's land"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Oder-Neisse line",
+        "aliases": [
+          "oder neisse"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Panmunjom",
+        "aliases": [
+          "joint security area"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Glienicke Bridge",
+        "aliases": [
+          "bridge of spies"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Curzon Line",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Yalu River",
+        "aliases": [
+          "yalu"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Fulda Gap",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Cactus Curtain",
+        "aliases": [
+          "guantanamo cactus curtain"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Ice Curtain",
+        "aliases": [
+          "bering strait border"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Hungarian-Austrian border",
+        "aliases": [
+          "pan european picnic"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-15",
+    "topic": "theory-revolution",
+    "prompt": "Name a famous strike or labour movement",
+    "answers": [
+      {
+        "answer": "The miners' strike",
+        "aliases": [
+          "1984 miners strike",
+          "great miners strike",
+          "national union of mineworkers strike"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The junior doctors' strike",
+        "aliases": [
+          "doctors strike",
+          "nhs strikes"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The General Strike",
+        "aliases": [
+          "1926 general strike",
+          "british general strike"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Solidarity",
+        "aliases": [
+          "solidarnosc",
+          "polish solidarity"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Hollywood writers' strike",
+        "aliases": [
+          "wga strike",
+          "writers strike"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The trade union movement",
+        "aliases": [
+          "trade unionism",
+          "labour movement"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The RMT rail strikes",
+        "aliases": [
+          "rail strikes",
+          "train strikes"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The teachers' strike",
+        "aliases": [
+          "national education union strike"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Winter of Discontent",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Chartists",
+        "aliases": [
+          "chartism"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Luddites",
+        "aliases": [
+          "luddite movement"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Jarrow March",
+        "aliases": [
+          "jarrow crusade"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Haymarket affair",
+        "aliases": [
+          "haymarket riot"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Pullman strike",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The eight-hour day movement",
+        "aliases": [
+          "eight hour day",
+          "may day movement"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The SAG-AFTRA strike",
+        "aliases": [
+          "actors strike"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Tolpuddle Martyrs",
+        "aliases": [
+          "tolpuddle"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The matchgirls' strike",
+        "aliases": [
+          "match girls strike",
+          "bryant and may strike"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Great Dock Strike",
+        "aliases": [
+          "london dock strike",
+          "1889 dock strike"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Homestead Strike",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Ford Dagenham strike",
+        "aliases": [
+          "dagenham sewing machinists strike",
+          "made in dagenham"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Industrial Workers of the World",
+        "aliases": [
+          "iww",
+          "the wobblies"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The PATCO strike",
+        "aliases": [
+          "air traffic controllers strike"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Delano grape strike",
+        "aliases": [
+          "grape boycott",
+          "united farm workers"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Grunwick dispute",
+        "aliases": [
+          "grunwick strike"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Flint sit-down strike",
+        "aliases": [
+          "flint strike"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Bread and Roses strike",
+        "aliases": [
+          "lawrence textile strike"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Wapping dispute",
+        "aliases": [
+          "wapping strike"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Great Railroad Strike of 1877",
+        "aliases": [
+          "1877 railroad strike"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-16",
+    "topic": "theory-revolution",
+    "prompt": "Name a utopia from fiction or philosophy",
+    "answers": [
+      {
+        "answer": "Utopia",
+        "aliases": [
+          "thomas more's utopia"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Eden",
+        "aliases": [
+          "garden of eden"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Shangri-La",
+        "aliases": [
+          "shangrila"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Atlantis",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Wakanda",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Neverland",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Plato's Republic",
+        "aliases": [
+          "the republic",
+          "kallipolis"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Federation",
+        "aliases": [
+          "united federation of planets",
+          "star trek federation"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Camelot",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Themyscira",
+        "aliases": [
+          "paradise island"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "El Dorado",
+        "aliases": [
+          "eldorado"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Shire",
+        "aliases": [
+          "hobbiton"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Elysium",
+        "aliases": [
+          "elysian fields"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "News from Nowhere",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Culture",
+        "aliases": [
+          "iain m banks culture"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Zion",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Arcadia",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Xanadu",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Anarres",
+        "aliases": [
+          "the dispossessed"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "New Atlantis",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The City of the Sun",
+        "aliases": [
+          "la citta del sole"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Walden Two",
+        "aliases": [
+          "walden 2"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Herland",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Ecotopia",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Erewhon",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Omelas",
+        "aliases": [
+          "the ones who walk away from omelas"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Land of Cockaigne",
+        "aliases": [
+          "cockaigne"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-17",
+    "topic": "theory-revolution",
+    "prompt": "Name a dystopian novel",
+    "answers": [
+      {
+        "answer": "1984",
+        "aliases": [
+          "nineteen eighty four"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Brave New World",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Handmaid's Tale",
+        "aliases": [
+          "handmaids tale"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The Hunger Games",
+        "aliases": [
+          "catching fire",
+          "mockingjay"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Fahrenheit 451",
+        "aliases": [
+          "fahrenheit four fifty one"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "A Clockwork Orange",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Divergent",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Road",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Giver",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Maze Runner",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Animal Farm",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Lord of the Flies",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Never Let Me Go",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Do Androids Dream of Electric Sheep?",
+        "aliases": [
+          "blade runner"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ready Player One",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Man in the High Castle",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "We",
+        "aliases": [
+          "zamyatin we"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Station Eleven",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Oryx and Crake",
+        "aliases": [
+          "maddaddam"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Children of Men",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Neuromancer",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Parable of the Sower",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Time Machine",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Battle Royale",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Iron Heel",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "It Can't Happen Here",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Player Piano",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Kallocain",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Memory Police",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Klara and the Sun",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-18",
+    "topic": "theory-revolution",
+    "prompt": "Name a political ideology",
+    "answers": [
+      {
+        "answer": "Communism",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Capitalism",
+        "aliases": [
+          "free market capitalism"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Socialism",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Fascism",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Democracy",
+        "aliases": [
+          "liberal democracy"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Liberalism",
+        "aliases": [
+          "liberal"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Conservatism",
+        "aliases": [
+          "toryism"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Anarchism",
+        "aliases": [
+          "anarchy"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Marxism",
+        "aliases": [
+          "marxism leninism"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Nationalism",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Feminism",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Libertarianism",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Nazism",
+        "aliases": [
+          "national socialism",
+          "nazi"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Environmentalism",
+        "aliases": [
+          "green politics",
+          "ecologism"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Populism",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Leninism",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Maoism",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Trotskyism",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Stalinism",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Social democracy",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Neoliberalism",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Totalitarianism",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Monarchism",
+        "aliases": [
+          "monarchy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Republicanism",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Imperialism",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Zionism",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Anarcho-syndicalism",
+        "aliases": [
+          "syndicalism"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Anarcho-capitalism",
+        "aliases": [
+          "ancap"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Juche",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Ba'athism",
+        "aliases": [
+          "baathism"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Peronism",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Pan-Africanism",
+        "aliases": [
+          "panafricanism"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Fabianism",
+        "aliases": [
+          "fabian socialism"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bonapartism",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Council communism",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Georgism",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Titoism",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Accelerationism",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-19",
+    "topic": "theory-revolution",
+    "prompt": "Name a country that changed its name in the 20th or 21st century",
+    "answers": [
+      {
+        "answer": "Myanmar",
+        "aliases": [
+          "burma"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Iran",
+        "aliases": [
+          "persia"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Thailand",
+        "aliases": [
+          "siam"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Zimbabwe",
+        "aliases": [
+          "rhodesia"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sri Lanka",
+        "aliases": [
+          "ceylon"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Democratic Republic of the Congo",
+        "aliases": [
+          "zaire",
+          "dr congo",
+          "drc"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Eswatini",
+        "aliases": [
+          "swaziland"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Czechia",
+        "aliases": [
+          "czech republic"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Türkiye",
+        "aliases": [
+          "turkey"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Russia",
+        "aliases": [
+          "russian federation",
+          "soviet union",
+          "ussr"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "North Macedonia",
+        "aliases": [
+          "macedonia"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Indonesia",
+        "aliases": [
+          "dutch east indies"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Burkina Faso",
+        "aliases": [
+          "upper volta"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ghana",
+        "aliases": [
+          "gold coast"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Zambia",
+        "aliases": [
+          "northern rhodesia"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Tanzania",
+        "aliases": [
+          "tanganyika"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bangladesh",
+        "aliases": [
+          "east pakistan"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cambodia",
+        "aliases": [
+          "kampuchea",
+          "khmer republic"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Côte d'Ivoire",
+        "aliases": [
+          "ivory coast"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ethiopia",
+        "aliases": [
+          "abyssinia"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Benin",
+        "aliases": [
+          "dahomey"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lesotho",
+        "aliases": [
+          "basutoland"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Botswana",
+        "aliases": [
+          "bechuanaland"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Namibia",
+        "aliases": [
+          "south west africa"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Malawi",
+        "aliases": [
+          "nyasaland"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cabo Verde",
+        "aliases": [
+          "cape verde"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Serbia and Montenegro",
+        "aliases": [
+          "federal republic of yugoslavia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Jordan",
+        "aliases": [
+          "transjordan"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Belize",
+        "aliases": [
+          "british honduras"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Timor-Leste",
+        "aliases": [
+          "east timor"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mali",
+        "aliases": [
+          "french sudan",
+          "sudanese republic"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Central African Republic",
+        "aliases": [
+          "ubangi shari"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Guinea-Bissau",
+        "aliases": [
+          "portuguese guinea"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Vanuatu",
+        "aliases": [
+          "new hebrides"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kiribati",
+        "aliases": [
+          "gilbert islands"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Tuvalu",
+        "aliases": [
+          "ellice islands"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-20",
+    "topic": "theory-revolution",
+    "prompt": "Name a symbol used by a political movement",
+    "answers": [
+      {
+        "answer": "The hammer and sickle",
+        "aliases": [
+          "sickle and hammer",
+          "soviet emblem"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The swastika",
+        "aliases": [
+          "hakenkreuz"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The raised fist",
+        "aliases": [
+          "clenched fist",
+          "fist"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The peace sign",
+        "aliases": [
+          "peace symbol",
+          "cnd symbol",
+          "ban the bomb symbol"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The red star",
+        "aliases": [
+          "five pointed red star"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The red rose",
+        "aliases": [
+          "rose"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The rainbow flag",
+        "aliases": [
+          "pride flag",
+          "gay pride flag"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The circled A",
+        "aliases": [
+          "anarchy symbol",
+          "circle a",
+          "anarchist a"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Guy Fawkes mask",
+        "aliases": [
+          "anonymous mask",
+          "v for vendetta mask"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The red flag",
+        "aliases": [
+          "red banner"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The dove",
+        "aliases": [
+          "peace dove",
+          "dove with an olive branch"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The black flag",
+        "aliases": [
+          "anarchist black flag"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The pink triangle",
+        "aliases": [
+          "inverted pink triangle"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The keffiyeh",
+        "aliases": [
+          "kufiya",
+          "palestinian scarf"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The yellow vest",
+        "aliases": [
+          "gilets jaunes",
+          "hi vis vest"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The pussyhat",
+        "aliases": [
+          "pink pussyhat",
+          "pink hat"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The red ribbon",
+        "aliases": [
+          "aids ribbon"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Extinction Rebellion hourglass",
+        "aliases": [
+          "extinction symbol",
+          "xr hourglass"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The trans flag",
+        "aliases": [
+          "transgender pride flag"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Che Guevara portrait",
+        "aliases": [
+          "guerrillero heroico",
+          "che guevara image"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The three arrows",
+        "aliases": [
+          "iron front arrows",
+          "antifa three arrows"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The suffragette colours",
+        "aliases": [
+          "purple white and green",
+          "suffragette colors"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The yellow umbrella",
+        "aliases": [
+          "umbrella movement"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The white rose",
+        "aliases": [
+          "weisse rose"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The sunflower",
+        "aliases": [
+          "sunflower movement"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The fasces",
+        "aliases": [
+          "roman fasces"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Solidarity logo",
+        "aliases": [
+          "solidarnosc logo"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The green bandana",
+        "aliases": [
+          "marea verde",
+          "green handkerchief"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The white poppy",
+        "aliases": [
+          "peace poppy"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Phrygian cap",
+        "aliases": [
+          "liberty cap",
+          "bonnet rouge"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Zapatista balaclava",
+        "aliases": [
+          "zapatista ski mask"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The lambda",
+        "aliases": [
+          "gay liberation lambda"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The safety pin",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-21",
+    "topic": "theory-revolution",
+    "prompt": "Name a trade union",
+    "answers": [
+      {
+        "answer": "Unite",
+        "aliases": [
+          "unite the union"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Unison",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "RMT",
+        "aliases": [
+          "national union of rail maritime and transport workers"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "GMB",
+        "aliases": [
+          "general municipal boilermakers"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "NEU",
+        "aliases": [
+          "national education union"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "ASLEF",
+        "aliases": [
+          "associated society of locomotive engineers and firemen"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "BMA",
+        "aliases": [
+          "british medical association"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "RCN",
+        "aliases": [
+          "royal college of nursing"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "NUM",
+        "aliases": [
+          "national union of mineworkers"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "UCU",
+        "aliases": [
+          "university and college union"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "USDAW",
+        "aliases": [
+          "union of shop distributive and allied workers"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "CWU",
+        "aliases": [
+          "communication workers union"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Teamsters",
+        "aliases": [
+          "international brotherhood of teamsters"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "SAG-AFTRA",
+        "aliases": [
+          "screen actors guild"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Solidarity",
+        "aliases": [
+          "solidarnosc"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "PCS",
+        "aliases": [
+          "public and commercial services union"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "NASUWT",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "NUJ",
+        "aliases": [
+          "national union of journalists"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Equity",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "FBU",
+        "aliases": [
+          "fire brigades union"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "IWW",
+        "aliases": [
+          "industrial workers of the world",
+          "wobblies"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "UAW",
+        "aliases": [
+          "united auto workers"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "BALPA",
+        "aliases": [
+          "british airline pilots association"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Musicians' Union",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Prospect",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "TSSA",
+        "aliases": [
+          "transport salaried staffs association"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "IG Metall",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Nautilus International",
+        "aliases": [
+          "nautilus"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "BFAWU",
+        "aliases": [
+          "bakers food and allied workers union"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "IWGB",
+        "aliases": [
+          "independent workers union of great britain"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-22",
+    "topic": "theory-revolution",
+    "prompt": "Name a political philosopher",
+    "answers": [
+      {
+        "answer": "Karl Marx",
+        "aliases": [
+          "marx"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Plato",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Aristotle",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Machiavelli",
+        "aliases": [
+          "niccolo machiavelli"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Thomas Hobbes",
+        "aliases": [
+          "hobbes"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "John Locke",
+        "aliases": [
+          "locke"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Rousseau",
+        "aliases": [
+          "jean jacques rousseau"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "John Stuart Mill",
+        "aliases": [
+          "js mill",
+          "mill"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hannah Arendt",
+        "aliases": [
+          "arendt"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Michel Foucault",
+        "aliases": [
+          "foucault"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Noam Chomsky",
+        "aliases": [
+          "chomsky"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Slavoj Žižek",
+        "aliases": [
+          "zizek"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hegel",
+        "aliases": [
+          "georg wilhelm friedrich hegel"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Adam Smith",
+        "aliases": [
+          "smith"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Confucius",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "John Rawls",
+        "aliases": [
+          "rawls"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Edmund Burke",
+        "aliases": [
+          "burke"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Antonio Gramsci",
+        "aliases": [
+          "gramsci"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Thomas Paine",
+        "aliases": [
+          "tom paine",
+          "paine"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mary Wollstonecraft",
+        "aliases": [
+          "wollstonecraft"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Judith Butler",
+        "aliases": [
+          "butler"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Frantz Fanon",
+        "aliases": [
+          "fanon"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Isaiah Berlin",
+        "aliases": [
+          "berlin"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Robert Nozick",
+        "aliases": [
+          "nozick"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Carl Schmitt",
+        "aliases": [
+          "schmitt"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Jürgen Habermas",
+        "aliases": [
+          "habermas"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mikhail Bakunin",
+        "aliases": [
+          "bakunin"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Leo Strauss",
+        "aliases": [
+          "strauss"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Ibn Khaldun",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Chantal Mouffe",
+        "aliases": [
+          "mouffe"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-23",
+    "topic": "theory-revolution",
+    "prompt": "Name a protest movement or uprising of the 21st century",
+    "answers": [
+      {
+        "answer": "Black Lives Matter",
+        "aliases": [
+          "blm",
+          "george floyd protests"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The Arab Spring",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Extinction Rebellion",
+        "aliases": [
+          "xr"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "MeToo",
+        "aliases": [
+          "me too movement"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Occupy Wall Street",
+        "aliases": [
+          "occupy",
+          "occupy movement"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Just Stop Oil",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Hong Kong protests",
+        "aliases": [
+          "hong kong",
+          "anti extradition protests"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Fridays for Future",
+        "aliases": [
+          "school strike for climate",
+          "climate strikes"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Women's March",
+        "aliases": [
+          "womens march"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Egyptian Revolution",
+        "aliases": [
+          "tahrir square",
+          "january 25 revolution"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Yellow Vests",
+        "aliases": [
+          "gilets jaunes"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Woman Life Freedom",
+        "aliases": [
+          "mahsa amini protests",
+          "iranian protests"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Standing Rock",
+        "aliases": [
+          "dakota access pipeline protests"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Euromaidan",
+        "aliases": [
+          "maidan",
+          "revolution of dignity"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Insulate Britain",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Orange Revolution",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Umbrella Movement",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Stop the War march",
+        "aliases": [
+          "anti war march",
+          "iraq war protests"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Indian farmers' protests",
+        "aliases": [
+          "farmers protests"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Ferguson protests",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Gaza solidarity encampments",
+        "aliases": [
+          "student encampments"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Syrian uprising",
+        "aliases": [
+          "syrian revolution"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Rhodes Must Fall",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "EndSARS",
+        "aliases": [
+          "end sars"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Indignados",
+        "aliases": [
+          "15 m",
+          "spanish indignados"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Belarus protests",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Sudanese Revolution",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Sunflower Movement",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Tulip Revolution",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Geração à Rasca",
+        "aliases": [
+          "geracao rasca",
+          "12 de marco",
+          "desperate generation"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-24",
+    "topic": "theory-revolution",
+    "prompt": "Name a country that was part of the Soviet Union",
+    "answers": [
+      {
+        "answer": "Russia",
+        "aliases": [
+          "russian federation",
+          "rsfsr"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Ukraine",
+        "aliases": [
+          "ukrainian ssr"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Belarus",
+        "aliases": [
+          "byelorussia",
+          "belorussia"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Estonia",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Latvia",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Lithuania",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Georgia",
+        "aliases": [
+          "georgian ssr"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Kazakhstan",
+        "aliases": [
+          "kazakstan"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Armenia",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Azerbaijan",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Moldova",
+        "aliases": [
+          "moldavia"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Uzbekistan",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Kyrgyzstan",
+        "aliases": [
+          "kirghizia",
+          "kyrgyz republic"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Turkmenistan",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Tajikistan",
+        "aliases": [
+          "tadzhikistan"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Tuva",
+        "aliases": [
+          "tannu tuva",
+          "tuvan peoples republic"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "theory-revolution-25",
+    "topic": "theory-revolution",
+    "prompt": "Name a female revolutionary or radical thinker",
+    "answers": [
+      {
+        "answer": "Emmeline Pankhurst",
+        "aliases": [
+          "pankhurst"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Rosa Parks",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Harriet Tubman",
+        "aliases": [
+          "tubman"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Rosa Luxemburg",
+        "aliases": [
+          "luxemburg"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Angela Davis",
+        "aliases": [
+          "angela y davis"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Simone de Beauvoir",
+        "aliases": [
+          "de beauvoir",
+          "beauvoir"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mary Wollstonecraft",
+        "aliases": [
+          "wollstonecraft"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hannah Arendt",
+        "aliases": [
+          "arendt"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Emma Goldman",
+        "aliases": [
+          "goldman"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Gloria Steinem",
+        "aliases": [
+          "steinem"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sojourner Truth",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Boudicca",
+        "aliases": [
+          "boadicea",
+          "boudica"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "bell hooks",
+        "aliases": [
+          "hooks"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Audre Lorde",
+        "aliases": [
+          "lorde"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Judith Butler",
+        "aliases": [
+          "butler"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sylvia Pankhurst",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Emily Davison",
+        "aliases": [
+          "davison"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sophie Scholl",
+        "aliases": [
+          "scholl",
+          "the white rose"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Winnie Mandela",
+        "aliases": [
+          "winnie madikizela mandela"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Simone Weil",
+        "aliases": [
+          "weil"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Alexandra Kollontai",
+        "aliases": [
+          "kollontai"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Clara Zetkin",
+        "aliases": [
+          "zetkin"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ulrike Meinhof",
+        "aliases": [
+          "meinhof"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Assata Shakur",
+        "aliases": [
+          "shakur"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Constance Markievicz",
+        "aliases": [
+          "markievicz",
+          "countess markievicz"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Louise Michel",
+        "aliases": [
+          "michel"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Qiu Jin",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Silvia Federici",
+        "aliases": [
+          "federici"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Dolores Ibárruri",
+        "aliases": [
+          "la pasionaria",
+          "ibarruri"
+        ],
+        "tier": 100
+      }
+    ]
+  }
+]

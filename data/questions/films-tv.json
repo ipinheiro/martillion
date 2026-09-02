@@ -1,0 +1,4215 @@
+[
+  {
+    "id": "films-tv-01",
+    "topic": "films-tv",
+    "prompt": "Name a fictional robot",
+    "answers": [
+      {
+        "answer": "WALL-E",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "R2-D2",
+        "aliases": [
+          "artoo"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The Terminator",
+        "aliases": [
+          "t-800"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "C-3PO",
+        "aliases": [
+          "threepio"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Optimus Prime",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Bender",
+        "aliases": [
+          "bender rodriguez"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "RoboCop",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Baymax",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Ultron",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Data",
+        "aliases": [
+          "commander data"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "T-1000",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Marvin",
+        "aliases": [
+          "marvin the paranoid android"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "HAL 9000",
+        "aliases": [
+          "hal"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Johnny 5",
+        "aliases": [
+          "johnny five",
+          "number 5"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "K-2SO",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Maria",
+        "aliases": [
+          "maschinenmensch",
+          "false maria"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "GLaDOS",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Roy Batty",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Ava",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-02",
+    "topic": "films-tv",
+    "prompt": "Name a film that won the Best Picture Oscar",
+    "answers": [
+      {
+        "answer": "Titanic",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Godfather",
+        "aliases": [
+          "the godfather part ii"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Forrest Gump",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Oppenheimer",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Gladiator",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Parasite",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Lord of the Rings: The Return of the King",
+        "aliases": [
+          "return of the king",
+          "lord of the rings",
+          "lotr"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Schindler's List",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Slumdog Millionaire",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Everything Everywhere All at Once",
+        "aliases": [
+          "eeaao",
+          "everything everywhere"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Silence of the Lambs",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Braveheart",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Gone with the Wind",
+        "aliases": [
+          "gwtw"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Sound of Music",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Moonlight",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The King's Speech",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "12 Years a Slave",
+        "aliases": [
+          "twelve years a slave"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Departed",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Casablanca",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Rocky",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Green Book",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Nomadland",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Anora",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Chicago",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "West Side Story",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "No Country for Old Men",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Birdman",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Spotlight",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Amadeus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Chariots of Fire",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "CODA",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Ordinary People",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Last Emperor",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Midnight Cowboy",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-03",
+    "topic": "films-tv",
+    "prompt": "Name a fictional villain",
+    "answers": [
+      {
+        "answer": "Darth Vader",
+        "aliases": [
+          "vader"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The Joker",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Voldemort",
+        "aliases": [
+          "lord voldemort",
+          "he who must not be named"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Thanos",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Hannibal Lecter",
+        "aliases": [
+          "hannibal"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sauron",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Loki",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Cruella de Vil",
+        "aliases": [
+          "cruella"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Scar",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Maleficent",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Emperor Palpatine",
+        "aliases": [
+          "palpatine",
+          "darth sidious"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Norman Bates",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Jafar",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Ursula",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Freddy Krueger",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Michael Myers",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Anton Chigurh",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Nurse Ratched",
+        "aliases": [
+          "ratched"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hans Landa",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Annie Wilkes",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Bill Sikes",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Judge Doom",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Harry Powell",
+        "aliases": [
+          "the preacher"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Uriah Heep",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Baron Harkonnen",
+        "aliases": [
+          "vladimir harkonnen"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Frank Booth",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-04",
+    "topic": "films-tv",
+    "prompt": "Name an animated film",
+    "answers": [
+      {
+        "answer": "Toy Story",
+        "aliases": [
+          "toy story 3"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The Lion King",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Frozen",
+        "aliases": [
+          "frozen 2"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Shrek",
+        "aliases": [
+          "shrek 2"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Finding Nemo",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Up",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Inside Out",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Despicable Me",
+        "aliases": [
+          "minions"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Moana",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Encanto",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Coco",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Spirited Away",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Monsters, Inc.",
+        "aliases": [
+          "monsters incorporated"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "How to Train Your Dragon",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "WALL-E",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Ratatouille",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Incredibles",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Kung Fu Panda",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Zootropolis",
+        "aliases": [
+          "zootopia"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Spider-Man: Into the Spider-Verse",
+        "aliases": [
+          "into the spider verse"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Chicken Run",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Princess Mononoke",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Big Hero 6",
+        "aliases": [
+          "big hero six"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Iron Giant",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Grave of the Fireflies",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Watership Down",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Fantastic Mr Fox",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Persepolis",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Wolfwalkers",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Yellow Submarine",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-05",
+    "topic": "films-tv",
+    "prompt": "Name a long-running TV series",
+    "answers": [
+      {
+        "answer": "The Simpsons",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Doctor Who",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "EastEnders",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Coronation Street",
+        "aliases": [
+          "corrie"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Friends",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Family Guy",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "South Park",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Grey's Anatomy",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Emmerdale",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "SpongeBob SquarePants",
+        "aliases": [
+          "spongebob"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Big Bang Theory",
+        "aliases": [
+          "tbbt"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Law & Order",
+        "aliases": [
+          "law and order",
+          "svu"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Casualty",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "NCIS",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Top Gear",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Hollyoaks",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Supernatural",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Have I Got News for You",
+        "aliases": [
+          "hignfy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Neighbours",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Blue Peter",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Midsomer Murders",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Silent Witness",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Last of the Summer Wine",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Holby City",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Panorama",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Days of Our Lives",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Guiding Light",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Gunsmoke",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Crossroads",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-06",
+    "topic": "films-tv",
+    "prompt": "Name a film director",
+    "answers": [
+      {
+        "answer": "Steven Spielberg",
+        "aliases": [
+          "spielberg"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Quentin Tarantino",
+        "aliases": [
+          "tarantino"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Christopher Nolan",
+        "aliases": [
+          "nolan"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Martin Scorsese",
+        "aliases": [
+          "scorsese"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Alfred Hitchcock",
+        "aliases": [
+          "hitchcock"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tim Burton",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "James Cameron",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Greta Gerwig",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Wes Anderson",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Stanley Kubrick",
+        "aliases": [
+          "kubrick"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ridley Scott",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Jordan Peele",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Peter Jackson",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "George Lucas",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Clint Eastwood",
+        "aliases": [
+          "eastwood"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Denis Villeneuve",
+        "aliases": [
+          "villeneuve"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sofia Coppola",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Guillermo del Toro",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "David Fincher",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Spike Lee",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Danny Boyle",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Hayao Miyazaki",
+        "aliases": [
+          "miyazaki"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bong Joon-ho",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Akira Kurosawa",
+        "aliases": [
+          "kurosawa"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Paul Thomas Anderson",
+        "aliases": [
+          "pta"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "David Lynch",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Ken Loach",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Céline Sciamma",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Chantal Akerman",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Yasujirō Ozu",
+        "aliases": [
+          "ozu"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Agnès Varda",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Béla Tarr",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-07",
+    "topic": "films-tv",
+    "prompt": "Name a fictional world or planet",
+    "answers": [
+      {
+        "answer": "Middle-earth",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Narnia",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Tatooine",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Pandora",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Westeros",
+        "aliases": [
+          "the seven kingdoms"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Wakanda",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Krypton",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Asgard",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Neverland",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Oz",
+        "aliases": [
+          "the land of oz"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Vulcan",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Arrakis",
+        "aliases": [
+          "dune"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Gallifrey",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Coruscant",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Panem",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Discworld",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Hoth",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Endor",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Lilliput",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Magrathea",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Earthsea",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Solaris",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Trantor",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Barsoom",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Altair IV",
+        "aliases": [
+          "altair 4"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Mongo",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-08",
+    "topic": "films-tv",
+    "prompt": "Name a horror film",
+    "answers": [
+      {
+        "answer": "The Exorcist",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Shining",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Halloween",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Scream",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "It",
+        "aliases": [
+          "it chapter two"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "A Nightmare on Elm Street",
+        "aliases": [
+          "elm street"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Get Out",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Hereditary",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Conjuring",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Saw",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Psycho",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Paranormal Activity",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Ring",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "A Quiet Place",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Texas Chain Saw Massacre",
+        "aliases": [
+          "texas chainsaw massacre"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Midsommar",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Babadook",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Witch",
+        "aliases": [
+          "the vvitch"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "28 Days Later",
+        "aliases": [
+          "twenty eight days later"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Alien",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Nosferatu",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Suspiria",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Thing",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Rosemary's Baby",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Don't Look Now",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Wicker Man",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Häxan",
+        "aliases": [
+          "witchcraft through the ages"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kwaidan",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Onibaba",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Possession",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-09",
+    "topic": "films-tv",
+    "prompt": "Name a film based on a true story",
+    "answers": [
+      {
+        "answer": "Oppenheimer",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Bohemian Rhapsody",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Social Network",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Schindler's List",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Wolf of Wall Street",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Catch Me If You Can",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Imitation Game",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Theory of Everything",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "12 Years a Slave",
+        "aliases": [
+          "twelve years a slave"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hidden Figures",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Rocketman",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The King's Speech",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "American Sniper",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Apollo 13",
+        "aliases": [
+          "apollo thirteen"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Argo",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Spotlight",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Big Short",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Erin Brockovich",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Moneyball",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "127 Hours",
+        "aliases": [
+          "one hundred and twenty seven hours"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Revenant",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Green Book",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Hotel Rwanda",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "All the President's Men",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Zodiac",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Dallas Buyers Club",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "United 93",
+        "aliases": [
+          "united ninety three"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Downfall",
+        "aliases": [
+          "der untergang"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Kon-Tiki",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Insider",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Touching the Void",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-10",
+    "topic": "films-tv",
+    "prompt": "Name a fictional spy or detective",
+    "answers": [
+      {
+        "answer": "James Bond",
+        "aliases": [
+          "007",
+          "bond"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Sherlock Holmes",
+        "aliases": [
+          "sherlock"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Hercule Poirot",
+        "aliases": [
+          "poirot"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Jason Bourne",
+        "aliases": [
+          "bourne"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Miss Marple",
+        "aliases": [
+          "jane marple"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ethan Hunt",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Inspector Morse",
+        "aliases": [
+          "morse",
+          "endeavour"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Nancy Drew",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Columbo",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Austin Powers",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Doctor Watson",
+        "aliases": [
+          "dr watson",
+          "john watson"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Philip Marlowe",
+        "aliases": [
+          "marlowe"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "George Smiley",
+        "aliases": [
+          "smiley"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Jack Ryan",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Inspector Clouseau",
+        "aliases": [
+          "clouseau"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "John Luther",
+        "aliases": [
+          "luther"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sam Spade",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Jessica Fletcher",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Harry Hole",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Kurt Wallander",
+        "aliases": [
+          "wallander"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cormoran Strike",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Adam Dalgliesh",
+        "aliases": [
+          "dalgliesh"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lisbeth Salander",
+        "aliases": [
+          "salander"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lord Peter Wimsey",
+        "aliases": [
+          "wimsey"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "C. Auguste Dupin",
+        "aliases": [
+          "dupin"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bernie Gunther",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Jules Maigret",
+        "aliases": [
+          "maigret"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-11",
+    "topic": "films-tv",
+    "prompt": "Name a movie monster",
+    "answers": [
+      {
+        "answer": "Godzilla",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "King Kong",
+        "aliases": [
+          "kong"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Dracula",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Frankenstein's monster",
+        "aliases": [
+          "frankenstein"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Xenomorph",
+        "aliases": [
+          "the alien"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Predator",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Mummy",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Jaws",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Gremlins",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Werewolf",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Blob",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Creature from the Black Lagoon",
+        "aliases": [
+          "gill man"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mothra",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "King Ghidorah",
+        "aliases": [
+          "ghidorah"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pennywise",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Thing",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Audrey II",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Kraken",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Graboids",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Rodan",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Count Orlok",
+        "aliases": [
+          "orlok"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Rancor",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Gamera",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Brundlefly",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Tarman",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Talos",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Deadites",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-12",
+    "topic": "films-tv",
+    "prompt": "Name a film with a famous twist ending",
+    "answers": [
+      {
+        "answer": "The Sixth Sense",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Fight Club",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Usual Suspects",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Se7en",
+        "aliases": [
+          "seven"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Shutter Island",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Planet of the Apes",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Psycho",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Saw",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Gone Girl",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Prestige",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Others",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Oldboy",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Memento",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Arrival",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Village",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Primal Fear",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Identity",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Orphan",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Crying Game",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Soylent Green",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Jacob's Ladder",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Angel Heart",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Wicker Man",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Les Diaboliques",
+        "aliases": [
+          "diabolique"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Sleepaway Camp",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Sleuth",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Skin I Live In",
+        "aliases": [
+          "la piel que habito"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-13",
+    "topic": "films-tv",
+    "prompt": "Name a sitcom",
+    "answers": [
+      {
+        "answer": "Friends",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Office",
+        "aliases": [
+          "the office us",
+          "the office uk"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The Inbetweeners",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Big Bang Theory",
+        "aliases": [
+          "tbbt"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Brooklyn Nine-Nine",
+        "aliases": [
+          "b99",
+          "brooklyn 99"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Only Fools and Horses",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Fawlty Towers",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Peep Show",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "How I Met Your Mother",
+        "aliases": [
+          "himym"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Modern Family",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Parks and Recreation",
+        "aliases": [
+          "parks and rec"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Seinfeld",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The IT Crowd",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Blackadder",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Gavin & Stacey",
+        "aliases": [
+          "gavin and stacey"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Community",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "It's Always Sunny in Philadelphia",
+        "aliases": [
+          "always sunny"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Frasier",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Father Ted",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Miranda",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mrs Brown's Boys",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Porridge",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Dad's Army",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Spaced",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Absolutely Fabulous",
+        "aliases": [
+          "ab fab"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Black Books",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Yes Minister",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Hi-de-Hi!",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Ever Decreasing Circles",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Good Life",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-14",
+    "topic": "films-tv",
+    "prompt": "Name a superhero",
+    "answers": [
+      {
+        "answer": "Superman",
+        "aliases": [
+          "clark kent",
+          "man of steel"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Batman",
+        "aliases": [
+          "bruce wayne",
+          "the dark knight"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Spider-Man",
+        "aliases": [
+          "spidey",
+          "peter parker"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Iron Man",
+        "aliases": [
+          "tony stark"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Captain America",
+        "aliases": [
+          "steve rogers"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Wonder Woman",
+        "aliases": [
+          "diana prince"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Thor",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Hulk",
+        "aliases": [
+          "the incredible hulk",
+          "bruce banner"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Black Panther",
+        "aliases": [
+          "t'challa"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Deadpool",
+        "aliases": [
+          "wade wilson"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Wolverine",
+        "aliases": [
+          "logan"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Flash",
+        "aliases": [
+          "barry allen"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Black Widow",
+        "aliases": [
+          "natasha romanoff"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Aquaman",
+        "aliases": [
+          "arthur curry"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Doctor Strange",
+        "aliases": [
+          "stephen strange"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ant-Man",
+        "aliases": [
+          "scott lang"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Green Lantern",
+        "aliases": [
+          "hal jordan"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hawkeye",
+        "aliases": [
+          "clint barton"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Scarlet Witch",
+        "aliases": [
+          "wanda maximoff",
+          "wanda"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Star-Lord",
+        "aliases": [
+          "peter quill"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Captain Marvel",
+        "aliases": [
+          "carol danvers"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Robin",
+        "aliases": [
+          "dick grayson"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Nightwing",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Daredevil",
+        "aliases": [
+          "matt murdock"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Silver Surfer",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Moon Knight",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Storm",
+        "aliases": [
+          "ororo munroe"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Booster Gold",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Squirrel Girl",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Zatanna",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-15",
+    "topic": "films-tv",
+    "prompt": "Name a film not in the English language",
+    "answers": [
+      {
+        "answer": "Parasite",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Amélie",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Spirited Away",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Crouching Tiger, Hidden Dragon",
+        "aliases": [
+          "crouching tiger"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Pan's Labyrinth",
+        "aliases": [
+          "el laberinto del fauno"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Life Is Beautiful",
+        "aliases": [
+          "la vita è bella"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "City of God",
+        "aliases": [
+          "cidade de deus"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Roma",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "All Quiet on the Western Front",
+        "aliases": [
+          "im westen nichts neues"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Train to Busan",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Oldboy",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Seven Samurai",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Cinema Paradiso",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Lives of Others",
+        "aliases": [
+          "das leben der anderen"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Y Tu Mamá También",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Let the Right One In",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Rashomon",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Portrait of a Lady on Fire",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Downfall",
+        "aliases": [
+          "der untergang"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bicycle Thieves",
+        "aliases": [
+          "the bicycle thief"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Battle of Algiers",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Tokyo Story",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "La Haine",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Persona",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Andrei Rublev",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Jeanne Dielman",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Ugetsu",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Ordet",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-16",
+    "topic": "films-tv",
+    "prompt": "Name a fictional artificial intelligence",
+    "answers": [
+      {
+        "answer": "HAL 9000",
+        "aliases": [
+          "hal"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Skynet",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "JARVIS",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Ultron",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Samantha",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "GLaDOS",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Cortana",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Ava",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Agent Smith",
+        "aliases": [
+          "smith"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Architect",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Vision",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Joi",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Deep Thought",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "KITT",
+        "aliases": [
+          "knight industries two thousand"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "SHODAN",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "AUTO",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Friday",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mother",
+        "aliases": [
+          "muthur"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Multivac",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Wintermute",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Colossus",
+        "aliases": [
+          "the forbin project"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Machine",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Proteus",
+        "aliases": [
+          "proteus iv"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "AM",
+        "aliases": [
+          "allied mastercomputer"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Durandal",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Mike",
+        "aliases": [
+          "mycroft"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Erasmus",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-17",
+    "topic": "films-tv",
+    "prompt": "Name a Studio Ghibli film",
+    "answers": [
+      {
+        "answer": "Spirited Away",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "My Neighbour Totoro",
+        "aliases": [
+          "totoro",
+          "my neighbor totoro"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Howl's Moving Castle",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Princess Mononoke",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Kiki's Delivery Service",
+        "aliases": [
+          "kiki"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ponyo",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Grave of the Fireflies",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Wind Rises",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Castle in the Sky",
+        "aliases": [
+          "laputa"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Nausicaä of the Valley of the Wind",
+        "aliases": [
+          "nausicaa"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Boy and the Heron",
+        "aliases": [
+          "how do you live"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Arrietty",
+        "aliases": [
+          "the secret world of arrietty"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Porco Rosso",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Cat Returns",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Whisper of the Heart",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Tale of the Princess Kaguya",
+        "aliases": [
+          "princess kaguya"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "From Up on Poppy Hill",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "When Marnie Was There",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Tales from Earthsea",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Pom Poko",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Only Yesterday",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Ocean Waves",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "My Neighbours the Yamadas",
+        "aliases": [
+          "my neighbors the yamadas"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Earwig and the Witch",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Red Turtle",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-18",
+    "topic": "films-tv",
+    "prompt": "Name a documentary",
+    "answers": [
+      {
+        "answer": "Planet Earth",
+        "aliases": [
+          "planet earth ii"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Blue Planet",
+        "aliases": [
+          "blue planet ii"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Tiger King",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Making a Murderer",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Free Solo",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Bowling for Columbine",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Fahrenheit 9/11",
+        "aliases": [
+          "fahrenheit 911"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "An Inconvenient Truth",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Social Dilemma",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Super Size Me",
+        "aliases": [
+          "supersize me"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Blackfish",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "My Octopus Teacher",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Man on Wire",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Searching for Sugar Man",
+        "aliases": [
+          "sugar man"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Senna",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Amy",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Icarus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "13th",
+        "aliases": [
+          "thirteenth"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Grizzly Man",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Act of Killing",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Hoop Dreams",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Shoah",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Grey Gardens",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Thin Blue Line",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Sans Soleil",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Koyaanisqatsi",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Night and Fog",
+        "aliases": [
+          "nuit et brouillard"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Man with a Movie Camera",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-19",
+    "topic": "films-tv",
+    "prompt": "Name a film franchise with four or more films",
+    "answers": [
+      {
+        "answer": "Star Wars",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Harry Potter",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Marvel Cinematic Universe",
+        "aliases": [
+          "mcu",
+          "marvel"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "James Bond",
+        "aliases": [
+          "007"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Fast & Furious",
+        "aliases": [
+          "fast and furious",
+          "the fast and the furious"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Jurassic Park",
+        "aliases": [
+          "jurassic world"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Toy Story",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Pirates of the Caribbean",
+        "aliases": [
+          "pirates"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Hunger Games",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Mission: Impossible",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Lord of the Rings",
+        "aliases": [
+          "lotr"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Shrek",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Twilight",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Despicable Me",
+        "aliases": [
+          "minions"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Indiana Jones",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Matrix",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Transformers",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Alien",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Terminator",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "X-Men",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Die Hard",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Ice Age",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Police Academy",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Friday the 13th",
+        "aliases": [
+          "friday the thirteenth"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Pink Panther",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Rambo",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Final Destination",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Carry On",
+        "aliases": [
+          "carry on films"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Zatoichi",
+        "aliases": [
+          "the blind swordsman"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Tremors",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Herbie",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-20",
+    "topic": "films-tv",
+    "prompt": "Name a movie musical",
+    "answers": [
+      {
+        "answer": "The Greatest Showman",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "La La Land",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Grease",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Mamma Mia!",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Wicked",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Sound of Music",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Les Misérables",
+        "aliases": [
+          "les mis"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hairspray",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "High School Musical",
+        "aliases": [
+          "hsm"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Moulin Rouge!",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Chicago",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Wonka",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Rocky Horror Picture Show",
+        "aliases": [
+          "rocky horror"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "West Side Story",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Singin' in the Rain",
+        "aliases": [
+          "singing in the rain"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sweeney Todd",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Into the Woods",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Cats",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Oliver!",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Annie",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Dreamgirls",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bugsy Malone",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Fiddler on the Roof",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Cabaret",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "My Fair Lady",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Guys and Dolls",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Umbrellas of Cherbourg",
+        "aliases": [
+          "les parapluies de cherbourg"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Top Hat",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Paint Your Wagon",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Seven Brides for Seven Brothers",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-21",
+    "topic": "films-tv",
+    "prompt": "Name a Pixar or DreamWorks film",
+    "answers": [
+      {
+        "answer": "Toy Story",
+        "aliases": [
+          "toy story 2",
+          "toy story 3",
+          "toy story 4"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Shrek",
+        "aliases": [
+          "shrek 2"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Finding Nemo",
+        "aliases": [
+          "finding dory"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Up",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Incredibles",
+        "aliases": [
+          "incredibles 2"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Monsters, Inc.",
+        "aliases": [
+          "monsters incorporated",
+          "monsters university"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Inside Out",
+        "aliases": [
+          "inside out 2"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "WALL-E",
+        "aliases": [
+          "walle"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cars",
+        "aliases": [
+          "cars 2"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ratatouille",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Coco",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Madagascar",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Kung Fu Panda",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "How to Train Your Dragon",
+        "aliases": [
+          "httyd"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Trolls",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "A Bug's Life",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Brave",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Soul",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Luca",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Prince of Egypt",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bee Movie",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Megamind",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Puss in Boots",
+        "aliases": [
+          "puss in boots the last wish"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Good Dinosaur",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Onward",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Elemental",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Road to El Dorado",
+        "aliases": [
+          "el dorado"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Flushed Away",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Rise of the Guardians",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Sinbad: Legend of the Seven Seas",
+        "aliases": [
+          "sinbad"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Turbo",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Mr. Peabody & Sherman",
+        "aliases": [
+          "mr peabody and sherman"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-22",
+    "topic": "films-tv",
+    "prompt": "Name an actor who has played a superhero",
+    "answers": [
+      {
+        "answer": "Robert Downey Jr.",
+        "aliases": [
+          "rdj",
+          "robert downey junior"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Tom Holland",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Chris Hemsworth",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Chris Evans",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Hugh Jackman",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Christian Bale",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Gal Gadot",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Ryan Reynolds",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Scarlett Johansson",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Henry Cavill",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Ben Affleck",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Chadwick Boseman",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Tobey Maguire",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Andrew Garfield",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Robert Pattinson",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Mark Ruffalo",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Paul Rudd",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Benedict Cumberbatch",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Michael Keaton",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Chris Pratt",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Jason Momoa",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Brie Larson",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Christopher Reeve",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Halle Berry",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Elizabeth Olsen",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Adam West",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Lynda Carter",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Wesley Snipes",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Pedro Pascal",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Helen Slater",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Ioan Gruffudd",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-23",
+    "topic": "films-tv",
+    "prompt": "Name a crime or detective TV series",
+    "answers": [
+      {
+        "answer": "Line of Duty",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Sherlock",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Breaking Bad",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Peaky Blinders",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "CSI",
+        "aliases": [
+          "crime scene investigation"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Luther",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Broadchurch",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Wire",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Sopranos",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Narcos",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "True Detective",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Midsomer Murders",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Death in Paradise",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Happy Valley",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Law & Order",
+        "aliases": [
+          "law and order",
+          "svu"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "NCIS",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Money Heist",
+        "aliases": [
+          "la casa de papel"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dexter",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Killing Eve",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Only Murders in the Building",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Criminal Minds",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Poirot",
+        "aliases": [
+          "hercule poirot",
+          "agatha christies poirot"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Columbo",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Miss Marple",
+        "aliases": [
+          "marple"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Inspector Morse",
+        "aliases": [
+          "morse"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Vera",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Silent Witness",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Cracker",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Wallander",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Unforgotten",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Jonathan Creek",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Prime Suspect",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Bergerac",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Van der Valk",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Taggart",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-24",
+    "topic": "films-tv",
+    "prompt": "Name a film set in space",
+    "answers": [
+      {
+        "answer": "Star Wars",
+        "aliases": [
+          "the empire strikes back",
+          "a new hope"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Interstellar",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Gravity",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Alien",
+        "aliases": [
+          "aliens"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The Martian",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "2001: A Space Odyssey",
+        "aliases": [
+          "2001"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Apollo 13",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Guardians of the Galaxy",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Star Trek",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Avatar",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Dune",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Armageddon",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Passengers",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Prometheus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Moon",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Total Recall",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Lightyear",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Treasure Planet",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Alien: Romulus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Sunshine",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Event Horizon",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Ad Astra",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Galaxy Quest",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Spaceballs",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Solaris",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Silent Running",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Dark Star",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "High Life",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "films-tv-25",
+    "topic": "films-tv",
+    "prompt": "Name a romcom",
+    "answers": [
+      {
+        "answer": "Notting Hill",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Love Actually",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Bridget Jones's Diary",
+        "aliases": [
+          "bridget jones"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Four Weddings and a Funeral",
+        "aliases": [
+          "four weddings"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Pretty Woman",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "10 Things I Hate About You",
+        "aliases": [
+          "ten things i hate about you"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "When Harry Met Sally",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Holiday",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Crazy Rich Asians",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "How to Lose a Guy in 10 Days",
+        "aliases": [
+          "how to lose a guy"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Proposal",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Sleepless in Seattle",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "You've Got Mail",
+        "aliases": [
+          "youve got mail"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Clueless",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "To All the Boys I've Loved Before",
+        "aliases": [
+          "to all the boys"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Anyone But You",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "About Time",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Groundhog Day",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "My Best Friend's Wedding",
+        "aliases": [
+          "my best friends wedding"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Silver Linings Playbook",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Runaway Bride",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Two Weeks Notice",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "27 Dresses",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Serendipity",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Palm Springs",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Moonstruck",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Roman Holiday",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Wimbledon",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "It Happened One Night",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Philadelphia Story",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "His Girl Friday",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  }
+]
