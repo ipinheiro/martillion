@@ -3,23 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
   <title>Martillion</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="icon" id="favicon" href="data:,">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <noscript><p class="noscript">Martillion needs JavaScript. Enable it and reload.</p></noscript>
   <main id="app">
     <section id="screen-title" class="screen">
-      <p class="kicker">The unlimited daily trivia game</p>
+      <div id="title-hero" class="hero"></div>
+      <p class="kicker"><span class="sigil"></span>The unlimited daily trivia game</p>
       <h1>Martillion</h1>
       <p class="tagline">Rare answers of the world, unite!</p>
       <dl class="stats">
         <div><dt>Best uprising</dt><dd id="best-score">0</dd></div>
         <div><dt>Five-year plans</dt><dd id="plans-completed">0</dd></div>
       </dl>
-      <div class="plan-progress"><div id="plan-bar"></div></div>
+      <div id="plan-progress" class="plan-progress" role="progressbar" aria-label="Progress toward the next five-year plan" aria-valuemin="0" aria-valuemax="2000" aria-valuenow="0"><div id="plan-bar"></div></div>
       <p id="plan-label" class="plan-label"></p>
       <button type="button" id="start-button" class="primary" disabled>Start the uprising</button>
     </section>
@@ -29,16 +30,16 @@
         <span id="round-topic"></span>
         <span id="round-count"></span>
       </header>
-      <div class="timer"><div id="timer-bar"></div></div>
+      <div id="timer" class="timer" role="progressbar" aria-label="Time remaining" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><div id="timer-bar"></div></div>
       <h2 id="round-prompt"></h2>
       <form id="answer-form">
-        <input id="answer-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Type your answer, comrade" aria-label="Your answer">
+        <input id="answer-input" type="text" maxlength="120" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Type your answer, comrade" aria-label="Your answer">
         <button type="submit" class="primary">Submit</button>
       </form>
     </section>
 
     <section id="screen-reveal" class="screen" hidden>
-      <p id="reveal-emoji" class="reveal-emoji"></p>
+      <div id="reveal-sprite" class="reaction"></div>
       <h2 id="reveal-tier"></h2>
       <p id="reveal-points" class="reveal-points"></p>
       <p id="reveal-detail"></p>
@@ -46,7 +47,7 @@
     </section>
 
     <section id="screen-results" class="screen" hidden>
-      <p class="kicker">The uprising is over</p>
+      <p class="kicker"><span class="sigil"></span>The uprising is over</p>
       <h2 id="results-score"></h2>
       <h3 id="results-stage"></h3>
       <p id="results-flavour"></p>
@@ -60,11 +61,11 @@
     </section>
 
     <section id="screen-error" class="screen" hidden>
-      <h2>The questions failed to load</h2>
-      <p>The struggle continues. Check the connection and try again.</p>
+      <h2>The struggle hit a snag</h2>
+      <p id="error-detail"></p>
       <button type="button" id="retry-button" class="primary">Try again</button>
     </section>
   </main>
-  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/bootstrap.js"></script>
 </body>
 </html>

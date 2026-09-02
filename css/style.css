@@ -118,6 +118,23 @@ body::after {
   display: none;
 }
 
+.noscript {
+  position: relative;
+  z-index: 2;
+  margin: 1rem var(--gutter);
+  padding: 0.75rem 1rem;
+  border: var(--rule);
+  background: var(--cream-dim);
+  font-family: var(--display);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.hero,
+.reaction {
+  display: block;
+}
+
 /* A watermark star, printed faintly under the title. */
 #screen-title::after {
   content: "\2605";
@@ -160,12 +177,19 @@ p {
   margin-bottom: 0.9rem;
 }
 
-.kicker::before {
-  content: "";
+/* The hammer and sickle before a kicker. Until a sprite lands in it, a red square. */
+.sigil {
   display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.55rem;
+  vertical-align: -0.2em;
+}
+
+.sigil:empty {
   width: 0.5rem;
   height: 0.5rem;
-  margin-right: 0.55rem;
+  vertical-align: 0;
   background: var(--red);
 }
 
@@ -300,6 +324,7 @@ h1 {
   height: 0.85rem;
   margin-top: 0.9rem;
   border: var(--rule);
+  overflow: hidden;
   /* A barber-pole track, so the drain reads even at a glance. */
   background-image: repeating-linear-gradient(45deg, var(--cream-dim) 0 6px, #dbcaa6 6px 12px);
 }
@@ -543,5 +568,7 @@ button.primary:focus-visible {
   *::after {
     /* biome-ignore lint/complexity/noImportantStyles: reduced motion must win over every rule */
     transition-duration: 0.01ms !important;
+    /* biome-ignore lint/complexity/noImportantStyles: reduced motion must win over every rule */
+    animation-duration: 0.01ms !important;
   }
 }
