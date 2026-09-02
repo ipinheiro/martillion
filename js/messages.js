@@ -1,0 +1,50 @@
+// @ts-check
+import { NO_ANSWER } from "./scorer.js";
+
+/** @typedef {import("./game.js").RoundResult} RoundResult */
+/** @typedef {ReturnType<import("./scorer.js").fiveYearPlans>} Plans */
+
+/** @param {RoundResult} result */
+export function revealDetail(result) {
+  if (result.tier.id === NO_ANSWER.id) return "Silence. The revolution needs answers.";
+  if (result.matchedAnswer === null) {
+    return "The committee cannot verify this. Zero points, comrade.";
+  }
+  const line = `The committee recognises "${result.matchedAnswer}".`;
+  return result.remark ? `${line} ${result.remark}` : line;
+}
+
+/**
+ * @param {number} total this game's score
+ * @param {number} previousBest the best before this game was counted
+ */
+export function recordsMessage(total, previousBest) {
+  if (total > previousBest) return "A new personal best. The politburo is pleased.";
+  return `Personal best: ${previousBest}.`;
+}
+
+/** @param {Plans} plans */
+export function planLabel(plans) {
+  return `${plans.progress} / ${plans.target} points toward the next plan`;
+}
+
+/** @param {Plans} plans */
+export function planMessage(plans) {
+  const progress = `${plans.progress} / ${plans.target}`;
+  if (plans.completed === 0) return `${progress} points toward your first five-year plan`;
+  return `Five-year plans completed: ${plans.completed} - ${progress} toward the next`;
+}
+
+/** @param {RoundResult} result */
+export function roundLine(result) {
+  const shown = result.matchedAnswer ?? (result.input.trim() || "no answer");
+  return `${result.tier.emoji} ${result.prompt} - ${shown} (+${result.tier.points})`;
+}
+
+/**
+ * @param {number} round 1-based
+ * @param {number} total
+ */
+export function roundCounter(round, total) {
+  return `Round ${round} of ${total}`;
+}
