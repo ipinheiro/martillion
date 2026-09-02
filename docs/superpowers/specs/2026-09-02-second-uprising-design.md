@@ -134,6 +134,17 @@ The constructivist poster stays. The sprites use the poster's palette (red, ink,
 
 Every painted sprite carries `role="img"` and an `aria-label`. The tier name stays in the heading, so the sprite is decoration that screen readers can skip.
 
+### Design pass, later on 2026-09-02
+
+After the first implementation, the author had Claude Design draw the screens from a brief of the poster ground. Its canvas is filed at `docs/design/2026-09-02-martillion.dc.html` (open it in a browser; `support.js` beside it renders the artboards). The site now follows that canvas for everything except two choices the author kept: the system body font instead of IBM Plex Mono, and the tier emoji above.
+
+What the canvas changed:
+
+- The sprite set is the canvas's redraw: Marx with grey hair and beard strands, a red jacket and cream shirt, the same seven reactions, a hammer and sickle that reads as ☭ at 16 pixels, and a 16 by 16 star. The palette gains `grey` and `grey-light`. The grids are transcribed into `js/sprites.js` as a base sprite plus patches, exactly as the canvas built them.
+- Phone layouts: Marx centred between the tagline and boxed stats on the title; the tier name and its points slab on one line with a rule above the detail on the reveal, under a topic and round header; the score with its stage slab, the rounds list as a grid (number, emoji, prompt and answer, points), then records, plan bar, and stacked buttons on results; a hint line under the answer form.
+- Desktop layouts from the 1440 boards, behind a `64rem` breakpoint: Marx in a column of his own beside the content on the title and reveal, the rounds list beside the summary on results, and the answer box beside its Submit button.
+- Details: sentence-case buttons with an ink border, a barber-pole timer fill, a paper-white answer box, sentence-case prompts and tier names, and the watermark star on every screen.
+
 ## JavaScript hardening
 
 ### Structure
