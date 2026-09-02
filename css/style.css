@@ -151,7 +151,7 @@ body::after {
 .hero {
   align-self: flex-end;
   width: clamp(6rem, 30vw, 9rem);
-  margin-bottom: -0.75rem;
+  margin-bottom: 0.5rem;
   filter: drop-shadow(var(--offset) var(--offset) 0 var(--ink-18));
 }
 
