@@ -3478,7 +3478,8 @@
       {
         "answer": "A clenched fist",
         "aliases": [
-          "raised fist"
+          "raised fist",
+          "fist"
         ],
         "tier": 30
       },
@@ -3503,7 +3504,8 @@
           "woman worker",
           "female worker",
           "a strong woman",
-          "soviet woman"
+          "soviet woman",
+          "woman"
         ],
         "tier": 30
       },
@@ -3644,7 +3646,8 @@
         "aliases": [
           "pointing hand",
           "have you volunteered",
-          "have you enlisted"
+          "have you enlisted",
+          "finger"
         ],
         "tier": 60
       },
@@ -3653,7 +3656,8 @@
         "aliases": [
           "kolkhoz",
           "fields",
-          "farm workers"
+          "farm workers",
+          "farm"
         ],
         "tier": 60
       },
