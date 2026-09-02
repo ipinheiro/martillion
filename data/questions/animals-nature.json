@@ -1,0 +1,10020 @@
+[
+  {
+    "id": "animals-nature-01",
+    "topic": "animals-nature",
+    "prompt": "Name a deep-sea creature",
+    "answers": [
+      {
+        "answer": "Anglerfish",
+        "aliases": [
+          "angler fish",
+          "angler",
+          "black seadevil",
+          "deep sea anglerfish",
+          "humpback anglerfish"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Giant squid",
+        "aliases": [
+          "architeuthis",
+          "squid"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Blobfish",
+        "aliases": [
+          "blob fish"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Sperm whale",
+        "aliases": [
+          "cachalot"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Vampire squid",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Goblin shark",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Giant isopod",
+        "aliases": [
+          "deep sea isopod",
+          "isopod"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Octopus",
+        "aliases": [
+          "deep sea octopus"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Jellyfish",
+        "aliases": [
+          "deep sea jellyfish"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Colossal squid",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Greenland shark",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Viperfish",
+        "aliases": [
+          "viper fish"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Gulper eel",
+        "aliases": [
+          "pelican eel",
+          "eel",
+          "gulper"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dumbo octopus",
+        "aliases": [
+          "dumbo"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hagfish",
+        "aliases": [
+          "slime eel"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Oarfish",
+        "aliases": [
+          "oar fish"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dragonfish",
+        "aliases": [
+          "black dragonfish",
+          "deep sea dragonfish"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sea cucumber",
+        "aliases": [
+          "deep sea cucumber"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Spider crab",
+        "aliases": [
+          "japanese spider crab",
+          "giant spider crab"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Shrimp",
+        "aliases": [
+          "deep sea shrimp",
+          "vent shrimp"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Frilled shark",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Fangtooth",
+        "aliases": [
+          "ogrefish"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Coelacanth",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Giant tube worm",
+        "aliases": [
+          "tube worm",
+          "riftia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lanternfish",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Hatchetfish",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Nautilus",
+        "aliases": [
+          "chambered nautilus"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Chimaera",
+        "aliases": [
+          "ghost shark",
+          "ratfish",
+          "rabbitfish"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sixgill shark",
+        "aliases": [
+          "bluntnose sixgill",
+          "six gill shark"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Megamouth shark",
+        "aliases": [
+          "megamouth"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Football fish",
+        "aliases": [
+          "footballfish"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Comb jelly",
+        "aliases": [
+          "ctenophore"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Siphonophore",
+        "aliases": [
+          "giant siphonophore"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sea spider",
+        "aliases": [
+          "pycnogonid"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Brittle star",
+        "aliases": [
+          "brittlestar"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lanternshark",
+        "aliases": [
+          "lantern shark",
+          "dwarf lanternshark"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cuvier's beaked whale",
+        "aliases": [
+          "beaked whale",
+          "cuviers beaked whale"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Orange roughy",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Barreleye",
+        "aliases": [
+          "barreleye fish",
+          "spook fish"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Yeti crab",
+        "aliases": [
+          "kiwa"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Sea pig",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Snailfish",
+        "aliases": [
+          "mariana snailfish",
+          "hadal snailfish"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Zombie worm",
+        "aliases": [
+          "osedax",
+          "bone eating worm"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Cookiecutter shark",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Grenadier",
+        "aliases": [
+          "rattail",
+          "rat tail fish"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Tripod fish",
+        "aliases": [
+          "tripodfish"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bristlemouth",
+        "aliases": [
+          "bristle mouth"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Sleeper shark",
+        "aliases": [
+          "pacific sleeper shark"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Sea lily",
+        "aliases": [
+          "crinoid"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Black swallower",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Patagonian toothfish",
+        "aliases": [
+          "toothfish",
+          "chilean sea bass"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Squat lobster",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Pompeii worm",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Amphipod",
+        "aliases": [
+          "giant amphipod",
+          "alicella"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Whalefish",
+        "aliases": [
+          "whale fish"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Cusk eel",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-02",
+    "topic": "animals-nature",
+    "prompt": "Name an extinct animal",
+    "answers": [
+      {
+        "answer": "Dodo",
+        "aliases": [
+          "dodo bird"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Woolly mammoth",
+        "aliases": [
+          "mammoth",
+          "wooly mammoth",
+          "mammoths"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Sabre-toothed tiger",
+        "aliases": [
+          "saber toothed tiger",
+          "smilodon",
+          "sabre tooth"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Tyrannosaurus rex",
+        "aliases": [
+          "t rex",
+          "trex",
+          "tyrannosaurus"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Dinosaur",
+        "aliases": [
+          "dinosaurs"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Megalodon",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Thylacine",
+        "aliases": [
+          "tasmanian tiger",
+          "tasmanian wolf"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Woolly rhinoceros",
+        "aliases": [
+          "woolly rhino"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Trilobite",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Pterodactyl",
+        "aliases": [
+          "pteranodon",
+          "pterosaur"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Velociraptor",
+        "aliases": [
+          "raptor"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Triceratops",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Stegosaurus",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Dire wolf",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Passenger pigeon",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Giant ground sloth",
+        "aliases": [
+          "megatherium",
+          "ground sloth"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ammonite",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Neanderthal",
+        "aliases": [
+          "homo neanderthalensis"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Irish elk",
+        "aliases": [
+          "giant deer",
+          "megaloceros"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Diplodocus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Brontosaurus",
+        "aliases": [
+          "apatosaurus"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mastodon",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Plesiosaur",
+        "aliases": [
+          "plesiosaurus"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ichthyosaur",
+        "aliases": [
+          "ichthyosaurus"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mosasaur",
+        "aliases": [
+          "mosasaurus"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dimetrodon",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Archaeopteryx",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Great auk",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Quagga",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Steller's sea cow",
+        "aliases": [
+          "stellers sea cow"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Moa",
+        "aliases": [
+          "giant moa"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Aurochs",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Cave bear",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Elephant bird",
+        "aliases": [
+          "aepyornis"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Western black rhino",
+        "aliases": [
+          "western black rhinoceros"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dunkleosteus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Glyptodon",
+        "aliases": [
+          "glyptodont"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Titanoboa",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Terror bird",
+        "aliases": [
+          "phorusrhacid",
+          "phorusrhacos"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Short-faced bear",
+        "aliases": [
+          "giant short faced bear",
+          "arctodus"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cave lion",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Homo erectus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Homo floresiensis",
+        "aliases": [
+          "hobbit",
+          "flores man"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Australopithecus",
+        "aliases": [
+          "lucy"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Caspian tiger",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Javan tiger",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Diprotodon",
+        "aliases": [
+          "giant wombat"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Marsupial lion",
+        "aliases": [
+          "thylacoleo"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Megalania",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Pinta Island tortoise",
+        "aliases": [
+          "lonesome george",
+          "pinta giant tortoise"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Baiji",
+        "aliases": [
+          "yangtze river dolphin",
+          "chinese river dolphin"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Carolina parakeet",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Golden toad",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Haast's eagle",
+        "aliases": [
+          "haasts eagle"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Pyrenean ibex",
+        "aliases": [
+          "bucardo"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bluebuck",
+        "aliases": [
+          "blue antelope"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Laughing owl",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Falkland Islands wolf",
+        "aliases": [
+          "warrah",
+          "falklands wolf"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Sea mink",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Chinese paddlefish",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Andrewsarchus",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-03",
+    "topic": "animals-nature",
+    "prompt": "Name a venomous animal",
+    "answers": [
+      {
+        "answer": "Cobra",
+        "aliases": [
+          "indian cobra",
+          "spitting cobra",
+          "snake"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Rattlesnake",
+        "aliases": [
+          "diamondback"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Scorpion",
+        "aliases": [
+          "scorpions"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Spider",
+        "aliases": [
+          "spiders"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Jellyfish",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Bee",
+        "aliases": [
+          "honeybee",
+          "honey bee",
+          "bees"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Wasp",
+        "aliases": [
+          "yellow jacket",
+          "yellowjacket"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Black mamba",
+        "aliases": [
+          "mamba"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Adder",
+        "aliases": [
+          "european adder",
+          "common adder"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Black widow",
+        "aliases": [
+          "black widow spider"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Box jellyfish",
+        "aliases": [
+          "sea wasp"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tarantula",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Stingray",
+        "aliases": [
+          "sting ray"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hornet",
+        "aliases": [
+          "asian hornet",
+          "asian giant hornet"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Viper",
+        "aliases": [
+          "pit viper",
+          "vipers"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "King cobra",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Funnel-web spider",
+        "aliases": [
+          "funnel web",
+          "sydney funnel web spider"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Blue-ringed octopus",
+        "aliases": [
+          "blue ring octopus",
+          "octopus"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Stonefish",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Lionfish",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Komodo dragon",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Platypus",
+        "aliases": [
+          "duck billed platypus"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Centipede",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Portuguese man o' war",
+        "aliases": [
+          "man o war",
+          "portuguese man of war"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Brown recluse",
+        "aliases": [
+          "recluse spider",
+          "recluse"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Coral snake",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Sea snake",
+        "aliases": [
+          "yellow bellied sea snake"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lion's mane jellyfish",
+        "aliases": [
+          "lions mane",
+          "lions mane jellyfish"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Fire ant",
+        "aliases": [
+          "ant",
+          "red fire ant"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sea urchin",
+        "aliases": [
+          "urchin"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Inland taipan",
+        "aliases": [
+          "taipan"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Deathstalker",
+        "aliases": [
+          "deathstalker scorpion"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Redback spider",
+        "aliases": [
+          "redback"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Slow loris",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Cone snail",
+        "aliases": [
+          "cone shell"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Gila monster",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Weever fish",
+        "aliases": [
+          "weever",
+          "lesser weever"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Brazilian wandering spider",
+        "aliases": [
+          "wandering spider"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Boomslang",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Puff adder",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Gaboon viper",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Copperhead",
+        "aliases": [
+          "copperhead snake"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cottonmouth",
+        "aliases": [
+          "water moccasin"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Eastern brown snake",
+        "aliases": [
+          "brown snake"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tiger snake",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Death adder",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Bullet ant",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Irukandji",
+        "aliases": [
+          "irukandji jellyfish"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Scorpionfish",
+        "aliases": [
+          "scorpion fish"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Solenodon",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Northern short-tailed shrew",
+        "aliases": [
+          "short tailed shrew"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Water shrew",
+        "aliases": [
+          "eurasian water shrew"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Remipede",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Lonomia caterpillar",
+        "aliases": [
+          "assassin caterpillar"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Fer-de-lance",
+        "aliases": [
+          "lancehead"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bushmaster",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Russell's viper",
+        "aliases": [
+          "russells viper"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Krait",
+        "aliases": [
+          "banded krait",
+          "common krait"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Puss caterpillar",
+        "aliases": [
+          "asp caterpillar",
+          "flannel moth caterpillar"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Beaded lizard",
+        "aliases": [
+          "mexican beaded lizard"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-04",
+    "topic": "animals-nature",
+    "prompt": "Name an animal that migrates",
+    "answers": [
+      {
+        "answer": "Swallow",
+        "aliases": [
+          "barn swallow",
+          "swallows"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Canada goose",
+        "aliases": [
+          "goose",
+          "geese",
+          "canadian goose",
+          "greylag goose",
+          "brent goose"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Salmon",
+        "aliases": [
+          "atlantic salmon",
+          "sockeye salmon",
+          "salmon run"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Bird",
+        "aliases": [
+          "birds",
+          "migratory bird",
+          "migratory birds"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Monarch butterfly",
+        "aliases": [
+          "monarch",
+          "butterfly",
+          "monarchs"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Humpback whale",
+        "aliases": [
+          "whale",
+          "humpback",
+          "whales"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Wildebeest",
+        "aliases": [
+          "gnu"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Arctic tern",
+        "aliases": [
+          "tern",
+          "terns"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Swift",
+        "aliases": [
+          "common swift"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cuckoo",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Reindeer",
+        "aliases": [
+          "caribou"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Duck",
+        "aliases": [
+          "ducks",
+          "mallard",
+          "wigeon"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Stork",
+        "aliases": [
+          "white stork",
+          "storks"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hummingbird",
+        "aliases": [
+          "ruby throated hummingbird",
+          "humming bird"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Swan",
+        "aliases": [
+          "whooper swan",
+          "swans"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "European eel",
+        "aliases": [
+          "eel"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Osprey",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Starling",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Puffin",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Sea turtle",
+        "aliases": [
+          "leatherback turtle",
+          "green turtle",
+          "turtle"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Elephant",
+        "aliases": [
+          "african elephant"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Zebra",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Desert locust",
+        "aliases": [
+          "locust"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Grey whale",
+        "aliases": [
+          "gray whale"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Blue whale",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Tuna",
+        "aliases": [
+          "bluefin tuna"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sardine",
+        "aliases": [
+          "sardines",
+          "pilchard",
+          "sardine run"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Crane",
+        "aliases": [
+          "common crane",
+          "cranes"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Nightingale",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "House martin",
+        "aliases": [
+          "martin",
+          "martins"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bat",
+        "aliases": [
+          "bats",
+          "fruit bat",
+          "straw coloured fruit bat"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Toad",
+        "aliases": [
+          "common toad",
+          "toads"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Gazelle",
+        "aliases": [
+          "thomsons gazelle",
+          "antelope"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Red admiral",
+        "aliases": [
+          "red admiral butterfly"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Painted lady",
+        "aliases": [
+          "painted lady butterfly"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bar-tailed godwit",
+        "aliases": [
+          "godwit"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Whooping crane",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Bewick's swan",
+        "aliases": [
+          "bewicks swan"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Pink-footed goose",
+        "aliases": [
+          "pink foot"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Red crab",
+        "aliases": [
+          "christmas island red crab"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Whale shark",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Great white shark",
+        "aliases": [
+          "great white"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Redwing",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Chiffchaff",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Blackcap",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Turtle dove",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Elephant seal",
+        "aliases": [
+          "northern elephant seal"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lapwing",
+        "aliases": [
+          "peewit"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Curlew",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Dragonfly",
+        "aliases": [
+          "dragonflies"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hummingbird hawk-moth",
+        "aliases": [
+          "hawk moth",
+          "hawkmoth"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sooty shearwater",
+        "aliases": [
+          "shearwater"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Globe skimmer",
+        "aliases": [
+          "wandering glider"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Nathusius' pipistrelle",
+        "aliases": [
+          "nathusius bat"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bogong moth",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Pronghorn",
+        "aliases": [
+          "pronghorn antelope"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Saiga",
+        "aliases": [
+          "saiga antelope"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Plankton",
+        "aliases": [
+          "zooplankton"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Amur falcon",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Red knot",
+        "aliases": [
+          "knot"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-05",
+    "topic": "animals-nature",
+    "prompt": "Name a bird that cannot fly",
+    "answers": [
+      {
+        "answer": "Penguin",
+        "aliases": [
+          "emperor penguin",
+          "king penguin",
+          "penguins",
+          "gentoo penguin",
+          "adelie penguin",
+          "rockhopper penguin",
+          "adelie"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Ostrich",
+        "aliases": [
+          "common ostrich",
+          "ostriches"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Emu",
+        "aliases": [
+          "emus"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Kiwi",
+        "aliases": [
+          "kiwi bird"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dodo",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Cassowary",
+        "aliases": [
+          "southern cassowary"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Rhea",
+        "aliases": [
+          "greater rhea"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kakapo",
+        "aliases": [
+          "owl parrot"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Moa",
+        "aliases": [
+          "giant moa"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Great auk",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Elephant bird",
+        "aliases": [
+          "aepyornis"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Takahe",
+        "aliases": [
+          "south island takahe"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Flightless cormorant",
+        "aliases": [
+          "galapagos cormorant"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Steamer duck",
+        "aliases": [
+          "flightless steamer duck",
+          "falkland steamer duck"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Terror bird",
+        "aliases": [
+          "phorusrhacos",
+          "phorusrhacid"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Gastornis",
+        "aliases": [
+          "diatryma"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Weka",
+        "aliases": [
+          "woodhen"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kagu",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Guam rail",
+        "aliases": [
+          "ko ko bird"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Inaccessible Island rail",
+        "aliases": [
+          "island rail"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Titicaca grebe",
+        "aliases": [
+          "flightless grebe"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Campbell teal",
+        "aliases": [
+          "campbell island teal"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Rodrigues solitaire",
+        "aliases": [
+          "solitaire"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Auckland teal",
+        "aliases": [
+          "auckland island teal"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Junin grebe",
+        "aliases": [
+          "junin flightless grebe"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Lord Howe woodhen",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Okinawa rail",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Adzebill",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Somali ostrich",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Dwarf cassowary",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Darwin's rhea",
+        "aliases": [
+          "darwins rhea",
+          "lesser rhea"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Stephens Island wren",
+        "aliases": [
+          "lyalls wren",
+          "stephens island rockwren"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Tristan moorhen",
+        "aliases": [
+          "gough moorhen"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Hawaiian rail",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Laysan rail",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-06",
+    "topic": "animals-nature",
+    "prompt": "Name a carnivorous plant",
+    "answers": [
+      {
+        "answer": "Venus flytrap",
+        "aliases": [
+          "venus fly trap",
+          "flytrap",
+          "dionaea",
+          "venus fly trap plant",
+          "fly trap"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Pitcher plant",
+        "aliases": [
+          "pitcher",
+          "pitcher plants"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Sundew",
+        "aliases": [
+          "drosera",
+          "sundews",
+          "round leaved sundew",
+          "drosera rotundifolia",
+          "common sundew",
+          "great sundew"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Monkey cup",
+        "aliases": [
+          "nepenthes",
+          "tropical pitcher plant",
+          "monkey cups",
+          "nepenthes rajah",
+          "rajah pitcher plant"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bladderwort",
+        "aliases": [
+          "utricularia",
+          "bladderworts",
+          "lesser bladderwort",
+          "greater bladderwort"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Butterwort",
+        "aliases": [
+          "pinguicula",
+          "butterworts",
+          "common butterwort",
+          "pinguicula vulgaris"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cobra lily",
+        "aliases": [
+          "darlingtonia",
+          "cobra plant"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Trumpet pitcher",
+        "aliases": [
+          "sarracenia",
+          "american pitcher plant",
+          "north american pitcher plant",
+          "trumpet pitcher plant"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Albany pitcher plant",
+        "aliases": [
+          "cephalotus"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sun pitcher",
+        "aliases": [
+          "heliamphora"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Waterwheel plant",
+        "aliases": [
+          "aldrovanda",
+          "water wheel plant",
+          "waterwheel"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dewy pine",
+        "aliases": [
+          "drosophyllum",
+          "portuguese sundew",
+          "portuguese dewy pine"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cape sundew",
+        "aliases": [
+          "drosera capensis"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Purple pitcher plant",
+        "aliases": [
+          "sarracenia purpurea",
+          "purple pitcher"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Yellow pitcher plant",
+        "aliases": [
+          "sarracenia flava",
+          "yellow pitcher"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Corkscrew plant",
+        "aliases": [
+          "genlisea",
+          "corkscrew"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Rainbow plant",
+        "aliases": [
+          "byblis"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Roridula",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Triphyophyllum",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Brocchinia",
+        "aliases": [
+          "carnivorous bromeliad"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "White-topped pitcher plant",
+        "aliases": [
+          "white pitcher plant",
+          "sarracenia leucophylla"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Hooded pitcher plant",
+        "aliases": [
+          "sarracenia minor"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Parrot pitcher plant",
+        "aliases": [
+          "sarracenia psittacina"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Attenborough's pitcher plant",
+        "aliases": [
+          "nepenthes attenboroughii",
+          "attenboroughs pitcher plant"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Fanged pitcher plant",
+        "aliases": [
+          "nepenthes bicalcarata"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "King sundew",
+        "aliases": [
+          "drosera regia"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Pygmy sundew",
+        "aliases": [
+          "pygmy sundews"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-07",
+    "topic": "animals-nature",
+    "prompt": "Name an animal with a misleading name",
+    "answers": [
+      {
+        "answer": "Koala bear",
+        "aliases": [
+          "koala",
+          "koalas"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Killer whale",
+        "aliases": [
+          "orca",
+          "killer whales",
+          "orcas"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Guinea pig",
+        "aliases": [
+          "guinea pigs"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Jellyfish",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Starfish",
+        "aliases": [
+          "sea star",
+          "star fish"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Electric eel",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Firefly",
+        "aliases": [
+          "lightning bug",
+          "fire fly",
+          "glow worm",
+          "glowworm"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ladybird",
+        "aliases": [
+          "ladybug"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Flying fox",
+        "aliases": [
+          "fruit bat",
+          "flying foxes"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Prairie dog",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Whale shark",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Turkey",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Red panda",
+        "aliases": [
+          "lesser panda"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Seahorse",
+        "aliases": [
+          "sea horse"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Meerkat",
+        "aliases": [
+          "meerkats"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Catfish",
+        "aliases": [
+          "cat fish"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Silverfish",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Crayfish",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Cuttlefish",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Sea lion",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mountain lion",
+        "aliases": [
+          "cougar",
+          "puma"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Slow worm",
+        "aliases": [
+          "blindworm"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Flying squirrel",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bald eagle",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Sea cucumber",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Dragonfly",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Butterfly",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Sea cow",
+        "aliases": [
+          "manatee",
+          "dugong"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Polecat",
+        "aliases": [
+          "pole cat"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hedgehog",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Komodo dragon",
+        "aliases": [
+          "komodo"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Flying fish",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Woodlouse",
+        "aliases": [
+          "wood louse",
+          "pill bug",
+          "roly poly"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Horseshoe crab",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Naked mole-rat",
+        "aliases": [
+          "mole rat"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Titmouse",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Mountain goat",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Horned toad",
+        "aliases": [
+          "horny toad",
+          "horned lizard"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tasmanian tiger",
+        "aliases": [
+          "thylacine"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Groundhog",
+        "aliases": [
+          "woodchuck"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Jackrabbit",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "King crab",
+        "aliases": [
+          "alaskan king crab"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mantis shrimp",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Mountain chicken",
+        "aliases": [
+          "giant ditch frog",
+          "mountain chicken frog"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Elephant shrew",
+        "aliases": [
+          "sengi"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Vampire squid",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Water bear",
+        "aliases": [
+          "tardigrade"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mayfly",
+        "aliases": [
+          "may fly"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sperm whale",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Maned wolf",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Aardwolf",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Binturong",
+        "aliases": [
+          "bearcat"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Flying lemur",
+        "aliases": [
+          "colugo"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Velvet ant",
+        "aliases": [
+          "cow killer"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Sea monkey",
+        "aliases": [
+          "brine shrimp",
+          "sea monkeys"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Fisher",
+        "aliases": [
+          "fisher cat"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bombay duck",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Right whale",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Killdeer",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Barnacle goose",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Sea butterfly",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-08",
+    "topic": "animals-nature",
+    "prompt": "Name a creature that lives in a colony",
+    "answers": [
+      {
+        "answer": "Ant",
+        "aliases": [
+          "ants"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Bee",
+        "aliases": [
+          "honeybee",
+          "honey bee",
+          "bees"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Termite",
+        "aliases": [
+          "termites"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Wasp",
+        "aliases": [
+          "wasps",
+          "yellow jacket"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Penguin",
+        "aliases": [
+          "emperor penguin",
+          "penguins",
+          "king penguin"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Meerkat",
+        "aliases": [
+          "meerkats"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Rabbit",
+        "aliases": [
+          "european rabbit"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bat",
+        "aliases": [
+          "fruit bat",
+          "bats",
+          "vampire bat"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bacteria",
+        "aliases": [
+          "bacterium"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Seabird",
+        "aliases": [
+          "seabirds",
+          "sea bird",
+          "sea birds"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Coral",
+        "aliases": [
+          "coral polyp",
+          "corals",
+          "coral reef"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Puffin",
+        "aliases": [
+          "puffins"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Seal",
+        "aliases": [
+          "grey seal",
+          "seals",
+          "harbour seal",
+          "common seal"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Flamingo",
+        "aliases": [
+          "flamingos",
+          "flamingoes"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Prairie dog",
+        "aliases": [
+          "prairie dogs"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Leafcutter ant",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bumblebee",
+        "aliases": [
+          "bumble bee"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Gull",
+        "aliases": [
+          "seagull",
+          "herring gull"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hornet",
+        "aliases": [
+          "hornets"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Fire ant",
+        "aliases": [
+          "fire ants"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sea lion",
+        "aliases": [
+          "sea lions"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Walrus",
+        "aliases": [
+          "walruses"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Naked mole-rat",
+        "aliases": [
+          "mole rat",
+          "damaraland mole rat"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Gannet",
+        "aliases": [
+          "northern gannet"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rook",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Army ant",
+        "aliases": [
+          "driver ant",
+          "army ants"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Guillemot",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Sand martin",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Paper wasp",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Weaver bird",
+        "aliases": [
+          "sociable weaver"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Wood ant",
+        "aliases": [
+          "wood ants"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Weaver ant",
+        "aliases": [
+          "weaver ants"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Razorbill",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Shearwater",
+        "aliases": [
+          "manx shearwater"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Booby",
+        "aliases": [
+          "blue footed booby"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "House martin",
+        "aliases": [
+          "house martins"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Jackdaw",
+        "aliases": [
+          "jackdaws"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Heron",
+        "aliases": [
+          "grey heron",
+          "heronry"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cormorant",
+        "aliases": [
+          "cormorants"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Pelican",
+        "aliases": [
+          "pelicans"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tern",
+        "aliases": [
+          "common tern",
+          "arctic tern",
+          "terns"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Albatross",
+        "aliases": [
+          "wandering albatross"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Elephant seal",
+        "aliases": [
+          "elephant seals"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ground squirrel",
+        "aliases": [
+          "ground squirrels"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Portuguese man o' war",
+        "aliases": [
+          "man o war"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Siphonophore",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Bryozoan",
+        "aliases": [
+          "sea mat"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Salp",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Argentine ant",
+        "aliases": [
+          "supercolony ant"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kittiwake",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Shag",
+        "aliases": [
+          "european shag"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Fulmar",
+        "aliases": [
+          "northern fulmar"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Storm petrel",
+        "aliases": [
+          "petrel",
+          "storm petrels"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Frigatebird",
+        "aliases": [
+          "frigate bird"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Monk parakeet",
+        "aliases": [
+          "quaker parrot",
+          "quaker parakeet"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Sea squirt",
+        "aliases": [
+          "tunicate",
+          "colonial tunicate"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Hyrax",
+        "aliases": [
+          "rock hyrax"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-09",
+    "topic": "animals-nature",
+    "prompt": "Name an animal famous for its intelligence",
+    "answers": [
+      {
+        "answer": "Dolphin",
+        "aliases": [
+          "bottlenose dolphin",
+          "dolphins"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Chimpanzee",
+        "aliases": [
+          "chimp",
+          "chimps",
+          "chimpanzees"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Octopus",
+        "aliases": [
+          "octopi",
+          "octopuses"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Monkey",
+        "aliases": [
+          "monkeys"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Crow",
+        "aliases": [
+          "crows"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Elephant",
+        "aliases": [
+          "african elephant",
+          "elephants",
+          "asian elephant"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Pig",
+        "aliases": [
+          "pigs"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dog",
+        "aliases": [
+          "dogs"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Parrot",
+        "aliases": [
+          "african grey",
+          "african grey parrot",
+          "grey parrot",
+          "parrots"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Raven",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Orangutan",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Cat",
+        "aliases": [
+          "cats"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ape",
+        "aliases": [
+          "apes",
+          "great ape",
+          "great apes"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Human",
+        "aliases": [
+          "humans",
+          "people",
+          "homo sapiens"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Whale",
+        "aliases": [
+          "whales"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Owl",
+        "aliases": [
+          "owls"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Fox",
+        "aliases": [
+          "foxes"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Gorilla",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bonobo",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Rat",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Magpie",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Horse",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Orca",
+        "aliases": [
+          "killer whale",
+          "killer whales",
+          "orcas"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Raccoon",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Baboon",
+        "aliases": [
+          "baboons"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Capuchin",
+        "aliases": [
+          "capuchin monkey"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Squid",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Wolf",
+        "aliases": [
+          "wolves"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Squirrel",
+        "aliases": [
+          "squirrels",
+          "grey squirrel"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kea",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Pigeon",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Cuttlefish",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Honeybee",
+        "aliases": [
+          "honey bee"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sperm whale",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Border collie",
+        "aliases": [
+          "collie",
+          "sheepdog"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Koko the gorilla",
+        "aliases": [
+          "koko"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Macaque",
+        "aliases": [
+          "rhesus macaque",
+          "japanese macaque",
+          "rhesus monkey"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mynah",
+        "aliases": [
+          "mynah bird",
+          "myna",
+          "myna bird"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Beluga",
+        "aliases": [
+          "beluga whale"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sea lion",
+        "aliases": [
+          "california sea lion"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Jay",
+        "aliases": [
+          "eurasian jay"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rook",
+        "aliases": [
+          "rooks"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hyena",
+        "aliases": [
+          "spotted hyena"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cockatoo",
+        "aliases": [
+          "goffins cockatoo"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "New Caledonian crow",
+        "aliases": [
+          "caledonian crow"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Alex the parrot",
+        "aliases": [
+          "alex the african grey"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Cleaner wrasse",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Jackdaw",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Scrub jay",
+        "aliases": [
+          "western scrub jay"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Manta ray",
+        "aliases": [
+          "manta"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Archerfish",
+        "aliases": [
+          "archer fish"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bumblebee",
+        "aliases": [
+          "bumble bee"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Jumping spider",
+        "aliases": [
+          "portia spider",
+          "portia"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Washoe",
+        "aliases": [
+          "washoe the chimp"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kanzi",
+        "aliases": [
+          "kanzi the bonobo"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Clever Hans",
+        "aliases": [
+          "hans the horse"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Chaser",
+        "aliases": [
+          "chaser the dog"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-10",
+    "topic": "animals-nature",
+    "prompt": "Name a parasite",
+    "answers": [
+      {
+        "answer": "Tapeworm",
+        "aliases": [
+          "tape worm",
+          "tapeworms"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Head lice",
+        "aliases": [
+          "head louse",
+          "nits",
+          "lice",
+          "louse",
+          "nit"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Flea",
+        "aliases": [
+          "fleas"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Tick",
+        "aliases": [
+          "ticks",
+          "deer tick"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Worm",
+        "aliases": [
+          "worms",
+          "parasitic worm",
+          "parasitic worms",
+          "helminth"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Leech",
+        "aliases": [
+          "leeches"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mosquito",
+        "aliases": [
+          "mosquitoes",
+          "mosquitos"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bedbug",
+        "aliases": [
+          "bed bug",
+          "bed bugs",
+          "bedbugs"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Roundworm",
+        "aliases": [
+          "ascaris",
+          "round worm",
+          "roundworms"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Malaria parasite",
+        "aliases": [
+          "plasmodium",
+          "malaria",
+          "plasmodium falciparum"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cordyceps",
+        "aliases": [
+          "ophiocordyceps",
+          "zombie ant fungus"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Virus",
+        "aliases": [
+          "viruses"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mite",
+        "aliases": [
+          "mites"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Flatworm",
+        "aliases": [
+          "flat worm",
+          "flatworms"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ringworm",
+        "aliases": [
+          "dermatophyte",
+          "ring worm"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hookworm",
+        "aliases": [
+          "hook worm"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Threadworm",
+        "aliases": [
+          "pinworm",
+          "pin worm",
+          "threadworms",
+          "pinworms"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Scabies mite",
+        "aliases": [
+          "scabies"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Toxoplasma",
+        "aliases": [
+          "toxoplasma gondii",
+          "toxo"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cuckoo",
+        "aliases": [
+          "cuckoos",
+          "brood parasite"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lamprey",
+        "aliases": [
+          "sea lamprey"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mistletoe",
+        "aliases": [
+          "mistle toe"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Nematode",
+        "aliases": [
+          "nematodes"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ichneumon wasp",
+        "aliases": [
+          "parasitic wasp",
+          "parasitoid wasp",
+          "ichneumon"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pubic lice",
+        "aliases": [
+          "crabs",
+          "crab lice",
+          "pubic louse",
+          "crab louse"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Tongue-eating louse",
+        "aliases": [
+          "cymothoa",
+          "tongue biter"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Botfly",
+        "aliases": [
+          "bot fly",
+          "human botfly",
+          "warble"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Guinea worm",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Liver fluke",
+        "aliases": [
+          "fluke"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Giardia",
+        "aliases": [
+          "giardiasis"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Varroa mite",
+        "aliases": [
+          "varroa"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bilharzia",
+        "aliases": [
+          "schistosoma",
+          "blood fluke"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Candiru",
+        "aliases": [
+          "toothpick fish"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Whipworm",
+        "aliases": [
+          "whip worm"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cryptosporidium",
+        "aliases": [
+          "crypto"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Amoeba",
+        "aliases": [
+          "entamoeba",
+          "amoebic dysentery",
+          "ameba"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Trypanosome",
+        "aliases": [
+          "trypanosoma",
+          "sleeping sickness",
+          "sleeping sickness parasite"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sea louse",
+        "aliases": [
+          "sea lice",
+          "salmon louse",
+          "salmon lice"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cowbird",
+        "aliases": [
+          "brown headed cowbird"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Screwworm",
+        "aliases": [
+          "screw worm",
+          "screwworm fly"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Chigger",
+        "aliases": [
+          "harvest mite",
+          "chiggers"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Filarial worm",
+        "aliases": [
+          "filaria",
+          "wuchereria",
+          "elephantiasis worm"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Toxocara",
+        "aliases": [
+          "dog roundworm",
+          "toxocariasis"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Demodex",
+        "aliases": [
+          "eyelash mite",
+          "face mite",
+          "demodex mite"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cookiecutter shark",
+        "aliases": [
+          "cookie cutter shark"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sacculina",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Jewel wasp",
+        "aliases": [
+          "emerald cockroach wasp"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Loa loa",
+        "aliases": [
+          "eye worm"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Dodder",
+        "aliases": [
+          "devil's guts"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Rafflesia",
+        "aliases": [
+          "corpse flower"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Trichinella",
+        "aliases": [
+          "trichinosis",
+          "trichina"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Leishmania",
+        "aliases": [
+          "leishmaniasis"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Horsehair worm",
+        "aliases": [
+          "gordian worm",
+          "nematomorph"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Warble fly",
+        "aliases": [
+          "warble flies"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Onchocerca",
+        "aliases": [
+          "river blindness worm",
+          "onchocerciasis"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Green-banded broodsac",
+        "aliases": [
+          "leucochloridium",
+          "zombie snail parasite"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Lancet liver fluke",
+        "aliases": [
+          "dicrocoelium"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Broomrape",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-11",
+    "topic": "animals-nature",
+    "prompt": "Name a natural phenomenon",
+    "answers": [
+      {
+        "answer": "Rainbow",
+        "aliases": [
+          "rainbows",
+          "double rainbow"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Lightning",
+        "aliases": [
+          "lightning strike",
+          "lightning storm"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Earthquake",
+        "aliases": [
+          "quake",
+          "tremor",
+          "earthquakes"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Tornado",
+        "aliases": [
+          "twister",
+          "tornadoes",
+          "tornados"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Volcanic eruption",
+        "aliases": [
+          "volcano",
+          "eruption",
+          "volcanoes",
+          "volcanos"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Rain",
+        "aliases": [
+          "rainfall",
+          "raining"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Snow",
+        "aliases": [
+          "snowfall",
+          "blizzard",
+          "snowstorm"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Aurora",
+        "aliases": [
+          "northern lights",
+          "aurora borealis",
+          "southern lights",
+          "aurora australis"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tsunami",
+        "aliases": [
+          "tidal wave"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hurricane",
+        "aliases": [
+          "typhoon",
+          "cyclone",
+          "hurricanes",
+          "tropical storm"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Solar eclipse",
+        "aliases": [
+          "eclipse",
+          "lunar eclipse",
+          "total eclipse"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Avalanche",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Thunder",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Meteor shower",
+        "aliases": [
+          "shooting star",
+          "meteor",
+          "shooting stars",
+          "meteors"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The tides",
+        "aliases": [
+          "tide",
+          "spring tide"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Wind",
+        "aliases": [
+          "gale",
+          "winds"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Fog",
+        "aliases": [
+          "mist"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hail",
+        "aliases": [
+          "hailstorm",
+          "hailstones",
+          "hail storm"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Flood",
+        "aliases": [
+          "flooding",
+          "floods",
+          "flash flood"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Storm",
+        "aliases": [
+          "thunderstorm",
+          "thunder storm",
+          "storms"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sunset",
+        "aliases": [
+          "sunrise"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Frost",
+        "aliases": [
+          "ground frost"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Geyser",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Sinkhole",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mirage",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bioluminescence",
+        "aliases": [
+          "glowing plankton"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Murmuration",
+        "aliases": [
+          "starling murmuration"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "El Niño",
+        "aliases": [
+          "southern oscillation",
+          "enso"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Waterspout",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Drought",
+        "aliases": [
+          "droughts"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Wildfire",
+        "aliases": [
+          "bushfire",
+          "forest fire",
+          "wild fire",
+          "wildfires"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Landslide",
+        "aliases": [
+          "landslip",
+          "mudslide",
+          "landslides"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Comet",
+        "aliases": [
+          "halleys comet",
+          "comets"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sandstorm",
+        "aliases": [
+          "dust storm",
+          "sand storm"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Monsoon",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Supernova",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Blood moon",
+        "aliases": [
+          "total lunar eclipse"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "St Elmo's fire",
+        "aliases": [
+          "st elmos fire"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ball lightning",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Moonbow",
+        "aliases": [
+          "lunar rainbow"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Fire whirl",
+        "aliases": [
+          "fire tornado",
+          "firenado"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Brocken spectre",
+        "aliases": [
+          "brocken bow"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hoar frost",
+        "aliases": [
+          "hoarfrost",
+          "rime"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ice age",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Rip current",
+        "aliases": [
+          "rip tide",
+          "riptide"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rogue wave",
+        "aliases": [
+          "freak wave"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tidal bore",
+        "aliases": [
+          "severn bore",
+          "bore"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sun dog",
+        "aliases": [
+          "sundog",
+          "parhelion"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Halo",
+        "aliases": [
+          "sun halo",
+          "moon halo",
+          "22 degree halo"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Red tide",
+        "aliases": [
+          "algal bloom"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Green flash",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Fairy circles",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Morning Glory cloud",
+        "aliases": [
+          "roll cloud"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Brinicle",
+        "aliases": [
+          "ice finger of death"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Sailing stones",
+        "aliases": [
+          "moving rocks"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Penitentes",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Crepuscular rays",
+        "aliases": [
+          "god rays"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Red sprites",
+        "aliases": [
+          "sprites",
+          "sprite lightning"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Catatumbo lightning",
+        "aliases": [
+          "everlasting storm"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Thundersnow",
+        "aliases": [
+          "thunder snow"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-12",
+    "topic": "animals-nature",
+    "prompt": "Name a big cat",
+    "answers": [
+      {
+        "answer": "Lion",
+        "aliases": [
+          "lions",
+          "african lion"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Tiger",
+        "aliases": [
+          "tigers"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Leopard",
+        "aliases": [
+          "leopards",
+          "african leopard"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Cheetah",
+        "aliases": [
+          "cheetahs"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Jaguar",
+        "aliases": [
+          "jaguars"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Black panther",
+        "aliases": [
+          "panther",
+          "black jaguar",
+          "black leopard"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Puma",
+        "aliases": [
+          "cougar",
+          "mountain lion",
+          "cougars",
+          "pumas",
+          "catamount"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Snow leopard",
+        "aliases": [
+          "ounce"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Lynx",
+        "aliases": [
+          "lynxes"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Clouded leopard",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bobcat",
+        "aliases": [
+          "red lynx",
+          "bob cat"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Caracal",
+        "aliases": [
+          "desert lynx"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Serval",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bengal tiger",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Siberian tiger",
+        "aliases": [
+          "amur tiger"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "White tiger",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Ocelot",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Liger",
+        "aliases": [
+          "ligers"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sumatran tiger",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Eurasian lynx",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Iberian lynx",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Jaguarundi",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Sabre-toothed cat",
+        "aliases": [
+          "smilodon",
+          "saber toothed cat"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Amur leopard",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Fishing cat",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Persian leopard",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Asiatic lion",
+        "aliases": [
+          "asian lion",
+          "indian lion",
+          "gir lion"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "White lion",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Florida panther",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Canada lynx",
+        "aliases": [
+          "canadian lynx"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tigon",
+        "aliases": [
+          "tiglon"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "King cheetah",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Barbary lion",
+        "aliases": [
+          "atlas lion"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Cave lion",
+        "aliases": [
+          "panthera spelaea"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Sunda clouded leopard",
+        "aliases": [
+          "bornean clouded leopard"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Javan leopard",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "American lion",
+        "aliases": [
+          "panthera atrox"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Sri Lankan leopard",
+        "aliases": [
+          "ceylon leopard"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Malayan tiger",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Indochinese tiger",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "South China tiger",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Caspian tiger",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Indian leopard",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Arabian leopard",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Asiatic cheetah",
+        "aliases": [
+          "iranian cheetah",
+          "asian cheetah"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Margay",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Leopard cat",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "African golden cat",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Asian golden cat",
+        "aliases": [
+          "asiatic golden cat"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Marbled cat",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Scimitar cat",
+        "aliases": [
+          "homotherium",
+          "scimitar toothed cat"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-13",
+    "topic": "animals-nature",
+    "prompt": "Name an animal that hibernates",
+    "answers": [
+      {
+        "answer": "Bear",
+        "aliases": [
+          "grizzly bear",
+          "black bear",
+          "brown bear",
+          "bears"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Hedgehog",
+        "aliases": [
+          "hedgehogs"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Dormouse",
+        "aliases": [
+          "hazel dormouse",
+          "dormice"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bat",
+        "aliases": [
+          "pipistrelle",
+          "bats",
+          "horseshoe bat",
+          "brown long eared bat"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tortoise",
+        "aliases": [
+          "hermann's tortoise",
+          "tortoises",
+          "desert tortoise",
+          "gopher tortoise"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Frog",
+        "aliases": [
+          "common frog",
+          "frogs"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Groundhog",
+        "aliases": [
+          "woodchuck"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Snake",
+        "aliases": [
+          "adder",
+          "snakes"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Turtle",
+        "aliases": [
+          "terrapin",
+          "turtles"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Marmot",
+        "aliases": [
+          "alpine marmot",
+          "marmots",
+          "hoary marmot"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Chipmunk",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Ground squirrel",
+        "aliases": [
+          "gopher",
+          "squirrel",
+          "squirrels",
+          "thirteen lined ground squirrel"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Snail",
+        "aliases": [
+          "garden snail"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Queen bumblebee",
+        "aliases": [
+          "bumblebee queen",
+          "bumblebee",
+          "bumble bee",
+          "bee",
+          "bees"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ladybird",
+        "aliases": [
+          "ladybug"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Newt",
+        "aliases": [
+          "great crested newt"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Toad",
+        "aliases": [
+          "common toad"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Wasp",
+        "aliases": [
+          "queen wasp",
+          "wasps"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lizard",
+        "aliases": [
+          "common lizard",
+          "sand lizard",
+          "lizards"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Butterfly",
+        "aliases": [
+          "butterflies"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Arctic ground squirrel",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Fat-tailed dwarf lemur",
+        "aliases": [
+          "dwarf lemur"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Edible dormouse",
+        "aliases": [
+          "glis glis"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Wood frog",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "European hamster",
+        "aliases": [
+          "hamster"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Echidna",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Peacock butterfly",
+        "aliases": [
+          "small tortoiseshell",
+          "brimstone butterfly",
+          "brimstone",
+          "comma butterfly",
+          "tortoiseshell butterfly"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Alligator",
+        "aliases": [
+          "american alligator"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Salamander",
+        "aliases": [
+          "fire salamander",
+          "salamanders"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Slug",
+        "aliases": [
+          "slugs"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Earthworm",
+        "aliases": [
+          "worm",
+          "worms",
+          "earthworms"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bullfrog",
+        "aliases": [
+          "bull frog",
+          "american bullfrog"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Grass snake",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Slow worm",
+        "aliases": [
+          "slowworm"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ant",
+        "aliases": [
+          "ants"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hornet",
+        "aliases": [
+          "queen hornet",
+          "hornets"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mosquito",
+        "aliases": [
+          "mosquitoes",
+          "mosquitos"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Skunk",
+        "aliases": [
+          "skunks"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rattlesnake",
+        "aliases": [
+          "rattlesnakes",
+          "rattler"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Common poorwill",
+        "aliases": [
+          "poorwill"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Mountain pygmy possum",
+        "aliases": [
+          "pygmy possum"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Garter snake",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Box turtle",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Tenrec",
+        "aliases": [
+          "lesser hedgehog tenrec"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Painted turtle",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Raccoon dog",
+        "aliases": [
+          "tanuki"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Jumping mouse",
+        "aliases": [
+          "meadow jumping mouse"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Woolly bear caterpillar",
+        "aliases": [
+          "woolly bear",
+          "arctic woolly bear"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Natterjack toad",
+        "aliases": [
+          "natterjack"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Cluster fly",
+        "aliases": [
+          "cluster flies"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-14",
+    "topic": "animals-nature",
+    "prompt": "Name a tree",
+    "answers": [
+      {
+        "answer": "Oak",
+        "aliases": [
+          "english oak",
+          "oak tree",
+          "sessile oak",
+          "red oak",
+          "oaks"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Pine",
+        "aliases": [
+          "pine tree",
+          "scots pine",
+          "pines"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Willow",
+        "aliases": [
+          "weeping willow",
+          "pussy willow",
+          "willows",
+          "willow tree"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Palm tree",
+        "aliases": [
+          "palm",
+          "coconut palm",
+          "palms",
+          "date palm"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Birch",
+        "aliases": [
+          "silver birch",
+          "birch tree"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Maple",
+        "aliases": [
+          "sugar maple",
+          "acer",
+          "japanese maple",
+          "field maple",
+          "maple tree"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Apple tree",
+        "aliases": [
+          "apple"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Beech",
+        "aliases": [
+          "copper beech",
+          "beech tree"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ash",
+        "aliases": [
+          "common ash",
+          "ash tree"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sycamore",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Horse chestnut",
+        "aliases": [
+          "conker tree",
+          "chestnut tree"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Fir",
+        "aliases": [
+          "douglas fir",
+          "christmas tree",
+          "fir tree"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cherry tree",
+        "aliases": [
+          "cherry blossom",
+          "cherry",
+          "wild cherry"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Holly",
+        "aliases": [
+          "holly tree",
+          "holly bush"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Yew",
+        "aliases": [
+          "yew tree"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Elm",
+        "aliases": [
+          "english elm",
+          "elm tree"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Rowan",
+        "aliases": [
+          "mountain ash"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hawthorn",
+        "aliases": [
+          "may tree"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Spruce",
+        "aliases": [
+          "norway spruce"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cedar",
+        "aliases": [
+          "cedar of lebanon"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Eucalyptus",
+        "aliases": [
+          "gum tree"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Redwood",
+        "aliases": [
+          "sequoia",
+          "giant sequoia",
+          "coast redwood",
+          "giant redwood",
+          "redwoods"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Olive tree",
+        "aliases": [
+          "olive"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Poplar",
+        "aliases": [
+          "lombardy poplar",
+          "black poplar",
+          "poplar tree"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lime",
+        "aliases": [
+          "lime tree",
+          "linden"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hazel",
+        "aliases": [
+          "hazel tree",
+          "hazelnut tree"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Walnut",
+        "aliases": [
+          "walnut tree"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Plane",
+        "aliases": [
+          "london plane",
+          "plane tree"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cypress",
+        "aliases": [
+          "leylandii",
+          "leyland cypress",
+          "cypress tree"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mahogany",
+        "aliases": [
+          "mahogany tree"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Magnolia",
+        "aliases": [
+          "magnolia tree"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Acacia",
+        "aliases": [
+          "wattle",
+          "acacia tree"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Fig",
+        "aliases": [
+          "fig tree"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lemon tree",
+        "aliases": [
+          "lemon",
+          "citrus tree"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Orange tree",
+        "aliases": [
+          "orange"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pear tree",
+        "aliases": [
+          "pear"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sweet chestnut",
+        "aliases": [
+          "chestnut",
+          "spanish chestnut"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Alder",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Hornbeam",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Larch",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Monkey puzzle",
+        "aliases": [
+          "monkey puzzle tree",
+          "araucaria"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ginkgo",
+        "aliases": [
+          "maidenhair tree"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Baobab",
+        "aliases": [
+          "baobab tree"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Teak",
+        "aliases": [
+          "teak tree"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ebony",
+        "aliases": [
+          "ebony tree"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Laurel",
+        "aliases": [
+          "bay tree",
+          "bay laurel",
+          "bay"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Juniper",
+        "aliases": [
+          "juniper tree"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Aspen",
+        "aliases": [
+          "quaking aspen"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mulberry",
+        "aliases": [
+          "mulberry tree"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Banyan",
+        "aliases": [
+          "banyan tree"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Joshua tree",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Whitebeam",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Wych elm",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Dawn redwood",
+        "aliases": [
+          "metasequoia"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Wollemi pine",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Bristlecone pine",
+        "aliases": [
+          "methuselah"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Tulip tree",
+        "aliases": [
+          "liriodendron"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Strawberry tree",
+        "aliases": [
+          "arbutus"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Dragon tree",
+        "aliases": [
+          "dragon blood tree"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bodhi tree",
+        "aliases": [
+          "sacred fig",
+          "peepal",
+          "peepul"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-15",
+    "topic": "animals-nature",
+    "prompt": "Name a creature with more than four legs",
+    "answers": [
+      {
+        "answer": "Spider",
+        "aliases": [
+          "spiders"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Centipede",
+        "aliases": [
+          "centipedes"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Millipede",
+        "aliases": [
+          "millipedes"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Bee",
+        "aliases": [
+          "bees",
+          "honeybee",
+          "honey bee",
+          "bumblebee"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Crab",
+        "aliases": [
+          "crabs"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Lobster",
+        "aliases": [
+          "lobsters"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ant",
+        "aliases": [
+          "ants"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Scorpion",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Beetle",
+        "aliases": [
+          "beetles",
+          "dung beetle"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cockroach",
+        "aliases": [
+          "roach"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Octopus",
+        "aliases": [
+          "octopi",
+          "octopuses"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tarantula",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Caterpillar",
+        "aliases": [
+          "caterpillars"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Insect",
+        "aliases": [
+          "insects",
+          "bug",
+          "bugs"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Wasp",
+        "aliases": [
+          "wasps",
+          "hornet"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Fly",
+        "aliases": [
+          "flies",
+          "housefly",
+          "house fly"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Butterfly",
+        "aliases": [
+          "butterflies"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ladybird",
+        "aliases": [
+          "ladybug"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Woodlouse",
+        "aliases": [
+          "pill bug",
+          "roly poly",
+          "woodlice",
+          "wood louse"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Shrimp",
+        "aliases": [
+          "prawn",
+          "prawns",
+          "shrimps"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Crayfish",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Earwig",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Praying mantis",
+        "aliases": [
+          "mantis"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Harvestman",
+        "aliases": [
+          "daddy long legs"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Tardigrade",
+        "aliases": [
+          "water bear",
+          "moss piglet"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Tick",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Grasshopper",
+        "aliases": [
+          "locust",
+          "grasshoppers"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cricket",
+        "aliases": [
+          "crickets"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dragonfly",
+        "aliases": [
+          "dragonflies"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Moth",
+        "aliases": [
+          "moths"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mosquito",
+        "aliases": [
+          "mosquitoes",
+          "mosquitos"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Squid",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Hermit crab",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Stag beetle",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Krill",
+        "aliases": [
+          "antarctic krill"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Horseshoe crab",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Mantis shrimp",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Mite",
+        "aliases": [
+          "dust mite",
+          "mites"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "House centipede",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Starfish",
+        "aliases": [
+          "sea star"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Flea",
+        "aliases": [
+          "fleas"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Louse",
+        "aliases": [
+          "lice",
+          "head louse",
+          "head lice"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Termite",
+        "aliases": [
+          "termites"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Stick insect",
+        "aliases": [
+          "walking stick"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cuttlefish",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Spider crab",
+        "aliases": [
+          "japanese spider crab"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Camel spider",
+        "aliases": [
+          "solifuge",
+          "sun spider"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Silverfish",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Trilobite",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Sea spider",
+        "aliases": [
+          "pycnogonid"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Velvet worm",
+        "aliases": [
+          "onychophoran"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Springtail",
+        "aliases": [
+          "collembola"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Pseudoscorpion",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Whip scorpion",
+        "aliases": [
+          "vinegaroon"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Barnacle",
+        "aliases": [
+          "barnacles"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Sand hopper",
+        "aliases": [
+          "sandhopper",
+          "amphipod",
+          "sand flea"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Water flea",
+        "aliases": [
+          "daphnia"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Cockchafer",
+        "aliases": [
+          "may bug",
+          "maybug"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Langoustine",
+        "aliases": [
+          "scampi"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Coconut crab",
+        "aliases": [
+          "robber crab"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-16",
+    "topic": "animals-nature",
+    "prompt": "Name an animal that changes colour or shape",
+    "answers": [
+      {
+        "answer": "Chameleon",
+        "aliases": [
+          "chameleons",
+          "cameleon"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Octopus",
+        "aliases": [
+          "octopi",
+          "octopuses"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Cuttlefish",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Squid",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Arctic fox",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Pufferfish",
+        "aliases": [
+          "puffer fish",
+          "blowfish"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Caterpillar",
+        "aliases": [
+          "butterfly",
+          "moth",
+          "caterpillars"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tadpole",
+        "aliases": [
+          "frog",
+          "tadpoles",
+          "frogs"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Lizard",
+        "aliases": [
+          "lizards",
+          "gecko"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Stoat",
+        "aliases": [
+          "ermine",
+          "stoats"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mountain hare",
+        "aliases": [
+          "hare"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Snowshoe hare",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Ptarmigan",
+        "aliases": [
+          "rock ptarmigan",
+          "willow ptarmigan",
+          "willow grouse"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Flounder",
+        "aliases": [
+          "flatfish",
+          "plaice"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Seahorse",
+        "aliases": [
+          "sea horse"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Salmon",
+        "aliases": [
+          "spawning salmon"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Flamingo",
+        "aliases": [
+          "flamingos",
+          "flamingoes"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Deer",
+        "aliases": [
+          "red deer",
+          "stag",
+          "fallow deer"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Arctic hare",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Maggot",
+        "aliases": [
+          "fly",
+          "bluebottle",
+          "housefly",
+          "maggots"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dragonfly",
+        "aliases": [
+          "dragonfly nymph",
+          "dragonflies"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Newt",
+        "aliases": [
+          "eft",
+          "newts"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Toad",
+        "aliases": [
+          "common toad",
+          "toads"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mimic octopus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Crab spider",
+        "aliases": [
+          "flower crab spider"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Blue-ringed octopus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Anole",
+        "aliases": [
+          "green anole"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Decorator crab",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Weasel",
+        "aliases": [
+          "least weasel",
+          "weasels"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Locust",
+        "aliases": [
+          "desert locust",
+          "grasshopper"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Eel",
+        "aliases": [
+          "european eel",
+          "glass eel"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lemming",
+        "aliases": [
+          "collared lemming"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Puffin",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Starling",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Salamander",
+        "aliases": [
+          "salamanders"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Silkworm",
+        "aliases": [
+          "silk moth",
+          "silkmoth"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Immortal jellyfish",
+        "aliases": [
+          "jellyfish",
+          "turritopsis"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ladybird",
+        "aliases": [
+          "ladybug",
+          "ladybird larva"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Frogfish",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Bearded dragon",
+        "aliases": [
+          "beardie"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Golden tortoise beetle",
+        "aliases": [
+          "tortoise beetle"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Chameleon prawn",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Pacific tree frog",
+        "aliases": [
+          "tree frog",
+          "grey tree frog",
+          "gray tree frog"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Peacock flounder",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Reindeer",
+        "aliases": [
+          "caribou"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Siberian hamster",
+        "aliases": [
+          "winter white hamster",
+          "winter white dwarf hamster"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Black-headed gull",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Mealworm",
+        "aliases": [
+          "darkling beetle",
+          "mealworms"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Grouper",
+        "aliases": [
+          "nassau grouper"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Parrotfish",
+        "aliases": [
+          "parrot fish"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-17",
+    "topic": "animals-nature",
+    "prompt": "Name a dinosaur",
+    "answers": [
+      {
+        "answer": "Tyrannosaurus rex",
+        "aliases": [
+          "t rex",
+          "trex",
+          "tyrannosaurus",
+          "tyrannosaur"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Velociraptor",
+        "aliases": [
+          "raptor",
+          "velociraptors",
+          "raptors"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Triceratops",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Stegosaurus",
+        "aliases": [
+          "stegosaur"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Brachiosaurus",
+        "aliases": [
+          "brachiosaur"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Diplodocus",
+        "aliases": [
+          "dippy",
+          "diplodocuses"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Spinosaurus",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Ankylosaurus",
+        "aliases": [
+          "ankylosaur"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Brontosaurus",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Apatosaurus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Allosaurus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Iguanodon",
+        "aliases": [
+          "iguanodons"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Parasaurolophus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Dilophosaurus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Giganotosaurus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Pachycephalosaurus",
+        "aliases": [
+          "pachy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hadrosaur",
+        "aliases": [
+          "hadrosaurus",
+          "duck billed dinosaur",
+          "duck bill"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sauropod",
+        "aliases": [
+          "long neck dinosaur",
+          "sauropods",
+          "long neck"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Argentinosaurus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Utahraptor",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Oviraptor",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Archaeopteryx",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Compsognathus",
+        "aliases": [
+          "compy"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Gallimimus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Carnotaurus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Therizinosaurus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Deinonychus",
+        "aliases": [
+          "deinonychuses"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Baryonyx",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Megalosaurus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Styracosaurus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Protoceratops",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Troodon",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Edmontosaurus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Theropod",
+        "aliases": [
+          "theropods"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ornithomimus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Titanosaur",
+        "aliases": [
+          "patagotitan",
+          "titanosaurus"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tarbosaurus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Albertosaurus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Ceratosaurus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Carcharodontosaurus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Suchomimus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Microraptor",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Coelophysis",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Maiasaura",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Hypsilophodon",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Corythosaurus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Kentrosaurus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Herrerasaurus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Eoraptor",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Plateosaurus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Amargasaurus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Dreadnoughtus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Psittacosaurus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Cryolophosaurus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Nigersaurus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Scelidosaurus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Neovenator",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Chicken",
+        "aliases": [
+          "bird",
+          "birds"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-18",
+    "topic": "animals-nature",
+    "prompt": "Name an endangered species",
+    "answers": [
+      {
+        "answer": "Giant panda",
+        "aliases": [
+          "panda",
+          "pandas",
+          "panda bear"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Tiger",
+        "aliases": [
+          "bengal tiger",
+          "tigers",
+          "siberian tiger",
+          "amur tiger"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Rhino",
+        "aliases": [
+          "rhinoceros",
+          "black rhino",
+          "rhinos",
+          "rhinoceroses"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Gorilla",
+        "aliases": [
+          "mountain gorilla",
+          "gorillas"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Orangutan",
+        "aliases": [
+          "orangutans",
+          "bornean orangutan",
+          "sumatran orangutan",
+          "orang utan"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Snow leopard",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Blue whale",
+        "aliases": [
+          "blue whales"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Polar bear",
+        "aliases": [
+          "polar bears"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Elephant",
+        "aliases": [
+          "african elephant",
+          "asian elephant",
+          "elephants"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sea turtle",
+        "aliases": [
+          "hawksbill turtle",
+          "green turtle",
+          "turtle",
+          "leatherback turtle",
+          "leatherback",
+          "loggerhead turtle",
+          "turtles"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Red panda",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Whale",
+        "aliases": [
+          "whales"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Koala",
+        "aliases": [
+          "koalas",
+          "koala bear"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bee",
+        "aliases": [
+          "bees",
+          "bumblebee",
+          "honeybee",
+          "honey bee"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Pangolin",
+        "aliases": [
+          "pangolins"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Vaquita",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Axolotl",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Cheetah",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Sumatran tiger",
+        "aliases": [
+          "sumatran tigers"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Amur leopard",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Red squirrel",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Chimpanzee",
+        "aliases": [
+          "chimp",
+          "chimpanzees",
+          "chimps"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sea otter",
+        "aliases": [
+          "sea otters"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Giraffe",
+        "aliases": [
+          "giraffes"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lion",
+        "aliases": [
+          "lions"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Coral",
+        "aliases": [
+          "corals",
+          "coral reef",
+          "coral reefs"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Puffin",
+        "aliases": [
+          "puffins",
+          "atlantic puffin"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Penguin",
+        "aliases": [
+          "penguins",
+          "african penguin",
+          "galapagos penguin",
+          "yellow eyed penguin"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hedgehog",
+        "aliases": [
+          "hedgehogs"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kakapo",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "California condor",
+        "aliases": [
+          "condor"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Javan rhino",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Northern white rhino",
+        "aliases": [
+          "white rhino",
+          "white rhinoceros"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Gharial",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "European eel",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Basking shark",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Water vole",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Komodo dragon",
+        "aliases": [
+          "komodo"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hippo",
+        "aliases": [
+          "hippopotamus",
+          "hippos"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Galapagos tortoise",
+        "aliases": [
+          "giant tortoise",
+          "tortoise"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sumatran rhino",
+        "aliases": [
+          "sumatran rhinoceros"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Turtle dove",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Great white shark",
+        "aliases": [
+          "great white",
+          "shark",
+          "sharks"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hammerhead shark",
+        "aliases": [
+          "hammerhead"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Whale shark",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Bluefin tuna",
+        "aliases": [
+          "tuna"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Salmon",
+        "aliases": [
+          "atlantic salmon"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "River dolphin",
+        "aliases": [
+          "amazon river dolphin",
+          "pink river dolphin",
+          "ganges river dolphin",
+          "pink dolphin"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "African wild dog",
+        "aliases": [
+          "painted dog",
+          "painted wolf",
+          "wild dog"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Saola",
+        "aliases": [
+          "asian unicorn"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Scottish wildcat",
+        "aliases": [
+          "highland tiger"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Hen harrier",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Angel shark",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Whooping crane",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Aye-aye",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Golden lion tamarin",
+        "aliases": [
+          "tamarin"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Ethiopian wolf",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Przewalski's horse",
+        "aliases": [
+          "przewalskis horse",
+          "przewalski horse"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Capercaillie",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Sawfish",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-19",
+    "topic": "animals-nature",
+    "prompt": "Name a fungus",
+    "answers": [
+      {
+        "answer": "Mushroom",
+        "aliases": [
+          "button mushroom",
+          "white mushroom",
+          "mushrooms",
+          "champignon"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Yeast",
+        "aliases": [
+          "baker's yeast",
+          "brewer's yeast",
+          "saccharomyces"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Mould",
+        "aliases": [
+          "mold",
+          "black mould",
+          "moulds",
+          "molds",
+          "bread mould",
+          "bread mold"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Fly agaric",
+        "aliases": [
+          "amanita muscaria",
+          "toadstool",
+          "toadstools"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Penicillium",
+        "aliases": [
+          "penicillin"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Truffle",
+        "aliases": [
+          "black truffle",
+          "white truffle",
+          "truffles"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Shiitake",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Portobello",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Oyster mushroom",
+        "aliases": [
+          "oyster mushrooms",
+          "king oyster mushroom"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Magic mushroom",
+        "aliases": [
+          "psilocybe",
+          "psilocybin mushroom"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Athlete's foot fungus",
+        "aliases": [
+          "athletes foot",
+          "ringworm"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mildew",
+        "aliases": [
+          "powdery mildew"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Death cap",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Porcini",
+        "aliases": [
+          "cep",
+          "boletus",
+          "bolete",
+          "penny bun"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Chanterelle",
+        "aliases": [
+          "chanterelles",
+          "girolle"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Morel",
+        "aliases": [
+          "morels"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Puffball",
+        "aliases": [
+          "giant puffball"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Honey fungus",
+        "aliases": [
+          "armillaria"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cordyceps",
+        "aliases": [
+          "ophiocordyceps",
+          "zombie ant fungus",
+          "zombie fungus"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Candida",
+        "aliases": [
+          "thrush",
+          "yeast infection"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Field mushroom",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Lichen",
+        "aliases": [
+          "lichens"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Enoki",
+        "aliases": [
+          "enokitake",
+          "enoki mushroom",
+          "velvet shank"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lion's mane",
+        "aliases": [
+          "lions mane",
+          "lions mane mushroom",
+          "hericium"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bracket fungus",
+        "aliases": [
+          "shelf fungus",
+          "polypore",
+          "bracket fungi"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Chestnut mushroom",
+        "aliases": [
+          "cremini",
+          "crimini",
+          "baby bella",
+          "brown mushroom"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Destroying angel",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Turkey tail",
+        "aliases": [
+          "turkeytail"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Chicken of the woods",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Stinkhorn",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Shaggy ink cap",
+        "aliases": [
+          "lawyer's wig",
+          "shaggy mane",
+          "ink cap",
+          "inkcap",
+          "common ink cap"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dry rot",
+        "aliases": [
+          "serpula"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ergot",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Liberty cap",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Reishi",
+        "aliases": [
+          "reishi mushroom",
+          "lingzhi"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Maitake",
+        "aliases": [
+          "hen of the woods"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Wood ear",
+        "aliases": [
+          "jelly ear",
+          "jews ear",
+          "auricularia",
+          "wood ear mushroom"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Parasol mushroom",
+        "aliases": [
+          "parasol"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dutch elm disease",
+        "aliases": [
+          "dutch elm"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ash dieback",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Aspergillus",
+        "aliases": [
+          "aspergillosis"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Chytrid",
+        "aliases": [
+          "chytrid fungus",
+          "chytridiomycosis"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rust",
+        "aliases": [
+          "rust fungus",
+          "wheat rust"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Witch's butter",
+        "aliases": [
+          "witches butter"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Beefsteak fungus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Cauliflower fungus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Corn smut",
+        "aliases": [
+          "huitlacoche"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Dead man's fingers",
+        "aliases": [
+          "dead mans fingers"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Matsutake",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Birch polypore",
+        "aliases": [
+          "razor strop fungus",
+          "razorstrop"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Hoof fungus",
+        "aliases": [
+          "tinder fungus",
+          "tinder conk"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Panther cap",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Deadly webcap",
+        "aliases": [
+          "webcap"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bleeding tooth fungus",
+        "aliases": [
+          "devils tooth",
+          "bleeding tooth"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Hedgehog mushroom",
+        "aliases": [
+          "hedgehog fungus"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Amethyst deceiver",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Dandruff fungus",
+        "aliases": [
+          "malassezia",
+          "dandruff"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-20",
+    "topic": "animals-nature",
+    "prompt": "Name an animal that mates for life",
+    "answers": [
+      {
+        "answer": "Swan",
+        "aliases": [
+          "mute swan",
+          "swans",
+          "whooper swan",
+          "bewicks swan"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Wolf",
+        "aliases": [
+          "grey wolf",
+          "wolves"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Penguin",
+        "aliases": [
+          "penguins",
+          "emperor penguin",
+          "emperor penguins"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Albatross",
+        "aliases": [
+          "wandering albatross",
+          "albatrosses"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bald eagle",
+        "aliases": [
+          "eagle",
+          "eagles",
+          "bald eagles"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Goose",
+        "aliases": [
+          "canada goose",
+          "greylag goose",
+          "geese",
+          "barnacle goose",
+          "snow goose"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dove",
+        "aliases": [
+          "doves",
+          "turtle dove",
+          "turtle doves"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Human",
+        "aliases": [
+          "humans",
+          "people"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Barn owl",
+        "aliases": [
+          "owl",
+          "owls"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Beaver",
+        "aliases": [
+          "beavers"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Gibbon",
+        "aliases": [
+          "gibbons"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Macaw",
+        "aliases": [
+          "scarlet macaw",
+          "macaws"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lovebird",
+        "aliases": [
+          "lovebirds",
+          "love bird",
+          "love birds"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Puffin",
+        "aliases": [
+          "puffins",
+          "atlantic puffin"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Seahorse",
+        "aliases": [
+          "sea horse"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Parrot",
+        "aliases": [
+          "parrots",
+          "african grey"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Golden eagle",
+        "aliases": [
+          "golden eagles"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Crane",
+        "aliases": [
+          "cranes",
+          "common crane",
+          "red crowned crane"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Stork",
+        "aliases": [
+          "storks",
+          "white stork"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Prairie vole",
+        "aliases": [
+          "vole",
+          "voles"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Coyote",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Sandhill crane",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Osprey",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Anglerfish",
+        "aliases": [
+          "deep sea anglerfish"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Termite",
+        "aliases": [
+          "termite king and queen"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Gentoo penguin",
+        "aliases": [
+          "gentoo"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Pigeon",
+        "aliases": [
+          "rock dove",
+          "pigeons",
+          "wood pigeon"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dik-dik",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Raven",
+        "aliases": [
+          "ravens"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Jackdaw",
+        "aliases": [
+          "jackdaws"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Magpie",
+        "aliases": [
+          "magpies"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Gannet",
+        "aliases": [
+          "gannets"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Fox",
+        "aliases": [
+          "red fox",
+          "foxes"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Jackal",
+        "aliases": [
+          "golden jackal",
+          "jackals"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Kiwi",
+        "aliases": [
+          "kiwi bird",
+          "kiwis"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tawny owl",
+        "aliases": [
+          "tawny owls"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Peregrine falcon",
+        "aliases": [
+          "peregrine",
+          "peregrines"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Black vulture",
+        "aliases": [
+          "vulture",
+          "vultures"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Magellanic penguin",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Shingleback skink",
+        "aliases": [
+          "sleepy lizard"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "French angelfish",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Owl monkey",
+        "aliases": [
+          "azara's owl monkey"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Titi monkey",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Schistosome",
+        "aliases": [
+          "blood fluke",
+          "schistosoma"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Whooping crane",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Condor",
+        "aliases": [
+          "california condor",
+          "condors"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Klipspringer",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Elephant shrew",
+        "aliases": [
+          "sengi"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Malagasy giant rat",
+        "aliases": [
+          "malagasy giant jumping rat",
+          "giant jumping rat"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Butterflyfish",
+        "aliases": [
+          "butterfly fish"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Oystercatcher",
+        "aliases": [
+          "oyster catcher"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-21",
+    "topic": "animals-nature",
+    "prompt": "Name a nocturnal animal",
+    "answers": [
+      {
+        "answer": "Owl",
+        "aliases": [
+          "coruja",
+          "barn owl",
+          "owls",
+          "tawny owl"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Bat",
+        "aliases": [
+          "morcego",
+          "bats"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Fox",
+        "aliases": [
+          "raposa",
+          "red fox",
+          "foxes"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Hedgehog",
+        "aliases": [
+          "ourico",
+          "ourico cacheiro",
+          "hedgehogs"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Badger",
+        "aliases": [
+          "texugo",
+          "badgers"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Raccoon",
+        "aliases": [
+          "racoon",
+          "guaxinim",
+          "raccoons"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Moth",
+        "aliases": [
+          "mariposa",
+          "moths"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mouse",
+        "aliases": [
+          "rato",
+          "house mouse",
+          "mice",
+          "field mouse"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Rat",
+        "aliases": [
+          "ratazana",
+          "brown rat",
+          "rats"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Possum",
+        "aliases": [
+          "opossum",
+          "gamba",
+          "possums",
+          "opossums"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hyena",
+        "aliases": [
+          "hiena",
+          "spotted hyena"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cockroach",
+        "aliases": [
+          "barata",
+          "roach"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tasmanian devil",
+        "aliases": [
+          "diabo da tasmania"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cat",
+        "aliases": [
+          "cats",
+          "domestic cat"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hamster",
+        "aliases": [
+          "hamsters",
+          "syrian hamster"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Wombat",
+        "aliases": [
+          "wombats"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Skunk",
+        "aliases": [
+          "doninha fedorenta",
+          "skunks"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Porcupine",
+        "aliases": [
+          "porco espinho",
+          "porcupines"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Armadillo",
+        "aliases": [
+          "tatu",
+          "nine banded armadillo",
+          "armadillos"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kiwi",
+        "aliases": [
+          "kiwi bird"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Leopard",
+        "aliases": [
+          "leopardo"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Firefly",
+        "aliases": [
+          "vagalume",
+          "lightning bug"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Aardvark",
+        "aliases": [
+          "porco formigueiro",
+          "aardvarks"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pangolin",
+        "aliases": [
+          "pangolim"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Wolf",
+        "aliases": [
+          "wolves",
+          "grey wolf"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lion",
+        "aliases": [
+          "lions"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Tiger",
+        "aliases": [
+          "tigers"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Gecko",
+        "aliases": [
+          "geckos",
+          "leopard gecko"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Toad",
+        "aliases": [
+          "toads",
+          "common toad"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Scorpion",
+        "aliases": [
+          "scorpions"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Spider",
+        "aliases": [
+          "spiders",
+          "house spider"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Slug",
+        "aliases": [
+          "slugs"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Koala",
+        "aliases": [
+          "koalas",
+          "koala bear"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hippo",
+        "aliases": [
+          "hippos",
+          "hippopotamus"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cricket",
+        "aliases": [
+          "crickets"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Tarsier",
+        "aliases": [
+          "tarsio"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bushbaby",
+        "aliases": [
+          "galago",
+          "bush baby",
+          "bushbabies",
+          "galagos"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Slow loris",
+        "aliases": [
+          "loris",
+          "slow lorises"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Nightjar",
+        "aliases": [
+          "noitibo"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Fennec fox",
+        "aliases": [
+          "fennec",
+          "raposa do deserto",
+          "fennec foxes"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Aye-aye",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Vampire bat",
+        "aliases": [
+          "morcego vampiro"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Jaguar",
+        "aliases": [
+          "jaguars"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Glow-worm",
+        "aliases": [
+          "glowworm",
+          "glow worms"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Earthworm",
+        "aliases": [
+          "earthworms",
+          "worm",
+          "worms"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dormouse",
+        "aliases": [
+          "dormice",
+          "hazel dormouse"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Otter",
+        "aliases": [
+          "otters",
+          "river otter"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Pine marten",
+        "aliases": [
+          "pine martens",
+          "marten"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sloth",
+        "aliases": [
+          "sloths",
+          "two toed sloth"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Red panda",
+        "aliases": [
+          "red pandas"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sugar glider",
+        "aliases": [
+          "sugar gliders"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Flying squirrel",
+        "aliases": [
+          "flying squirrels"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tarantula",
+        "aliases": [
+          "tarantulas"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Beaver",
+        "aliases": [
+          "beavers"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Kakapo",
+        "aliases": [
+          "owl parrot"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kinkajou",
+        "aliases": [
+          "honey bear",
+          "kinkajous"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Genet",
+        "aliases": [
+          "geneta",
+          "common genet"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Owl monkey",
+        "aliases": [
+          "night monkey",
+          "douroucouli"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Colugo",
+        "aliases": [
+          "flying lemur"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Night heron",
+        "aliases": [
+          "black crowned night heron"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Frogmouth",
+        "aliases": [
+          "tawny frogmouth"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bilby",
+        "aliases": [
+          "greater bilby"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kangaroo rat",
+        "aliases": [
+          "kangaroo rats"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Civet",
+        "aliases": [
+          "civets",
+          "civet cat"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-22",
+    "topic": "animals-nature",
+    "prompt": "Name a sea mammal",
+    "answers": [
+      {
+        "answer": "Dolphin",
+        "aliases": [
+          "golfinho",
+          "dolphins",
+          "common dolphin",
+          "spinner dolphin"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Whale",
+        "aliases": [
+          "baleia",
+          "whales"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Seal",
+        "aliases": [
+          "foca",
+          "seals",
+          "seal pup",
+          "pinniped"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Orca",
+        "aliases": [
+          "killer whale",
+          "baleia assassina"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Blue whale",
+        "aliases": [
+          "baleia azul"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Humpback whale",
+        "aliases": [
+          "humpback",
+          "baleia corcunda"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sea lion",
+        "aliases": [
+          "leao marinho",
+          "sea lions",
+          "california sea lion",
+          "steller sea lion",
+          "galapagos sea lion"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Walrus",
+        "aliases": [
+          "morsa",
+          "walruses"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sperm whale",
+        "aliases": [
+          "cachalote"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Narwhal",
+        "aliases": [
+          "narval",
+          "narwhals",
+          "narwhale"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Manatee",
+        "aliases": [
+          "sea cow",
+          "peixe boi",
+          "manatees",
+          "west indian manatee",
+          "florida manatee"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sea otter",
+        "aliases": [
+          "otter",
+          "lontra marinha",
+          "sea otters",
+          "otters"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Beluga",
+        "aliases": [
+          "beluga whale",
+          "white whale",
+          "belugas"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Porpoise",
+        "aliases": [
+          "harbour porpoise",
+          "toninha",
+          "porpoises",
+          "harbor porpoise",
+          "dalls porpoise",
+          "finless porpoise"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dugong",
+        "aliases": [
+          "dugongo",
+          "dugongs"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Elephant seal",
+        "aliases": [
+          "sea elephant",
+          "elefante marinho",
+          "elephant seals",
+          "northern elephant seal",
+          "southern elephant seal"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Polar bear",
+        "aliases": [
+          "urso polar"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bottlenose dolphin",
+        "aliases": [
+          "bottlenose",
+          "roaz corvineiro"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Grey whale",
+        "aliases": [
+          "gray whale"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Minke whale",
+        "aliases": [
+          "minke"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Harbour seal",
+        "aliases": [
+          "common seal",
+          "harbor seal"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Grey seal",
+        "aliases": [
+          "gray seal",
+          "atlantic grey seal"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Leopard seal",
+        "aliases": [
+          "foca leopardo"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Fin whale",
+        "aliases": [
+          "baleia comum"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Pilot whale",
+        "aliases": [
+          "baleia piloto",
+          "long finned pilot whale",
+          "pilot whales"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Monk seal",
+        "aliases": [
+          "lobo marinho",
+          "mediterranean monk seal",
+          "hawaiian monk seal"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Right whale",
+        "aliases": [
+          "baleia franca",
+          "north atlantic right whale",
+          "southern right whale"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bowhead whale",
+        "aliases": [
+          "bowhead"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Fur seal",
+        "aliases": [
+          "urso marinho",
+          "fur seals",
+          "antarctic fur seal"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Harp seal",
+        "aliases": [
+          "harp seals"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ringed seal",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Weddell seal",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Vaquita",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Hooded seal",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Ribbon seal",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Sei whale",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Beaked whale",
+        "aliases": [
+          "cuvier beaked whale",
+          "cuviers beaked whale",
+          "sowerbys beaked whale"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Crabeater seal",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Bearded seal",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Ross seal",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Risso's dolphin",
+        "aliases": [
+          "rissos dolphin"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Hector's dolphin",
+        "aliases": [
+          "hectors dolphin",
+          "maui dolphin"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Irrawaddy dolphin",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "False killer whale",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Pygmy sperm whale",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Bottlenose whale",
+        "aliases": [
+          "northern bottlenose whale"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bryde's whale",
+        "aliases": [
+          "brydes whale"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Steller's sea cow",
+        "aliases": [
+          "stellers sea cow"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Marine otter",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-23",
+    "topic": "animals-nature",
+    "prompt": "Name an animal from Australia",
+    "answers": [
+      {
+        "answer": "Kangaroo",
+        "aliases": [
+          "canguru",
+          "roo",
+          "kangaroos",
+          "red kangaroo",
+          "grey kangaroo"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Koala",
+        "aliases": [
+          "coala",
+          "koala bear",
+          "koalas"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Wombat",
+        "aliases": [
+          "vombate",
+          "wombats"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Platypus",
+        "aliases": [
+          "ornitorrinco",
+          "duck billed platypus",
+          "platypuses"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Emu",
+        "aliases": [
+          "emus"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Dingo",
+        "aliases": [
+          "wild dog",
+          "dingoes",
+          "dingos"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Kookaburra",
+        "aliases": [
+          "laughing kookaburra",
+          "kookaburras"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tasmanian devil",
+        "aliases": [
+          "diabo da tasmania",
+          "taz"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Echidna",
+        "aliases": [
+          "spiny anteater",
+          "equidna"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Wallaby",
+        "aliases": [
+          "walabi",
+          "wallabies"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Quokka",
+        "aliases": [
+          "quokkas"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cassowary",
+        "aliases": [
+          "casuar",
+          "southern cassowary"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Saltwater crocodile",
+        "aliases": [
+          "saltie",
+          "salt water croc",
+          "crocodile",
+          "croc",
+          "freshwater crocodile",
+          "crocodiles",
+          "salt water crocodile"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cockatoo",
+        "aliases": [
+          "catatua",
+          "sulphur crested cockatoo",
+          "cockatoos"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Budgie",
+        "aliases": [
+          "budgerigar",
+          "budgies",
+          "budgerigars"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Possum",
+        "aliases": [
+          "brushtail possum",
+          "possums",
+          "ringtail possum"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sugar glider",
+        "aliases": [
+          "sugar gliders"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Funnel-web spider",
+        "aliases": [
+          "funnel web",
+          "sydney funnel web spider"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Redback spider",
+        "aliases": [
+          "redback"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Box jellyfish",
+        "aliases": [
+          "sea wasp",
+          "jellyfish",
+          "irukandji"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Thylacine",
+        "aliases": [
+          "tasmanian tiger",
+          "tigre da tasmania"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Black swan",
+        "aliases": [
+          "cisne negro"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Huntsman spider",
+        "aliases": [
+          "huntsman",
+          "huntsman spiders"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Eastern brown snake",
+        "aliases": [
+          "brown snake",
+          "brown snakes"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Shark",
+        "aliases": [
+          "great white shark",
+          "great white",
+          "bull shark",
+          "sharks"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bearded dragon",
+        "aliases": [
+          "beardie"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Magpie",
+        "aliases": [
+          "australian magpie",
+          "magpies"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cockatiel",
+        "aliases": [
+          "cockatiels"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Flying fox",
+        "aliases": [
+          "fruit bat",
+          "flying foxes"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cane toad",
+        "aliases": [
+          "cane toads"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Numbat",
+        "aliases": [
+          "banded anteater"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bilby",
+        "aliases": [
+          "greater bilby",
+          "bilbies"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Quoll",
+        "aliases": [
+          "native cat",
+          "quolls"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Thorny devil",
+        "aliases": [
+          "thorny dragon",
+          "moloch",
+          "thorny devils"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lyrebird",
+        "aliases": [
+          "superb lyrebird"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Frilled-neck lizard",
+        "aliases": [
+          "frilled lizard",
+          "frill necked lizard",
+          "frillneck lizard",
+          "frilled neck"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Blue-ringed octopus",
+        "aliases": [
+          "blue ring octopus"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Inland taipan",
+        "aliases": [
+          "taipan"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Stingray",
+        "aliases": [
+          "sting ray",
+          "stingrays"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Blue-tongued lizard",
+        "aliases": [
+          "blue tongue lizard",
+          "blue tongue skink",
+          "blue tongue",
+          "blue tongued skink"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Goanna",
+        "aliases": [
+          "perentie",
+          "monitor lizard",
+          "goannas"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Galah",
+        "aliases": [
+          "galahs"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rainbow lorikeet",
+        "aliases": [
+          "lorikeet",
+          "lorikeets"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Fairy penguin",
+        "aliases": [
+          "little penguin",
+          "fairy penguins",
+          "little penguins"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bandicoot",
+        "aliases": [
+          "bandicoots"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dugong",
+        "aliases": [
+          "dugongs"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Barramundi",
+        "aliases": [
+          "barra"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Stonefish",
+        "aliases": [
+          "stone fish"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bettong",
+        "aliases": [
+          "rat kangaroo"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Potoroo",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Dunnart",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Yabby",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Bogong moth",
+        "aliases": [
+          "bogong"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bowerbird",
+        "aliases": [
+          "satin bowerbird",
+          "bower bird"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Tawny frogmouth",
+        "aliases": [
+          "frogmouth"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Wedge-tailed eagle",
+        "aliases": [
+          "wedge tail eagle",
+          "wedgie"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Tree kangaroo",
+        "aliases": [
+          "tree kangaroos"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Antechinus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Leafy sea dragon",
+        "aliases": [
+          "sea dragon",
+          "weedy sea dragon",
+          "leafy seadragon"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Wobbegong",
+        "aliases": [
+          "wobbegong shark"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-24",
+    "topic": "animals-nature",
+    "prompt": "Name an insect",
+    "answers": [
+      {
+        "answer": "Ant",
+        "aliases": [
+          "formiga",
+          "ants",
+          "fire ant",
+          "red ant",
+          "black ant"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Bee",
+        "aliases": [
+          "abelha",
+          "honeybee",
+          "bees",
+          "honey bee"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Butterfly",
+        "aliases": [
+          "borboleta",
+          "butterflies",
+          "red admiral",
+          "cabbage white",
+          "monarch butterfly"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Ladybird",
+        "aliases": [
+          "ladybug",
+          "joaninha"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Wasp",
+        "aliases": [
+          "vespa",
+          "wasps",
+          "yellow jacket"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Beetle",
+        "aliases": [
+          "besouro",
+          "beetles"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Fly",
+        "aliases": [
+          "housefly",
+          "mosca",
+          "flies",
+          "house fly"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Mosquito",
+        "aliases": [
+          "melga",
+          "pernilongo",
+          "mosquitoes",
+          "mosquitos"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Dragonfly",
+        "aliases": [
+          "libelula",
+          "dragonflies"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Grasshopper",
+        "aliases": [
+          "gafanhoto",
+          "grasshoppers"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Moth",
+        "aliases": [
+          "mariposa",
+          "traca",
+          "moths",
+          "hawk moth",
+          "hawkmoth"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cockroach",
+        "aliases": [
+          "barata",
+          "roach"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cricket",
+        "aliases": [
+          "grilo",
+          "crickets"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Termite",
+        "aliases": [
+          "termita",
+          "white ant",
+          "termites"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bumblebee",
+        "aliases": [
+          "bumble bee",
+          "abelhao"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Flea",
+        "aliases": [
+          "pulga",
+          "fleas"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Caterpillar",
+        "aliases": [
+          "lagarta",
+          "caterpillars"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Praying mantis",
+        "aliases": [
+          "mantis",
+          "louva a deus",
+          "mantises"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Stick insect",
+        "aliases": [
+          "walking stick",
+          "bicho pau",
+          "stick insects"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cicada",
+        "aliases": [
+          "cigarra",
+          "cicadas"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Aphid",
+        "aliases": [
+          "greenfly",
+          "afideo",
+          "aphids",
+          "blackfly"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Earwig",
+        "aliases": [
+          "bicha cadela",
+          "earwigs"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Firefly",
+        "aliases": [
+          "vagalume",
+          "lightning bug"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bed bug",
+        "aliases": [
+          "bedbug",
+          "percevejo"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Locust",
+        "aliases": [
+          "desert locust"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hornet",
+        "aliases": [
+          "vespao",
+          "hornets",
+          "asian hornet"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Fruit fly",
+        "aliases": [
+          "drosophila",
+          "fruit flies"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Horsefly",
+        "aliases": [
+          "horse fly",
+          "horseflies"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bluebottle",
+        "aliases": [
+          "blue bottle",
+          "blowfly",
+          "blow fly"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Midge",
+        "aliases": [
+          "midges",
+          "biting midge"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Gnat",
+        "aliases": [
+          "gnats"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mayfly",
+        "aliases": [
+          "may fly",
+          "mayflies"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dung beetle",
+        "aliases": [
+          "dung beetles"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Stag beetle",
+        "aliases": [
+          "stag beetles"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Maggot",
+        "aliases": [
+          "maggots"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Silverfish",
+        "aliases": [
+          "peixinho de prata"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lacewing",
+        "aliases": [
+          "green lacewing"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Head louse",
+        "aliases": [
+          "louse",
+          "piolho",
+          "lice",
+          "head lice"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Crane fly",
+        "aliases": [
+          "daddy long legs",
+          "tipula"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Weevil",
+        "aliases": [
+          "gorgulho",
+          "weevils"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tsetse fly",
+        "aliases": [
+          "tsetse"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Damselfly",
+        "aliases": [
+          "damsel fly",
+          "damselflies"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Water boatman",
+        "aliases": [
+          "water boatmen",
+          "backswimmer"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Pond skater",
+        "aliases": [
+          "water strider",
+          "pond skaters"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Scarab",
+        "aliases": [
+          "scarab beetle"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rhinoceros beetle",
+        "aliases": [
+          "rhino beetle"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cockchafer",
+        "aliases": [
+          "may bug",
+          "maybug"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Glow-worm",
+        "aliases": [
+          "glowworm",
+          "glow worms"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Shield bug",
+        "aliases": [
+          "stink bug",
+          "shieldbug"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Whitefly",
+        "aliases": [
+          "white fly"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Leaf insect",
+        "aliases": [
+          "leaf insects"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Silkworm",
+        "aliases": [
+          "silk moth",
+          "silkmoth"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Thrips",
+        "aliases": [
+          "thunderfly"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Antlion",
+        "aliases": [
+          "ant lion",
+          "formiga leao"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Caddisfly",
+        "aliases": [
+          "caddis fly"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bombardier beetle",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Hercules beetle",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Goliath beetle",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Deathwatch beetle",
+        "aliases": [
+          "death watch beetle"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Cochineal",
+        "aliases": [
+          "cochineal beetle",
+          "cochineal insect"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Katydid",
+        "aliases": [
+          "bush cricket",
+          "katydids"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "animals-nature-25",
+    "topic": "animals-nature",
+    "prompt": "Name a flower",
+    "answers": [
+      {
+        "answer": "Rose",
+        "aliases": [
+          "rosa",
+          "roses"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Tulip",
+        "aliases": [
+          "tulipa",
+          "tulips"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Sunflower",
+        "aliases": [
+          "girassol",
+          "sunflowers"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Daisy",
+        "aliases": [
+          "margarida",
+          "daisies",
+          "ox eye daisy"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Daffodil",
+        "aliases": [
+          "narcissus",
+          "narciso",
+          "daffodils"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Lily",
+        "aliases": [
+          "lirio",
+          "lilies",
+          "tiger lily",
+          "stargazer lily"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Orchid",
+        "aliases": [
+          "orquidea",
+          "orchids"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Carnation",
+        "aliases": [
+          "cravo",
+          "carnations"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Poppy",
+        "aliases": [
+          "papoila",
+          "poppies"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Lavender",
+        "aliases": [
+          "lavanda",
+          "alfazema"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bluebell",
+        "aliases": [
+          "blue bell",
+          "bluebells"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Peony",
+        "aliases": [
+          "peonia",
+          "peonies"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Iris",
+        "aliases": [
+          "irises"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Chrysanthemum",
+        "aliases": [
+          "crisantemo",
+          "mum",
+          "chrysanthemums",
+          "mums"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Violet",
+        "aliases": [
+          "violeta",
+          "violets"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dandelion",
+        "aliases": [
+          "dente de leao",
+          "dandelions"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hydrangea",
+        "aliases": [
+          "hortensia",
+          "hydrangeas"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Jasmine",
+        "aliases": [
+          "jasmim"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Marigold",
+        "aliases": [
+          "calendula",
+          "marigolds"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Snowdrop",
+        "aliases": [
+          "galanthus",
+          "snowdrops"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dahlia",
+        "aliases": [
+          "dalia",
+          "dahlias"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Magnolia",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Lotus",
+        "aliases": [
+          "lotus flower",
+          "flor de lotus"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cherry blossom",
+        "aliases": [
+          "sakura"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pansy",
+        "aliases": [
+          "amor perfeito",
+          "pansies",
+          "viola"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Buttercup",
+        "aliases": [
+          "ranunculus",
+          "buttercups"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Primrose",
+        "aliases": [
+          "primroses",
+          "primula"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Crocus",
+        "aliases": [
+          "crocuses"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hyacinth",
+        "aliases": [
+          "hyacinths"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Geranium",
+        "aliases": [
+          "geraniums",
+          "pelargonium"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Petunia",
+        "aliases": [
+          "petunias"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Fuchsia",
+        "aliases": [
+          "fuchsias",
+          "fuschia"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Honeysuckle",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Cornflower",
+        "aliases": [
+          "cornflowers"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Rhododendron",
+        "aliases": [
+          "rhododendrons"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lilac",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Heather",
+        "aliases": [
+          "ling"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Thistle",
+        "aliases": [
+          "thistles",
+          "scottish thistle"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Snapdragon",
+        "aliases": [
+          "antirrhinum",
+          "snapdragons"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hibiscus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Water lily",
+        "aliases": [
+          "waterlily",
+          "lily pad",
+          "water lilies"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Foxglove",
+        "aliases": [
+          "digitalis",
+          "foxgloves"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Camellia",
+        "aliases": [
+          "camelia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Wisteria",
+        "aliases": [
+          "glicinia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Forget-me-not",
+        "aliases": [
+          "myosotis",
+          "forget me nots"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lily of the valley",
+        "aliases": [
+          "convallaria"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bird of paradise",
+        "aliases": [
+          "strelitzia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Anemone",
+        "aliases": [
+          "anemones"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Gladiolus",
+        "aliases": [
+          "gladioli",
+          "gladiolas"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Azalea",
+        "aliases": [
+          "azaleas"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Gorse",
+        "aliases": [
+          "furze"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lupin",
+        "aliases": [
+          "lupine",
+          "lupins"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Passion flower",
+        "aliases": [
+          "passionflower",
+          "passiflora"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Poinsettia",
+        "aliases": [
+          "poinsettias"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rafflesia",
+        "aliases": [
+          "corpse flower"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Edelweiss",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Protea",
+        "aliases": [
+          "king protea"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Cowslip",
+        "aliases": [
+          "cowslips"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bougainvillea",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Frangipani",
+        "aliases": [
+          "plumeria"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Titan arum",
+        "aliases": [
+          "amorphophallus",
+          "corpse lily"
+        ],
+        "tier": 100
+      }
+    ]
+  }
+]

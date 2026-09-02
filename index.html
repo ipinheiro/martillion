@@ -3,25 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
   <title>Martillion</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="icon" id="favicon" href="data:,">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <noscript><p class="noscript">Martillion needs JavaScript. Enable it and reload.</p></noscript>
   <main id="app">
     <section id="screen-title" class="screen">
-      <p class="kicker">The unlimited daily trivia game</p>
-      <h1>Martillion</h1>
-      <p class="tagline">Rare answers of the world, unite!</p>
-      <dl class="stats">
+      <p class="kicker area-kicker"><span class="sigil"></span>The unlimited daily trivia game</p>
+      <h1 class="area-title">Martillion</h1>
+      <p class="tagline area-tagline">Rare answers of the world, unite!</p>
+      <div class="hero-row area-hero"><div id="title-hero" class="hero"></div><div id="title-star" class="star"></div></div>
+      <dl class="stats area-stats">
         <div><dt>Best uprising</dt><dd id="best-score">0</dd></div>
         <div><dt>Five-year plans</dt><dd id="plans-completed">0</dd></div>
       </dl>
-      <div class="plan-progress"><div id="plan-bar"></div></div>
-      <p id="plan-label" class="plan-label"></p>
-      <button id="start-button" class="primary" disabled>Start the uprising</button>
+      <div id="plan-progress" class="plan-progress area-plan" role="progressbar" aria-label="Progress toward the next five-year plan" aria-valuemin="0" aria-valuemax="2000" aria-valuenow="0"><div id="plan-bar" class="plan-bar"></div></div>
+      <p id="plan-label" class="plan-label area-plan-label"></p>
+      <button type="button" id="start-button" class="primary area-action" disabled>Start the uprising</button>
     </section>
 
     <section id="screen-round" class="screen" hidden>
@@ -29,42 +30,47 @@
         <span id="round-topic"></span>
         <span id="round-count"></span>
       </header>
-      <div class="timer"><div id="timer-bar"></div></div>
-      <h2 id="round-prompt"></h2>
+      <div id="timer" class="timer" role="progressbar" aria-label="Time remaining" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><div id="timer-bar"></div></div>
+      <h2 id="round-prompt" class="prompt"></h2>
       <form id="answer-form">
-        <input id="answer-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Type your answer, comrade" aria-label="Your answer">
+        <input id="answer-input" type="text" maxlength="120" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Type your answer, comrade" aria-label="Your answer">
         <button type="submit" class="primary">Submit</button>
       </form>
+      <p id="round-feedback" class="round-feedback" aria-live="polite"></p>
+      <p class="hint"><span class="sigil"></span>30 seconds per question. Enter submits.</p>
     </section>
 
     <section id="screen-reveal" class="screen" hidden>
-      <p id="reveal-emoji" class="reveal-emoji"></p>
-      <h2 id="reveal-tier"></h2>
-      <p id="reveal-points" class="reveal-points"></p>
-      <p id="reveal-detail"></p>
-      <button id="next-button" class="primary">Onward</button>
+      <header class="round-header area-kicker">
+        <span id="reveal-topic"></span>
+        <span id="reveal-count"></span>
+      </header>
+      <div class="reaction-row area-hero"><div id="reveal-sprite" class="reaction"></div><div id="reveal-star" class="star" hidden></div></div>
+      <div class="tier-row area-title"><h2 id="reveal-tier"></h2><p id="reveal-points" class="slab"></p></div>
+      <p id="reveal-detail" class="detail rule-top area-detail"></p>
+      <button type="button" id="next-button" class="primary area-action">Onward</button>
     </section>
 
     <section id="screen-results" class="screen" hidden>
-      <p class="kicker">The uprising is over</p>
-      <h2 id="results-score"></h2>
-      <h3 id="results-stage"></h3>
-      <p id="results-flavour"></p>
-      <ol id="results-rounds"></ol>
-      <p id="results-records"></p>
-      <p id="results-plan"></p>
-      <div class="results-actions">
-        <button id="share-button" class="primary">Share the struggle</button>
-        <button id="again-button">Rise again</button>
+      <p class="kicker area-kicker"><span class="sigil"></span>The uprising is over</p>
+      <div class="tier-row area-title"><h2 id="results-score"></h2><p id="results-stage" class="slab"></p></div>
+      <p id="results-flavour" class="detail area-detail"></p>
+      <ol id="results-rounds" class="rounds area-list"></ol>
+      <p id="results-records" class="detail area-records"></p>
+      <div id="results-progress" class="plan-progress area-plan" role="progressbar" aria-label="Progress toward the next five-year plan" aria-valuemin="0" aria-valuemax="2000" aria-valuenow="0"><div id="results-bar" class="plan-bar"></div></div>
+      <p id="results-plan" class="plan-label area-plan-label"></p>
+      <div class="results-actions area-action">
+        <button type="button" id="share-button" class="primary">Share the struggle</button>
+        <button type="button" id="again-button">Rise again</button>
       </div>
     </section>
 
     <section id="screen-error" class="screen" hidden>
-      <h2>The questions failed to load</h2>
-      <p>The struggle continues. Check the connection and try again.</p>
-      <button id="retry-button" class="primary">Try again</button>
+      <h2>The struggle hit a snag</h2>
+      <p id="error-detail" class="detail"></p>
+      <button type="button" id="retry-button" class="primary">Try again</button>
     </section>
   </main>
-  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/bootstrap.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 # Martillion design
 
 Date: 2026-09-01
-Status: implemented (2026-09-01)
+Status: implemented (2026-09-01). Superseded in part by `2026-09-02-second-uprising-design.md` (scoring, matching, bank layout, tooling).
 
 ## Overview
 

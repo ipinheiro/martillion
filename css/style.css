@@ -1,16 +1,31 @@
-/* Martillion - constructivist poster, printed in two inks on aged cream. */
+/* Martillion - constructivist poster, printed in two inks on aged cream.
+   Layouts follow the Claude Design canvas of 2026-09-02 (docs/design/). */
+
+/* Oswald, self-hosted. One variable file covers the 500 and 700 weights. OFL licence in fonts/. */
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500 700;
+  font-display: swap;
+  src: url("fonts/oswald-variable.woff2") format("woff2");
+}
 
 :root {
-  --red: #C8102E;
-  --red-deep: #8F0A1E;
-  --ink: #1B1712;
-  --cream: #F3E9D2;
-  --cream-dim: #E4D5B5;
-  --star: #E8B923;
+  --red: #c8102e;
+  --red-deep: #8f0a1e;
+  --ink: #1b1712;
+  --cream: #f3e9d2;
+  --cream-dim: #e4d5b5;
+  --paper-white: #fffdf7;
+  --star: #e8b923;
+  --skin: #e9c9a0;
+  --grey: #8c8478;
+  --grey-light: #b9b1a2;
 
   --ink-70: rgba(27, 23, 18, 0.7);
   --ink-45: rgba(27, 23, 18, 0.45);
   --ink-18: rgba(27, 23, 18, 0.18);
+  --muted: #6b6152;
 
   --display: "Oswald", "Arial Narrow", sans-serif;
   --body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -19,6 +34,7 @@
   --offset: 0.25rem;
   --gutter: 1.25rem;
   --skew: -9deg;
+  --slab-skew: -8deg;
 }
 
 *,
@@ -52,22 +68,22 @@ body::before {
   z-index: 0;
   pointer-events: none;
   background-repeat: no-repeat;
-  background-position: 0 0, 0 0.6rem, 0 100%, 0 0, 0 0;
-  background-size: 100% 0.6rem, 100% 2px, 100% 6.5rem, 100% 100%, 100% 100%;
+  background-position:
+    0 0,
+    0 0.6rem,
+    0 100%,
+    0 0,
+    0 0;
+  background-size:
+    100% 0.6rem,
+    100% 2px,
+    100% 6.5rem,
+    100% 100%,
+    100% 100%;
   background-image:
-    linear-gradient(var(--red), var(--red)),
-    linear-gradient(var(--ink), var(--ink)),
-    repeating-linear-gradient(
-      64deg,
-      rgba(200, 16, 46, 0.22) 0 0.5rem,
-      transparent 0.5rem 1.7rem
-    ),
-    linear-gradient(
-      74deg,
-      transparent 0 52%,
-      rgba(200, 16, 46, 0.07) 52% 90%,
-      transparent 90% 100%
-    ),
+    linear-gradient(var(--red), var(--red)), linear-gradient(var(--ink), var(--ink)),
+    repeating-linear-gradient(64deg, rgba(200, 16, 46, 0.22) 0 0.5rem, transparent 0.5rem 1.7rem),
+    linear-gradient(74deg, transparent 0 52%, rgba(200, 16, 46, 0.07) 52% 90%, transparent 90% 100%),
     radial-gradient(
       135% 105% at 18% 0%,
       rgba(243, 233, 210, 0.95) 0%,
@@ -104,7 +120,7 @@ body::after {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
+  gap: 1.25rem;
   min-height: 100svh;
   padding-block: 3rem 3.5rem;
 }
@@ -112,14 +128,16 @@ body::after {
 /* The results screen runs long - start it at the top so nothing is cut off. */
 #screen-results {
   justify-content: flex-start;
+  gap: 1rem;
 }
 
-[hidden] {
-  display: none !important;
+/* Outranks .screen's display: flex, so the hidden attribute keeps working on screens. */
+.screen[hidden] {
+  display: none;
 }
 
-/* A watermark star, printed faintly under the title. */
-#screen-title::after {
+/* A watermark star, printed faintly at the foot of every screen. */
+.screen::after {
   content: "\2605";
   position: absolute;
   right: -1rem;
@@ -133,6 +151,75 @@ body::after {
   transform: rotate(-14deg);
 }
 
+.noscript {
+  position: relative;
+  z-index: 2;
+  margin: 1rem var(--gutter);
+  padding: 0.75rem 1rem;
+  border: var(--rule);
+  background: var(--cream-dim);
+  font-family: var(--display);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Sprites --------------------------------------------------------------- */
+
+.sprite {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero-row,
+.reaction-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding-top: 0.5rem;
+}
+
+.hero {
+  width: clamp(9rem, 48vw, 12rem);
+}
+
+.reaction {
+  width: clamp(8rem, 40vw, 10rem);
+}
+
+.star {
+  width: 3rem;
+  margin-top: 1.5rem;
+}
+
+.reaction-row .star {
+  width: 2.5rem;
+  margin-top: 0;
+}
+
+.reaction .sprite {
+  transform-origin: 50% 80%;
+  animation: stamp 0.35s cubic-bezier(0.2, 0.9, 0.3, 1.2) both;
+}
+
+@keyframes stamp {
+  from {
+    opacity: 0;
+    transform: scale(1.5) rotate(-8deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.sigil .sprite {
+  width: 1rem;
+  height: 1rem;
+}
+
 /* Type ----------------------------------------------------------------- */
 
 h1,
@@ -141,8 +228,6 @@ h3 {
   margin: 0;
   font-family: var(--display);
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
   line-height: 1.02;
 }
 
@@ -150,65 +235,109 @@ p {
   margin: 0;
 }
 
-.kicker {
+.kicker,
+.hint {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   font-family: var(--display);
   font-weight: 500;
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.18em;
   color: var(--ink-70);
-  margin-bottom: 0.9rem;
 }
 
-.kicker::before {
-  content: "";
-  display: inline-block;
+/* The hammer and sickle before a kicker. Until a sprite lands in it, a red square. */
+.sigil {
+  flex: none;
+  width: 1rem;
+  height: 1rem;
+}
+
+.sigil:empty {
   width: 0.5rem;
   height: 0.5rem;
-  margin-right: 0.55rem;
   background: var(--red);
 }
 
 h1 {
   /* Sized so the word still fits the narrowest phone in the fallback face,
      while Oswald is still swapping in. */
-  font-size: clamp(2.5rem, 13vw, 4.75rem);
+  font-size: clamp(2.5rem, 13vw, 4.25rem);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   color: var(--red);
   /* Two-colour offset printing, slightly out of register. */
   text-shadow: 0.045em 0.045em 0 var(--ink);
 }
 
-/* The skewed slab: a strip of solid ink with the words set straight on it. */
+/* Skewed slabs: a strip of solid colour with the words set straight on it. */
 .tagline,
-#reveal-points,
-#results-stage {
-  --slab: var(--red);
+.slab {
   position: relative;
   z-index: 0;
   align-self: flex-start;
   max-width: 100%;
-  padding: 0.45rem 0.9rem 0.5rem;
   color: var(--cream);
 }
 
 .tagline::before,
-#reveal-points::before,
-#results-stage::before {
+.slab::before {
   content: "";
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: var(--slab);
+  background: var(--red);
   transform: skewX(var(--skew));
 }
 
 .tagline {
-  margin-top: 1rem;
+  margin-left: 0.375rem;
+  padding: 0.375rem 0.875rem;
   font-family: var(--display);
-  font-weight: 500;
-  font-size: 1rem;
+  font-weight: 700;
+  font-size: 1.125rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+}
+
+.slab {
+  padding: 0.25rem 0.75rem;
+  font-family: var(--display);
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.slab::before {
+  background: var(--ink);
+  transform: skewX(var(--slab-skew));
+}
+
+/* Tier name or score beside its slab. */
+.tier-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.875rem;
+}
+
+.tier-row h2 {
+  font-size: clamp(2.5rem, 12vw, 3rem);
+  color: var(--red);
+}
+
+.detail {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+.rule-top {
+  border-top: var(--rule);
+  padding-top: 0.875rem;
 }
 
 /* Title screen --------------------------------------------------------- */
@@ -216,46 +345,42 @@ h1 {
 .stats {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 2.25rem 0 1.75rem;
-  border-top: var(--rule);
-  border-bottom: var(--rule);
+  margin: 0;
+  border: var(--rule);
 }
 
 .stats > div {
-  padding: 0.85rem 0.5rem 0.9rem 0;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0.75rem 0.875rem;
 }
 
 .stats > div + div {
-  padding-left: 1rem;
-  border-left: 2px solid var(--ink-18);
+  border-left: var(--rule);
 }
 
 .stats dt {
-  font-family: var(--display);
-  font-weight: 500;
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--ink-70);
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
 }
 
 .stats dd {
-  margin: 0.15rem 0 0;
+  margin: 0;
   font-family: var(--display);
   font-weight: 700;
-  font-size: clamp(2rem, 9vw, 2.6rem);
+  font-size: 2rem;
   line-height: 1;
-  color: var(--red);
   font-variant-numeric: tabular-nums;
 }
 
 .plan-progress {
-  height: 0.6rem;
+  height: 0.625rem;
   border: var(--rule);
   background: var(--cream-dim);
 }
 
-#plan-bar {
+.plan-bar {
   width: 0;
   height: 100%;
   background: var(--red);
@@ -263,10 +388,9 @@ h1 {
 }
 
 .plan-label {
-  margin-top: 0.6rem;
-  font-size: 0.8rem;
+  margin-top: -0.875rem;
+  font-size: 0.75rem;
   letter-spacing: 0.02em;
-  color: var(--ink-70);
   font-variant-numeric: tabular-nums;
 }
 
@@ -277,204 +401,162 @@ h1 {
   justify-content: space-between;
   align-items: baseline;
   gap: 1rem;
-  padding-bottom: 0.55rem;
-  border-bottom: var(--rule);
-  font-family: var(--display);
-  font-weight: 500;
-  font-size: 0.78rem;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
+  font-weight: 700;
+  font-size: 0.875rem;
 }
 
-#round-topic {
+.round-header > :first-child {
   color: var(--red);
 }
 
-#round-count {
-  color: var(--ink-70);
+.round-header > :last-child {
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
 }
 
 .timer {
-  height: 0.85rem;
-  margin-top: 0.9rem;
+  height: 0.875rem;
   border: var(--rule);
-  /* A barber-pole track, so the drain reads even at a glance. */
-  background-image: repeating-linear-gradient(
-    45deg,
-    var(--cream-dim) 0 6px,
-    #DBCAA6 6px 12px
-  );
+  overflow: hidden;
+  background: var(--cream-dim);
 }
 
 #timer-bar {
   width: 100%;
   height: 100%;
-  background: var(--red);
+  /* A barber-pole fill, so the drain reads even at a glance. */
+  background: repeating-linear-gradient(-45deg, var(--red) 0 8px, var(--red-deep) 8px 16px);
   transition: width 0.1s linear;
 }
 
-#round-prompt {
-  margin: 2rem 0 1.75rem;
-  font-size: clamp(1.65rem, 7.5vw, 2.4rem);
-  line-height: 1.06;
+.prompt {
+  margin-top: 0.5rem;
+  font-size: clamp(2.25rem, 11vw, 2.75rem);
+  line-height: 1.05;
+  text-wrap: pretty;
 }
 
 #answer-form {
   display: grid;
-  gap: 0.9rem;
+  gap: 0.875rem;
+  margin-top: 0.5rem;
 }
 
 #answer-input {
   width: 100%;
   min-height: 3.25rem;
-  padding: 0.75rem 0.9rem;
+  padding: 1rem 0.875rem;
   appearance: none;
   border: var(--rule);
   border-radius: 0;
-  background: var(--cream-dim);
+  background: var(--paper-white);
   color: var(--ink);
   font-family: var(--body);
-  font-size: 1.125rem;
-  box-shadow: var(--offset) var(--offset) 0 var(--ink-18);
+  font-size: 1rem;
 }
 
 #answer-input::placeholder {
-  color: var(--ink-45);
+  color: #8a7f6e;
 }
 
 #answer-input:focus {
   outline: none;
   border-color: var(--red);
-  background: var(--cream);
   box-shadow: var(--offset) var(--offset) 0 var(--red);
+}
+
+/* Told when an answer is not recognised. Reserves its line so the form does not jump. */
+.round-feedback {
+  min-height: 1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--red);
+  overflow-wrap: break-word;
+}
+
+.hint {
+  margin-top: 0.5rem;
 }
 
 /* Reveal screen -------------------------------------------------------- */
 
-.reveal-emoji {
-  font-size: 3.5rem;
-  line-height: 1;
-  margin-bottom: 1rem;
-}
-
-#reveal-tier {
-  font-size: clamp(2.2rem, 11vw, 3.25rem);
-  color: var(--red);
-}
-
 #reveal-points {
-  --slab: var(--ink);
-  margin-top: 1rem;
-  font-family: var(--display);
-  font-weight: 700;
-  font-size: clamp(2rem, 10vw, 2.75rem);
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  font-variant-numeric: tabular-nums;
-}
-
-#reveal-detail {
-  margin-top: 1.5rem;
-  max-width: 26rem;
-  font-size: 1.05rem;
-  color: var(--ink-70);
+  font-size: 1.75rem;
 }
 
 /* Results screen ------------------------------------------------------- */
 
 #results-score {
-  margin: 0.25rem 0 1rem;
-  font-size: clamp(2.6rem, 13vw, 3.75rem);
-  color: var(--red);
+  font-size: clamp(2.75rem, 13vw, 3.5rem);
+  text-shadow: 0.055em 0.055em 0 var(--ink);
   font-variant-numeric: tabular-nums;
 }
 
 /* Seven perfect answers. Print the star. */
 .perfect #results-score::before {
   content: "\2605";
-  display: block;
-  margin-bottom: 0.5rem;
-  font-size: 1.5em;
-  line-height: 1;
+  display: inline-block;
+  margin-right: 0.3em;
   color: var(--star);
   text-shadow: 0.03em 0.03em 0 rgba(27, 23, 18, 0.55);
 }
 
 #results-stage {
-  font-size: clamp(1.5rem, 7vw, 2rem);
+  font-size: 1.375rem;
 }
 
-#results-flavour {
-  margin-top: 1.1rem;
-  max-width: 28rem;
-  font-size: 1.05rem;
-  color: var(--ink-70);
-}
-
-#results-rounds {
-  margin: 1.75rem 0 0;
+.rounds {
+  margin: 0;
   padding: 0;
   list-style: none;
   counter-reset: round;
   border-top: var(--rule);
 }
 
-#results-rounds li {
+.rounds li {
   counter-increment: round;
-  position: relative;
-  padding: 0.7rem 0 0.75rem 2.2rem;
-  border-bottom: 1px solid var(--ink-18);
-  font-size: 0.95rem;
-  line-height: 1.35;
+  display: grid;
+  grid-template-columns: 1.25rem 1.375rem minmax(0, 1fr) auto;
+  gap: 0.5rem;
+  align-items: baseline;
+  padding: 0.5625rem 0;
+  border-bottom: var(--rule);
+  font-size: 0.8125rem;
+  line-height: 1.4;
+}
+
+.rounds li::before {
+  content: counter(round);
+  color: var(--muted);
+}
+
+.round-emoji {
+  font-size: 0.9375rem;
+}
+
+.round-text {
   overflow-wrap: break-word;
 }
 
-#results-rounds li::before {
-  content: counter(round);
-  position: absolute;
-  left: 0;
-  top: 0.72rem;
-  font-family: var(--display);
+.round-points {
   font-weight: 700;
-  font-size: 1rem;
   color: var(--red);
-}
-
-#results-records {
-  margin-top: 1.25rem;
-  font-size: 0.9rem;
-  letter-spacing: 0.02em;
-  color: var(--ink-70);
-}
-
-#results-plan {
-  margin-top: 0.4rem;
-  font-size: 0.9rem;
-  letter-spacing: 0.02em;
-  color: var(--ink-70);
   font-variant-numeric: tabular-nums;
 }
 
 .results-actions {
   display: grid;
   gap: 0.75rem;
-  margin-top: 1.75rem;
+  margin-top: 0.5rem;
 }
 
 /* Error screen --------------------------------------------------------- */
 
 #screen-error h2 {
   font-size: clamp(2rem, 9vw, 2.75rem);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   color: var(--red);
-}
-
-#screen-error p {
-  margin-top: 1.25rem;
-  max-width: 26rem;
-  font-size: 1.05rem;
-  color: var(--ink-70);
 }
 
 /* Buttons -------------------------------------------------------------- */
@@ -482,7 +564,7 @@ h1 {
 button {
   width: 100%;
   min-height: 3.25rem;
-  padding: 0.85rem 1.25rem;
+  padding: 1rem 1.25rem;
   appearance: none;
   -webkit-tap-highlight-color: transparent;
   border: var(--rule);
@@ -491,18 +573,18 @@ button {
   color: var(--ink);
   font-family: var(--display);
   font-weight: 700;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  font-size: 1.375rem;
+  line-height: 1;
   cursor: pointer;
   /* The block sits proud of the page, the way a pressed plate does. */
   box-shadow: var(--offset) var(--offset) 0 var(--ink);
-  transition: transform 0.08s ease-out, box-shadow 0.08s ease-out;
+  transition:
+    transform 0.08s ease-out,
+    box-shadow 0.08s ease-out;
 }
 
 button.primary {
   background: var(--red);
-  border-color: var(--red-deep);
   color: var(--cream);
 }
 
@@ -511,10 +593,8 @@ button[disabled] {
   cursor: not-allowed;
 }
 
-#start-button,
-#next-button,
-#retry-button {
-  margin-top: 2rem;
+.area-action {
+  margin-top: 0.5rem;
 }
 
 button:active {
@@ -525,7 +605,6 @@ button:active {
 @media (hover: hover) {
   button:hover {
     background: var(--red-deep);
-    border-color: var(--ink);
     color: var(--cream);
   }
 }
@@ -539,10 +618,212 @@ button.primary:focus-visible {
   outline-color: var(--star);
 }
 
+/* Desktop -------------------------------------------------------------- */
+/* The design's 1440 boards: Marx in a column of his own beside the content. */
+
+@media (min-width: 64rem) {
+  #app {
+    max-width: 68rem;
+  }
+
+  .screen {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    column-gap: 3.5rem;
+    row-gap: 1.25rem;
+  }
+
+  #screen-title {
+    grid-template-columns: 16rem minmax(0, 29rem);
+    grid-template-areas:
+      "hero kicker"
+      "hero title"
+      "hero tagline"
+      "hero stats"
+      "hero plan"
+      "hero plan-label"
+      "hero action";
+  }
+
+  #screen-reveal {
+    grid-template-columns: 18rem minmax(0, 29rem);
+    grid-template-areas:
+      "hero kicker"
+      "hero title"
+      "hero detail"
+      "hero action";
+  }
+
+  #screen-results {
+    grid-template-columns: 25rem 32.5rem;
+    column-gap: 4.5rem;
+    grid-template-areas:
+      "kicker list"
+      "title list"
+      "detail list"
+      "records list"
+      "plan list"
+      "plan-label list"
+      "action list";
+  }
+
+  #screen-round,
+  #screen-error {
+    display: flex;
+    max-width: 38.75rem;
+    margin-inline: auto;
+  }
+
+  .area-hero {
+    grid-area: hero;
+    align-self: center;
+  }
+
+  .area-kicker {
+    grid-area: kicker;
+  }
+
+  .area-title {
+    grid-area: title;
+  }
+
+  .area-tagline {
+    grid-area: tagline;
+  }
+
+  .area-stats {
+    grid-area: stats;
+  }
+
+  .area-plan {
+    grid-area: plan;
+  }
+
+  .area-plan-label {
+    grid-area: plan-label;
+  }
+
+  .area-detail {
+    grid-area: detail;
+  }
+
+  .area-records {
+    grid-area: records;
+    border-top: var(--rule);
+    padding-top: 0.875rem;
+  }
+
+  .area-list {
+    grid-area: list;
+    align-self: center;
+  }
+
+  .area-action {
+    grid-area: action;
+  }
+
+  #title-star {
+    display: none;
+  }
+
+  .hero {
+    width: 16rem;
+  }
+
+  .reaction {
+    width: 18rem;
+  }
+
+  .reaction-row .star {
+    width: 4rem;
+  }
+
+  h1 {
+    font-size: 5.5rem;
+  }
+
+  .tagline {
+    font-size: 1.25rem;
+  }
+
+  .stats {
+    border-width: 2px 0;
+  }
+
+  .stats > div {
+    flex-direction: column;
+    padding: 0.875rem 0;
+  }
+
+  .stats > div + div {
+    padding-left: 1.125rem;
+  }
+
+  .stats dt {
+    margin-top: 0;
+    font-family: var(--display);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--ink-70);
+  }
+
+  .stats dd {
+    margin-top: 0.25rem;
+    font-size: 2.5rem;
+    color: var(--red);
+  }
+
+  .prompt {
+    font-size: 4rem;
+  }
+
+  #answer-form {
+    grid-template-columns: 1fr 11.25rem;
+    gap: 1rem;
+  }
+
+  .tier-row h2 {
+    font-size: 4.5rem;
+  }
+
+  #reveal-points {
+    font-size: 2.25rem;
+  }
+
+  #results-score {
+    font-size: 5rem;
+  }
+
+  #results-stage {
+    font-size: 1.75rem;
+  }
+
+  .rounds li {
+    grid-template-columns: 1.5rem 1.625rem minmax(0, 1fr) auto;
+    gap: 0.625rem;
+    padding: 0.75rem 0;
+    font-size: 0.9375rem;
+  }
+
+  .results-actions {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.875rem;
+  }
+
+  .detail {
+    font-size: 1.0625rem;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
   *::after {
+    /* biome-ignore lint/complexity/noImportantStyles: reduced motion must win over every rule */
     transition-duration: 0.01ms !important;
+    /* biome-ignore lint/complexity/noImportantStyles: reduced motion must win over every rule */
+    animation-duration: 0.01ms !important;
   }
 }

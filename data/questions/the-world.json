@@ -1,0 +1,9037 @@
+[
+  {
+    "id": "the-world-01",
+    "topic": "the-world",
+    "prompt": "Name a national capital that is not its country's largest city",
+    "answers": [
+      {
+        "answer": "Washington, D.C.",
+        "aliases": [
+          "washington",
+          "washington dc",
+          "dc"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Canberra",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Ottawa",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Brasília",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Wellington",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Bern",
+        "aliases": [
+          "berne"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ankara",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Beijing",
+        "aliases": [
+          "peking"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hanoi",
+        "aliases": [
+          "ha noi"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Abu Dhabi",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "La Paz",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Abuja",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Islamabad",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Rabat",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Pretoria",
+        "aliases": [
+          "tshwane"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Quito",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Cape Town",
+        "aliases": [
+          "kaapstad",
+          "capetown"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "New Delhi",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Brussels",
+        "aliases": [
+          "bruxelles",
+          "brussel"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Manila",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Yaoundé",
+        "aliases": [
+          "yaunde"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Khartoum",
+        "aliases": [
+          "khartum"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Belmopan",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Astana",
+        "aliases": [
+          "nur sultan"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dodoma",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Naypyidaw",
+        "aliases": [
+          "nay pyi taw"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sucre",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Valletta",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Bloemfontein",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Malabo",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Mbabane",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Port of Spain",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Taipei",
+        "aliases": [
+          "taibei"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Banjul",
+        "aliases": [
+          "bathurst"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Yamoussoukro",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Vaduz",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Porto-Novo",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Gitega",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Sri Jayawardenepura Kotte",
+        "aliases": [
+          "kotte",
+          "sri jayewardenepura"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "San Marino",
+        "aliases": [
+          "city of san marino"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Ngerulmud",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Palikir",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Lobamba",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Putrajaya",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Yaren",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-02",
+    "topic": "the-world",
+    "prompt": "Name a country whose flag has no white on it",
+    "answers": [
+      {
+        "answer": "Germany",
+        "aliases": [
+          "deutschland"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "China",
+        "aliases": [
+          "prc",
+          "peoples republic of china"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Sweden",
+        "aliases": [
+          "sverige"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Ukraine",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Jamaica",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Vietnam",
+        "aliases": [
+          "viet nam"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Romania",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Belgium",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Morocco",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Ghana",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Colombia",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Lithuania",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Ethiopia",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mali",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Kazakhstan",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Barbados",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bahamas",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Sri Lanka",
+        "aliases": [
+          "ceylon"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bangladesh",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mongolia",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Albania",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mauritius",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Armenia",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Senegal",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Cameroon",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Guinea",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Chad",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Burkina Faso",
+        "aliases": [
+          "burkina"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Angola",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "North Macedonia",
+        "aliases": [
+          "macedonia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tanzania",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Zambia",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Democratic Republic of the Congo",
+        "aliases": [
+          "drc",
+          "dr congo",
+          "congo kinshasa",
+          "zaire",
+          "democratic republic of congo"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Eritrea",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Malawi",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Mauritania",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Grenada",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Vanuatu",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Benin",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Rwanda",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Gabon",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Palau",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Saint Vincent and the Grenadines",
+        "aliases": [
+          "st vincent",
+          "saint vincent"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Republic of the Congo",
+        "aliases": [
+          "congo brazzaville",
+          "congo"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kyrgyzstan",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Guinea-Bissau",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "São Tomé and Príncipe",
+        "aliases": [
+          "sao tome"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-03",
+    "topic": "the-world",
+    "prompt": "Name a landlocked country",
+    "answers": [
+      {
+        "answer": "Switzerland",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Austria",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Mongolia",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Nepal",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Hungary",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Czechia",
+        "aliases": [
+          "czech republic"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Slovakia",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Bolivia",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Afghanistan",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Zimbabwe",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Belarus",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Luxembourg",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Serbia",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Zambia",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Uganda",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Rwanda",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Botswana",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Laos",
+        "aliases": [
+          "lao"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bhutan",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Paraguay",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Vatican City",
+        "aliases": [
+          "vatican",
+          "holy see"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kazakhstan",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Ethiopia",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Malawi",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Mali",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Chad",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Niger",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Armenia",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Andorra",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Kosovo",
+        "aliases": [
+          "kosova"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Moldova",
+        "aliases": [
+          "moldavia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "North Macedonia",
+        "aliases": [
+          "macedonia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "San Marino",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Burkina Faso",
+        "aliases": [
+          "burkina"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "South Sudan",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Uzbekistan",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Liechtenstein",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Burundi",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Eswatini",
+        "aliases": [
+          "swaziland"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Lesotho",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Tajikistan",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Central African Republic",
+        "aliases": [
+          "car"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Azerbaijan",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Kyrgyzstan",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Turkmenistan",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-04",
+    "topic": "the-world",
+    "prompt": "Name a river that flows through more than one country",
+    "answers": [
+      {
+        "answer": "Danube",
+        "aliases": [
+          "donau"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Nile",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Amazon",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Rhine",
+        "aliases": [
+          "rhein"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Mekong",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Congo",
+        "aliases": [
+          "congo river"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Rio Grande",
+        "aliases": [
+          "rio bravo"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Euphrates",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Tigris",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Ganges",
+        "aliases": [
+          "ganga"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Zambezi",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Colorado",
+        "aliases": [
+          "colorado river"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Indus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Niger",
+        "aliases": [
+          "niger river"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Jordan",
+        "aliases": [
+          "river jordan"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Elbe",
+        "aliases": [
+          "labe"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Paraná",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Orinoco",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Brahmaputra",
+        "aliases": [
+          "yarlung tsangpo"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Rhône",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Columbia",
+        "aliases": [
+          "columbia river"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "St Lawrence",
+        "aliases": [
+          "saint lawrence",
+          "st lawrence river",
+          "saint lawrence river"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Tagus",
+        "aliases": [
+          "tejo",
+          "tajo"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Meuse",
+        "aliases": [
+          "maas"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Okavango",
+        "aliases": [
+          "okavango river",
+          "cubango"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Blue Nile",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Iguazu",
+        "aliases": [
+          "iguacu",
+          "iguassu",
+          "iguazu river"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Niagara",
+        "aliases": [
+          "niagara river"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Severn",
+        "aliases": [
+          "river severn"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Amur",
+        "aliases": [
+          "heilongjiang"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Oder",
+        "aliases": [
+          "odra"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Moselle",
+        "aliases": [
+          "mosel"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dnieper",
+        "aliases": [
+          "dnipro"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Limpopo",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Yukon",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Douro",
+        "aliases": [
+          "duero"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Scheldt",
+        "aliases": [
+          "schelde",
+          "escaut"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tisza",
+        "aliases": [
+          "tisa"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dniester",
+        "aliases": [
+          "nistru"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Irtysh",
+        "aliases": [
+          "irtish"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ural River",
+        "aliases": [
+          "ural"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Senegal River",
+        "aliases": [
+          "senegal"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Volta",
+        "aliases": [
+          "volta river",
+          "black volta",
+          "white volta"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Uruguay River",
+        "aliases": [
+          "uruguay",
+          "rio uruguay"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Paraguay River",
+        "aliases": [
+          "paraguay",
+          "rio paraguay"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Garonne",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Yenisei",
+        "aliases": [
+          "yenisey",
+          "enisei"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Wye",
+        "aliases": [
+          "river wye"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sava",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Orange River",
+        "aliases": [
+          "oranje"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Salween",
+        "aliases": [
+          "thanlwin",
+          "nu river"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Guadiana",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Amu Darya",
+        "aliases": [
+          "oxus"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Syr Darya",
+        "aliases": [
+          "jaxartes",
+          "syrdarya"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Aras",
+        "aliases": [
+          "araxes",
+          "araks"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Drava",
+        "aliases": [
+          "drau",
+          "drave"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kagera",
+        "aliases": [
+          "akagera"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Pilcomayo",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Usumacinta",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Maritsa",
+        "aliases": [
+          "evros",
+          "meric"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-05",
+    "topic": "the-world",
+    "prompt": "Name a breakfast food from somewhere in the world",
+    "answers": [
+      {
+        "answer": "Full English breakfast",
+        "aliases": [
+          "full english",
+          "english breakfast",
+          "fry up",
+          "fried breakfast",
+          "cooked breakfast"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Croissant",
+        "aliases": [
+          "croissants"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Pancakes",
+        "aliases": [
+          "pancake",
+          "american pancakes"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Porridge",
+        "aliases": [
+          "oatmeal",
+          "oats"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Cereal",
+        "aliases": [
+          "breakfast cereal",
+          "cornflakes",
+          "weetabix"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Eggs",
+        "aliases": [
+          "egg",
+          "scrambled eggs",
+          "boiled eggs",
+          "fried eggs",
+          "poached eggs",
+          "boiled egg",
+          "fried egg",
+          "poached egg"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Toast",
+        "aliases": [
+          "buttered toast",
+          "toast and jam"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bacon and eggs",
+        "aliases": [
+          "eggs and bacon",
+          "bacon"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Waffles",
+        "aliases": [
+          "waffle",
+          "belgian waffles"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "French toast",
+        "aliases": [
+          "eggy bread",
+          "pain perdu"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bagel",
+        "aliases": [
+          "bagel and cream cheese",
+          "bagels"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Omelette",
+        "aliases": [
+          "omelet"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Muesli",
+        "aliases": [
+          "bircher muesli"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Crumpets",
+        "aliases": [
+          "crumpet"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Yoghurt",
+        "aliases": [
+          "yogurt",
+          "greek yoghurt",
+          "greek yogurt"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Fruit",
+        "aliases": [
+          "fruit salad",
+          "fresh fruit"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bacon sandwich",
+        "aliases": [
+          "bacon butty",
+          "bacon roll",
+          "bacon sarnie",
+          "bacon bap"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hash browns",
+        "aliases": [
+          "hash brown"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Eggs Benedict",
+        "aliases": [
+          "egg benedict",
+          "eggs benny"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Avocado toast",
+        "aliases": [
+          "avocado on toast",
+          "smashed avocado",
+          "smashed avo"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Pain au chocolat",
+        "aliases": [
+          "chocolatine",
+          "pain au chocolate"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Baked beans",
+        "aliases": [
+          "beans on toast",
+          "beans"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Crêpes",
+        "aliases": [
+          "crepe"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sausages",
+        "aliases": [
+          "sausage",
+          "breakfast sausage"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Granola",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Shakshuka",
+        "aliases": [
+          "shakshouka"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Congee",
+        "aliases": [
+          "jook",
+          "rice porridge"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Churros",
+        "aliases": [
+          "churros con chocolate"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dim sum",
+        "aliases": [
+          "yum cha",
+          "dimsum"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Huevos rancheros",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Miso soup",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Black pudding",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Danish pastry",
+        "aliases": [
+          "danish",
+          "danish pastries",
+          "danishes"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dosa",
+        "aliases": [
+          "masala dosa",
+          "dosai"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Paratha",
+        "aliases": [
+          "aloo paratha",
+          "parathas",
+          "parotta"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Baozi",
+        "aliases": [
+          "bao",
+          "bao buns",
+          "steamed buns",
+          "steamed bun"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Breakfast burrito",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Kippers",
+        "aliases": [
+          "kipper"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Full Irish breakfast",
+        "aliases": [
+          "full irish",
+          "irish breakfast",
+          "ulster fry"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Açaí bowl",
+        "aliases": [
+          "acai",
+          "smoothie bowl"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Egg McMuffin",
+        "aliases": [
+          "mcmuffin",
+          "sausage and egg mcmuffin",
+          "breakfast sandwich",
+          "breakfast muffin"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ful medames",
+        "aliases": [
+          "foul medames",
+          "ful"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Nasi lemak",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Kedgeree",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Idli",
+        "aliases": [
+          "idli sambar"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Menemen",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Arepas",
+        "aliases": [
+          "arepa"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Simit",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Chilaquiles",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Rösti",
+        "aliases": [
+          "roesti"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Börek",
+        "aliases": [
+          "burek"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Manakish",
+        "aliases": [
+          "manousheh",
+          "manakeesh",
+          "manaqish"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Jianbing",
+        "aliases": [
+          "jian bing",
+          "chinese crepe"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Kaya toast",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Gallo pinto",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Khachapuri",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Pão de queijo",
+        "aliases": [
+          "brazilian cheese bread"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Tamagoyaki",
+        "aliases": [
+          "japanese rolled omelette"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Mangú",
+        "aliases": [
+          "los tres golpes"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Appam",
+        "aliases": [
+          "hoppers",
+          "egg hoppers",
+          "string hoppers"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Çılbır",
+        "aliases": [
+          "turkish eggs"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Poha",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-06",
+    "topic": "the-world",
+    "prompt": "Name a UNESCO World Heritage site",
+    "answers": [
+      {
+        "answer": "Great Wall of China",
+        "aliases": [
+          "great wall"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Taj Mahal",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Machu Picchu",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Stonehenge",
+        "aliases": [
+          "avebury",
+          "stonehenge and avebury"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Pyramids of Giza",
+        "aliases": [
+          "giza",
+          "great pyramid",
+          "egyptian pyramids",
+          "pyramids",
+          "sphinx"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Colosseum",
+        "aliases": [
+          "coliseum",
+          "coliseu",
+          "roman colosseum",
+          "historic centre of rome",
+          "rome"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Statue of Liberty",
+        "aliases": [
+          "liberty statue",
+          "estatua da liberdade"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Petra",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Angkor Wat",
+        "aliases": [
+          "angkor"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Acropolis of Athens",
+        "aliases": [
+          "acropolis",
+          "parthenon"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Venice",
+        "aliases": [
+          "venezia",
+          "venice and its lagoon"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Great Barrier Reef",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Galápagos Islands",
+        "aliases": [
+          "galapagos"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Chichén Itzá",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Easter Island",
+        "aliases": [
+          "rapa nui",
+          "moai"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sydney Opera House",
+        "aliases": [
+          "opera house",
+          "sydney opera"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Kremlin and Red Square",
+        "aliases": [
+          "kremlin",
+          "red square",
+          "moscow kremlin",
+          "praca vermelha"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tower of London",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Palace of Westminster",
+        "aliases": [
+          "westminster",
+          "houses of parliament",
+          "big ben",
+          "westminster abbey",
+          "parliament"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bath",
+        "aliases": [
+          "city of bath",
+          "roman baths"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Forbidden City",
+        "aliases": [
+          "imperial palace",
+          "palace museum"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Terracotta Army",
+        "aliases": [
+          "terracotta warriors",
+          "terracotta soldiers",
+          "mausoleum of the first qin emperor"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Pompeii",
+        "aliases": [
+          "pompei",
+          "herculaneum"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Uluru",
+        "aliases": [
+          "ayers rock",
+          "uluru kata tjuta"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Versailles",
+        "aliases": [
+          "palace of versailles",
+          "chateau de versailles"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sagrada Família",
+        "aliases": [
+          "works of antoni gaudi",
+          "gaudi",
+          "park guell",
+          "casa batllo"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Paris, Banks of the Seine",
+        "aliases": [
+          "banks of the seine",
+          "eiffel tower",
+          "notre dame",
+          "paris",
+          "louvre"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Grand Canyon",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Alhambra",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mont-Saint-Michel",
+        "aliases": [
+          "mont st michel"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Serengeti",
+        "aliases": [
+          "serengeti national park"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ha Long Bay",
+        "aliases": [
+          "halong bay"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Auschwitz",
+        "aliases": [
+          "auschwitz birkenau"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Yellowstone",
+        "aliases": [
+          "yellowstone national park"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Borobudur",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Edinburgh",
+        "aliases": [
+          "old and new towns of edinburgh",
+          "edinburgh old town"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hadrian's Wall",
+        "aliases": [
+          "frontiers of the roman empire"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kew Gardens",
+        "aliases": [
+          "kew",
+          "royal botanic gardens kew"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lake District",
+        "aliases": [
+          "english lake district"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Victoria Falls",
+        "aliases": [
+          "mosi oa tunya"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kilimanjaro",
+        "aliases": [
+          "mount kilimanjaro",
+          "kilimanjaro national park"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dubrovnik",
+        "aliases": [
+          "old city of dubrovnik"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cappadocia",
+        "aliases": [
+          "goreme",
+          "goreme national park"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hagia Sophia",
+        "aliases": [
+          "historic areas of istanbul",
+          "ayasofya",
+          "istanbul"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Abu Simbel",
+        "aliases": [
+          "nubian monuments",
+          "philae"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Giant's Causeway",
+        "aliases": [
+          "giants causeway"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bagan",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Meteora",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Timbuktu",
+        "aliases": [
+          "tombouctou"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lalibela",
+        "aliases": [
+          "rock hewn churches of lalibela"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Persepolis",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Wieliczka Salt Mine",
+        "aliases": [
+          "wieliczka"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Blenheim Palace",
+        "aliases": [
+          "blenheim"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Heart of Neolithic Orkney",
+        "aliases": [
+          "orkney",
+          "skara brae",
+          "ring of brodgar"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Neuschwanstein",
+        "aliases": [
+          "neuschwanstein castle",
+          "palaces of king ludwig ii"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sigiriya",
+        "aliases": [
+          "lion rock"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Skellig Michael",
+        "aliases": [
+          "skelligs"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Göbekli Tepe",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Ironbridge Gorge",
+        "aliases": [
+          "ironbridge"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Derwent Valley Mills",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Nazca Lines",
+        "aliases": [
+          "nasca lines"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Pontcysyllte Aqueduct",
+        "aliases": [
+          "pontcysyllte"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-07",
+    "topic": "the-world",
+    "prompt": "Name an island nation",
+    "answers": [
+      {
+        "answer": "Japan",
+        "aliases": [
+          "nippon"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Iceland",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Cuba",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "New Zealand",
+        "aliases": [
+          "nz",
+          "aotearoa"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Madagascar",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "United Kingdom",
+        "aliases": [
+          "uk",
+          "britain",
+          "great britain"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Philippines",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Indonesia",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Ireland",
+        "aliases": [
+          "republic of ireland",
+          "eire"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sri Lanka",
+        "aliases": [
+          "ceylon"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Jamaica",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Malta",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Cyprus",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Singapore",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Australia",
+        "aliases": [
+          "oz"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Barbados",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Maldives",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Fiji",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bahamas",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Haiti",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Taiwan",
+        "aliases": [
+          "formosa"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mauritius",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Seychelles",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Papua New Guinea",
+        "aliases": [
+          "png"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dominican Republic",
+        "aliases": [
+          "dominican rep"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bahrain",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Saint Lucia",
+        "aliases": [
+          "st lucia"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Vanuatu",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Samoa",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Tonga",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Cape Verde",
+        "aliases": [
+          "cabo verde"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Comoros",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Solomon Islands",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Trinidad and Tobago",
+        "aliases": [
+          "trinidad"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Antigua and Barbuda",
+        "aliases": [
+          "antigua"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dominica",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Grenada",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Marshall Islands",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Timor-Leste",
+        "aliases": [
+          "east timor",
+          "timor"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Brunei",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Kiribati",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Tuvalu",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Nauru",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Palau",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "São Tomé and Príncipe",
+        "aliases": [
+          "sao tome"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Saint Kitts and Nevis",
+        "aliases": [
+          "st kitts",
+          "saint kitts"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Saint Vincent and the Grenadines",
+        "aliases": [
+          "st vincent",
+          "saint vincent"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Micronesia",
+        "aliases": [
+          "federated states of micronesia",
+          "fsm"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-08",
+    "topic": "the-world",
+    "prompt": "Name a mountain range",
+    "answers": [
+      {
+        "answer": "Himalayas",
+        "aliases": [
+          "himalaya"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Alps",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Andes",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Rocky Mountains",
+        "aliases": [
+          "rockies"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Pyrenees",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Appalachians",
+        "aliases": [
+          "appalachian mountains"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Urals",
+        "aliases": [
+          "ural mountains"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Atlas Mountains",
+        "aliases": [
+          "atlas"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Pennines",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Dolomites",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Carpathians",
+        "aliases": [
+          "carpathian mountains"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cairngorms",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Snowdonia",
+        "aliases": [
+          "eryri"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Brecon Beacons",
+        "aliases": [
+          "bannau brycheiniog",
+          "beacons"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Scottish Highlands",
+        "aliases": [
+          "highlands"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Caucasus",
+        "aliases": [
+          "caucasus mountains"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sierra Nevada",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Apennines",
+        "aliases": [
+          "apennine mountains"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Karakoram",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Hindu Kush",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Cascades",
+        "aliases": [
+          "cascade range"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Grampians",
+        "aliases": [
+          "grampian mountains"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Zagros Mountains",
+        "aliases": [
+          "zagros"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Blue Ridge Mountains",
+        "aliases": [
+          "blue ridge"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Smoky Mountains",
+        "aliases": [
+          "great smoky mountains",
+          "smokies",
+          "smokey mountains"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mourne Mountains",
+        "aliases": [
+          "mournes",
+          "mountains of mourne"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Teton Range",
+        "aliases": [
+          "tetons",
+          "grand tetons",
+          "grand teton"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Black Forest",
+        "aliases": [
+          "schwarzwald"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Massif Central",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Balkan Mountains",
+        "aliases": [
+          "stara planina",
+          "balkans"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Taurus Mountains",
+        "aliases": [
+          "taurus",
+          "toros"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pamirs",
+        "aliases": [
+          "pamir mountains",
+          "pamir"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Blue Mountains",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Tian Shan",
+        "aliases": [
+          "tien shan"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Altai Mountains",
+        "aliases": [
+          "altai"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Drakensberg",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Great Dividing Range",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Southern Alps",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Sierra Madre",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Western Ghats",
+        "aliases": [
+          "ghats"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Adirondacks",
+        "aliases": [
+          "adirondack mountains"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ozarks",
+        "aliases": [
+          "ozark mountains"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dinaric Alps",
+        "aliases": [
+          "dinarides"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rhodopes",
+        "aliases": [
+          "rhodope mountains"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Scandinavian Mountains",
+        "aliases": [
+          "scandes",
+          "kjolen",
+          "kolen"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Kunlun",
+        "aliases": [
+          "kunlun mountains",
+          "kunlun shan"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Elburz",
+        "aliases": [
+          "alborz",
+          "alborz mountains",
+          "elburz mountains"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rwenzori",
+        "aliases": [
+          "ruwenzori",
+          "mountains of the moon",
+          "rwenzori mountains"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cuillin",
+        "aliases": [
+          "cuillins",
+          "black cuillin",
+          "cuillin hills"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cambrian Mountains",
+        "aliases": [
+          "cambrians"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tatra Mountains",
+        "aliases": [
+          "tatras"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Pindus",
+        "aliases": [
+          "pindus mountains"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Jura Mountains",
+        "aliases": [
+          "jura"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Verkhoyansk Range",
+        "aliases": [
+          "verkhoyansk"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Aravalli Range",
+        "aliases": [
+          "aravalli"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Brooks Range",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Annamite Range",
+        "aliases": [
+          "annamites",
+          "truong son",
+          "annamese cordillera"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Ahaggar",
+        "aliases": [
+          "hoggar",
+          "hoggar mountains",
+          "ahaggar mountains"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-09",
+    "topic": "the-world",
+    "prompt": "Name a language with more than 100 million speakers",
+    "answers": [
+      {
+        "answer": "English",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Spanish",
+        "aliases": [
+          "castilian",
+          "español"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Mandarin Chinese",
+        "aliases": [
+          "mandarin",
+          "chinese",
+          "putonghua"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "French",
+        "aliases": [
+          "français"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Arabic",
+        "aliases": [
+          "modern standard arabic"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hindi",
+        "aliases": [
+          "hindustani"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Russian",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "German",
+        "aliases": [
+          "deutsch"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Portuguese",
+        "aliases": [
+          "português"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Japanese",
+        "aliases": [
+          "nihongo"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bengali",
+        "aliases": [
+          "bangla"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Urdu",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Malay",
+        "aliases": [
+          "bahasa melayu",
+          "bahasa"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Swahili",
+        "aliases": [
+          "kiswahili"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Indonesian",
+        "aliases": [
+          "bahasa indonesia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Punjabi",
+        "aliases": [
+          "panjabi"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Persian",
+        "aliases": [
+          "farsi",
+          "dari"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Nigerian Pidgin",
+        "aliases": [
+          "naija",
+          "pidgin english",
+          "pidgin"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Egyptian Arabic",
+        "aliases": [
+          "masri"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-10",
+    "topic": "the-world",
+    "prompt": "Name a currency",
+    "answers": [
+      {
+        "answer": "Pound",
+        "aliases": [
+          "pound sterling",
+          "sterling",
+          "gbp",
+          "british pound",
+          "quid",
+          "pounds",
+          "egyptian pound"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Euro",
+        "aliases": [
+          "eur",
+          "euros"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Dollar",
+        "aliases": [
+          "us dollar",
+          "usd",
+          "dollars",
+          "australian dollar",
+          "canadian dollar",
+          "aud",
+          "cad",
+          "bucks"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Yen",
+        "aliases": [
+          "japanese yen",
+          "jpy"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Rupee",
+        "aliases": [
+          "indian rupee",
+          "inr",
+          "pakistani rupee",
+          "rupees"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Peso",
+        "aliases": [
+          "mexican peso",
+          "philippine peso",
+          "argentine peso",
+          "pesos",
+          "mxn"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Yuan",
+        "aliases": [
+          "renminbi",
+          "rmb",
+          "cny"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Franc",
+        "aliases": [
+          "swiss franc",
+          "chf",
+          "french franc",
+          "cfa franc",
+          "francs"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Rouble",
+        "aliases": [
+          "ruble",
+          "rub",
+          "roubles",
+          "rubles"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Won",
+        "aliases": [
+          "korean won",
+          "south korean won",
+          "krw"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Lira",
+        "aliases": [
+          "turkish lira",
+          "italian lira",
+          "try"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bitcoin",
+        "aliases": [
+          "btc",
+          "crypto",
+          "cryptocurrency"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Rand",
+        "aliases": [
+          "south african rand",
+          "zar"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Real",
+        "aliases": [
+          "brazilian real",
+          "reais",
+          "brl"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Krona",
+        "aliases": [
+          "swedish krona",
+          "sek",
+          "icelandic krona",
+          "kronor"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Krone",
+        "aliases": [
+          "danish krone",
+          "norwegian krone",
+          "dkk",
+          "nok",
+          "kroner"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dirham",
+        "aliases": [
+          "uae dirham",
+          "moroccan dirham",
+          "aed"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Riyal",
+        "aliases": [
+          "saudi riyal",
+          "rial",
+          "iranian rial",
+          "omani rial",
+          "qatari riyal"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Shekel",
+        "aliases": [
+          "sheqel",
+          "israeli shekel",
+          "new shekel",
+          "ils"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Baht",
+        "aliases": [
+          "thai baht",
+          "thb"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dinar",
+        "aliases": [
+          "kuwaiti dinar",
+          "iraqi dinar",
+          "jordanian dinar",
+          "serbian dinar",
+          "algerian dinar"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dong",
+        "aliases": [
+          "vietnamese dong",
+          "vnd"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sol",
+        "aliases": [
+          "peruvian sol",
+          "nuevo sol",
+          "soles"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Shilling",
+        "aliases": [
+          "kenyan shilling",
+          "ugandan shilling",
+          "tanzanian shilling",
+          "somali shilling"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Deutsche Mark",
+        "aliases": [
+          "mark",
+          "deutschmark",
+          "german mark",
+          "deutsche marks",
+          "dm"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Peseta",
+        "aliases": [
+          "spanish peseta",
+          "pesetas"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Drachma",
+        "aliases": [
+          "greek drachma",
+          "drachmas"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ethereum",
+        "aliases": [
+          "ether",
+          "eth"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Zloty",
+        "aliases": [
+          "polish zloty"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Forint",
+        "aliases": [
+          "hungarian forint"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ringgit",
+        "aliases": [
+          "malaysian ringgit"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Naira",
+        "aliases": [
+          "nigerian naira"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rupiah",
+        "aliases": [
+          "indonesian rupiah"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hryvnia",
+        "aliases": [
+          "ukrainian hryvnia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Koruna",
+        "aliases": [
+          "czech koruna"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Taka",
+        "aliases": [
+          "bangladeshi taka"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Guilder",
+        "aliases": [
+          "gulden",
+          "dutch guilder"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Schilling",
+        "aliases": [
+          "austrian schilling"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Escudo",
+        "aliases": [
+          "portuguese escudo",
+          "cape verdean escudo",
+          "escudos"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tenge",
+        "aliases": [
+          "kazakh tenge",
+          "kazakhstani tenge"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Kyat",
+        "aliases": [
+          "burmese kyat",
+          "myanmar kyat"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Birr",
+        "aliases": [
+          "ethiopian birr"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Pula",
+        "aliases": [
+          "botswana pula"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bolívar",
+        "aliases": [
+          "venezuelan bolivar",
+          "bolivares"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Guaraní",
+        "aliases": [
+          "paraguayan guarani"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lev",
+        "aliases": [
+          "bulgarian lev",
+          "leva"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Kwacha",
+        "aliases": [
+          "zambian kwacha",
+          "malawian kwacha"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Cedi",
+        "aliases": [
+          "ghanaian cedi"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Tugrik",
+        "aliases": [
+          "mongolian tugrik",
+          "togrog"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Quetzal",
+        "aliases": [
+          "guatemalan quetzal"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Ngultrum",
+        "aliases": [
+          "bhutanese ngultrum"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kina",
+        "aliases": [
+          "papua new guinean kina"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Lilangeni",
+        "aliases": [
+          "emalangeni"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Manat",
+        "aliases": [
+          "azerbaijani manat",
+          "turkmen manat",
+          "turkmenistan manat"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Lari",
+        "aliases": [
+          "georgian lari"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Dram",
+        "aliases": [
+          "armenian dram"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Som",
+        "aliases": [
+          "kyrgyz som",
+          "uzbek som",
+          "uzbekistani som",
+          "kyrgyzstani som"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kip",
+        "aliases": [
+          "lao kip",
+          "laotian kip"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Riel",
+        "aliases": [
+          "cambodian riel"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Pa'anga",
+        "aliases": [
+          "paanga",
+          "tongan paanga"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-11",
+    "topic": "the-world",
+    "prompt": "Name a city more than 2,000 years old",
+    "answers": [
+      {
+        "answer": "Rome",
+        "aliases": [
+          "roma"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Athens",
+        "aliases": [
+          "athina"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Jerusalem",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Damascus",
+        "aliases": [
+          "dimashq"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Alexandria",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Istanbul",
+        "aliases": [
+          "constantinople",
+          "byzantium"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Jericho",
+        "aliases": [
+          "ariha"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Paris",
+        "aliases": [
+          "lutetia"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Beijing",
+        "aliases": [
+          "peking"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Naples",
+        "aliases": [
+          "napoli"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Varanasi",
+        "aliases": [
+          "benares",
+          "kashi"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Carthage",
+        "aliases": [
+          "carthago"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Barcelona",
+        "aliases": [
+          "barcino"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Milan",
+        "aliases": [
+          "milano",
+          "mediolanum"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Florence",
+        "aliases": [
+          "firenze",
+          "florentia"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Vienna",
+        "aliases": [
+          "wien",
+          "vindobona"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Colchester",
+        "aliases": [
+          "camulodunum"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Xi'an",
+        "aliases": [
+          "xian",
+          "changan"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Marseille",
+        "aliases": [
+          "marseilles",
+          "massalia"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lisbon",
+        "aliases": [
+          "lisboa"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cádiz",
+        "aliases": [
+          "gadir"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Delhi",
+        "aliases": [
+          "indraprastha"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Luxor",
+        "aliases": [
+          "thebes"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Thessaloniki",
+        "aliases": [
+          "salonica"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Beirut",
+        "aliases": [
+          "beyrouth"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Samarkand",
+        "aliases": [
+          "samarqand"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lyon",
+        "aliases": [
+          "lyons",
+          "lugdunum"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Seville",
+        "aliases": [
+          "sevilla",
+          "hispalis"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bologna",
+        "aliases": [
+          "felsina",
+          "bononia"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Syracuse",
+        "aliases": [
+          "siracusa"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Izmir",
+        "aliases": [
+          "smyrna"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Amman",
+        "aliases": [
+          "rabbath ammon"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Isfahan",
+        "aliases": [
+          "esfahan",
+          "ispahan"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Seoul",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Nanjing",
+        "aliases": [
+          "nanking"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Palermo",
+        "aliases": [
+          "panormus"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Winchester",
+        "aliases": [
+          "venta belgarum"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Canterbury",
+        "aliases": [
+          "durovernum"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Plovdiv",
+        "aliases": [
+          "philippopolis"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Byblos",
+        "aliases": [
+          "jbeil"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Aleppo",
+        "aliases": [
+          "halab"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Erbil",
+        "aliases": [
+          "hawler"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Belgrade",
+        "aliases": [
+          "beograd",
+          "singidunum"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sofia",
+        "aliases": [
+          "serdica"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cologne",
+        "aliases": [
+          "köln",
+          "colonia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sana'a",
+        "aliases": [
+          "sanaa",
+          "sana"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Peshawar",
+        "aliases": [
+          "purushapura"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bukhara",
+        "aliases": [
+          "bukhoro",
+          "bokhara"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Madurai",
+        "aliases": [
+          "madura"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Axum",
+        "aliases": [
+          "aksum"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lincoln",
+        "aliases": [
+          "lindum"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mainz",
+        "aliases": [
+          "mogontiacum",
+          "mayence"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Trier",
+        "aliases": [
+          "augusta treverorum"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Zadar",
+        "aliases": [
+          "iadera"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Cholula",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Kandahar",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Patna",
+        "aliases": [
+          "pataliputra"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Argos",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Osh",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Kutaisi",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Anuradhapura",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-12",
+    "topic": "the-world",
+    "prompt": "Name a desert",
+    "answers": [
+      {
+        "answer": "Sahara",
+        "aliases": [
+          "sahara desert"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Gobi",
+        "aliases": [
+          "gobi desert"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Kalahari",
+        "aliases": [
+          "kalahari desert"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Mojave",
+        "aliases": [
+          "mojave desert",
+          "mohave"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Arabian Desert",
+        "aliases": [
+          "arabian"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Atacama",
+        "aliases": [
+          "atacama desert"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Namib",
+        "aliases": [
+          "namib desert"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sonoran Desert",
+        "aliases": [
+          "sonoran"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Thar Desert",
+        "aliases": [
+          "thar",
+          "great indian desert"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Antarctic Desert",
+        "aliases": [
+          "antarctica",
+          "polar desert",
+          "antarctic"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Death Valley",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Taklamakan",
+        "aliases": [
+          "taklimakan"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Great Victoria Desert",
+        "aliases": [
+          "great victoria"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Chihuahuan Desert",
+        "aliases": [
+          "chihuahuan"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Karakum",
+        "aliases": [
+          "kara kum"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kyzylkum",
+        "aliases": [
+          "kizilkum"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Patagonian Desert",
+        "aliases": [
+          "patagonia"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Negev",
+        "aliases": [
+          "negev desert"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sinai",
+        "aliases": [
+          "sinai desert",
+          "sinai peninsula"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Arctic",
+        "aliases": [
+          "arctic desert"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Libyan Desert",
+        "aliases": [
+          "libyan",
+          "western desert"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Wadi Rum",
+        "aliases": [
+          "valley of the moon"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Skeleton Coast",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Salar de Uyuni",
+        "aliases": [
+          "uyuni",
+          "uyuni salt flats",
+          "bolivian salt flats"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Rub' al Khali",
+        "aliases": [
+          "empty quarter"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Simpson Desert",
+        "aliases": [
+          "simpson"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Great Sandy Desert",
+        "aliases": [
+          "great sandy"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Syrian Desert",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Nubian Desert",
+        "aliases": [
+          "nubian"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Great Basin Desert",
+        "aliases": [
+          "great basin"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Danakil Desert",
+        "aliases": [
+          "danakil depression",
+          "afar desert"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Painted Desert",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Judaean Desert",
+        "aliases": [
+          "judean desert",
+          "judean"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Black Rock Desert",
+        "aliases": [
+          "black rock"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "White Sands",
+        "aliases": [
+          "white sands desert",
+          "white sands national park"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Great Salt Lake Desert",
+        "aliases": [
+          "bonneville salt flats",
+          "bonneville"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tanami",
+        "aliases": [
+          "tanami desert"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Karoo",
+        "aliases": [
+          "great karoo",
+          "karoo desert"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ténéré",
+        "aliases": [
+          "tenere desert"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tabernas",
+        "aliases": [
+          "tabernas desert",
+          "desierto de tabernas"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "An Nafud",
+        "aliases": [
+          "nefud",
+          "great nafud",
+          "nafud desert"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Badain Jaran",
+        "aliases": [
+          "badain jaran desert"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rann of Kutch",
+        "aliases": [
+          "kutch",
+          "great rann of kutch",
+          "white desert"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lut Desert",
+        "aliases": [
+          "dasht e lut"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Registan Desert",
+        "aliases": [
+          "rigestan"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Gibson Desert",
+        "aliases": [
+          "gibson"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Chalbi Desert",
+        "aliases": [
+          "chalbi"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Dasht-e Kavir",
+        "aliases": [
+          "great salt desert"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Sechura",
+        "aliases": [
+          "sechura desert"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Little Sandy Desert",
+        "aliases": [
+          "little sandy"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Strzelecki Desert",
+        "aliases": [
+          "strzelecki"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Tengger Desert",
+        "aliases": [
+          "tengger"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Lop Desert",
+        "aliases": [
+          "lop nur",
+          "lop nor"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Ustyurt",
+        "aliases": [
+          "ustyurt plateau",
+          "ust yurt"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Cholistan",
+        "aliases": [
+          "cholistan desert",
+          "rohi"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Oleshky Sands",
+        "aliases": [
+          "oleshky"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Tanezrouft",
+        "aliases": [
+          "tanezrouft desert"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-13",
+    "topic": "the-world",
+    "prompt": "Name a country smaller than London",
+    "answers": [
+      {
+        "answer": "Vatican City",
+        "aliases": [
+          "vatican",
+          "holy see"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Monaco",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "San Marino",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Liechtenstein",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Andorra",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Malta",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Singapore",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Maldives",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Barbados",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Seychelles",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bahrain",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Grenada",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Saint Lucia",
+        "aliases": [
+          "st lucia"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Tonga",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Nauru",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Tuvalu",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Antigua and Barbuda",
+        "aliases": [
+          "antigua"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dominica",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Saint Kitts and Nevis",
+        "aliases": [
+          "st kitts",
+          "saint kitts"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Palau",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Marshall Islands",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Micronesia",
+        "aliases": [
+          "federated states of micronesia",
+          "fsm"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kiribati",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "São Tomé and Príncipe",
+        "aliases": [
+          "sao tome"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Saint Vincent and the Grenadines",
+        "aliases": [
+          "st vincent",
+          "saint vincent"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-14",
+    "topic": "the-world",
+    "prompt": "Name a festival or holiday from outside Europe",
+    "answers": [
+      {
+        "answer": "Diwali",
+        "aliases": [
+          "deepavali",
+          "festival of lights",
+          "divali"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Chinese New Year",
+        "aliases": [
+          "lunar new year",
+          "spring festival",
+          "cny"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Ramadan",
+        "aliases": [
+          "ramzan"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Thanksgiving",
+        "aliases": [
+          "thanksgiving day"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Hanukkah",
+        "aliases": [
+          "chanukah",
+          "hanukah"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Holi",
+        "aliases": [
+          "festival of colours",
+          "festival of colors"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Eid al-Fitr",
+        "aliases": [
+          "eid",
+          "eid ul fitr"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Day of the Dead",
+        "aliases": [
+          "dia de los muertos",
+          "dia de muertos"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Rio Carnival",
+        "aliases": [
+          "carnival",
+          "carnaval",
+          "rio carnaval"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Yom Kippur",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Passover",
+        "aliases": [
+          "pesach"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Independence Day",
+        "aliases": [
+          "fourth of july",
+          "4th of july",
+          "july 4th"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mardi Gras",
+        "aliases": [
+          "new orleans mardi gras",
+          "fat tuesday"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Burning Man",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Coachella",
+        "aliases": [
+          "coachella festival"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cinco de Mayo",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Nowruz",
+        "aliases": [
+          "norouz",
+          "persian new year"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Songkran",
+        "aliases": [
+          "thai new year",
+          "water festival"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Vesak",
+        "aliases": [
+          "wesak",
+          "buddha day"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mid-Autumn Festival",
+        "aliases": [
+          "moon festival",
+          "mooncake festival"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kwanzaa",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Eid al-Adha",
+        "aliases": [
+          "bakrid",
+          "eid ul adha",
+          "big eid"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Tet",
+        "aliases": [
+          "vietnamese new year"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Rosh Hashanah",
+        "aliases": [
+          "rosh hashana",
+          "jewish new year"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dragon Boat Festival",
+        "aliases": [
+          "duanwu",
+          "dragon boat"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lantern Festival",
+        "aliases": [
+          "yuanxiao"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Navratri",
+        "aliases": [
+          "navaratri",
+          "durga puja",
+          "garba"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kumbh Mela",
+        "aliases": [
+          "kumbh"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dussehra",
+        "aliases": [
+          "dasara",
+          "vijayadashami",
+          "dashain"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hanami",
+        "aliases": [
+          "cherry blossom festival",
+          "sakura festival",
+          "cherry blossom season"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Harbin Ice Festival",
+        "aliases": [
+          "harbin ice and snow festival",
+          "harbin"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Juneteenth",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Australia Day",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Anzac Day",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Ganesh Chaturthi",
+        "aliases": [
+          "ganesh festival",
+          "ganpati"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Obon",
+        "aliases": [
+          "bon festival"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Chuseok",
+        "aliases": [
+          "korean thanksgiving"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Naadam",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Loy Krathong",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Pongal",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Timkat",
+        "aliases": [
+          "timket"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Inti Raymi",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Raksha Bandhan",
+        "aliases": [
+          "rakhi"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ashura",
+        "aliases": [
+          "muharram"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sukkot",
+        "aliases": [
+          "feast of tabernacles",
+          "succot"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Purim",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Gion Matsuri",
+        "aliases": [
+          "gion festival"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Seollal",
+        "aliases": [
+          "korean new year"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Thaipusam",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Matariki",
+        "aliases": [
+          "maori new year"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Festa Junina",
+        "aliases": [
+          "festas juninas",
+          "sao joao"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Onam",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Vaisakhi",
+        "aliases": [
+          "baisakhi"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Nyepi",
+        "aliases": [
+          "day of silence"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Yi Peng",
+        "aliases": [
+          "yee peng"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Hungry Ghost Festival",
+        "aliases": [
+          "zhongyuan festival"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Gerewol",
+        "aliases": [
+          "guerewol"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Tsagaan Sar",
+        "aliases": [
+          "mongolian new year"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Yalda",
+        "aliases": [
+          "shab e yalda",
+          "yalda night"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Umhlanga",
+        "aliases": [
+          "reed dance"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-15",
+    "topic": "the-world",
+    "prompt": "Name a national dish",
+    "answers": [
+      {
+        "answer": "Fish and chips",
+        "aliases": [
+          "fish n chips"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Pizza",
+        "aliases": [
+          "margherita"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Sushi",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Paella",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Curry",
+        "aliases": [
+          "chicken tikka masala",
+          "chicken curry",
+          "tikka masala"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Roast dinner",
+        "aliases": [
+          "sunday roast",
+          "roast beef",
+          "roast beef and yorkshire pudding",
+          "roast"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Pasta",
+        "aliases": [
+          "spaghetti",
+          "spaghetti bolognese",
+          "carbonara",
+          "bolognese"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Haggis",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Tacos",
+        "aliases": [
+          "taco"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Moussaka",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Goulash",
+        "aliases": [
+          "gulyas"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Kimchi",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Pad Thai",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Wiener Schnitzel",
+        "aliases": [
+          "schnitzel"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hamburger",
+        "aliases": [
+          "burger",
+          "cheeseburger",
+          "burgers"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ramen",
+        "aliases": [
+          "ramen noodles"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Fondue",
+        "aliases": [
+          "cheese fondue"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Kebab",
+        "aliases": [
+          "doner",
+          "doner kebab",
+          "shish kebab",
+          "kebabs"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Falafel",
+        "aliases": [
+          "falafels"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tagine",
+        "aliases": [
+          "tajine"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Couscous",
+        "aliases": [
+          "cous cous"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Jerk chicken",
+        "aliases": [
+          "jerk"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Poutine",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Feijoada",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Ceviche",
+        "aliases": [
+          "cebiche"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pho",
+        "aliases": [
+          "pho bo"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Biryani",
+        "aliases": [
+          "biriyani"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Jollof rice",
+        "aliases": [
+          "jollof"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Irish stew",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Peking duck",
+        "aliases": [
+          "beijing duck"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bibimbap",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Tom yum",
+        "aliases": [
+          "tom yum soup",
+          "tom yam"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dumplings",
+        "aliases": [
+          "jiaozi",
+          "chinese dumplings",
+          "dumpling"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pierogi",
+        "aliases": [
+          "pierogies",
+          "perogies"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Borscht",
+        "aliases": [
+          "borsch",
+          "borshch"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Souvlaki",
+        "aliases": [
+          "gyros",
+          "gyro"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bangers and mash",
+        "aliases": [
+          "sausage and mash"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Shepherd's pie",
+        "aliases": [
+          "shepherds pie",
+          "cottage pie"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pavlova",
+        "aliases": [
+          "pav"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ackee and saltfish",
+        "aliases": [
+          "ackee"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bobotie",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Rendang",
+        "aliases": [
+          "beef rendang"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Nasi goreng",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Hainanese chicken rice",
+        "aliases": [
+          "chicken rice"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Doro wat",
+        "aliases": [
+          "doro wot",
+          "injera"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bigos",
+        "aliases": [
+          "hunters stew"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Plov",
+        "aliases": [
+          "pilaf",
+          "pilau",
+          "osh"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Khachapuri",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Momo",
+        "aliases": [
+          "momos"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mansaf",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Koshari",
+        "aliases": [
+          "kushari",
+          "koshary"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bunny chow",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Fårikål",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Pepperpot",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Coo-coo and flying fish",
+        "aliases": [
+          "cou cou and flying fish",
+          "flying fish"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Chivito",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Cachupa",
+        "aliases": [
+          "catchupa"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Beshbarmak",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Ema datshi",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Thieboudienne",
+        "aliases": [
+          "ceebu jen",
+          "thieb"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-16",
+    "topic": "the-world",
+    "prompt": "Name a strait, canal, or channel",
+    "answers": [
+      {
+        "answer": "Suez Canal",
+        "aliases": [
+          "suez"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Panama Canal",
+        "aliases": [
+          "panama"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "English Channel",
+        "aliases": [
+          "la manche",
+          "the channel"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Strait of Gibraltar",
+        "aliases": [
+          "gibraltar strait",
+          "gibraltar",
+          "straits of gibraltar"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Bering Strait",
+        "aliases": [
+          "bering"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bosphorus",
+        "aliases": [
+          "bosporus",
+          "istanbul strait"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Strait of Hormuz",
+        "aliases": [
+          "hormuz"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Strait of Dover",
+        "aliases": [
+          "dover strait",
+          "pas de calais",
+          "straits of dover"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Grand Canal",
+        "aliases": [
+          "grand canal of china",
+          "canal grande",
+          "grand canal venice"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Corinth Canal",
+        "aliases": [
+          "corinth"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Strait of Malacca",
+        "aliases": [
+          "malacca strait",
+          "malacca",
+          "straits of malacca"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Taiwan Strait",
+        "aliases": [
+          "formosa strait"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Solent",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Dardanelles",
+        "aliases": [
+          "hellespont"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kiel Canal",
+        "aliases": [
+          "nord ostsee kanal"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Strait of Magellan",
+        "aliases": [
+          "magellan strait",
+          "magellan"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bristol Channel",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Cook Strait",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bass Strait",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mozambique Channel",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Erie Canal",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Grand Union Canal",
+        "aliases": [
+          "grand union"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "St George's Channel",
+        "aliases": [
+          "st georges channel",
+          "saint georges channel"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Florida Straits",
+        "aliases": [
+          "straits of florida",
+          "strait of florida"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Drake Passage",
+        "aliases": [
+          "drake strait"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Canal du Midi",
+        "aliases": [
+          "midi canal"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Skagerrak",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Kattegat",
+        "aliases": [
+          "kattegatt"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Strait of Messina",
+        "aliases": [
+          "messina strait",
+          "messina"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Øresund",
+        "aliases": [
+          "the sound",
+          "oresund strait"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Torres Strait",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Palk Strait",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Bab-el-Mandeb",
+        "aliases": [
+          "gate of tears"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Caledonian Canal",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Manchester Ship Canal",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Regent's Canal",
+        "aliases": [
+          "regents canal"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Leeds and Liverpool Canal",
+        "aliases": [
+          "leeds liverpool canal"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Kennet and Avon Canal",
+        "aliases": [
+          "kennet and avon"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bridgewater Canal",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "North Channel",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Minch",
+        "aliases": [
+          "little minch"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Strait of Juan de Fuca",
+        "aliases": [
+          "juan de fuca"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Denmark Strait",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Tsushima Strait",
+        "aliases": [
+          "korea strait",
+          "tsushima"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Beagle Channel",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Menai Strait",
+        "aliases": [
+          "menai"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Pentland Firth",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Sunda Strait",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Kerch Strait",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Göta Canal",
+        "aliases": [
+          "gota kanal"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Great Belt",
+        "aliases": [
+          "storebaelt",
+          "great belt strait"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Strait of Otranto",
+        "aliases": [
+          "otranto"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Lombok Strait",
+        "aliases": [
+          "lombok"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Windward Passage",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Rhine–Main–Danube Canal",
+        "aliases": [
+          "rhine main danube",
+          "main danube canal",
+          "europa canal"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Strait of Tartary",
+        "aliases": [
+          "tatar strait"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-17",
+    "topic": "the-world",
+    "prompt": "Name a former capital city",
+    "answers": [
+      {
+        "answer": "Kyoto",
+        "aliases": [
+          "heian kyo"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Rio de Janeiro",
+        "aliases": [
+          "rio"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Bonn",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Philadelphia",
+        "aliases": [
+          "philly"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Saint Petersburg",
+        "aliases": [
+          "st petersburg",
+          "leningrad",
+          "petrograd"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Istanbul",
+        "aliases": [
+          "constantinople"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Karachi",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Lagos",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Kolkata",
+        "aliases": [
+          "calcutta"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Melbourne",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Nanjing",
+        "aliases": [
+          "nanking"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "New York",
+        "aliases": [
+          "new york city",
+          "nyc"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Florence",
+        "aliases": [
+          "firenze"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Xi'an",
+        "aliases": [
+          "xian",
+          "changan",
+          "chang an"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Almaty",
+        "aliases": [
+          "alma ata"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Yangon",
+        "aliases": [
+          "rangoon"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dar es Salaam",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Turin",
+        "aliases": [
+          "torino"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kraków",
+        "aliases": [
+          "cracow"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Winchester",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Cusco",
+        "aliases": [
+          "cuzco"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Abidjan",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Nara",
+        "aliases": [
+          "heijo kyo"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Alexandria",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Babylon",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Naples",
+        "aliases": [
+          "napoli"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Córdoba",
+        "aliases": [
+          "cordova"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Fez",
+        "aliases": [
+          "fes"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Auckland",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Saigon",
+        "aliases": [
+          "ho chi minh city",
+          "hcmc"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mandalay",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Tel Aviv",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Toledo",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Agra",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Colombo",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Bujumbura",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Aachen",
+        "aliases": [
+          "aix la chapelle"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cetinje",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Quezon City",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Chongqing",
+        "aliases": [
+          "chungking"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bursa",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Coimbra",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Bratislava",
+        "aliases": [
+          "pressburg",
+          "pozsony"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Turku",
+        "aliases": [
+          "abo"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Nafplio",
+        "aliases": [
+          "nauplia",
+          "nafplion"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Montgomery",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Livingstone",
+        "aliases": [
+          "maramba"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Fatehpur Sikri",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Ravenna",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Kaunas",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Valladolid",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Edirne",
+        "aliases": [
+          "adrianople"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Zomba",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Kamakura",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Dunfermline",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Levuka",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Salerno",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-18",
+    "topic": "the-world",
+    "prompt": "Name a country that drives on the left",
+    "answers": [
+      {
+        "answer": "United Kingdom",
+        "aliases": [
+          "uk",
+          "britain",
+          "great britain",
+          "england",
+          "scotland",
+          "wales",
+          "northern ireland"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Australia",
+        "aliases": [
+          "oz"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Japan",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "India",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Ireland",
+        "aliases": [
+          "republic of ireland",
+          "eire"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "New Zealand",
+        "aliases": [
+          "nz"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "South Africa",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Thailand",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Malaysia",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Singapore",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Jamaica",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Pakistan",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Sri Lanka",
+        "aliases": [
+          "ceylon"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Indonesia",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Kenya",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Cyprus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Malta",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Nepal",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bangladesh",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mauritius",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Barbados",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bahamas",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Zimbabwe",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Tanzania",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Uganda",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Botswana",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Fiji",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Papua New Guinea",
+        "aliases": [
+          "png"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Trinidad and Tobago",
+        "aliases": [
+          "trinidad"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Zambia",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Namibia",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Mozambique",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Malawi",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Seychelles",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Maldives",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Guyana",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Antigua and Barbuda",
+        "aliases": [
+          "antigua"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Saint Lucia",
+        "aliases": [
+          "st lucia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Suriname",
+        "aliases": [
+          "surinam"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bhutan",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Brunei",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Samoa",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Timor-Leste",
+        "aliases": [
+          "east timor"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Lesotho",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Eswatini",
+        "aliases": [
+          "swaziland"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Tonga",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Solomon Islands",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Kiribati",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Tuvalu",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Nauru",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Dominica",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Grenada",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Saint Kitts and Nevis",
+        "aliases": [
+          "st kitts",
+          "saint kitts"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Saint Vincent and the Grenadines",
+        "aliases": [
+          "st vincent",
+          "saint vincent"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-19",
+    "topic": "the-world",
+    "prompt": "Name a micronation or disputed territory",
+    "answers": [
+      {
+        "answer": "Palestine",
+        "aliases": [
+          "west bank",
+          "gaza",
+          "gaza strip"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Taiwan",
+        "aliases": [
+          "republic of china",
+          "formosa"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Kosovo",
+        "aliases": [
+          "kosova"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Crimea",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Tibet",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Kashmir",
+        "aliases": [
+          "jammu and kashmir",
+          "ladakh"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Western Sahara",
+        "aliases": [
+          "sahrawi republic"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Northern Cyprus",
+        "aliases": [
+          "trnc",
+          "turkish republic of northern cyprus"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Falkland Islands",
+        "aliases": [
+          "falklands",
+          "malvinas"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Gibraltar",
+        "aliases": [
+          "the rock"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Donbas",
+        "aliases": [
+          "donbass",
+          "donetsk",
+          "luhansk",
+          "donetsk peoples republic",
+          "dpr",
+          "lpr"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Chagos Islands",
+        "aliases": [
+          "chagos",
+          "diego garcia",
+          "british indian ocean territory",
+          "biot"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Somaliland",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Abkhazia",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "South Ossetia",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Transnistria",
+        "aliases": [
+          "pridnestrovie"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Nagorno-Karabakh",
+        "aliases": [
+          "artsakh"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sealand",
+        "aliases": [
+          "principality of sealand"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Golan Heights",
+        "aliases": [
+          "golan"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ceuta and Melilla",
+        "aliases": [
+          "ceuta",
+          "melilla"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kuril Islands",
+        "aliases": [
+          "kurils",
+          "kuriles",
+          "northern territories"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Essequibo",
+        "aliases": [
+          "guayana esequiba",
+          "esequibo"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Antarctica",
+        "aliases": [
+          "antarctic",
+          "british antarctic territory"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Xinjiang",
+        "aliases": [
+          "east turkestan",
+          "uyghur region"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "East Jerusalem",
+        "aliases": [
+          "jerusalem"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Spratly Islands",
+        "aliases": [
+          "spratlys"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Senkaku Islands",
+        "aliases": [
+          "diaoyu islands",
+          "senkakus"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Kurdistan",
+        "aliases": [
+          "iraqi kurdistan"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Aksai Chin",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Freetown Christiania",
+        "aliases": [
+          "christiania"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Liberland",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Hutt River Province",
+        "aliases": [
+          "principality of hutt river",
+          "hutt river"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rockall",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Dokdo",
+        "aliases": [
+          "takeshima",
+          "liancourt rocks"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Paracel Islands",
+        "aliases": [
+          "paracels",
+          "xisha"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Arunachal Pradesh",
+        "aliases": [
+          "arunachal",
+          "south tibet"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Siachen",
+        "aliases": [
+          "siachen glacier"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bir Tawil",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Rojava",
+        "aliases": [
+          "syrian kurdistan",
+          "aanes"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Conch Republic",
+        "aliases": [
+          "key west"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Kingdom of Lovely",
+        "aliases": [
+          "lovely"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Frestonia",
+        "aliases": [
+          "free and independent republic of frestonia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rose Island",
+        "aliases": [
+          "republic of rose island",
+          "isola delle rose"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hay-on-Wye",
+        "aliases": [
+          "kingdom of hay on wye"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Užupis",
+        "aliases": [
+          "republic of uzupis"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Ladonia",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Molossia",
+        "aliases": [
+          "republic of molossia"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Seborga",
+        "aliases": [
+          "principality of seborga"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Whangamomona",
+        "aliases": [
+          "republic of whangamomona"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Scarborough Shoal",
+        "aliases": [
+          "scarborough"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "South Georgia",
+        "aliases": [
+          "south georgia and the south sandwich islands"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Doklam",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Hala'ib Triangle",
+        "aliases": [
+          "halaib",
+          "halayeb triangle"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Westarctica",
+        "aliases": [
+          "grand duchy of westarctica"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kingdom of North Sudan",
+        "aliases": [
+          "north sudan"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-20",
+    "topic": "the-world",
+    "prompt": "Name a famous train or railway line",
+    "answers": [
+      {
+        "answer": "Orient Express",
+        "aliases": [
+          "venice simplon orient express",
+          "murder on the orient express"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Trans-Siberian Railway",
+        "aliases": [
+          "trans siberian",
+          "trans siberian express"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Eurostar",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Flying Scotsman",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Shinkansen",
+        "aliases": [
+          "bullet train",
+          "japanese bullet train"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hogwarts Express",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "TGV",
+        "aliases": [
+          "train a grande vitesse"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Jacobite",
+        "aliases": [
+          "jacobite steam train",
+          "harry potter train",
+          "glenfinnan viaduct train"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Glacier Express",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Stephenson's Rocket",
+        "aliases": [
+          "rocket",
+          "stephensons rocket"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mallard",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "HS2",
+        "aliases": [
+          "high speed 2",
+          "high speed two"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Thomas the Tank Engine",
+        "aliases": [
+          "thomas",
+          "thomas and friends"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Polar Express",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "London Underground",
+        "aliases": [
+          "tube",
+          "underground"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Elizabeth line",
+        "aliases": [
+          "crossrail"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Trans-Mongolian Railway",
+        "aliases": [
+          "trans mongolian"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Settle-Carlisle Line",
+        "aliases": [
+          "settle to carlisle",
+          "settle carlisle"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "West Highland Line",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Darjeeling Himalayan Railway",
+        "aliases": [
+          "toy train",
+          "darjeeling toy train"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Ghan",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Rocky Mountaineer",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "California Zephyr",
+        "aliases": [
+          "zephyr"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bernina Express",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Caledonian Sleeper",
+        "aliases": [
+          "caledonian"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Intercity 125",
+        "aliases": [
+          "hst",
+          "high speed train",
+          "intercity",
+          "inter city 125"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Stockton and Darlington Railway",
+        "aliases": [
+          "stockton and darlington",
+          "stockton to darlington"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Great Western Railway",
+        "aliases": [
+          "gwr",
+          "great western"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "West Coast Main Line",
+        "aliases": [
+          "wcml"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "East Coast Main Line",
+        "aliases": [
+          "ecml"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Snowdon Mountain Railway",
+        "aliases": [
+          "snowdon railway"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Maglev",
+        "aliases": [
+          "shanghai maglev"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Snowpiercer",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Blue Train",
+        "aliases": [
+          "le train bleu"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Indian Pacific",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Flåm Railway",
+        "aliases": [
+          "flamsbana"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bergen Line",
+        "aliases": [
+          "bergen railway"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Palace on Wheels",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Empire Builder",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Death Railway",
+        "aliases": [
+          "burma railway",
+          "burma siam railway",
+          "bridge on the river kwai",
+          "river kwai"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Royal Scotsman",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Tornado",
+        "aliases": [
+          "60163 tornado"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Big Boy",
+        "aliases": [
+          "union pacific big boy",
+          "big boy 4014"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Kandy to Ella",
+        "aliases": [
+          "kandy ella train",
+          "ella train",
+          "ella to kandy",
+          "sri lanka train"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rovos Rail",
+        "aliases": [
+          "rovos",
+          "pride of africa"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ffestiniog Railway",
+        "aliases": [
+          "ffestiniog",
+          "festiniog railway"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Transcontinental Railroad",
+        "aliases": [
+          "first transcontinental railroad",
+          "transcontinental railway",
+          "pacific railroad"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Chattanooga Choo Choo",
+        "aliases": [
+          "chattanooga"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Golden Arrow",
+        "aliases": [
+          "fleche d or"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tazara Railway",
+        "aliases": [
+          "tazara",
+          "uhuru railway"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Qinghai-Tibet Railway",
+        "aliases": [
+          "tibet railway"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Hejaz Railway",
+        "aliases": [
+          "hijaz railway"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "El Chepe",
+        "aliases": [
+          "chihuahua al pacifico",
+          "copper canyon railway"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Tren a las Nubes",
+        "aliases": [
+          "train to the clouds"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Baikal-Amur Mainline",
+        "aliases": [
+          "bam",
+          "baikal amur"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Nilgiri Mountain Railway",
+        "aliases": [
+          "nilgiri",
+          "ooty train"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Devil's Nose",
+        "aliases": [
+          "nariz del diablo",
+          "devils nose train"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-21",
+    "topic": "the-world",
+    "prompt": "Name a country with a monarchy",
+    "answers": [
+      {
+        "answer": "United Kingdom",
+        "aliases": [
+          "uk",
+          "britain",
+          "great britain",
+          "reino unido",
+          "england"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Spain",
+        "aliases": [
+          "espanha",
+          "espana"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Japan",
+        "aliases": [
+          "japao",
+          "nippon"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Saudi Arabia",
+        "aliases": [
+          "saudi",
+          "arabia saudita"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Sweden",
+        "aliases": [
+          "suecia"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Netherlands",
+        "aliases": [
+          "holland",
+          "holanda",
+          "paises baixos"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Denmark",
+        "aliases": [
+          "dinamarca"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Norway",
+        "aliases": [
+          "noruega"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Belgium",
+        "aliases": [
+          "belgica"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Monaco",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Thailand",
+        "aliases": [
+          "tailandia",
+          "siam"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Morocco",
+        "aliases": [
+          "marrocos"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Jordan",
+        "aliases": [
+          "jordania"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Australia",
+        "aliases": [
+          "oz"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Canada",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "New Zealand",
+        "aliases": [
+          "nz",
+          "nova zelandia",
+          "aotearoa"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Luxembourg",
+        "aliases": [
+          "luxemburgo"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Qatar",
+        "aliases": [
+          "catar"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kuwait",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Malaysia",
+        "aliases": [
+          "malasia"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cambodia",
+        "aliases": [
+          "camboja"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "United Arab Emirates",
+        "aliases": [
+          "uae",
+          "emirates",
+          "emirados arabes unidos",
+          "dubai",
+          "abu dhabi"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Liechtenstein",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Andorra",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Bhutan",
+        "aliases": [
+          "butao"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Brunei",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Oman",
+        "aliases": [
+          "oma"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bahrain",
+        "aliases": [
+          "barein",
+          "bahrein"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Eswatini",
+        "aliases": [
+          "swaziland",
+          "suazilandia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lesotho",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Bahamas",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Belize",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Tonga",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Vatican City",
+        "aliases": [
+          "vatican",
+          "holy see",
+          "vaticano"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Papua New Guinea",
+        "aliases": [
+          "png",
+          "papua nova guine"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Jamaica",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Antigua and Barbuda",
+        "aliases": [
+          "antigua"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Grenada",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Saint Kitts and Nevis",
+        "aliases": [
+          "st kitts",
+          "saint kitts"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Saint Lucia",
+        "aliases": [
+          "st lucia"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Saint Vincent and the Grenadines",
+        "aliases": [
+          "st vincent",
+          "saint vincent"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Solomon Islands",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Tuvalu",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-22",
+    "topic": "the-world",
+    "prompt": "Name a capital city in Africa",
+    "answers": [
+      {
+        "answer": "Cairo",
+        "aliases": [
+          "o cairo",
+          "el cairo"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Nairobi",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Cape Town",
+        "aliases": [
+          "capetown",
+          "cidade do cabo"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Tunis",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Algiers",
+        "aliases": [
+          "argel",
+          "alger"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Addis Ababa",
+        "aliases": [
+          "addis abeba",
+          "adis abeba",
+          "addis"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Pretoria",
+        "aliases": [
+          "tshwane"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Rabat",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Tripoli",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Accra",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Dakar",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Abuja",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Kampala",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Kinshasa",
+        "aliases": [
+          "leopoldville"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Khartoum",
+        "aliases": [
+          "cartum",
+          "khartum"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Kigali",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Luanda",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Maputo",
+        "aliases": [
+          "lourenco marques"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Harare",
+        "aliases": [
+          "salisbury"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lusaka",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Dodoma",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mogadishu",
+        "aliases": [
+          "mogadiscio"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Brazzaville",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Antananarivo",
+        "aliases": [
+          "tana",
+          "tananarive"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Windhoek",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Juba",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bamako",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Ouagadougou",
+        "aliases": [
+          "ouaga"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Yaoundé",
+        "aliases": [
+          "yaunde"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Freetown",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Monrovia",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Yamoussoukro",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Gaborone",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Bangui",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "N'Djamena",
+        "aliases": [
+          "ndjamena",
+          "fort lamy"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Djibouti",
+        "aliases": [
+          "djibouti city"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Asmara",
+        "aliases": [
+          "asmera"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mbabane",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Libreville",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Banjul",
+        "aliases": [
+          "bathurst"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Conakry",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Maseru",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Lilongwe",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Nouakchott",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Port Louis",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Niamey",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Bloemfontein",
+        "aliases": [
+          "mangaung"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lomé",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Gitega",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Porto-Novo",
+        "aliases": [
+          "porto novo city"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Praia",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Bissau",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "São Tomé",
+        "aliases": [
+          "sao tome city"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Malabo",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Moroni",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Victoria",
+        "aliases": [
+          "port victoria"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Laayoune",
+        "aliases": [
+          "el aaiun",
+          "layoune"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Lobamba",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-23",
+    "topic": "the-world",
+    "prompt": "Name a famous bridge",
+    "answers": [
+      {
+        "answer": "Golden Gate Bridge",
+        "aliases": [
+          "golden gate"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Tower Bridge",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Brooklyn Bridge",
+        "aliases": [
+          "brooklyn"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "London Bridge",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Sydney Harbour Bridge",
+        "aliases": [
+          "sydney harbor bridge",
+          "harbour bridge",
+          "sydney bridge",
+          "coathanger"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Millennium Bridge",
+        "aliases": [
+          "wobbly bridge"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ponte Vecchio",
+        "aliases": [
+          "vecchio"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Rialto Bridge",
+        "aliases": [
+          "rialto",
+          "ponte di rialto"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Charles Bridge",
+        "aliases": [
+          "karluv most",
+          "prague bridge"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bridge of Sighs",
+        "aliases": [
+          "ponte dei sospiri"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Millau Viaduct",
+        "aliases": [
+          "millau bridge",
+          "viaduc de millau"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Forth Bridge",
+        "aliases": [
+          "forth rail bridge"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Westminster Bridge",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Tyne Bridge",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Dartford Crossing",
+        "aliases": [
+          "qe2 bridge",
+          "queen elizabeth ii bridge",
+          "dartford bridge"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ponte 25 de Abril",
+        "aliases": [
+          "25 de abril bridge",
+          "ponte vinte e cinco de abril"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Vasco da Gama Bridge",
+        "aliases": [
+          "ponte vasco da gama"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Clifton Suspension Bridge",
+        "aliases": [
+          "clifton bridge"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bosphorus Bridge",
+        "aliases": [
+          "bosporus bridge",
+          "15 july martyrs bridge"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Øresund Bridge",
+        "aliases": [
+          "oresund bridge",
+          "oresund",
+          "oresundsbron"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Akashi Kaikyo Bridge",
+        "aliases": [
+          "akashi kaikyo",
+          "akashi strait bridge"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pont du Gard",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Humber Bridge",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Waterloo Bridge",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Gateshead Millennium Bridge",
+        "aliases": [
+          "blinking eye bridge",
+          "winking eye bridge"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Menai Suspension Bridge",
+        "aliases": [
+          "menai bridge"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Queensferry Crossing",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Hammersmith Bridge",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Ha'penny Bridge",
+        "aliases": [
+          "hapenny bridge",
+          "halfpenny bridge"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pont Neuf",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Chain Bridge",
+        "aliases": [
+          "szechenyi chain bridge",
+          "budapest chain bridge"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Golden Bridge",
+        "aliases": [
+          "hands bridge",
+          "da nang golden bridge",
+          "cau vang"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Howrah Bridge",
+        "aliases": [
+          "howrah"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Verrazzano-Narrows Bridge",
+        "aliases": [
+          "verrazano bridge",
+          "verrazzano",
+          "verrazano narrows"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bridge on the River Kwai",
+        "aliases": [
+          "river kwai bridge",
+          "kwai bridge",
+          "bridge over the river kwai"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ponte Dom Luís I",
+        "aliases": [
+          "ponte luis i",
+          "dom luis bridge",
+          "luis i bridge"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Stari Most",
+        "aliases": [
+          "mostar bridge",
+          "old bridge of mostar"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Severn Bridge",
+        "aliases": [
+          "first severn crossing"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Confederation Bridge",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Erasmus Bridge",
+        "aliases": [
+          "erasmusbrug"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rio-Niterói Bridge",
+        "aliases": [
+          "ponte rio niteroi"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Iron Bridge",
+        "aliases": [
+          "ironbridge"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tay Bridge",
+        "aliases": [
+          "tay rail bridge"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Pulteney Bridge",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Mathematical Bridge",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Prince of Wales Bridge",
+        "aliases": [
+          "second severn crossing"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tsing Ma Bridge",
+        "aliases": [
+          "tsing ma"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Chenab Bridge",
+        "aliases": [
+          "chenab rail bridge"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mackinac Bridge",
+        "aliases": [
+          "mackinac",
+          "mighty mac"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Glienicke Bridge",
+        "aliases": [
+          "bridge of spies",
+          "glienicker brucke"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Capilano Suspension Bridge",
+        "aliases": [
+          "capilano"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Danyang-Kunshan Grand Bridge",
+        "aliases": [
+          "danyang kunshan"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Khaju Bridge",
+        "aliases": [
+          "khaju"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Chengyang Bridge",
+        "aliases": [
+          "wind and rain bridge"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Puente Nuevo",
+        "aliases": [
+          "ronda bridge"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Ponte Maria Pia",
+        "aliases": [
+          "maria pia bridge"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Beipanjiang Bridge",
+        "aliases": [
+          "duge bridge",
+          "beipanjiang"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Tarr Steps",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Alcántara Bridge",
+        "aliases": [
+          "puente de alcantara"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-24",
+    "topic": "the-world",
+    "prompt": "Name a cheese",
+    "answers": [
+      {
+        "answer": "Cheddar",
+        "aliases": [
+          "cheddar cheese",
+          "mature cheddar"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Mozzarella",
+        "aliases": [
+          "mozarella"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Parmesan",
+        "aliases": [
+          "parmigiano reggiano",
+          "parmesao",
+          "parmigiano"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Brie",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Feta",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Gouda",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Camembert",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Mascarpone",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Ricotta",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Blue cheese",
+        "aliases": [
+          "queijo azul"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Stilton",
+        "aliases": [
+          "blue stilton"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Gorgonzola",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Emmental",
+        "aliases": [
+          "emmentaler",
+          "swiss cheese"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Halloumi",
+        "aliases": [
+          "haloumi"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cream cheese",
+        "aliases": [
+          "philadelphia"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Babybel",
+        "aliases": [
+          "mini babybel"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Chèvre",
+        "aliases": [
+          "goats cheese",
+          "goat's cheese",
+          "goat cheese"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Red Leicester",
+        "aliases": [
+          "leicester"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Wensleydale",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Manchego",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Roquefort",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Edam",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Gruyère",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Pecorino",
+        "aliases": [
+          "pecorino romano"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cottage cheese",
+        "aliases": [
+          "queijo cottage"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Burrata",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Dairylea",
+        "aliases": [
+          "dairylea triangles"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "American cheese",
+        "aliases": [
+          "processed cheese",
+          "kraft singles",
+          "cheese singles"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Monterey Jack",
+        "aliases": [
+          "pepper jack",
+          "jack cheese"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Provolone",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Raclette",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Boursin",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Jarlsberg",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Lancashire",
+        "aliases": [
+          "lancashire cheese",
+          "crumbly lancashire"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Double Gloucester",
+        "aliases": [
+          "gloucester"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Caerphilly",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Queijo da Serra",
+        "aliases": [
+          "serra da estrela",
+          "queijo serra da estrela"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Comté",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Paneer",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Queijo de Azeitão",
+        "aliases": [
+          "azeitao"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Taleggio",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Grana Padano",
+        "aliases": [
+          "grana"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Munster",
+        "aliases": [
+          "munster cheese",
+          "muenster"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Brunost",
+        "aliases": [
+          "brown cheese",
+          "gjetost"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cornish Yarg",
+        "aliases": [
+          "yarg"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Shropshire Blue",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Stinking Bishop",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Limburger",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Cotija",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Queijo São Jorge",
+        "aliases": [
+          "sao jorge"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Époisses",
+        "aliases": [
+          "epoisses de bourgogne"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Reblochon",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Cabrales",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Casu marzu",
+        "aliases": [
+          "maggot cheese"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Tête de Moine",
+        "aliases": [
+          "tete de moine cheese"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Oscypek",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Sulguni",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Tunworth",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "the-world-25",
+    "topic": "the-world",
+    "prompt": "Name a volcano",
+    "answers": [
+      {
+        "answer": "Mount Vesuvius",
+        "aliases": [
+          "vesuvius",
+          "vesuvio"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Mount Etna",
+        "aliases": [
+          "etna"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Mount Fuji",
+        "aliases": [
+          "fuji",
+          "fujiyama",
+          "fujisan"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Krakatoa",
+        "aliases": [
+          "krakatau",
+          "anak krakatau"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Mount St Helens",
+        "aliases": [
+          "mount saint helens",
+          "st helens"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Kilauea",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Mauna Loa",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Popocatépetl",
+        "aliases": [
+          "popo"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Eyjafjallajökull",
+        "aliases": [
+          "the icelandic volcano",
+          "iceland volcano",
+          "eyjafjalla",
+          "e15"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Stromboli",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Mount Pinatubo",
+        "aliases": [
+          "pinatubo"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Kilimanjaro",
+        "aliases": [
+          "mount kilimanjaro"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Santorini",
+        "aliases": [
+          "thera",
+          "thira"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Soufrière Hills",
+        "aliases": [
+          "soufriere hills volcano",
+          "montserrat volcano",
+          "montserrat",
+          "chances peak"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mount Rainier",
+        "aliases": [
+          "rainier"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cotopaxi",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mount Tambora",
+        "aliases": [
+          "tambora"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mount Merapi",
+        "aliases": [
+          "merapi"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Yellowstone Caldera",
+        "aliases": [
+          "yellowstone supervolcano",
+          "yellowstone"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mount Teide",
+        "aliases": [
+          "teide",
+          "pico del teide"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Nyiragongo",
+        "aliases": [
+          "mount nyiragongo"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hekla",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Nevado del Ruiz",
+        "aliases": [
+          "ruiz",
+          "armero volcano"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Fagradalsfjall",
+        "aliases": [
+          "geldingadalir"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Campi Flegrei",
+        "aliases": [
+          "phlegraean fields",
+          "campi flegrei caldera"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hunga Tonga",
+        "aliases": [
+          "hunga tonga hunga haapai",
+          "tonga volcano"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mount Hood",
+        "aliases": [
+          "hood"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sakurajima",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mount Bromo",
+        "aliases": [
+          "bromo"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Taal",
+        "aliases": [
+          "taal volcano",
+          "mount taal"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mount Ruapehu",
+        "aliases": [
+          "ruapehu"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cumbre Vieja",
+        "aliases": [
+          "la palma volcano",
+          "la palma",
+          "tajogaite"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mauna Kea",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mount Erebus",
+        "aliases": [
+          "erebus"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mount Pelée",
+        "aliases": [
+          "pelee",
+          "montagne pelee"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Katla",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Lake Toba",
+        "aliases": [
+          "toba",
+          "toba caldera"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mount Agung",
+        "aliases": [
+          "agung"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Pico",
+        "aliases": [
+          "ponta do pico",
+          "montanha do pico",
+          "pico volcano"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Pico do Fogo",
+        "aliases": [
+          "fogo",
+          "mount fogo"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mount Ngauruhoe",
+        "aliases": [
+          "ngauruhoe",
+          "mount doom"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mount Shasta",
+        "aliases": [
+          "shasta"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Crater Lake",
+        "aliases": [
+          "mount mazama",
+          "mazama"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Erta Ale",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Ojos del Salado",
+        "aliases": [
+          "nevado ojos del salado"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Surtsey",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Klyuchevskaya Sopka",
+        "aliases": [
+          "klyuchevskoy",
+          "klyuchevskaya"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mount Ijen",
+        "aliases": [
+          "ijen",
+          "kawah ijen",
+          "blue fire volcano"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mount Elbrus",
+        "aliases": [
+          "elbrus"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ol Doinyo Lengai",
+        "aliases": [
+          "lengai"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Capelinhos",
+        "aliases": [
+          "vulcao dos capelinhos"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Olympus Mons",
+        "aliases": [
+          "monte olimpo"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Mount Paektu",
+        "aliases": [
+          "paektu",
+          "changbaishan"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Laki",
+        "aliases": [
+          "lakagigar"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Novarupta",
+        "aliases": [
+          "katmai",
+          "mount katmai"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Huaynaputina",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Sundhnúkur",
+        "aliases": [
+          "sundhnukagigar",
+          "reykjanes",
+          "grindavik volcano"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Deception Island",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  }
+]

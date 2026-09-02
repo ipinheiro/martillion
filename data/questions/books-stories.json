@@ -1,0 +1,9607 @@
+[
+  {
+    "id": "books-stories-01",
+    "topic": "books-stories",
+    "prompt": "Name a fictional witch or wizard",
+    "answers": [
+      {
+        "answer": "Harry Potter",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Gandalf",
+        "aliases": [
+          "gandalf the grey",
+          "mithrandir"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Albus Dumbledore",
+        "aliases": [
+          "dumbledore",
+          "professor dumbledore"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Merlin",
+        "aliases": [
+          "myrddin",
+          "emrys"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Hermione Granger",
+        "aliases": [
+          "hermione"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Voldemort",
+        "aliases": [
+          "lord voldemort",
+          "tom riddle"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Wicked Witch of the West",
+        "aliases": [
+          "wicked witch"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Saruman",
+        "aliases": [
+          "saruman the white"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Severus Snape",
+        "aliases": [
+          "snape",
+          "professor snape"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ron Weasley",
+        "aliases": [
+          "ron"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sabrina Spellman",
+        "aliases": [
+          "sabrina",
+          "sabrina the teenage witch"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Wizard of Oz",
+        "aliases": [
+          "oz",
+          "the great and powerful oz"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Glinda",
+        "aliases": [
+          "glinda the good witch"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The White Witch",
+        "aliases": [
+          "jadis"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Scarlet Witch",
+        "aliases": [
+          "wanda maximoff",
+          "wanda"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Draco Malfoy",
+        "aliases": [
+          "draco",
+          "malfoy"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Neville Longbottom",
+        "aliases": [
+          "neville"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Luna Lovegood",
+        "aliases": [
+          "luna"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Minerva McGonagall",
+        "aliases": [
+          "mcgonagall",
+          "professor mcgonagall"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hagrid",
+        "aliases": [
+          "rubeus hagrid"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sirius Black",
+        "aliases": [
+          "sirius"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dolores Umbridge",
+        "aliases": [
+          "umbridge",
+          "professor umbridge"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Winifred Sanderson",
+        "aliases": [
+          "sanderson sisters",
+          "winifred",
+          "winnie sanderson"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ursula",
+        "aliases": [
+          "ursula the sea witch",
+          "the sea witch"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Jafar",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Maleficent",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Baba Yaga",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Circe",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Morgan le Fay",
+        "aliases": [
+          "morgana",
+          "morgaine"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bellatrix Lestrange",
+        "aliases": [
+          "bellatrix"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Doctor Strange",
+        "aliases": [
+          "dr strange",
+          "stephen strange"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Elphaba",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Grand High Witch",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mad-Eye Moody",
+        "aliases": [
+          "mad eye",
+          "alastor moody",
+          "moody"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Willow Rosenberg",
+        "aliases": [
+          "willow"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Yubaba",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Howl",
+        "aliases": [
+          "howl jenkins",
+          "wizard howl",
+          "howl pendragon"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kiki",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Winnie the Witch",
+        "aliases": [
+          "winnie"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Gargamel",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Madam Mim",
+        "aliases": [
+          "mad madam mim"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Melisandre",
+        "aliases": [
+          "the red woman"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Halliwell Sisters",
+        "aliases": [
+          "charmed ones",
+          "piper halliwell",
+          "phoebe halliwell",
+          "prue halliwell"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Rincewind",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Granny Weatherwax",
+        "aliases": [
+          "esme weatherwax"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Prospero",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Gellert Grindelwald",
+        "aliases": [
+          "grindelwald"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mildred Hubble",
+        "aliases": [
+          "the worst witch"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Yennefer",
+        "aliases": [
+          "yennefer of vengerberg"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Radagast",
+        "aliases": [
+          "radagast the brown"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Zatanna",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Wicked Witch of the East",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Tiffany Aching",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Grotbags",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Witch of the Waste",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Ged",
+        "aliases": [
+          "sparrowhawk"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Nanny Ogg",
+        "aliases": [
+          "gytha ogg"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Schmendrick",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Raistlin Majere",
+        "aliases": [
+          "raistlin"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Magrat Garlick",
+        "aliases": [
+          "magrat"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-02",
+    "topic": "books-stories",
+    "prompt": "Name a book people are made to read at school",
+    "answers": [
+      {
+        "answer": "Of Mice and Men",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "To Kill a Mockingbird",
+        "aliases": [
+          "mockingbird"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Romeo and Juliet",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Macbeth",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Lord of the Flies",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Animal Farm",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "A Christmas Carol",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "1984",
+        "aliases": [
+          "nineteen eighty four"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "An Inspector Calls",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Great Expectations",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Jane Eyre",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Pride and Prejudice",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Wuthering Heights",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Great Gatsby",
+        "aliases": [
+          "gatsby"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Frankenstein",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Strange Case of Dr Jekyll and Mr Hyde",
+        "aliases": [
+          "jekyll and hyde",
+          "dr jekyll and mr hyde"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hamlet",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Blood Brothers",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Catcher in the Rye",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Othello",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Tempest",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Much Ado About Nothing",
+        "aliases": [
+          "much ado"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Merchant of Venice",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "A Midsummer Night's Dream",
+        "aliases": [
+          "midsummer nights dream"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Oliver Twist",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Boy in the Striped Pyjamas",
+        "aliases": [
+          "boy in the striped pajamas"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Private Peaceful",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "War Horse",
+        "aliases": [
+          "warhorse"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Holes",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Skellig",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Goodnight Mister Tom",
+        "aliases": [
+          "goodnight mr tom"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Noughts and Crosses",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Crucible",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Woman in Black",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Journey's End",
+        "aliases": [
+          "journeys end"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Never Let Me Go",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "A View from the Bridge",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Handmaid's Tale",
+        "aliases": [
+          "handmaids tale"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Sign of Four",
+        "aliases": [
+          "sign of the four"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "A Streetcar Named Desire",
+        "aliases": [
+          "streetcar"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Death of a Salesman",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Tess of the d'Urbervilles",
+        "aliases": [
+          "tess"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "DNA",
+        "aliases": [
+          "dna by dennis kelly"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Curious Incident of the Dog in the Night-Time",
+        "aliases": [
+          "curious incident"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Kite Runner",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Stone Cold",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Brave New World",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Things Fall Apart",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The History Boys",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Silas Marner",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "A Kestrel for a Knave",
+        "aliases": [
+          "kes"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Anita and Me",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Purple Hibiscus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Pigeon English",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "A Taste of Honey",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Refugee Boy",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Spies",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Touching the Void",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Bloody Chamber",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Talking in Whispers",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Buddy",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-03",
+    "topic": "books-stories",
+    "prompt": "Name an author who wrote under a pen name",
+    "answers": [
+      {
+        "answer": "J.K. Rowling",
+        "aliases": [
+          "jk rowling",
+          "robert galbraith",
+          "joanne rowling"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Mark Twain",
+        "aliases": [
+          "samuel clemens",
+          "samuel langhorne clemens"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "George Orwell",
+        "aliases": [
+          "eric blair",
+          "eric arthur blair"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Dr. Seuss",
+        "aliases": [
+          "doctor seuss",
+          "theodor geisel",
+          "theodor seuss geisel"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Lewis Carroll",
+        "aliases": [
+          "charles dodgson",
+          "charles lutwidge dodgson"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "George Eliot",
+        "aliases": [
+          "mary ann evans"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Stephen King",
+        "aliases": [
+          "richard bachman"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Charlotte Brontë",
+        "aliases": [
+          "currer bell"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Agatha Christie",
+        "aliases": [
+          "mary westmacott"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "John le Carré",
+        "aliases": [
+          "david cornwell"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Lemony Snicket",
+        "aliases": [
+          "daniel handler"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Voltaire",
+        "aliases": [
+          "francois marie arouet"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Charles Dickens",
+        "aliases": [
+          "boz"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Emily Brontë",
+        "aliases": [
+          "ellis bell"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Lee Child",
+        "aliases": [
+          "jim grant",
+          "james grant",
+          "child"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "E.L. James",
+        "aliases": [
+          "el james",
+          "erika leonard",
+          "erika mitchell"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Elena Ferrante",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Molière",
+        "aliases": [
+          "jean baptiste poquelin"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "O. Henry",
+        "aliases": [
+          "william sydney porter"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ayn Rand",
+        "aliases": [
+          "alisa rosenbaum"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sylvia Plath",
+        "aliases": [
+          "victoria lucas"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Stan Lee",
+        "aliases": [
+          "stanley lieber"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Anne Rice",
+        "aliases": [
+          "anne rampling",
+          "a n roquelaure"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Anne Brontë",
+        "aliases": [
+          "acton bell"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Joseph Conrad",
+        "aliases": [
+          "conrad",
+          "jozef korzeniowski"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pablo Neruda",
+        "aliases": [
+          "neruda",
+          "neftali reyes"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Nora Roberts",
+        "aliases": [
+          "j d robb",
+          "jd robb",
+          "eleanor robertson"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ruth Rendell",
+        "aliases": [
+          "rendell",
+          "barbara vine"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Andy McNab",
+        "aliases": [
+          "mcnab"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sophie Kinsella",
+        "aliases": [
+          "kinsella",
+          "madeleine wickham"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hergé",
+        "aliases": [
+          "georges remi"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cassandra Clare",
+        "aliases": [
+          "judith rumelt"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Louisa May Alcott",
+        "aliases": [
+          "alcott",
+          "a m barnard"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Michael Crichton",
+        "aliases": [
+          "crichton",
+          "john lange",
+          "jeffery hudson"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Saki",
+        "aliases": [
+          "hector hugh munro",
+          "h h munro"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Isak Dinesen",
+        "aliases": [
+          "karen blixen"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "George Sand",
+        "aliases": [
+          "amantine dupin"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Stendhal",
+        "aliases": [
+          "marie henri beyle"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "C.S. Lewis",
+        "aliases": [
+          "cs lewis",
+          "clive staples lewis",
+          "n w clerk"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dean Koontz",
+        "aliases": [
+          "koontz",
+          "leigh nichols"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "John Wyndham",
+        "aliases": [
+          "wyndham",
+          "john beynon"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Anthony Burgess",
+        "aliases": [
+          "burgess",
+          "john burgess wilson",
+          "joseph kell"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Flann O'Brien",
+        "aliases": [
+          "myles na gcopaleen",
+          "brian o nolan"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Yukio Mishima",
+        "aliases": [
+          "mishima",
+          "kimitake hiraoka"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Maxim Gorky",
+        "aliases": [
+          "gorky",
+          "alexei peshkov"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Isaac Asimov",
+        "aliases": [
+          "asimov",
+          "paul french"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Robert Jordan",
+        "aliases": [
+          "james rigney"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "bell hooks",
+        "aliases": [
+          "gloria watkins"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Nicci French",
+        "aliases": [
+          "nicci gerrard"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "P.L. Travers",
+        "aliases": [
+          "pl travers",
+          "helen goff"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Nevil Shute",
+        "aliases": [
+          "shute",
+          "nevil shute norway"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "James Tiptree Jr.",
+        "aliases": [
+          "alice sheldon"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Fernando Pessoa",
+        "aliases": [
+          "alberto caeiro",
+          "ricardo reis",
+          "alvaro de campos"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Ellery Queen",
+        "aliases": [
+          "frederic dannay",
+          "manfred lee"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Pauline Réage",
+        "aliases": [
+          "anne desclos",
+          "dominique aury"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Italo Svevo",
+        "aliases": [
+          "svevo",
+          "ettore schmitz"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Anna Akhmatova",
+        "aliases": [
+          "akhmatova",
+          "anna gorenko"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Gabriela Mistral",
+        "aliases": [
+          "mistral",
+          "lucila godoy"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Novalis",
+        "aliases": [
+          "friedrich von hardenberg"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Hugh MacDiarmid",
+        "aliases": [
+          "macdiarmid",
+          "christopher grieve"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-04",
+    "topic": "books-stories",
+    "prompt": "Name a fictional place",
+    "answers": [
+      {
+        "answer": "Narnia",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Hogwarts",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Middle-earth",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Wonderland",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Neverland",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Shire",
+        "aliases": [
+          "hobbiton"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mordor",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Westeros",
+        "aliases": [
+          "the seven kingdoms"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Gotham City",
+        "aliases": [
+          "gotham"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Land of Oz",
+        "aliases": [
+          "oz"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Springfield",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Atlantis",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Camelot",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Wakanda",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Panem",
+        "aliases": [
+          "district 12"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Winterfell",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Diagon Alley",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Asgard",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Bikini Bottom",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Metropolis",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Hogsmeade",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Azkaban",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "King's Landing",
+        "aliases": [
+          "kings landing"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tatooine",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Arrakis",
+        "aliases": [
+          "dune"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hundred Acre Wood",
+        "aliases": [
+          "100 acre wood"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Arendelle",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Krypton",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Albert Square",
+        "aliases": [
+          "walford"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Emmerdale",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "South Park",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Hawkins",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Jurassic Park",
+        "aliases": [
+          "isla nublar"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Rivendell",
+        "aliases": [
+          "imladris"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lilliput",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "El Dorado",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Shangri-La",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Gilead",
+        "aliases": [
+          "republic of gilead"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Emerald City",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Weatherfield",
+        "aliases": [
+          "coronation street"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pandora",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Sunnydale",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Far Far Away",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Sodor",
+        "aliases": [
+          "island of sodor"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Balamory",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Discworld",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Zootropolis",
+        "aliases": [
+          "zootopia"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bedrock",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Manderley",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Ankh-Morpork",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Cair Paravel",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Macondo",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Laputa",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Royston Vasey",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Brobdingnag",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Ambridge",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Pontypandy",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Llareggub",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Gormenghast",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Yoknapatawpha County",
+        "aliases": [
+          "yoknapatawpha"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Malgudi",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Trumpton",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Blandings Castle",
+        "aliases": [
+          "blandings"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-05",
+    "topic": "books-stories",
+    "prompt": "Name a figure from Greek myth",
+    "answers": [
+      {
+        "answer": "Zeus",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Hercules",
+        "aliases": [
+          "heracles"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Achilles",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Medusa",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Hades",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Poseidon",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Athena",
+        "aliases": [
+          "pallas athena"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Aphrodite",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Apollo",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Ares",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Artemis",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Hermes",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Hera",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Persephone",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Odysseus",
+        "aliases": [
+          "ulysses"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Icarus",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Prometheus",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Pandora",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Perseus",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Theseus",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Midas",
+        "aliases": [
+          "king midas"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hephaestus",
+        "aliases": [
+          "hephaistos",
+          "vulcan"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Demeter",
+        "aliases": [
+          "ceres"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Minotaur",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Cronus",
+        "aliases": [
+          "kronos",
+          "cronos",
+          "saturn"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Jason",
+        "aliases": [
+          "jason and the argonauts"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Pegasus",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Cerberus",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Eros",
+        "aliases": [
+          "cupid"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hestia",
+        "aliases": [
+          "vesta"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Paris",
+        "aliases": [
+          "paris of troy"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hector",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Penelope",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Narcissus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Oedipus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Orpheus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Sisyphus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Helen of Troy",
+        "aliases": [
+          "helen"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Atlas",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Dionysus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Daedalus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Polyphemus",
+        "aliases": [
+          "cyclops"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Agamemnon",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Gaia",
+        "aliases": [
+          "gaea"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Chiron",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Eurydice",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Medea",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Calypso",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Hecate",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Patroclus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Cassandra",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Ariadne",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Antigone",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Tantalus",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Electra",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Clytemnestra",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Atalanta",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Pygmalion",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Bellerophon",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Erysichthon",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Tiresias",
+        "aliases": [
+          "teiresias"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Alcestis",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Actaeon",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Philomela",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Laocoön",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-06",
+    "topic": "books-stories",
+    "prompt": "Name a fairy tale",
+    "answers": [
+      {
+        "answer": "Cinderella",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Snow White",
+        "aliases": [
+          "snow white and the seven dwarfs",
+          "snow white and the 7 dwarfs"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Little Red Riding Hood",
+        "aliases": [
+          "red riding hood"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Sleeping Beauty",
+        "aliases": [
+          "briar rose"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Hansel and Gretel",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Rapunzel",
+        "aliases": [
+          "tangled"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Jack and the Beanstalk",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Beauty and the Beast",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Three Little Pigs",
+        "aliases": [
+          "3 little pigs"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Goldilocks and the Three Bears",
+        "aliases": [
+          "goldilocks",
+          "three bears"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Rumpelstiltskin",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Little Mermaid",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Ugly Duckling",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Emperor's New Clothes",
+        "aliases": [
+          "emperors new clothes"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Frog Prince",
+        "aliases": [
+          "princess and the frog"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Puss in Boots",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Thumbelina",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Aladdin",
+        "aliases": [
+          "aladdin and the magic lamp"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Pinocchio",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Boy Who Cried Wolf",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Tortoise and the Hare",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Little Red Hen",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Chicken Licken",
+        "aliases": [
+          "chicken little",
+          "henny penny"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dick Whittington",
+        "aliases": [
+          "dick whittington and his cat"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tom Thumb",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Gingerbread Man",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Pied Piper of Hamelin",
+        "aliases": [
+          "pied piper"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Princess and the Pea",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Snow Queen",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Little Match Girl",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Elves and the Shoemaker",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Three Billy Goats Gruff",
+        "aliases": [
+          "billy goats gruff"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ali Baba and the Forty Thieves",
+        "aliases": [
+          "ali baba"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Nutcracker",
+        "aliases": [
+          "the nutcracker and the mouse king"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Enormous Turnip",
+        "aliases": [
+          "the gigantic turnip"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Snow-White and Rose-Red",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Steadfast Tin Soldier",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Golden Goose",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Brave Little Tailor",
+        "aliases": [
+          "the valiant little tailor"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sinbad the Sailor",
+        "aliases": [
+          "sinbad"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Red Shoes",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Happy Prince",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Town Mouse and the Country Mouse",
+        "aliases": [
+          "town mouse and country mouse"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bluebeard",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Twelve Dancing Princesses",
+        "aliases": [
+          "12 dancing princesses"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Bremen Town Musicians",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Goose Girl",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Fisherman and His Wife",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Wild Swans",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Tinderbox",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Jack the Giant Killer",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Nightingale",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Babes in the Wood",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Iron John",
+        "aliases": [
+          "iron hans"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Wolf and the Seven Little Kids",
+        "aliases": [
+          "the wolf and the seven little goats"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Juniper Tree",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Vasilisa the Beautiful",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Fitcher's Bird",
+        "aliases": [
+          "fitchers bird"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Seven Ravens",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Tom Tit Tot",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Frog Princess",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Momotaro",
+        "aliases": [
+          "peach boy"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-07",
+    "topic": "books-stories",
+    "prompt": "Name a novel over 500 pages",
+    "answers": [
+      {
+        "answer": "War and Peace",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Les Misérables",
+        "aliases": [
+          "les mis"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The Lord of the Rings",
+        "aliases": [
+          "lotr"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Harry Potter and the Order of the Phoenix",
+        "aliases": [
+          "harry potter",
+          "order of the phoenix",
+          "goblet of fire",
+          "harry potter and the goblet of fire",
+          "deathly hallows",
+          "half blood prince",
+          "harry potter and the half blood prince"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Moby-Dick",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Anna Karenina",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Crime and Punishment",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Don Quixote",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Count of Monte Cristo",
+        "aliases": [
+          "monte cristo"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "A Game of Thrones",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "It",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Gone with the Wind",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Middlemarch",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "A Little Life",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Dune",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Fourth Wing",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "A Court of Mist and Fury",
+        "aliases": [
+          "acomaf",
+          "a court of wings and ruin",
+          "acowar"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Book Thief",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Great Expectations",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Breaking Dawn",
+        "aliases": [
+          "eclipse",
+          "new moon"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Da Vinci Code",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Girl with the Dragon Tattoo",
+        "aliases": [
+          "dragon tattoo"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ulysses",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bleak House",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "David Copperfield",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Brothers Karamazov",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Jane Eyre",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Infinite Jest",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Pillars of the Earth",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Atlas Shrugged",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Stand",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Goldfinch",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Secret History",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Way of Kings",
+        "aliases": [
+          "stormlight archive"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Eye of the World",
+        "aliases": [
+          "wheel of time"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Name of the Wind",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Shantaram",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Cloud Atlas",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Midnight's Children",
+        "aliases": [
+          "midnights children"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Outlander",
+        "aliases": [
+          "cross stitch"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "In Search of Lost Time",
+        "aliases": [
+          "remembrance of things past",
+          "proust",
+          "a la recherche du temps perdu"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "East of Eden",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Vanity Fair",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Shogun",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Gravity's Rainbow",
+        "aliases": [
+          "gravitys rainbow"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Jonathan Strange & Mr Norrell",
+        "aliases": [
+          "jonathan strange"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "A Suitable Boy",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Wolf Hall",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Luminaries",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Idiot",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Lonesome Dove",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Nicholas Nickleby",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Magic Mountain",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "2666",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Clarissa",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Tale of Genji",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Executioner's Song",
+        "aliases": [
+          "executioners song"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Bible",
+        "aliases": [
+          "holy bible",
+          "the good book"
+        ],
+        "tier": 100,
+        "remark": "Filed under fiction by order of the committee."
+      },
+      {
+        "answer": "Life and Fate",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Demons",
+        "aliases": [
+          "the possessed",
+          "devils"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Buddenbrooks",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-08",
+    "topic": "books-stories",
+    "prompt": "Name a poet",
+    "answers": [
+      {
+        "answer": "William Shakespeare",
+        "aliases": [
+          "shakespeare"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "William Wordsworth",
+        "aliases": [
+          "wordsworth"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Emily Dickinson",
+        "aliases": [
+          "dickinson"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Robert Frost",
+        "aliases": [
+          "frost"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Edgar Allan Poe",
+        "aliases": [
+          "poe"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "John Keats",
+        "aliases": [
+          "keats"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Lord Byron",
+        "aliases": [
+          "byron"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Percy Bysshe Shelley",
+        "aliases": [
+          "percy shelley",
+          "shelley"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Samuel Taylor Coleridge",
+        "aliases": [
+          "coleridge"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "T.S. Eliot",
+        "aliases": [
+          "ts eliot"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sylvia Plath",
+        "aliases": [
+          "plath"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Walt Whitman",
+        "aliases": [
+          "whitman"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "William Blake",
+        "aliases": [
+          "blake"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Wilfred Owen",
+        "aliases": [
+          "owen"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Maya Angelou",
+        "aliases": [
+          "angelou"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Rudyard Kipling",
+        "aliases": [
+          "kipling"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Seamus Heaney",
+        "aliases": [
+          "heaney"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Homer",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Rupi Kaur",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Carol Ann Duffy",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Alfred Lord Tennyson",
+        "aliases": [
+          "tennyson",
+          "alfred tennyson"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Robert Burns",
+        "aliases": [
+          "burns",
+          "rabbie burns",
+          "robbie burns"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "W.H. Auden",
+        "aliases": [
+          "wh auden",
+          "auden"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Geoffrey Chaucer",
+        "aliases": [
+          "chaucer"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dante",
+        "aliases": [
+          "dante alighieri"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Simon Armitage",
+        "aliases": [
+          "armitage"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Benjamin Zephaniah",
+        "aliases": [
+          "zephaniah"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Michael Rosen",
+        "aliases": [
+          "rosen"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Rumi",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Dylan Thomas",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "W.B. Yeats",
+        "aliases": [
+          "wb yeats",
+          "william butler yeats",
+          "yeats"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "John Milton",
+        "aliases": [
+          "milton"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ted Hughes",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Christina Rossetti",
+        "aliases": [
+          "rossetti"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Philip Larkin",
+        "aliases": [
+          "larkin"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Langston Hughes",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "John Donne",
+        "aliases": [
+          "donne"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Amanda Gorman",
+        "aliases": [
+          "gorman"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Robert Browning",
+        "aliases": [
+          "browning"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Elizabeth Barrett Browning",
+        "aliases": [
+          "barrett browning"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Thomas Hardy",
+        "aliases": [
+          "hardy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Oscar Wilde",
+        "aliases": [
+          "wilde"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "John Betjeman",
+        "aliases": [
+          "betjeman"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pablo Neruda",
+        "aliases": [
+          "neruda"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Charles Bukowski",
+        "aliases": [
+          "bukowski"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "John Agard",
+        "aliases": [
+          "agard"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Rupert Brooke",
+        "aliases": [
+          "brooke"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ezra Pound",
+        "aliases": [
+          "pound"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Gerard Manley Hopkins",
+        "aliases": [
+          "hopkins"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Siegfried Sassoon",
+        "aliases": [
+          "sassoon"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sappho",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Elizabeth Bishop",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Kae Tempest",
+        "aliases": [
+          "kate tempest"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Andrew Marvell",
+        "aliases": [
+          "marvell"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rainer Maria Rilke",
+        "aliases": [
+          "rilke"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Federico García Lorca",
+        "aliases": [
+          "lorca",
+          "garcia lorca"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mary Oliver",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Charlotte Mew",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Ivor Gurney",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Lorine Niedecker",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "George Herbert",
+        "aliases": [
+          "herbert"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Basil Bunting",
+        "aliases": [
+          "bunting"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-09",
+    "topic": "books-stories",
+    "prompt": "Name a book that was banned somewhere",
+    "answers": [
+      {
+        "answer": "To Kill a Mockingbird",
+        "aliases": [
+          "mockingbird"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "1984",
+        "aliases": [
+          "nineteen eighty four"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Harry Potter",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Catcher in the Rye",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Animal Farm",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Lolita",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Lady Chatterley's Lover",
+        "aliases": [
+          "lady chatterleys lover"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Satanic Verses",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Brave New World",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Fahrenheit 451",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Handmaid's Tale",
+        "aliases": [
+          "handmaids tale"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Of Mice and Men",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Diary of a Young Girl",
+        "aliases": [
+          "the diary of anne frank",
+          "anne frank"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mein Kampf",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Ulysses",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Bible",
+        "aliases": [
+          "holy bible"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Fifty Shades of Grey",
+        "aliases": [
+          "fifty shades",
+          "50 shades of grey"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Hunger Games",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Color Purple",
+        "aliases": [
+          "the colour purple"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Beloved",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Grapes of Wrath",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Adventures of Huckleberry Finn",
+        "aliases": [
+          "huckleberry finn",
+          "huck finn"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Doctor Zhivago",
+        "aliases": [
+          "dr zhivago"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Maus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "American Psycho",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Lord of the Flies",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Da Vinci Code",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Gender Queer",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Kite Runner",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Perks of Being a Wallflower",
+        "aliases": [
+          "perks"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Thirteen Reasons Why",
+        "aliases": [
+          "13 reasons why"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Hate U Give",
+        "aliases": [
+          "thug",
+          "the hate you give"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Slaughterhouse-Five",
+        "aliases": [
+          "slaughterhouse 5"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Communist Manifesto",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "His Dark Materials",
+        "aliases": [
+          "northern lights",
+          "the golden compass"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Gulag Archipelago",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Uncle Tom's Cabin",
+        "aliases": [
+          "uncle toms cabin"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "A Clockwork Orange",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Bluest Eye",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Spycatcher",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Tropic of Cancer",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Naked Lunch",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Well of Loneliness",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Persepolis",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Alice's Adventures in Wonderland",
+        "aliases": [
+          "alice in wonderland"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Catch-22",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Origin of Species",
+        "aliases": [
+          "on the origin of species"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Charlotte's Web",
+        "aliases": [
+          "charlottes web"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Master and Margarita",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Green Eggs and Ham",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "All Boys Aren't Blue",
+        "aliases": [
+          "all boys arent blue"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "This Book Is Gay",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "And Tango Makes Three",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Wonderful Wizard of Oz",
+        "aliases": [
+          "wizard of oz"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Lorax",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Anarchist Cookbook",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Rights of Man",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Candide",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Decameron",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Last Exit to Brooklyn",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Doctor Dolittle",
+        "aliases": [
+          "dr dolittle"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-10",
+    "topic": "books-stories",
+    "prompt": "Name a fictional animal",
+    "answers": [
+      {
+        "answer": "Winnie-the-Pooh",
+        "aliases": [
+          "pooh",
+          "pooh bear"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Simba",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Scooby-Doo",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Aslan",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Paddington",
+        "aliases": [
+          "paddington bear"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Bugs Bunny",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Mickey Mouse",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Peter Rabbit",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Baloo",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Bambi",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Shere Khan",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Toto",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Hedwig",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Moby Dick",
+        "aliases": [
+          "the white whale"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Black Beauty",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Tigger",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Eeyore",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Snoopy",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Garfield",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Nemo",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Dumbo",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Gruffalo",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Donkey",
+        "aliases": [
+          "donkey from shrek"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Puss in Boots",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Tom and Jerry",
+        "aliases": [
+          "tom",
+          "jerry",
+          "tom the cat",
+          "jerry the mouse"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Donald Duck",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Goofy",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Sonic the Hedgehog",
+        "aliases": [
+          "sonic"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mufasa",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Scar",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Timon and Pumbaa",
+        "aliases": [
+          "timon",
+          "pumbaa"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dory",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Peppa Pig",
+        "aliases": [
+          "peppa"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Gromit",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Shaun the Sheep",
+        "aliases": [
+          "shaun"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Bluey",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Piglet",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Napoleon",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Boxer",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Charlotte",
+        "aliases": [
+          "charlotte the spider"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Wilbur",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bagheera",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Buckbeak",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Hazel",
+        "aliases": [
+          "hazel rah"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Nala",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Gnasher",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Rafiki",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mr Toad",
+        "aliases": [
+          "toad",
+          "toad of toad hall"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Nagini",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Wile E. Coyote",
+        "aliases": [
+          "coyote"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Reepicheep",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Iorek Byrnison",
+        "aliases": [
+          "iorek"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Nana",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Fiver",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Crookshanks",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Bigwig",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Pantalaimon",
+        "aliases": [
+          "pan"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dogmatix",
+        "aliases": [
+          "idefix"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Kipper",
+        "aliases": [
+          "kipper the dog"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "General Woundwort",
+        "aliases": [
+          "woundwort"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kehaar",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Tock",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Bill the Pony",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-11",
+    "topic": "books-stories",
+    "prompt": "Name a Shakespeare play",
+    "answers": [
+      {
+        "answer": "Romeo and Juliet",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Hamlet",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Macbeth",
+        "aliases": [
+          "the scottish play"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "A Midsummer Night's Dream",
+        "aliases": [
+          "midsummer nights dream"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Julius Caesar",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Othello",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "King Lear",
+        "aliases": [
+          "lear"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Tempest",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Much Ado About Nothing",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Twelfth Night",
+        "aliases": [
+          "twelfth night or what you will"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Merchant of Venice",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Richard III",
+        "aliases": [
+          "richard the third"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Taming of the Shrew",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "As You Like It",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Henry V",
+        "aliases": [
+          "henry the fifth"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Antony and Cleopatra",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Winter's Tale",
+        "aliases": [
+          "winters tale"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Measure for Measure",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Comedy of Errors",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Coriolanus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Titus Andronicus",
+        "aliases": [
+          "titus"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Two Gentlemen of Verona",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Love's Labour's Lost",
+        "aliases": [
+          "loves labours lost"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Richard II",
+        "aliases": [
+          "richard the second"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Troilus and Cressida",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Cymbeline",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Henry IV Part 1",
+        "aliases": [
+          "henry iv",
+          "henry iv part one",
+          "henry the fourth"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "All's Well That Ends Well",
+        "aliases": [
+          "alls well that ends well"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Merry Wives of Windsor",
+        "aliases": [
+          "merry wives"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Pericles",
+        "aliases": [
+          "pericles prince of tyre"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Timon of Athens",
+        "aliases": [
+          "timon"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "King John",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Two Noble Kinsmen",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Henry VI Part 1",
+        "aliases": [
+          "henry vi",
+          "henry vi part one",
+          "henry the sixth"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Henry VIII",
+        "aliases": [
+          "henry the eighth"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Henry IV Part 2",
+        "aliases": [
+          "henry iv part two"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Henry VI Part 2",
+        "aliases": [
+          "henry vi part two"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Henry VI Part 3",
+        "aliases": [
+          "henry vi part three"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Edward III",
+        "aliases": [
+          "edward the third"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Sir Thomas More",
+        "aliases": [
+          "thomas more"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Cardenio",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Love's Labour's Won",
+        "aliases": [
+          "loves labours won"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-12",
+    "topic": "books-stories",
+    "prompt": "Name a detective from fiction",
+    "answers": [
+      {
+        "answer": "Sherlock Holmes",
+        "aliases": [
+          "sherlock",
+          "holmes"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Hercule Poirot",
+        "aliases": [
+          "poirot"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Miss Marple",
+        "aliases": [
+          "jane marple"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Columbo",
+        "aliases": [
+          "lieutenant columbo"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Nancy Drew",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Inspector Morse",
+        "aliases": [
+          "morse",
+          "endeavour morse"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Philip Marlowe",
+        "aliases": [
+          "marlowe"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sam Spade",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Luther",
+        "aliases": [
+          "john luther"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Benoit Blanc",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Inspector Clouseau",
+        "aliases": [
+          "clouseau"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Jessica Fletcher",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Cormoran Strike",
+        "aliases": [
+          "strike"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dick Tracy",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Batman",
+        "aliases": [
+          "bruce wayne",
+          "the worlds greatest detective"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Scooby-Doo",
+        "aliases": [
+          "scooby",
+          "mystery inc"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Inspector Gadget",
+        "aliases": [
+          "gadget"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Jack Reacher",
+        "aliases": [
+          "reacher"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Alex Cross",
+        "aliases": [
+          "cross"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dr Watson",
+        "aliases": [
+          "watson",
+          "john watson"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "John Rebus",
+        "aliases": [
+          "rebus",
+          "inspector rebus"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Jane Tennison",
+        "aliases": [
+          "tennison"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Vera Stanhope",
+        "aliases": [
+          "vera"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lisbeth Salander",
+        "aliases": [
+          "lisbeth"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Harry Bosch",
+        "aliases": [
+          "bosch"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Jules Maigret",
+        "aliases": [
+          "maigret"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Father Brown",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Lord Peter Wimsey",
+        "aliases": [
+          "peter wimsey",
+          "wimsey"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Velma",
+        "aliases": [
+          "velma dinkley"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Hardy Boys",
+        "aliases": [
+          "frank and joe hardy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Jonathan Creek",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Jack Frost",
+        "aliases": [
+          "inspector frost",
+          "a touch of frost",
+          "frost"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Tom Barnaby",
+        "aliases": [
+          "inspector barnaby",
+          "barnaby",
+          "midsomer murders"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Inspector Lestrade",
+        "aliases": [
+          "lestrade"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Enola Holmes",
+        "aliases": [
+          "enola"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Adrian Monk",
+        "aliases": [
+          "monk"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Jake Peralta",
+        "aliases": [
+          "peralta"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Temperance Brennan",
+        "aliases": [
+          "bones"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ted Hastings",
+        "aliases": [
+          "line of duty",
+          "ac 12",
+          "steve arnott"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Gene Hunt",
+        "aliases": [
+          "life on mars"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Detective Conan",
+        "aliases": [
+          "conan edogawa",
+          "case closed",
+          "shinichi kudo"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Adam Dalgliesh",
+        "aliases": [
+          "dalgliesh"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Auguste Dupin",
+        "aliases": [
+          "c auguste dupin",
+          "dupin"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Kurt Wallander",
+        "aliases": [
+          "wallander"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Precious Ramotswe",
+        "aliases": [
+          "mma ramotswe"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sam Vimes",
+        "aliases": [
+          "commander vimes"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Brother Cadfael",
+        "aliases": [
+          "cadfael"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mycroft Holmes",
+        "aliases": [
+          "mycroft"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dirk Gently",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Rust Cohle",
+        "aliases": [
+          "true detective"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sarah Lund",
+        "aliases": [
+          "the killing"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tommy and Tuppence",
+        "aliases": [
+          "tommy and tuppence beresford"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Inspector Montalbano",
+        "aliases": [
+          "montalbano",
+          "salvo montalbano"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Basil of Baker Street",
+        "aliases": [
+          "the great mouse detective",
+          "basil the great mouse detective"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "V.I. Warshawski",
+        "aliases": [
+          "vi warshawski",
+          "warshawski"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kinsey Millhone",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Nero Wolfe",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Easy Rawlins",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Flavia de Luce",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Albert Campion",
+        "aliases": [
+          "campion"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Martin Beck",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-13",
+    "topic": "books-stories",
+    "prompt": "Name a book with a one-word title",
+    "answers": [
+      {
+        "answer": "Dracula",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Frankenstein",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Matilda",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Emma",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Twilight",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Rebecca",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Lolita",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Persuasion",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Beloved",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Carrie",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Misery",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Coraline",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Ulysses",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Dune",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Middlemarch",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "It",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "1984",
+        "aliases": [
+          "nineteen eighty four"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Jaws",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Hamlet",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Macbeth",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Othello",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Beowulf",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Maus",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Mockingjay",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Trainspotting",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Verity",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Heartstopper",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Intermezzo",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Spare",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Atonement",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Wonder",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Circe",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Watchmen",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Divergent",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Room",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Holes",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Persepolis",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Wicked",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Eragon",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Heidi",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Pinocchio",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Babel",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Yellowface",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Educated",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Sapiens",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Becoming",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Neuromancer",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Stardust",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Piranesi",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Hamnet",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Villette",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Kim",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Nostromo",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Candide",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Fingersmith",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Solaris",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Disgrace",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Stoner",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Milkman",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Germinal",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Erewhon",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Ubik",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Pnin",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Amsterdam",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Trilby",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Austerlitz",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-14",
+    "topic": "books-stories",
+    "prompt": "Name a ghost or monster from folklore",
+    "answers": [
+      {
+        "answer": "Bigfoot",
+        "aliases": [
+          "sasquatch"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The Loch Ness Monster",
+        "aliases": [
+          "nessie"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Vampire",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Werewolf",
+        "aliases": [
+          "lycanthrope"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Zombie",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Yeti",
+        "aliases": [
+          "abominable snowman"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Banshee",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Bloody Mary",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Kraken",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Bogeyman",
+        "aliases": [
+          "boogeyman"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mummy",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Troll",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Headless Horseman",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Chupacabra",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Slender Man",
+        "aliases": [
+          "slenderman"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ogre",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Goblin",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Minotaur",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Ghoul",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Demon",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Djinn",
+        "aliases": [
+          "jinn",
+          "genie"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Medusa",
+        "aliases": [
+          "gorgon"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cyclops",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Hydra",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Cerberus",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Sphinx",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Basilisk",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Griffin",
+        "aliases": [
+          "gryphon"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dragon",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Giant",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Skinwalker",
+        "aliases": [
+          "skin walker"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Baba Yaga",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Golem",
+        "aliases": [
+          "golem of prague"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Wendigo",
+        "aliases": [
+          "windigo"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kelpie",
+        "aliases": [
+          "water horse"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Krampus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "La Llorona",
+        "aliases": [
+          "the weeping woman"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mothman",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Poltergeist",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Grim Reaper",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Boggart",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Gremlin",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Will-o'-the-wisp",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Wraith",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Harpy",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Siren",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Hellhound",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Black Shuck",
+        "aliases": [
+          "old shuck"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Spring-heeled Jack",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Selkie",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Draugr",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Dullahan",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Jenny Greenteeth",
+        "aliases": [
+          "jinny greenteeth"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Manticore",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Aswang",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Herne the Hunter",
+        "aliases": [
+          "herne"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Grindylow",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Nuckelavee",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Black Annis",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Tokoloshe",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Manananggal",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Each-uisge",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Owlman",
+        "aliases": [
+          "the owlman of mawnan"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-15",
+    "topic": "books-stories",
+    "prompt": "Name a winner of the Nobel Prize in Literature",
+    "answers": [
+      {
+        "answer": "Ernest Hemingway",
+        "aliases": [
+          "hemingway"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Bob Dylan",
+        "aliases": [
+          "dylan"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "John Steinbeck",
+        "aliases": [
+          "steinbeck"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Rudyard Kipling",
+        "aliases": [
+          "kipling"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Winston Churchill",
+        "aliases": [
+          "churchill"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Gabriel García Márquez",
+        "aliases": [
+          "garcia marquez",
+          "gabo"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Toni Morrison",
+        "aliases": [
+          "morrison"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "William Faulkner",
+        "aliases": [
+          "faulkner"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Kazuo Ishiguro",
+        "aliases": [
+          "ishiguro"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "T.S. Eliot",
+        "aliases": [
+          "ts eliot"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "George Bernard Shaw",
+        "aliases": [
+          "bernard shaw"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Albert Camus",
+        "aliases": [
+          "camus"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Samuel Beckett",
+        "aliases": [
+          "beckett"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Doris Lessing",
+        "aliases": [
+          "lessing"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "William Golding",
+        "aliases": [
+          "golding"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Thomas Mann",
+        "aliases": [
+          "mann"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Boris Pasternak",
+        "aliases": [
+          "pasternak"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "W.B. Yeats",
+        "aliases": [
+          "wb yeats",
+          "william butler yeats",
+          "yeats"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Jean-Paul Sartre",
+        "aliases": [
+          "sartre"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Harold Pinter",
+        "aliases": [
+          "pinter"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Seamus Heaney",
+        "aliases": [
+          "heaney"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Alice Munro",
+        "aliases": [
+          "munro"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Han Kang",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Hermann Hesse",
+        "aliases": [
+          "hesse"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Rabindranath Tagore",
+        "aliases": [
+          "tagore"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pablo Neruda",
+        "aliases": [
+          "neruda"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Aleksandr Solzhenitsyn",
+        "aliases": [
+          "alexander solzhenitsyn",
+          "solzhenitsyn"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "José Saramago",
+        "aliases": [
+          "saramago"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pearl S. Buck",
+        "aliases": [
+          "pearl buck",
+          "buck"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Jon Fosse",
+        "aliases": [
+          "fosse"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Orhan Pamuk",
+        "aliases": [
+          "pamuk"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "J.M. Coetzee",
+        "aliases": [
+          "jm coetzee",
+          "coetzee"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "V.S. Naipaul",
+        "aliases": [
+          "vs naipaul",
+          "naipaul"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Nadine Gordimer",
+        "aliases": [
+          "gordimer"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Saul Bellow",
+        "aliases": [
+          "bellow"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bertrand Russell",
+        "aliases": [
+          "russell"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Günter Grass",
+        "aliases": [
+          "grass"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mo Yan",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Eugene O'Neill",
+        "aliases": [
+          "o neill",
+          "eugene oneill"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Olga Tokarczuk",
+        "aliases": [
+          "tokarczuk"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Annie Ernaux",
+        "aliases": [
+          "ernaux"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Abdulrazak Gurnah",
+        "aliases": [
+          "gurnah"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mario Vargas Llosa",
+        "aliases": [
+          "vargas llosa"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Wole Soyinka",
+        "aliases": [
+          "soyinka"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Svetlana Alexievich",
+        "aliases": [
+          "alexievich"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Louise Glück",
+        "aliases": [
+          "gluck"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "László Krasznahorkai",
+        "aliases": [
+          "krasznahorkai"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Derek Walcott",
+        "aliases": [
+          "walcott"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Octavio Paz",
+        "aliases": [
+          "paz"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Naguib Mahfouz",
+        "aliases": [
+          "mahfouz"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Joseph Brodsky",
+        "aliases": [
+          "brodsky"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Czesław Miłosz",
+        "aliases": [
+          "milosz"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Isaac Bashevis Singer",
+        "aliases": [
+          "bashevis singer",
+          "singer"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Yasunari Kawabata",
+        "aliases": [
+          "kawabata"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Elfriede Jelinek",
+        "aliases": [
+          "jelinek"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Wisława Szymborska",
+        "aliases": [
+          "szymborska"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Selma Lagerlöf",
+        "aliases": [
+          "lagerlof"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Halldór Laxness",
+        "aliases": [
+          "laxness"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Odysseas Elytis",
+        "aliases": [
+          "elytis"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Eyvind Johnson",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Sully Prudhomme",
+        "aliases": [
+          "prudhomme"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Ivo Andrić",
+        "aliases": [
+          "andric"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Eugenio Montale",
+        "aliases": [
+          "montale"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Nelly Sachs",
+        "aliases": [
+          "sachs"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-16",
+    "topic": "books-stories",
+    "prompt": "Name a dragon from fiction or myth",
+    "answers": [
+      {
+        "answer": "Smaug",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Toothless",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Drogon",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Puff the Magic Dragon",
+        "aliases": [
+          "puff"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Falkor",
+        "aliases": [
+          "falcor"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mushu",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Norbert",
+        "aliases": [
+          "norberta"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Hungarian Horntail",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Saphira",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Spyro",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Elliott",
+        "aliases": [
+          "petes dragon"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Shenron",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Charizard",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Ender Dragon",
+        "aliases": [
+          "the ender dragon from minecraft",
+          "minecraft dragon"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Zog",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Welsh Dragon",
+        "aliases": [
+          "y ddraig goch",
+          "the red dragon",
+          "welsh red dragon"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dragon from Shrek",
+        "aliases": [
+          "dragon",
+          "shrek dragon",
+          "donkeys wife"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Fafnir",
+        "aliases": [
+          "fafner"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Rhaegal",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Viserion",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Balerion",
+        "aliases": [
+          "balerion the black dread"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Trogdor",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Ladon",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Tiamat",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Maleficent",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Sisu",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Dragonite",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Alduin",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Haku",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bahamut",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Syrax",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Caraxes",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Light Fury",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Stormfly",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Blue-Eyes White Dragon",
+        "aliases": [
+          "blue eyes"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "St George's Dragon",
+        "aliases": [
+          "st georges dragon",
+          "the dragon of st george",
+          "saint georges dragon"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Jabberwock",
+        "aliases": [
+          "jabberwocky"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Glaurung",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Ancalagon",
+        "aliases": [
+          "ancalagon the black"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Nidhogg",
+        "aliases": [
+          "nidhoggr"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Vhagar",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Zmey Gorynych",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Draco",
+        "aliases": [
+          "draco the dragon"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rayquaza",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Kilgharrah",
+        "aliases": [
+          "the great dragon"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Lambton Worm",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Jörmungandr",
+        "aliases": [
+          "midgard serpent",
+          "jormungand"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "King Ghidorah",
+        "aliases": [
+          "ghidorah"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Temeraire",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Vermithor",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Reluctant Dragon",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Chrysophylax",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Vritra",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Ramoth",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Tarasque",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Fin Fang Foom",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Idris",
+        "aliases": [
+          "idris the dragon"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kalessin",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-17",
+    "topic": "books-stories",
+    "prompt": "Name a love story from literature",
+    "answers": [
+      {
+        "answer": "Romeo and Juliet",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Pride and Prejudice",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Wuthering Heights",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Jane Eyre",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Notebook",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Great Gatsby",
+        "aliases": [
+          "gatsby"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Anna Karenina",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Fault in Our Stars",
+        "aliases": [
+          "tfios"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Twilight",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Gone with the Wind",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Doctor Zhivago",
+        "aliases": [
+          "dr zhivago"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Love in the Time of Cholera",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Me Before You",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Normal People",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Tristan and Isolde",
+        "aliases": [
+          "tristan and iseult"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Song of Achilles",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "One Day",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Bridget Jones's Diary",
+        "aliases": [
+          "bridget jones"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "It Ends with Us",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Fifty Shades of Grey",
+        "aliases": [
+          "fifty shades"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Emma",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Lady Chatterley's Lover",
+        "aliases": [
+          "lady chatterley"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Seven Husbands of Evelyn Hugo",
+        "aliases": [
+          "evelyn hugo"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Red, White & Royal Blue",
+        "aliases": [
+          "red white and royal blue",
+          "rwrb"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Heartstopper",
+        "aliases": [
+          "nick and charlie"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Love Hypothesis",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "A Court of Thorns and Roses",
+        "aliases": [
+          "acotar",
+          "feyre and rhysand"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "P.S. I Love You",
+        "aliases": [
+          "ps i love you"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Beauty and the Beast",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Persuasion",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Sense and Sensibility",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Atonement",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Outlander",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Far from the Madding Crowd",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The English Patient",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Call Me by Your Name",
+        "aliases": [
+          "cmbyn"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Time Traveler's Wife",
+        "aliases": [
+          "time travellers wife"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Princess Bride",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Orpheus and Eurydice",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Antony and Cleopatra",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Lancelot and Guinevere",
+        "aliases": [
+          "guinevere and lancelot"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Little Women",
+        "aliases": [
+          "jo and laurie"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Anne of Green Gables",
+        "aliases": [
+          "anne and gilbert"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Fourth Wing",
+        "aliases": [
+          "violet and xaden"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Love, Rosie",
+        "aliases": [
+          "where rainbows end"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "North and South",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Captain Corelli's Mandolin",
+        "aliases": [
+          "captain corellis mandolin",
+          "corelli"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Phantom of the Opera",
+        "aliases": [
+          "phantom"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cyrano de Bergerac",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Brokeback Mountain",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Giovanni's Room",
+        "aliases": [
+          "giovannis room"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Age of Innocence",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "A Room with a View",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Pyramus and Thisbe",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Eros and Psyche",
+        "aliases": [
+          "cupid and psyche"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Eugene Onegin",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "La Dame aux Camélias",
+        "aliases": [
+          "camille",
+          "the lady of the camellias"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Maurice",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Layla and Majnun",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Daphnis and Chloe",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Sorrows of Young Werther",
+        "aliases": [
+          "young werther"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Hero and Leander",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Manon Lescaut",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Pamela",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-18",
+    "topic": "books-stories",
+    "prompt": "Name a children's book character",
+    "answers": [
+      {
+        "answer": "Harry Potter",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Winnie-the-Pooh",
+        "aliases": [
+          "pooh",
+          "pooh bear"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Matilda",
+        "aliases": [
+          "matilda wormwood"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Paddington",
+        "aliases": [
+          "paddington bear"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Peter Rabbit",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Gruffalo",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Willy Wonka",
+        "aliases": [
+          "wonka"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Charlie Bucket",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The BFG",
+        "aliases": [
+          "big friendly giant"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Peter Pan",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Alice",
+        "aliases": [
+          "alice in wonderland"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Cat in the Hat",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Very Hungry Caterpillar",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Mowgli",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Mary Poppins",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Dorothy Gale",
+        "aliases": [
+          "dorothy"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Horrid Henry",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Greg Heffley",
+        "aliases": [
+          "wimpy kid",
+          "diary of a wimpy kid"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hermione Granger",
+        "aliases": [
+          "hermione"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ron Weasley",
+        "aliases": [
+          "ron"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tigger",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Eeyore",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Piglet",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Tinker Bell",
+        "aliases": [
+          "tinkerbell"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Captain Hook",
+        "aliases": [
+          "hook"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Mad Hatter",
+        "aliases": [
+          "hatter"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Cheshire Cat",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Bilbo Baggins",
+        "aliases": [
+          "bilbo"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Aslan",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Tintin",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Noddy",
+        "aliases": [
+          "big ears"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mr Tickle",
+        "aliases": [
+          "mr men",
+          "mr bump",
+          "mr happy"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Spot",
+        "aliases": [
+          "spot the dog"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Biff, Chip and Kipper",
+        "aliases": [
+          "biff",
+          "chip",
+          "floppy"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Stick Man",
+        "aliases": [
+          "stickman"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mog",
+        "aliases": [
+          "mog the forgetful cat"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Tiger Who Came to Tea",
+        "aliases": [
+          "the tiger"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tom Gates",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Captain Underpants",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Alex Rider",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Gangsta Granny",
+        "aliases": [
+          "granny"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Famous Five",
+        "aliases": [
+          "julian dick anne and george",
+          "timmy the dog",
+          "george kirrin"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tracy Beaker",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Pippi Longstocking",
+        "aliases": [
+          "pippi"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Anne of Green Gables",
+        "aliases": [
+          "anne shirley"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Miss Trunchbull",
+        "aliases": [
+          "trunchbull",
+          "agatha trunchbull"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Fantastic Mr Fox",
+        "aliases": [
+          "mr fox"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Percy Jackson",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Lyra Belacqua",
+        "aliases": [
+          "lyra",
+          "lyra silvertongue"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mr Toad",
+        "aliases": [
+          "toad of toad hall"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Where's Wally",
+        "aliases": [
+          "wheres wally",
+          "waldo"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Elmer",
+        "aliases": [
+          "elmer the elephant"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lucy Pevensie",
+        "aliases": [
+          "lucy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mr Tumnus",
+        "aliases": [
+          "tumnus"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hagrid",
+        "aliases": [
+          "rubeus hagrid"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dobby",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Moomintroll",
+        "aliases": [
+          "moomin"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Just William",
+        "aliases": [
+          "william brown"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mrs Pepperpot",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Milly-Molly-Mandy",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Worzel Gummidge",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Arrietty",
+        "aliases": [
+          "the borrowers"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Katie Morag",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Struwwelpeter",
+        "aliases": [
+          "shock headed peter"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bruce Bogtrotter",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Little My",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Moon-Face",
+        "aliases": [
+          "moonface",
+          "the magic faraway tree"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-19",
+    "topic": "books-stories",
+    "prompt": "Name an epic poem or saga",
+    "answers": [
+      {
+        "answer": "The Odyssey",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Iliad",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Beowulf",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Aeneid",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Paradise Lost",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Divine Comedy",
+        "aliases": [
+          "inferno",
+          "dantes inferno"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Epic of Gilgamesh",
+        "aliases": [
+          "gilgamesh"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Mahabharata",
+        "aliases": [
+          "bhagavad gita"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Ramayana",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Metamorphoses",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Sir Gawain and the Green Knight",
+        "aliases": [
+          "gawain",
+          "sir gawain"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Song of Roland",
+        "aliases": [
+          "chanson de roland"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Nibelungenlied",
+        "aliases": [
+          "song of the nibelungs"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Kalevala",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Poetic Edda",
+        "aliases": [
+          "elder edda"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Faerie Queene",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "El Cid",
+        "aliases": [
+          "cantar de mio cid"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Song of Hiawatha",
+        "aliases": [
+          "hiawatha"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Saga of the Volsungs",
+        "aliases": [
+          "volsunga saga",
+          "volsung saga"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Paradise Regained",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Don Juan",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Idylls of the King",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Rape of the Lock",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Theogony",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Njal's Saga",
+        "aliases": [
+          "njals saga",
+          "the saga of burnt njal"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Egil's Saga",
+        "aliases": [
+          "egils saga"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Tain",
+        "aliases": [
+          "tain bo cuailnge",
+          "the cattle raid of cooley"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Shahnameh",
+        "aliases": [
+          "the book of kings"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Argonautica",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Orlando Furioso",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Heimskringla",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Vinland Sagas",
+        "aliases": [
+          "saga of erik the red",
+          "eriks saga",
+          "saga of the greenlanders"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Jerusalem Delivered",
+        "aliases": [
+          "gerusalemme liberata"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Childe Harold's Pilgrimage",
+        "aliases": [
+          "childe harold"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Prelude",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Omeros",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Epic of Sundiata",
+        "aliases": [
+          "sundiata",
+          "sunjata"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Popol Vuh",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Parzival",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Enuma Elish",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Kalevipoeg",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Grettir's Saga",
+        "aliases": [
+          "grettirs saga"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Book of Dede Korkut",
+        "aliases": [
+          "dede korkut"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Manas",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Lusiads",
+        "aliases": [
+          "os lusiadas"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Laxdæla Saga",
+        "aliases": [
+          "laxdaela saga"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Aurora Leigh",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Pharsalia",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Epic of King Gesar",
+        "aliases": [
+          "gesar"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Silappatikaram",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Song of Igor's Campaign",
+        "aliases": [
+          "the lay of igors campaign",
+          "igor tale"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-20",
+    "topic": "books-stories",
+    "prompt": "Name a literary sidekick",
+    "answers": [
+      {
+        "answer": "Dr Watson",
+        "aliases": [
+          "doctor watson",
+          "john watson"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Sancho Panza",
+        "aliases": [
+          "sancho"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Ron Weasley",
+        "aliases": [
+          "ron"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Samwise Gamgee",
+        "aliases": [
+          "samwise",
+          "sam gamgee",
+          "sam"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Hermione Granger",
+        "aliases": [
+          "hermione"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Piglet",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Passepartout",
+        "aliases": [
+          "jean passepartout"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Friday",
+        "aliases": [
+          "man friday"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Captain Hastings",
+        "aliases": [
+          "hastings",
+          "arthur hastings"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Huckleberry Finn",
+        "aliases": [
+          "huck finn",
+          "huck"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Robin",
+        "aliases": [
+          "the boy wonder",
+          "dick grayson"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Merry and Pippin",
+        "aliases": [
+          "merry",
+          "pippin",
+          "meriadoc brandybuck",
+          "peregrin took"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dobby",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Snowy",
+        "aliases": [
+          "milou"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Captain Haddock",
+        "aliases": [
+          "haddock"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Obelix",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Lewis",
+        "aliases": [
+          "robbie lewis",
+          "inspector lewis",
+          "sergeant lewis"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mercutio",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Toto",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Horatio",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Patroclus",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Enkidu",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Jeeves",
+        "aliases": [
+          "reginald jeeves"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Queequeg",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Little John",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Dill Harris",
+        "aliases": [
+          "dill"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Jim",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Tinker Bell",
+        "aliases": [
+          "tinkerbell"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Gimli",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Legolas",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Tigger",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Neville Longbottom",
+        "aliases": [
+          "neville"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hedwig",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Pantalaimon",
+        "aliases": [
+          "pan"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Grover Underwood",
+        "aliases": [
+          "grover"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Smee",
+        "aliases": [
+          "mr smee"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mole",
+        "aliases": [
+          "moley"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lennie Small",
+        "aliases": [
+          "lennie"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Nick Carraway",
+        "aliases": [
+          "nick"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Friar Tuck",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Banquo",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Falstaff",
+        "aliases": [
+          "sir john falstaff"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sam Weller",
+        "aliases": [
+          "weller"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Archie Goodwin",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Smike",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Hodor",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Starbuck",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Diana Barry",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Achates",
+        "aliases": [
+          "fidus achates"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Carrot Ironfoundersson",
+        "aliases": [
+          "captain carrot",
+          "carrot"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Luggage",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Herbert Pocket",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Wamba",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Bardolph",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Mervyn Bunter",
+        "aliases": [
+          "bunter"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Conseil",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Childermass",
+        "aliases": [
+          "john childermass"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Pylades",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-21",
+    "topic": "books-stories",
+    "prompt": "Name a character from 19th-century literature",
+    "answers": [
+      {
+        "answer": "Sherlock Holmes",
+        "aliases": [
+          "sherlock",
+          "holmes"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Oliver Twist",
+        "aliases": [
+          "oliver"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Ebenezer Scrooge",
+        "aliases": [
+          "scrooge"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Dracula",
+        "aliases": [
+          "count dracula"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Mr Darcy",
+        "aliases": [
+          "darcy",
+          "fitzwilliam darcy"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Victor Frankenstein",
+        "aliases": [
+          "frankenstein",
+          "frankensteins monster",
+          "the creature"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Jane Eyre",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Heathcliff",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Elizabeth Bennet",
+        "aliases": [
+          "lizzy bennet",
+          "elizabeth bennett"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Alice",
+        "aliases": [
+          "alice in wonderland"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tom Sawyer",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Huckleberry Finn",
+        "aliases": [
+          "huck finn"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dorian Gray",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Anna Karenina",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Quasimodo",
+        "aliases": [
+          "hunchback of notre dame"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dr Jekyll",
+        "aliases": [
+          "jekyll",
+          "jekyll and hyde",
+          "mr hyde"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Jo March",
+        "aliases": [
+          "jo"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dr Watson",
+        "aliases": [
+          "watson",
+          "john watson"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Pinocchio",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Emma Woodhouse",
+        "aliases": [
+          "emma"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Catherine Earnshaw",
+        "aliases": [
+          "cathy",
+          "cathy earnshaw",
+          "catherine"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tiny Tim",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Jacob Marley",
+        "aliases": [
+          "marley"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Artful Dodger",
+        "aliases": [
+          "dodger"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mowgli",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Professor Moriarty",
+        "aliases": [
+          "moriarty",
+          "james moriarty"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Van Helsing",
+        "aliases": [
+          "abraham van helsing"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Javert",
+        "aliases": [
+          "inspector javert"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "D'Artagnan",
+        "aliases": [
+          "dartagnan",
+          "the three musketeers"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Estella",
+        "aliases": [
+          "estella havisham"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Mad Hatter",
+        "aliases": [
+          "hatter"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Miss Havisham",
+        "aliases": [
+          "havisham"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pip",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Fagin",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Long John Silver",
+        "aliases": [
+          "long john"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Captain Ahab",
+        "aliases": [
+          "ahab"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Jean Valjean",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mr Rochester",
+        "aliases": [
+          "rochester"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bob Cratchit",
+        "aliases": [
+          "cratchit"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bill Sikes",
+        "aliases": [
+          "sikes"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Captain Nemo",
+        "aliases": [
+          "nemo"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Phileas Fogg",
+        "aliases": [
+          "fogg"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Jim Hawkins",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Irene Adler",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Edmond Dantès",
+        "aliases": [
+          "count of monte cristo",
+          "dantes"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Emma Bovary",
+        "aliases": [
+          "madame bovary"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Madame Defarge",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Tess Durbeyfield",
+        "aliases": [
+          "tess",
+          "tess of the durbervilles"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Raskolnikov",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Becky Sharp",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Uriah Heep",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Hester Prynne",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Prince Myshkin",
+        "aliases": [
+          "myshkin"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Julien Sorel",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Bartleby",
+        "aliases": [
+          "bartleby the scrivener"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Nora Helmer",
+        "aliases": [
+          "nora"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Eugene Onegin",
+        "aliases": [
+          "onegin"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sydney Carton",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Little Nell",
+        "aliases": [
+          "nell"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Carlos da Maia",
+        "aliases": [
+          "os maias",
+          "carlos maia"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Oblomov",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Chichikov",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Effi Briest",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Capitu",
+        "aliases": [
+          "dom casmurro"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-22",
+    "topic": "books-stories",
+    "prompt": "Name a graphic novel or comic series",
+    "answers": [
+      {
+        "answer": "Watchmen",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Batman",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Spider-Man",
+        "aliases": [
+          "spiderman"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Tintin",
+        "aliases": [
+          "the adventures of tintin"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Asterix",
+        "aliases": [
+          "asterix and obelix"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "X-Men",
+        "aliases": [
+          "xmen"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Maus",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "V for Vendetta",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Persepolis",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Sandman",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Walking Dead",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Superman",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Naruto",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "One Piece",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Dragon Ball",
+        "aliases": [
+          "dragon ball z"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Attack on Titan",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Beano",
+        "aliases": [
+          "dennis the menace"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Calvin and Hobbes",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Avengers",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Iron Man",
+        "aliases": [
+          "ironman"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Wonder Woman",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Hulk",
+        "aliases": [
+          "the incredible hulk"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Captain America",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Deadpool",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Wolverine",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Teenage Mutant Ninja Turtles",
+        "aliases": [
+          "tmnt",
+          "ninja turtles"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Garfield",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Peanuts",
+        "aliases": [
+          "snoopy",
+          "charlie brown"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Heartstopper",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Dog Man",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Viz",
+        "aliases": [
+          "viz comic"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "My Hero Academia",
+        "aliases": [
+          "mha",
+          "boku no hero academia"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Demon Slayer",
+        "aliases": [
+          "kimetsu no yaiba"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sin City",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Hellboy",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Akira",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Death Note",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Judge Dredd",
+        "aliases": [
+          "2000 ad"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Dark Knight Returns",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Scott Pilgrim",
+        "aliases": [
+          "scott pilgrim vs the world"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Dandy",
+        "aliases": [
+          "desperate dan"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Fantastic Four",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Justice League",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Jujutsu Kaisen",
+        "aliases": [
+          "jjk"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bleach",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Killing Joke",
+        "aliases": [
+          "batman the killing joke"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Boys",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Roy of the Rovers",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Saga",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Preacher",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Fun Home",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Y: The Last Man",
+        "aliases": [
+          "the last man"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ghost World",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Bone",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "From Hell",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Corto Maltese",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Nausicaä",
+        "aliases": [
+          "nausicaa of the valley of the wind"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Blankets",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Jimmy Corrigan",
+        "aliases": [
+          "jimmy corrigan the smartest kid on earth"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Palestine",
+        "aliases": [
+          "joe sacco palestine"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Krazy Kat",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Little Nemo",
+        "aliases": [
+          "little nemo in slumberland"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "A Contract with God",
+        "aliases": [],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-23",
+    "topic": "books-stories",
+    "prompt": "Name a crime writer",
+    "answers": [
+      {
+        "answer": "Agatha Christie",
+        "aliases": [
+          "christie"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Arthur Conan Doyle",
+        "aliases": [
+          "conan doyle",
+          "sir arthur conan doyle"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "James Patterson",
+        "aliases": [
+          "patterson"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Ian Rankin",
+        "aliases": [
+          "rankin"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Lee Child",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Val McDermid",
+        "aliases": [
+          "mcdermid"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ruth Rendell",
+        "aliases": [
+          "rendell",
+          "barbara vine"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "P.D. James",
+        "aliases": [
+          "pd james"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Raymond Chandler",
+        "aliases": [
+          "chandler"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Patricia Cornwell",
+        "aliases": [
+          "cornwell"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Jo Nesbø",
+        "aliases": [
+          "nesbo"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Stieg Larsson",
+        "aliases": [
+          "larsson"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Gillian Flynn",
+        "aliases": [
+          "flynn"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Paula Hawkins",
+        "aliases": [
+          "hawkins"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Richard Osman",
+        "aliases": [
+          "osman",
+          "thursday murder club"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Harlan Coben",
+        "aliases": [
+          "coben"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dan Brown",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "John Grisham",
+        "aliases": [
+          "grisham"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Thomas Harris",
+        "aliases": [
+          "harris"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "David Baldacci",
+        "aliases": [
+          "baldacci"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Karin Slaughter",
+        "aliases": [
+          "slaughter"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Peter James",
+        "aliases": [
+          "roy grace"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Martina Cole",
+        "aliases": [
+          "cole"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Lynda La Plante",
+        "aliases": [
+          "la plante",
+          "lynda laplante"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Kathy Reichs",
+        "aliases": [
+          "reichs"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Lisa Jewell",
+        "aliases": [
+          "jewell"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Freida McFadden",
+        "aliases": [
+          "mcfadden"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Alex Michaelides",
+        "aliases": [
+          "michaelides",
+          "the silent patient"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Holly Jackson",
+        "aliases": [
+          "jackson",
+          "a good girls guide to murder"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Lucy Foley",
+        "aliases": [
+          "foley"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Ruth Ware",
+        "aliases": [
+          "ware"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dashiell Hammett",
+        "aliases": [
+          "hammett"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dorothy L. Sayers",
+        "aliases": [
+          "dorothy sayers",
+          "sayers"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Colin Dexter",
+        "aliases": [
+          "dexter"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ann Cleeves",
+        "aliases": [
+          "cleeves"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Michael Connelly",
+        "aliases": [
+          "connelly"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Robert Galbraith",
+        "aliases": [
+          "jk rowling",
+          "j k rowling"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Anthony Horowitz",
+        "aliases": [
+          "horowitz"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mark Billingham",
+        "aliases": [
+          "billingham"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Tess Gerritsen",
+        "aliases": [
+          "gerritsen"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dennis Lehane",
+        "aliases": [
+          "lehane"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Henning Mankell",
+        "aliases": [
+          "mankell"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Patricia Highsmith",
+        "aliases": [
+          "highsmith"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Edgar Allan Poe",
+        "aliases": [
+          "poe"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "M.C. Beaton",
+        "aliases": [
+          "mc beaton",
+          "beaton"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Alexander McCall Smith",
+        "aliases": [
+          "mccall smith"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Janice Hallett",
+        "aliases": [
+          "hallett"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "James Ellroy",
+        "aliases": [
+          "ellroy"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Elmore Leonard",
+        "aliases": [
+          "leonard"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Georges Simenon",
+        "aliases": [
+          "simenon"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tana French",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Wilkie Collins",
+        "aliases": [
+          "collins"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Margery Allingham",
+        "aliases": [
+          "allingham"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "John Dickson Carr",
+        "aliases": [
+          "carr",
+          "dickson carr"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "James M. Cain",
+        "aliases": [
+          "cain",
+          "james cain"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "William McIlvanney",
+        "aliases": [
+          "mcilvanney"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Keigo Higashino",
+        "aliases": [
+          "higashino"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sjöwall and Wahlöö",
+        "aliases": [
+          "maj sjowall",
+          "per wahloo"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ngaio Marsh",
+        "aliases": [
+          "marsh"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Josephine Tey",
+        "aliases": [
+          "tey"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Sara Paretsky",
+        "aliases": [
+          "paretsky"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Chester Himes",
+        "aliases": [
+          "himes"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Cornell Woolrich",
+        "aliases": [
+          "woolrich"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Edmund Crispin",
+        "aliases": [
+          "crispin"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-24",
+    "topic": "books-stories",
+    "prompt": "Name a book series with five or more books",
+    "answers": [
+      {
+        "answer": "Harry Potter",
+        "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "The Chronicles of Narnia",
+        "aliases": [
+          "narnia"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Diary of a Wimpy Kid",
+        "aliases": [
+          "wimpy kid"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "A Song of Ice and Fire",
+        "aliases": [
+          "game of thrones",
+          "asoiaf"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Percy Jackson",
+        "aliases": [
+          "percy jackson and the olympians"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "A Series of Unfortunate Events",
+        "aliases": [
+          "lemony snicket"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Discworld",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Famous Five",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Goosebumps",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Horrible Histories",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Mr Men",
+        "aliases": [
+          "mr men and little miss"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Jack Reacher",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Sherlock Holmes",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "A Court of Thorns and Roses",
+        "aliases": [
+          "acotar"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Hunger Games",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Bridgerton",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Nancy Drew",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Twilight",
+        "aliases": [
+          "the twilight saga"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Throne of Glass",
+        "aliases": [
+          "tog"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Maze Runner",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Tom Gates",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Dog Man",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Horrid Henry",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Rainbow Magic",
+        "aliases": [
+          "rainbow fairies"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "How to Train Your Dragon",
+        "aliases": [
+          "httyd"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "His Dark Materials",
+        "aliases": [
+          "northern lights"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Shadow and Bone",
+        "aliases": [
+          "grishaverse",
+          "six of crows"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Fifty Shades of Grey",
+        "aliases": [
+          "fifty shades"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Hitchhiker's Guide to the Galaxy",
+        "aliases": [
+          "hitchhikers guide",
+          "hitchhikers guide to the galaxy"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Poirot",
+        "aliases": [
+          "hercule poirot"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cormoran Strike",
+        "aliases": [
+          "strike"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Thursday Murder Club",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "James Bond",
+        "aliases": [
+          "bond"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Wheel of Time",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Witcher",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Outlander",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Alex Rider",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Artemis Fowl",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Captain Underpants",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Dark Tower",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Shatter Me",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Mortal Instruments",
+        "aliases": [
+          "shadowhunters"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Worst Witch",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mistborn",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Rivers of London",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Inheritance Cycle",
+        "aliases": [
+          "eragon"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "CHERUB",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Miss Marple",
+        "aliases": [
+          "marple"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Jeeves",
+        "aliases": [
+          "jeeves and wooster"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dune",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Adrian Mole",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Animorphs",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Redwall",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Earthsea",
+        "aliases": [
+          "a wizard of earthsea"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Skulduggery Pleasant",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Little House on the Prairie",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Mr Gum",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Mortal Engines",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Malazan Book of the Fallen",
+        "aliases": [
+          "malazan"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Realm of the Elderlings",
+        "aliases": [
+          "farseer",
+          "the farseer trilogy"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Aubrey-Maturin",
+        "aliases": [
+          "master and commander",
+          "aubrey and maturin"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Chronicles of Prydain",
+        "aliases": [
+          "prydain"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Xanth",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Left Behind",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Jennings",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Rougon-Macquart",
+        "aliases": [
+          "les rougon macquart"
+        ],
+        "tier": 100
+      }
+    ]
+  },
+  {
+    "id": "books-stories-25",
+    "topic": "books-stories",
+    "prompt": "Name a Roald Dahl character",
+    "answers": [
+      {
+        "answer": "Willy Wonka",
+        "aliases": [
+          "wonka"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Matilda",
+        "aliases": [
+          "matilda wormwood"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "The BFG",
+        "aliases": [
+          "big friendly giant"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Charlie Bucket",
+        "aliases": [
+          "charlie"
+        ],
+        "tier": 10
+      },
+      {
+        "answer": "Miss Trunchbull",
+        "aliases": [
+          "trunchbull",
+          "agatha trunchbull"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Fantastic Mr Fox",
+        "aliases": [
+          "mr fox"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Veruca Salt",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Augustus Gloop",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Oompa Loompa",
+        "aliases": [
+          "oompa loompas"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Miss Honey",
+        "aliases": [
+          "jennifer honey"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "James",
+        "aliases": [
+          "james henry trotter"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Twits",
+        "aliases": [
+          "mr twit",
+          "mrs twit"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Grandpa Joe",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The Grand High Witch",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Grandma",
+        "aliases": [
+          "georges grandma",
+          "grandma from georges marvellous medicine"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Violet Beauregarde",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mike Teavee",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Danny",
+        "aliases": [
+          "danny the champion of the world"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "George Kranky",
+        "aliases": [
+          "george",
+          "georges marvellous medicine"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sophie",
+        "aliases": [
+          "sophie from the bfg"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Enormous Crocodile",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mr Wormwood",
+        "aliases": [
+          "wormwood"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Slugworth",
+        "aliases": [
+          "arthur slugworth"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Amanda Thripp",
+        "aliases": [
+          "the girl with pigtails"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mrs Wormwood",
+        "aliases": [
+          "zinnia wormwood"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mrs Phelps",
+        "aliases": [
+          "the librarian"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Centipede",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Earthworm",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Old-Green-Grasshopper",
+        "aliases": [
+          "grasshopper"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Ladybird",
+        "aliases": [
+          "ladybug"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Queen",
+        "aliases": [
+          "the queen of england"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Grandmamma",
+        "aliases": [
+          "grandma from the witches",
+          "the boys grandmother"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Badger",
+        "aliases": [
+          "badger from fantastic mr fox"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Danny's Father",
+        "aliases": [
+          "william",
+          "dannys dad",
+          "dannys father"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Victor Hazell",
+        "aliases": [
+          "mr hazell",
+          "hazell"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Muggle-Wump",
+        "aliases": [
+          "the muggle wumps",
+          "the monkeys"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Roly-Poly Bird",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mrs Silver",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Bruce Bogtrotter",
+        "aliases": [
+          "bogtrotter"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Boggis, Bunce and Bean",
+        "aliases": [
+          "boggis",
+          "bunce",
+          "bean"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Aunt Sponge",
+        "aliases": [
+          "aunt spiker"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Miss Spider",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Mr Hoppy",
+        "aliases": [
+          "esio trot"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hortensia",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Grandma Josephine",
+        "aliases": [
+          "grandpa george",
+          "grandma georgina"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mr Bucket",
+        "aliases": [
+          "mrs bucket",
+          "charlies parents"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Vermicious Knids",
+        "aliases": [
+          "knids"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Bloodbottler",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The Boy",
+        "aliases": [
+          "the boy from the witches",
+          "luke"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mrs Fox",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Mr Kranky",
+        "aliases": [
+          "mr killy kranky",
+          "mrs kranky"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Humpy-Rumpy",
+        "aliases": [
+          "the hippo"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Greggs",
+        "aliases": [
+          "the gregg family",
+          "the magic finger"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Pelly",
+        "aliases": [
+          "the pelican",
+          "the giraffe and the pelly and me"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mary Maloney",
+        "aliases": [
+          "lamb to the slaughter"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Landlady",
+        "aliases": [
+          "billy weaver"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Fleshlumpeater",
+        "aliases": [
+          "childchewer",
+          "gizzardgulper",
+          "meatdripper",
+          "manhugger",
+          "maidmasher",
+          "butcher boy"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bruno Jenkins",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Lavender",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Nigel",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Bonecruncher",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Little Billy",
+        "aliases": [
+          "the minpins"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Vicar of Nibbleswicke",
+        "aliases": [
+          "reverend lee"
+        ],
+        "tier": 100
+      }
+    ]
+  }
+]
