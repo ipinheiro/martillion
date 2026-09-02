@@ -43,10 +43,18 @@ export function planMessage(plans) {
   return `Five-year plans completed: ${plans.completed} - ${progress} toward the next`;
 }
 
+/**
+ * What the results list shows for a round: the recognised answer, else what was typed, else
+ * "no answer".
+ * @param {RoundResult} result
+ */
+export function roundAnswer(result) {
+  return result.matchedAnswer ?? (result.input.trim() || "no answer");
+}
+
 /** @param {RoundResult} result */
 export function roundLine(result) {
-  const shown = result.matchedAnswer ?? (result.input.trim() || "no answer");
-  return `${result.tier.emoji} ${result.prompt} - ${shown} (+${result.tier.points})`;
+  return `${result.tier.emoji} ${result.prompt} - ${roundAnswer(result)} (+${result.tier.points})`;
 }
 
 /**

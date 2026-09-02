@@ -185,6 +185,18 @@ test("an unrecognised answer is rejected with feedback and the round carries on"
   assert.deepEqual(visible(), ["screen-reveal"]);
   assert.equal($("reveal-tier").textContent, "Comrade");
   assert.equal($("reveal-detail").textContent, 'The committee recognises "Anything".');
+  assert.equal($("reveal-topic").textContent, $("round-topic").textContent);
+  assert.equal($("reveal-count").textContent, "Round 1 of 7");
+  assert.equal($("reveal-star").hidden, true, "the star is for Full Marx only");
+});
+
+test("a Full Marx reveal shows the star beside Marx", async () => {
+  const { $, type } = await boot();
+  $("start-button").dispatch("click");
+  type("Rare thing");
+  assert.equal($("reveal-tier").textContent, "Full Marx");
+  assert.equal($("reveal-star").hidden, false);
+  assert.equal($("reveal-star").children[0].tagName, "svg");
 });
 
 test("running out of time after rejected attempts scores utopian at zero", async () => {
@@ -232,8 +244,16 @@ test("a full game scores, saves, and reports a new personal best only when earne
   assert.equal($("results-stage").textContent, "Capitalism");
   assert.equal($("results-records").textContent, "A new personal best. The politburo is pleased.");
   assert.equal($("results-rounds").children.length, 7);
-  assert.match($("results-rounds").children[2].textContent, /⬛ .* - no answer \(\+0\)/);
-  assert.match($("results-rounds").children[3].textContent, /💭 .* - roomba \(\+0\)/);
+  const cells = (i) => $("results-rounds").children[i].children.map((el) => el.textContent);
+  const answerOf = (i) => $("results-rounds").children[i].children[1].children[0].textContent;
+  assert.equal(cells(2)[0], "⬛");
+  assert.equal(answerOf(2), "no answer");
+  assert.equal(cells(2)[2], "+0");
+  assert.equal(cells(3)[0], "💭");
+  assert.equal(answerOf(3), "roomba");
+  assert.equal(cells(3)[2], "+0");
+  assert.equal(cells(1)[0], "⭐");
+  assert.equal(cells(1)[2], "+100");
   const saved = JSON.parse(storage.data.get(KEY));
   assert.equal(saved.bestScore, 340);
   assert.equal(saved.gamesPlayed, 1);

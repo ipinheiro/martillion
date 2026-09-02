@@ -13,13 +13,13 @@ import {
   recordsMessage,
   rejectionMessage,
   revealDetail,
+  roundAnswer,
   roundCounter,
-  roundLine,
 } from "./messages.js";
 import { paintSprite, spriteToSvgString } from "./pixel.js";
-import { fiveYearPlans, PLAN_TARGET } from "./scorer.js";
+import { fiveYearPlans, PLAN_TARGET, TOP_TIER } from "./scorer.js";
 import { copyShare, shareText } from "./share.js";
-import { HAMMER_SICKLE, MARX_HERO, reactionFor, SPRITE_COLOURS } from "./sprites.js";
+import { HAMMER_SICKLE, MARX_HERO, reactionFor, SPRITE_COLOURS, STAR } from "./sprites.js";
 import { createStorage } from "./storage.js";
 import { TOPICS, topicLabel } from "./topics.js";
 
@@ -79,6 +79,7 @@ export function init(doc, options = {}) {
   /** @type {ReturnType<typeof setTimeout> | null} */
   let shareTimer = null;
   let lastShare = "";
+  let roundHeader = { topic: "", count: "" };
 
   /** @param {string} id */
   function $(id) {
@@ -105,14 +106,23 @@ export function init(doc, options = {}) {
 
   // Title -----------------------------------------------------------------
 
+  /**
+   * @param {string} barId
+   * @param {string} progressId
+   * @param {ReturnType<typeof fiveYearPlans>} plans
+   */
+  function renderPlanBar(barId, progressId, plans) {
+    const percent = clamp((plans.progress / plans.target) * 100, 0, 100);
+    $(barId).style.width = `${percent}%`;
+    $(progressId).setAttribute("aria-valuemax", String(PLAN_TARGET));
+    $(progressId).setAttribute("aria-valuenow", String(plans.progress));
+  }
+
   function renderStats() {
     const plans = fiveYearPlans(state.totalPoints);
     $("best-score").textContent = String(state.bestScore);
     $("plans-completed").textContent = String(plans.completed);
-    const percent = clamp((plans.progress / plans.target) * 100, 0, 100);
-    $("plan-bar").style.width = `${percent}%`;
-    $("plan-progress").setAttribute("aria-valuemax", String(PLAN_TARGET));
-    $("plan-progress").setAttribute("aria-valuenow", String(plans.progress));
+    renderPlanBar("plan-bar", "plan-progress", plans);
     $("plan-label").textContent = planLabel(plans);
   }
 
@@ -162,8 +172,12 @@ export function init(doc, options = {}) {
     if (!uprising) throw new Error("No uprising in progress");
     const question = uprising.current();
     const input = /** @type {HTMLInputElement} */ ($("answer-input"));
-    $("round-topic").textContent = topicLabel(question.topic);
-    $("round-count").textContent = roundCounter(uprising.round + 1, ROUNDS);
+    roundHeader = {
+      topic: topicLabel(question.topic),
+      count: roundCounter(uprising.round + 1, ROUNDS),
+    };
+    $("round-topic").textContent = roundHeader.topic;
+    $("round-count").textContent = roundHeader.count;
     $("round-prompt").textContent = question.prompt;
     $("round-feedback").textContent = "";
     input.value = "";
@@ -224,7 +238,10 @@ export function init(doc, options = {}) {
   /** @param {import("./game.js").RoundResult} result */
   function renderReveal(result) {
     const reaction = reactionFor(result.tier.id);
+    $("reveal-topic").textContent = roundHeader.topic;
+    $("reveal-count").textContent = roundHeader.count;
     $("reveal-sprite").replaceChildren(paintSprite(doc, reaction.sprite, reaction.label));
+    $("reveal-star").hidden = result.tier.id !== TOP_TIER.id;
     $("reveal-tier").textContent = result.tier.name;
     $("reveal-points").textContent = `+${result.tier.points}`;
     $("reveal-detail").textContent = revealDetail(result);
@@ -269,12 +286,26 @@ export function init(doc, options = {}) {
     $("results-rounds").replaceChildren(
       ...summary.rounds.map((round) => {
         const item = doc.createElement("li");
-        item.textContent = roundLine(round);
+        const emoji = doc.createElement("span");
+        emoji.className = "round-emoji";
+        emoji.textContent = round.tier.emoji;
+        const text = doc.createElement("span");
+        text.className = "round-text";
+        text.textContent = `${round.prompt} - `;
+        const answer = doc.createElement("strong");
+        answer.textContent = roundAnswer(round);
+        text.append(answer);
+        const points = doc.createElement("span");
+        points.className = "round-points";
+        points.textContent = `+${round.tier.points}`;
+        item.append(emoji, text, points);
         return item;
       }),
     );
     $("results-records").textContent = recordsMessage(summary.total, previousBest);
-    $("results-plan").textContent = planMessage(fiveYearPlans(state.totalPoints));
+    const plans = fiveYearPlans(state.totalPoints);
+    renderPlanBar("results-bar", "results-progress", plans);
+    $("results-plan").textContent = planMessage(plans);
     $("screen-results").classList.toggle("perfect", summary.total === PERFECT_SCORE);
     showScreen("screen-results");
   }
@@ -323,6 +354,8 @@ export function init(doc, options = {}) {
   });
 
   $("title-hero").replaceChildren(paintSprite(doc, MARX_HERO, "Karl Marx in sunglasses"));
+  $("title-star").replaceChildren(paintSprite(doc, STAR, ""));
+  $("reveal-star").replaceChildren(paintSprite(doc, STAR, ""));
   for (const sigil of doc.querySelectorAll(".sigil")) {
     sigil.replaceChildren(paintSprite(doc, HAMMER_SICKLE, ""));
   }
