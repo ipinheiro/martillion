@@ -1,16 +1,23 @@
-import { stageForScore, tierInfo } from "./scorer.js";
+// @ts-check
 
-export function shareText(roundPoints, total) {
-  const stage = stageForScore(total);
-  const emojis = roundPoints.map((points) => tierInfo(points).emoji).join("");
-  return `Martillion ✊ ${total} - ${stage.verdict}\n${emojis}`;
+/** @param {import("./game.js").Summary} summary */
+export function shareText(summary) {
+  const emojis = summary.rounds.map((round) => round.tier.emoji).join("");
+  return `Martillion ✊ ${summary.total} - ${summary.stage.verdict}\n${emojis}`;
 }
 
-export async function copyShare(text) {
+/**
+ * @param {string} text
+ * @param {Pick<Clipboard, "writeText"> | undefined} [clipboard] defaults to the browser clipboard
+ */
+export async function copyShare(text, clipboard = globalThis.navigator?.clipboard) {
+  if (!text) return false;
   try {
-    await navigator.clipboard.writeText(text);
+    if (!clipboard) throw new Error("Clipboard API unavailable (insecure context?)");
+    await clipboard.writeText(text);
     return true;
-  } catch {
+  } catch (error) {
+    console.warn("clipboard write failed", error);
     return false;
   }
 }
