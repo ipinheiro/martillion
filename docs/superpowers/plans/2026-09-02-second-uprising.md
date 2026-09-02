@@ -3084,6 +3084,16 @@ git commit -m "docs: Describe the widened bank and sprite tooling"
 
 ---
 
+### Task 17: Unrecognised answers do not end the round (added 2026-09-02)
+
+Requested after Task 14 shipped: a rejected answer should tell the player it is not recognised and let them try again while the clock runs; only a recognised answer or the clock ends a round.
+
+**Files:** `js/game.js` (`submit` returns `{ status, result }` and closes the round only on a match; new `timeout(input)` closes it either way), `js/messages.js` (`rejectionMessage`, reveal copy prefixed with "Time's up."), `js/main.js` (`tryAnswer` and `expireRound` replace `submitAnswer`), `index.html` (`#round-feedback`, `aria-live="polite"`), `css/style.css` (`.round-feedback`), tests for all four, and the spec's scoring section.
+
+- [x] Game module rejects unverified input, remembers attempts, and scores a timeout as Utopian after attempts or No answer after silence
+- [x] Round screen shows the rejection and clears the box; the timer keeps running
+- [x] Integration test covers rejection, retry, timeout after rejection, and the last-try-at-timeout rule
+
 ## Self-review notes
 
 - Spec coverage: scoring (Tasks 3, 6, 8), matching (Task 4), bank layout and rules (Task 9), widening (Task 15), the Bible (Task 9), pixel art (Tasks 12 to 14), structure and boot and timer (Task 10), storage (Task 5), share (Task 7), tooling and fonts and CSP (Tasks 1, 10, 11), testing (every task), docs (Task 16).
