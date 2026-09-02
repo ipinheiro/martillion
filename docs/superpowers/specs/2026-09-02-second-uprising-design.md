@@ -1,7 +1,7 @@
 # Martillion second uprising
 
 Date: 2026-09-02
-Status: approved in conversation, implementing
+Status: implemented (2026-09-02)
 Builds on: `2026-09-01-martillion-design.md` (the original design, still authoritative where this document is silent)
 
 ## Overview
