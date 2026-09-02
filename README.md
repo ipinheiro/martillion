@@ -26,6 +26,12 @@ the box) type-checks the JSDoc comments as you type.
 
 ## Add questions
 
-Edit `data/questions.json` following the schema in
-`docs/superpowers/specs/2026-09-01-martillion-design.md`, then run `npm test` -
-the validation suite enforces the authoring rules.
+The bank lives in `data/questions/`, one file per topic. Edit the topic's file following the
+schema and authoring rules in `docs/superpowers/specs/2026-09-02-second-uprising-design.md`,
+then run `npm test` - the data test enforces the rules. An answer the bank does not recognise
+scores zero, so cover the common answers exhaustively.
+
+## Sprites
+
+The pixel art lives in `js/sprites.js` as character grids. Render every sprite to PNG for a
+look with `node scripts/preview-sprites.mjs`; the files land in `/tmp/martillion-sprites/`.
