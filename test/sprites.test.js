@@ -12,10 +12,12 @@ import {
   STAR,
 } from "../js/sprites.js";
 
-test("SPRITE_COLOURS covers the six palette tokens with hex values", () => {
+test("SPRITE_COLOURS covers the eight palette tokens with hex values", () => {
   assert.deepEqual(Object.keys(SPRITE_COLOURS).sort(), [
     "cream",
     "cream-dim",
+    "grey",
+    "grey-light",
     "ink",
     "red",
     "skin",
@@ -40,9 +42,9 @@ test("Marx is 32 by 32 and the hero wears sunglasses", () => {
   assert.notDeepEqual(MARX_HERO.rows, MARX.rows);
 });
 
-test("hammer and sickle and star are small glyphs", () => {
+test("hammer and sickle and star are 16 by 16 glyphs", () => {
   assert.deepEqual(spriteSize(HAMMER_SICKLE), { width: 16, height: 16 });
-  assert.deepEqual(spriteSize(STAR), { width: 5, height: 5 });
+  assert.deepEqual(spriteSize(STAR), { width: 16, height: 16 });
 });
 
 test("every tier has a reaction with a label, and reactions differ from each other", () => {

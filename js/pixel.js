@@ -84,6 +84,29 @@ export function compose(base, overlay, offset) {
 }
 
 /**
+ * A patch writes a run of palette characters into one row: [row, column, characters].
+ * @typedef {[number, number, string]} Patch
+ */
+
+/**
+ * Applies patches to a copy of the sprite. Throws if a patch runs past the edge.
+ * @param {Sprite} sprite
+ * @param {Patch[]} patches
+ * @returns {Sprite}
+ */
+export function applyPatches(sprite, patches) {
+  const { width, height } = spriteSize(sprite);
+  const rows = sprite.rows.map((row) => row.split(""));
+  for (const [y, x, letters] of patches) {
+    if (y < 0 || y >= height || x < 0 || x + letters.length > width) {
+      throw new Error(`Patch "${letters}" at ${x},${y} runs past the ${width}x${height} sprite`);
+    }
+    for (let i = 0; i < letters.length; i++) rows[y][x + i] = letters[i];
+  }
+  return { palette: sprite.palette, rows: rows.map((row) => row.join("")) };
+}
+
+/**
  * @param {Record<string, string>} colours token to concrete colour
  * @param {string} token
  */

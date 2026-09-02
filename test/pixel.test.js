@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import {
+  applyPatches,
   compose,
   paintSprite,
   spriteSize,
@@ -55,6 +56,18 @@ test("compose rejects a palette character that means different colours", () => {
   const base = { palette: { "#": "ink" }, rows: ["#"] };
   const overlay = { palette: { "#": "red" }, rows: ["#"] };
   assert.throws(() => compose(base, overlay, { x: 0, y: 0 }), /Palette conflict/);
+});
+
+test("applyPatches writes runs into rows and leaves the original alone", () => {
+  const base = { palette, rows: ["....", "....", "...."] };
+  const patched = applyPatches(base, [
+    [0, 1, "##"],
+    [2, 3, "r"],
+  ]);
+  assert.deepEqual(patched.rows, [".##.", "....", "...r"]);
+  assert.deepEqual(base.rows, ["....", "....", "...."]);
+  assert.throws(() => applyPatches(base, [[1, 3, "##"]]), /runs past/);
+  assert.throws(() => applyPatches(base, [[3, 0, "#"]]), /runs past/);
 });
 
 test("spriteToSvgString emits crisp rects with resolved colours", () => {
