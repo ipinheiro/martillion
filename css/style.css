@@ -16,6 +16,7 @@
   --cream: #f3e9d2;
   --cream-dim: #e4d5b5;
   --star: #e8b923;
+  --skin: #e9c9a0;
 
   --ink-70: rgba(27, 23, 18, 0.7);
   --ink-45: rgba(27, 23, 18, 0.45);
@@ -139,9 +140,46 @@ body::after {
   letter-spacing: 0.08em;
 }
 
-.hero,
-.reaction {
+/* Sprites --------------------------------------------------------------- */
+
+.sprite {
   display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  align-self: flex-end;
+  width: clamp(6rem, 30vw, 9rem);
+  margin-bottom: -0.75rem;
+  filter: drop-shadow(var(--offset) var(--offset) 0 var(--ink-18));
+}
+
+.reaction {
+  width: clamp(6rem, 32vw, 8rem);
+  margin-bottom: 1rem;
+}
+
+.reaction .sprite {
+  transform-origin: 50% 80%;
+  animation: stamp 0.35s cubic-bezier(0.2, 0.9, 0.3, 1.2) both;
+}
+
+@keyframes stamp {
+  from {
+    opacity: 0;
+    transform: scale(1.5) rotate(-8deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.sigil .sprite {
+  width: 1rem;
+  height: 1rem;
 }
 
 /* A watermark star, printed faintly under the title. */
@@ -382,12 +420,6 @@ h1 {
 }
 
 /* Reveal screen -------------------------------------------------------- */
-
-.reveal-emoji {
-  font-size: 3.5rem;
-  line-height: 1;
-  margin-bottom: 1rem;
-}
 
 #reveal-tier {
   font-size: clamp(2.2rem, 11vw, 3.25rem);

@@ -15,8 +15,10 @@ import {
   roundCounter,
   roundLine,
 } from "./messages.js";
+import { paintSprite, spriteToSvgString } from "./pixel.js";
 import { fiveYearPlans, PLAN_TARGET } from "./scorer.js";
 import { copyShare, shareText } from "./share.js";
+import { HAMMER_SICKLE, MARX_HERO, reactionFor, SPRITE_COLOURS } from "./sprites.js";
 import { createStorage } from "./storage.js";
 import { TOPICS, topicLabel } from "./topics.js";
 
@@ -201,6 +203,8 @@ export function init(doc, options = {}) {
 
   /** @param {import("./game.js").RoundResult} result */
   function renderReveal(result) {
+    const reaction = reactionFor(result.tier.id);
+    $("reveal-sprite").replaceChildren(paintSprite(doc, reaction.sprite, reaction.label));
     $("reveal-tier").textContent = result.tier.name;
     $("reveal-points").textContent = `+${result.tier.points}`;
     $("reveal-detail").textContent = revealDetail(result);
@@ -297,6 +301,14 @@ export function init(doc, options = {}) {
     console.error(event.reason);
     showError("Something went wrong. Try again to reload the questions.");
   });
+
+  $("title-hero").replaceChildren(paintSprite(doc, MARX_HERO, "Karl Marx in sunglasses"));
+  for (const sigil of doc.querySelectorAll(".sigil")) {
+    sigil.replaceChildren(paintSprite(doc, HAMMER_SICKLE, ""));
+  }
+  const favicon = /** @type {HTMLLinkElement} */ ($("favicon"));
+  const faviconSvg = spriteToSvgString(HAMMER_SICKLE, SPRITE_COLOURS);
+  favicon.href = `data:image/svg+xml,${encodeURIComponent(faviconSvg)}`;
 
   renderStats();
   showScreen("screen-title");
