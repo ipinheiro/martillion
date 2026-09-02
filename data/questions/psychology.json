@@ -68,6 +68,49 @@
         "tier": 30
       },
       {
+        "answer": "Status quo bias",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Loss aversion",
+        "aliases": [
+          "loss aversion bias"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Stereotyping",
+        "aliases": [
+          "stereotypes",
+          "stereotype",
+          "stereotype bias"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Unconscious bias",
+        "aliases": [
+          "implicit bias"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Overconfidence bias",
+        "aliases": [
+          "overconfidence",
+          "overconfidence effect"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The spotlight effect",
+        "aliases": [
+          "spotlight"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "Negativity bias",
         "aliases": [],
         "tier": 60
@@ -128,6 +171,74 @@
         "tier": 60
       },
       {
+        "answer": "The mere exposure effect",
+        "aliases": [
+          "mere exposure",
+          "familiarity principle"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The false consensus effect",
+        "aliases": [
+          "false consensus",
+          "false consensus bias"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Illusory superiority",
+        "aliases": [
+          "lake wobegon effect",
+          "above average effect",
+          "better than average effect",
+          "superiority bias"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The planning fallacy",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Authority bias",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The illusory truth effect",
+        "aliases": [
+          "illusion of truth effect",
+          "illusion of truth"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pessimism bias",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Attentional bias",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Groupthink",
+        "aliases": [
+          "group think"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The bystander effect",
+        "aliases": [
+          "bystander apathy"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "The Barnum effect",
         "aliases": [
           "forer effect"
@@ -173,6 +284,98 @@
         "tier": 85
       },
       {
+        "answer": "Outcome bias",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Omission bias",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The ostrich effect",
+        "aliases": [
+          "ostrich bias",
+          "head in the sand"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The hot-hand fallacy",
+        "aliases": [
+          "hot hand",
+          "hot hand bias"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The conjunction fallacy",
+        "aliases": [
+          "linda problem"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The backfire effect",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Choice-supportive bias",
+        "aliases": [
+          "post purchase rationalisation",
+          "post purchase rationalization"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The bias blind spot",
+        "aliases": [
+          "blind spot bias"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The illusion of control",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Rosy retrospection",
+        "aliases": [
+          "rose tinted glasses"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Normalcy bias",
+        "aliases": [
+          "normality bias"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The horn effect",
+        "aliases": [
+          "horns effect",
+          "reverse halo effect"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Reactance",
+        "aliases": [
+          "psychological reactance"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Egocentric bias",
+        "aliases": [],
+        "tier": 85
+      },
+      {
         "answer": "Belief perseverance",
         "aliases": [],
         "tier": 100
@@ -197,6 +400,46 @@
       {
         "answer": "The clustering illusion",
         "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Functional fixedness",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Declinism",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The cheerleader effect",
+        "aliases": [
+          "group attractiveness effect"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Parkinson's law of triviality",
+        "aliases": [
+          "bikeshedding",
+          "bike shedding",
+          "law of triviality"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The well-travelled road effect",
+        "aliases": [
+          "well traveled road effect"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Google effect",
+        "aliases": [
+          "digital amnesia"
+        ],
         "tier": 100
       }
     ]
@@ -274,6 +517,35 @@
         "tier": 30
       },
       {
+        "answer": "The Stroop test",
+        "aliases": [
+          "stroop",
+          "stroop effect",
+          "stroop task",
+          "colour word test"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The bystander effect experiment",
+        "aliases": [
+          "bystander effect",
+          "bystander experiment",
+          "darley and latane",
+          "seizure experiment",
+          "kitty genovese"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The trolley problem",
+        "aliases": [
+          "trolley dilemma",
+          "runaway trolley"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "The Skinner box",
         "aliases": [
           "operant conditioning chamber",
@@ -310,6 +582,97 @@
         "aliases": [
           "conservation experiment",
           "piaget conservation of liquid"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The learned helplessness experiment",
+        "aliases": [
+          "learned helplessness",
+          "seligman's dogs",
+          "seligmans dogs",
+          "seligman"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Blue eyes, brown eyes",
+        "aliases": [
+          "jane elliott",
+          "jane elliott experiment",
+          "blue eyed brown eyed experiment"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Clark doll test",
+        "aliases": [
+          "doll test",
+          "doll experiment",
+          "clark doll experiment"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The still face experiment",
+        "aliases": [
+          "still face",
+          "tronick still face"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Hawthorne studies",
+        "aliases": [
+          "hawthorne experiment",
+          "hawthorne effect experiment",
+          "hawthorne works"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ebbinghaus's forgetting curve",
+        "aliases": [
+          "ebbinghaus",
+          "forgetting curve",
+          "nonsense syllables experiment"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The split-brain experiments",
+        "aliases": [
+          "split brain",
+          "sperry split brain",
+          "gazzaniga split brain",
+          "split brain patients"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The mirror test",
+        "aliases": [
+          "mirror self recognition test",
+          "gallup mirror test",
+          "rouge test",
+          "red dot test"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The prisoner's dilemma",
+        "aliases": [
+          "prisoners dilemma"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lorenz's geese",
+        "aliases": [
+          "lorenz imprinting",
+          "imprinting experiment",
+          "konrad lorenz geese",
+          "lorenz"
         ],
         "tier": 60
       },
@@ -372,6 +735,138 @@
         "tier": 85
       },
       {
+        "answer": "Universe 25",
+        "aliases": [
+          "mouse utopia",
+          "calhoun mouse experiment",
+          "behavioural sink",
+          "behavioral sink",
+          "rat utopia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Hofling hospital experiment",
+        "aliases": [
+          "hofling",
+          "hofling nurse study",
+          "nurse obedience study"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sherif's autokinetic experiment",
+        "aliases": [
+          "autokinetic effect experiment",
+          "sherif autokinetic",
+          "sherif"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tajfel's minimal group experiment",
+        "aliases": [
+          "minimal group paradigm",
+          "minimal groups",
+          "tajfel",
+          "klee and kandinsky study"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The lost in the mall study",
+        "aliases": [
+          "lost in the mall",
+          "loftus lost in the mall"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Thorndike's puzzle box",
+        "aliases": [
+          "puzzle box",
+          "thorndike cats",
+          "thorndike"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tolman's rats",
+        "aliases": [
+          "latent learning experiment",
+          "cognitive map experiment",
+          "tolman maze",
+          "tolman"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Köhler's chimpanzees",
+        "aliases": [
+          "kohler chimps",
+          "sultan the chimp",
+          "insight learning experiment",
+          "kohler"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The magical number seven",
+        "aliases": [
+          "magic number seven",
+          "seven plus or minus two",
+          "miller's law",
+          "millers law"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The shaky bridge experiment",
+        "aliases": [
+          "dutton and aron",
+          "capilano suspension bridge",
+          "misattribution of arousal study",
+          "bridge study"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Pygmalion in the classroom",
+        "aliases": [
+          "rosenthal and jacobson",
+          "teacher expectation study",
+          "pygmalion effect experiment"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The door study",
+        "aliases": [
+          "change blindness experiment",
+          "simons and levin",
+          "door swap experiment"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Libet's experiment",
+        "aliases": [
+          "libet",
+          "libet free will experiment",
+          "readiness potential experiment"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Facebook emotional contagion experiment",
+        "aliases": [
+          "facebook experiment",
+          "emotional contagion study",
+          "facebook mood experiment"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "The Wason selection task",
         "aliases": [
           "wason four card task",
@@ -407,6 +902,77 @@
         "aliases": [
           "small world experiment",
           "six degrees of separation study"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Peterson and Peterson",
+        "aliases": [
+          "brown peterson task",
+          "brown peterson",
+          "trigram experiment"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bargh's elderly priming study",
+        "aliases": [
+          "florida effect",
+          "elderly walking study",
+          "bargh priming"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Skinner's superstitious pigeons",
+        "aliases": [
+          "superstition in the pigeon",
+          "superstitious pigeons",
+          "skinner pigeons"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Sperling's partial report",
+        "aliases": [
+          "sperling",
+          "iconic memory experiment",
+          "partial report technique"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Schachter-Singer experiment",
+        "aliases": [
+          "schachter and singer",
+          "adrenaline experiment",
+          "two factor theory experiment"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Duncker's candle problem",
+        "aliases": [
+          "candle problem",
+          "candle box experiment"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Asian disease problem",
+        "aliases": [
+          "framing experiment",
+          "tversky and kahneman framing",
+          "kahneman and tversky"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bem's ESP study",
+        "aliases": [
+          "feeling the future",
+          "bem precognition study",
+          "daryl bem"
         ],
         "tier": 100
       }
@@ -475,7 +1041,8 @@
         "answer": "ADHD",
         "aliases": [
           "attention deficit hyperactivity disorder",
-          "attention deficit disorder"
+          "attention deficit disorder",
+          "add"
         ],
         "tier": 30
       },
@@ -505,6 +1072,85 @@
         "aliases": [
           "social anxiety",
           "social phobia"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dementia",
+        "aliases": [
+          "alzheimers",
+          "alzheimers disease",
+          "major neurocognitive disorder"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Specific phobia",
+        "aliases": [
+          "phobia",
+          "phobias",
+          "claustrophobia",
+          "arachnophobia"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Insomnia",
+        "aliases": [
+          "insomnia disorder",
+          "chronic insomnia"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Psychosis",
+        "aliases": [
+          "psychotic disorder",
+          "psychotic"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Dyslexia",
+        "aliases": [
+          "specific learning disorder",
+          "learning disorder"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Postnatal depression",
+        "aliases": [
+          "postpartum depression",
+          "post natal depression",
+          "post partum depression",
+          "pnd"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Psychopathy",
+        "aliases": [
+          "psychopath"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Alcohol use disorder",
+        "aliases": [
+          "alcoholism",
+          "alcohol dependence",
+          "alcohol addiction"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Substance use disorder",
+        "aliases": [
+          "drug addiction",
+          "addiction",
+          "substance abuse disorder",
+          "drug dependence"
         ],
         "tier": 30
       },
@@ -559,6 +1205,129 @@
         "tier": 60
       },
       {
+        "answer": "Dyspraxia",
+        "aliases": [
+          "developmental coordination disorder",
+          "dcd"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Paranoid personality disorder",
+        "aliases": [
+          "paranoia",
+          "ppd",
+          "paranoid"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Schizoaffective disorder",
+        "aliases": [
+          "schizoaffective"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dysthymia",
+        "aliases": [
+          "persistent depressive disorder",
+          "chronic depression",
+          "dysthymic disorder"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Adjustment disorder",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Conduct disorder",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Oppositional defiant disorder",
+        "aliases": [
+          "odd"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Complex PTSD",
+        "aliases": [
+          "cptsd",
+          "c ptsd",
+          "complex post traumatic stress disorder",
+          "complex trauma"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Separation anxiety disorder",
+        "aliases": [
+          "separation anxiety"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Health anxiety",
+        "aliases": [
+          "hypochondria",
+          "hypochondriasis",
+          "illness anxiety disorder",
+          "hypochondriac"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "ARFID",
+        "aliases": [
+          "avoidant restrictive food intake disorder",
+          "avoidant food intake disorder"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Kleptomania",
+        "aliases": [
+          "compulsive stealing"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pyromania",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Gambling disorder",
+        "aliases": [
+          "gambling addiction",
+          "problem gambling",
+          "compulsive gambling"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Delusional disorder",
+        "aliases": [
+          "delusions",
+          "delusional"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mania",
+        "aliases": [
+          "manic episode",
+          "hypomania",
+          "manic"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "Body dysmorphic disorder",
         "aliases": [
           "body dysmorphia"
@@ -600,6 +1369,135 @@
         "tier": 85
       },
       {
+        "answer": "Schizoid personality disorder",
+        "aliases": [
+          "schizoid"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Schizotypal personality disorder",
+        "aliases": [
+          "schizotypal",
+          "schizotypy"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Histrionic personality disorder",
+        "aliases": [
+          "hpd",
+          "histrionic"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Avoidant personality disorder",
+        "aliases": [
+          "avpd",
+          "avoidant"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dependent personality disorder",
+        "aliases": [
+          "dpd"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Obsessive-compulsive personality disorder",
+        "aliases": [
+          "ocpd",
+          "anankastic personality disorder"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cyclothymia",
+        "aliases": [
+          "cyclothymic disorder"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Intermittent explosive disorder",
+        "aliases": [
+          "ied",
+          "explosive disorder"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Reactive attachment disorder",
+        "aliases": [
+          "rad",
+          "attachment disorder"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Conversion disorder",
+        "aliases": [
+          "functional neurological disorder",
+          "fnd",
+          "hysteria"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dissociative amnesia",
+        "aliases": [
+          "psychogenic amnesia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dissociative fugue",
+        "aliases": [
+          "fugue state",
+          "fugue"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Postpartum psychosis",
+        "aliases": [
+          "puerperal psychosis",
+          "postnatal psychosis",
+          "post partum psychosis"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Prolonged grief disorder",
+        "aliases": [
+          "complicated grief",
+          "persistent complex bereavement disorder"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Munchausen by proxy",
+        "aliases": [
+          "munchausen syndrome by proxy",
+          "munchausens by proxy",
+          "factitious disorder imposed on another",
+          "fabricated or induced illness"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Excoriation disorder",
+        "aliases": [
+          "dermatillomania",
+          "skin picking disorder",
+          "skin picking"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "Capgras delusion",
         "aliases": [
           "capgras syndrome"
@@ -635,6 +1533,54 @@
         "aliases": [
           "shared psychotic disorder",
           "shared delusional disorder"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Erotomania",
+        "aliases": [
+          "de clerambault syndrome",
+          "de clerambaults syndrome"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Alice in Wonderland syndrome",
+        "aliases": [
+          "todd syndrome",
+          "todds syndrome"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Diogenes syndrome",
+        "aliases": [
+          "senile squalor syndrome"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Koro",
+        "aliases": [
+          "genital retraction syndrome",
+          "koro syndrome"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Ganser syndrome",
+        "aliases": [
+          "gansers syndrome",
+          "prison psychosis"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Body integrity dysphoria",
+        "aliases": [
+          "body integrity identity disorder",
+          "biid",
+          "xenomelia"
         ],
         "tier": 100
       }
@@ -711,6 +1657,15 @@
         "tier": 30
       },
       {
+        "answer": "Dr Phil",
+        "aliases": [
+          "phil mcgraw",
+          "doctor phil",
+          "mcgraw"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "Carl Rogers",
         "aliases": [
           "rogers"
@@ -757,6 +1712,106 @@
         "answer": "Lev Vygotsky",
         "aliases": [
           "vygotsky"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Alfred Adler",
+        "aliases": [
+          "adler"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Erik Erikson",
+        "aliases": [
+          "erikson",
+          "erik h erikson"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "John Bowlby",
+        "aliases": [
+          "bowlby"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Anna Freud",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Jacques Lacan",
+        "aliases": [
+          "lacan"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Viktor Frankl",
+        "aliases": [
+          "frankl",
+          "victor frankl"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Aaron Beck",
+        "aliases": [
+          "beck",
+          "aaron t beck"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Alfred Binet",
+        "aliases": [
+          "binet"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Elisabeth Kübler-Ross",
+        "aliases": [
+          "kubler ross",
+          "elizabeth kubler ross"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Carol Dweck",
+        "aliases": [
+          "dweck"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Jonathan Haidt",
+        "aliases": [
+          "haidt"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Simon Baron-Cohen",
+        "aliases": [
+          "baron cohen"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Francis Galton",
+        "aliases": [
+          "galton"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Timothy Leary",
+        "aliases": [
+          "leary"
         ],
         "tier": 60
       },
@@ -815,6 +1870,98 @@
         "tier": 85
       },
       {
+        "answer": "Amos Tversky",
+        "aliases": [
+          "tversky"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hans Eysenck",
+        "aliases": [
+          "eysenck"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Melanie Klein",
+        "aliases": [
+          "klein"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Erich Fromm",
+        "aliases": [
+          "fromm"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Albert Ellis",
+        "aliases": [
+          "ellis"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Lawrence Kohlberg",
+        "aliases": [
+          "kohlberg"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Leon Festinger",
+        "aliases": [
+          "festinger"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Edward Thorndike",
+        "aliases": [
+          "thorndike",
+          "edward lee thorndike"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hermann Ebbinghaus",
+        "aliases": [
+          "ebbinghaus"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Karen Horney",
+        "aliases": [
+          "horney"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Robert Cialdini",
+        "aliases": [
+          "cialdini"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Alan Baddeley",
+        "aliases": [
+          "baddeley"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Henri Tajfel",
+        "aliases": [
+          "tajfel"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "Ulric Neisser",
         "aliases": [
           "neisser"
@@ -846,6 +1993,63 @@
         "answer": "Mihaly Csikszentmihalyi",
         "aliases": [
           "csikszentmihalyi"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Raymond Cattell",
+        "aliases": [
+          "cattell"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Gordon Allport",
+        "aliases": [
+          "allport"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Fritz Perls",
+        "aliases": [
+          "perls"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Wilfred Bion",
+        "aliases": [
+          "bion"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Frederic Bartlett",
+        "aliases": [
+          "bartlett",
+          "sir frederic bartlett"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Wolfgang Köhler",
+        "aliases": [
+          "kohler"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Edward Tolman",
+        "aliases": [
+          "tolman"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Walter Mischel",
+        "aliases": [
+          "mischel"
         ],
         "tier": 100
       }
@@ -934,6 +2138,47 @@
         "tier": 60
       },
       {
+        "answer": "Avoidance",
+        "aliases": [
+          "avoiding",
+          "avoiding the problem"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Deflection",
+        "aliases": [
+          "deflecting",
+          "changing the subject"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Compensation",
+        "aliases": [
+          "overcompensation",
+          "overcompensating"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Withdrawal",
+        "aliases": [
+          "social withdrawal",
+          "withdrawing"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Minimisation",
+        "aliases": [
+          "minimization",
+          "minimising",
+          "downplaying"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "Splitting",
         "aliases": [
           "black and white thinking"
@@ -984,6 +2229,13 @@
         "tier": 85
       },
       {
+        "answer": "Devaluation",
+        "aliases": [
+          "devaluing"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "Introjection",
         "aliases": [],
         "tier": 100
@@ -1006,6 +2258,99 @@
         "aliases": [
           "humor"
         ],
+        "tier": 100
+      },
+      {
+        "answer": "Anticipation",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Affiliation",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Self-assertion",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Self-observation",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Omnipotence",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Projective identification",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Conversion",
+        "aliases": [
+          "hysterical conversion"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Distortion",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Wishful thinking",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Help-rejecting complaining",
+        "aliases": [
+          "help rejecting"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Turning against the self",
+        "aliases": [
+          "turning against self",
+          "turning against oneself"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Aim inhibition",
+        "aliases": [
+          "aim inhibited"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Delusional projection",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Sexualisation",
+        "aliases": [
+          "sexualization"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Externalisation",
+        "aliases": [
+          "externalization"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Hypochondriasis",
+        "aliases": [],
         "tier": 100
       }
     ]
@@ -1081,6 +2426,42 @@
         "tier": 30
       },
       {
+        "answer": "Defence mechanisms",
+        "aliases": [
+          "defense mechanisms",
+          "defence mechanism",
+          "defense mechanism",
+          "ego defences"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Denial",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Projection",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Psychoanalysis",
+        "aliases": [
+          "psychoanalytic theory",
+          "psychoanalytic"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Neurosis",
+        "aliases": [
+          "neurotic",
+          "neuroses"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "Free association",
         "aliases": [],
         "tier": 60
@@ -1121,6 +2502,80 @@
         "tier": 60
       },
       {
+        "answer": "Castration anxiety",
+        "aliases": [
+          "castration complex",
+          "fear of castration"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The phallic stage",
+        "aliases": [
+          "phallic"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sublimation",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Displacement",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Regression",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Fixation",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Eros",
+        "aliases": [
+          "life drive",
+          "life instinct"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Narcissism",
+        "aliases": [
+          "primary narcissism",
+          "on narcissism"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hysteria",
+        "aliases": [
+          "hysterical neurosis",
+          "studies on hysteria"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Madonna-whore complex",
+        "aliases": [
+          "madonna whore",
+          "madonna whore dichotomy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Rationalisation",
+        "aliases": [
+          "rationalization"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "The anal stage",
         "aliases": [
           "anal retentive",
@@ -1153,6 +2608,85 @@
         "tier": 85
       },
       {
+        "answer": "The latency stage",
+        "aliases": [
+          "latency period",
+          "latency"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The genital stage",
+        "aliases": [
+          "genital"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The preconscious",
+        "aliases": [
+          "preconscious mind"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Manifest and latent content",
+        "aliases": [
+          "latent content",
+          "manifest content",
+          "dream work"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The primal scene",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Resistance",
+        "aliases": [
+          "analytic resistance"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The cathartic method",
+        "aliases": [
+          "catharsis",
+          "abreaction"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Repetition compulsion",
+        "aliases": [
+          "compulsion to repeat"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Melancholia",
+        "aliases": [
+          "mourning and melancholia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The topographical model",
+        "aliases": [
+          "topographic model",
+          "iceberg model",
+          "the iceberg"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Reaction formation",
+        "aliases": [],
+        "tier": 85
+      },
+      {
         "answer": "The uncanny",
         "aliases": [
           "das unheimliche"
@@ -1178,6 +2712,72 @@
       },
       {
         "answer": "The oceanic feeling",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Condensation",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Screen memory",
+        "aliases": [
+          "screen memories"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Nachträglichkeit",
+        "aliases": [
+          "deferred action",
+          "afterwardsness"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Fort-da",
+        "aliases": [
+          "fort da game",
+          "the cotton reel game"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Primary process",
+        "aliases": [
+          "primary and secondary process",
+          "secondary process"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The ego ideal",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The seduction theory",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The primal horde",
+        "aliases": [
+          "primal father",
+          "totem and taboo"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Overdetermination",
+        "aliases": [
+          "overdetermined"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The family romance",
         "aliases": [],
         "tier": 100
       }
@@ -1255,6 +2855,32 @@
         "tier": 30
       },
       {
+        "answer": "Homophobia",
+        "aliases": [
+          "fear of gay people"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Haemophobia",
+        "aliases": [
+          "hemophobia",
+          "haematophobia",
+          "hematophobia",
+          "fear of blood"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hippopotomonstrosesquippedaliophobia",
+        "aliases": [
+          "fear of long words",
+          "sesquipedalophobia",
+          "hippopotomonstrosesquipedaliophobia"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "Ophidiophobia",
         "aliases": [
           "fear of snakes"
@@ -1304,6 +2930,99 @@
         "aliases": [
           "fear of germs",
           "germophobia"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dentophobia",
+        "aliases": [
+          "fear of the dentist",
+          "fear of dentists",
+          "odontophobia"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Enochlophobia",
+        "aliases": [
+          "fear of crowds",
+          "ochlophobia",
+          "demophobia"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Gamophobia",
+        "aliases": [
+          "fear of commitment",
+          "fear of marriage"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Musophobia",
+        "aliases": [
+          "fear of mice",
+          "fear of rats",
+          "murophobia",
+          "suriphobia"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Apiphobia",
+        "aliases": [
+          "fear of bees",
+          "melissophobia",
+          "fear of wasps",
+          "spheksophobia"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pyrophobia",
+        "aliases": [
+          "fear of fire"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Monophobia",
+        "aliases": [
+          "fear of being alone",
+          "autophobia",
+          "fear of loneliness"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Atychiphobia",
+        "aliases": [
+          "fear of failure",
+          "fear of failing"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Technophobia",
+        "aliases": [
+          "fear of technology",
+          "technophobe"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Arachibutyrophobia",
+        "aliases": [
+          "fear of peanut butter",
+          "fear of peanut butter sticking to the roof of your mouth"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Transphobia",
+        "aliases": [
+          "fear of trans people"
         ],
         "tier": 60
       },
@@ -1359,6 +3078,113 @@
         "tier": 85
       },
       {
+        "answer": "Galeophobia",
+        "aliases": [
+          "fear of sharks",
+          "selachophobia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Pediophobia",
+        "aliases": [
+          "fear of dolls"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Algophobia",
+        "aliases": [
+          "fear of pain"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Koumpounophobia",
+        "aliases": [
+          "fear of buttons"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hexakosioihexekontahexaphobia",
+        "aliases": [
+          "fear of the number 666",
+          "fear of 666"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Paraskevidekatriaphobia",
+        "aliases": [
+          "fear of friday the 13th",
+          "fear of friday the thirteenth",
+          "friggatriskaidekaphobia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Somniphobia",
+        "aliases": [
+          "fear of sleep",
+          "hypnophobia",
+          "fear of falling asleep"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Neophobia",
+        "aliases": [
+          "fear of new things",
+          "fear of the new",
+          "fear of change"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Gephyrophobia",
+        "aliases": [
+          "fear of bridges",
+          "fear of crossing bridges"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Phonophobia",
+        "aliases": [
+          "fear of loud noises",
+          "ligyrophobia",
+          "fear of loud sounds"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Haphephobia",
+        "aliases": [
+          "fear of touch",
+          "fear of being touched",
+          "aphephobia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Taphophobia",
+        "aliases": [
+          "fear of being buried alive",
+          "taphephobia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Phobophobia",
+        "aliases": [
+          "fear of fear",
+          "fear of phobias",
+          "fear of fear itself"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "Nomophobia",
         "aliases": [
           "fear of being without your phone"
@@ -1391,6 +3217,85 @@
         "answer": "Entomophobia",
         "aliases": [
           "fear of insects"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Turophobia",
+        "aliases": [
+          "fear of cheese"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Globophobia",
+        "aliases": [
+          "fear of balloons"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Eisoptrophobia",
+        "aliases": [
+          "fear of mirrors",
+          "catoptrophobia"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Didaskaleinophobia",
+        "aliases": [
+          "fear of school",
+          "fear of going to school",
+          "scolionophobia"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Omphalophobia",
+        "aliases": [
+          "fear of belly buttons",
+          "fear of navels"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Equinophobia",
+        "aliases": [
+          "fear of horses",
+          "hippophobia"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Lepidopterophobia",
+        "aliases": [
+          "fear of butterflies",
+          "fear of moths",
+          "mottephobia"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Samhainophobia",
+        "aliases": [
+          "fear of halloween"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Papaphobia",
+        "aliases": [
+          "fear of the pope"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Panphobia",
+        "aliases": [
+          "fear of everything",
+          "pantophobia",
+          "omniphobia"
         ],
         "tier": 100
       }
@@ -1437,6 +3342,14 @@
       {
         "answer": "Love",
         "aliases": [],
+        "tier": 10
+      },
+      {
+        "answer": "Hate",
+        "aliases": [
+          "hatred",
+          "hating"
+        ],
         "tier": 10
       },
       {
@@ -1506,6 +3419,77 @@
         "tier": 30
       },
       {
+        "answer": "Hope",
+        "aliases": [
+          "hopeful",
+          "hopefulness"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Confusion",
+        "aliases": [
+          "confused"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Disappointment",
+        "aliases": [
+          "disappointed"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Regret",
+        "aliases": [
+          "regretful"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Stress",
+        "aliases": [
+          "stressed"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Panic",
+        "aliases": [
+          "panicked",
+          "panicking"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Lust",
+        "aliases": [
+          "desire",
+          "horniness",
+          "horny"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cringe",
+        "aliases": [
+          "vicarious embarrassment",
+          "second hand embarrassment",
+          "secondhand embarrassment",
+          "fremdschamen"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Nervousness",
+        "aliases": [
+          "nervous",
+          "nerves"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "Envy",
         "aliases": [
           "envious"
@@ -1571,6 +3555,154 @@
         "tier": 60
       },
       {
+        "answer": "Trust",
+        "aliases": [
+          "trusting"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Curiosity",
+        "aliases": [
+          "curious"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Calm",
+        "aliases": [
+          "calmness",
+          "serenity",
+          "peace",
+          "peacefulness",
+          "tranquillity"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Terror",
+        "aliases": [
+          "terrified"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Horror",
+        "aliases": [
+          "horrified"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dread",
+        "aliases": [
+          "dreading"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Despair",
+        "aliases": [
+          "hopelessness",
+          "hopeless"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Compassion",
+        "aliases": [
+          "compassionate"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sympathy",
+        "aliases": [
+          "sympathetic"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Empathy",
+        "aliases": [
+          "empathetic"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Affection",
+        "aliases": [
+          "affectionate",
+          "fondness"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Amusement",
+        "aliases": [
+          "amused"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Euphoria",
+        "aliases": [
+          "euphoric",
+          "elation",
+          "elated",
+          "ecstasy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Resentment",
+        "aliases": [
+          "resentful",
+          "bitterness",
+          "bitter"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Irritation",
+        "aliases": [
+          "irritated",
+          "annoyance",
+          "annoyed"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Homesickness",
+        "aliases": [
+          "homesick"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Overwhelm",
+        "aliases": [
+          "overwhelmed",
+          "feeling overwhelmed"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hurt",
+        "aliases": [
+          "feeling hurt",
+          "hurt feelings"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Satisfaction",
+        "aliases": [
+          "satisfied"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "Contentment",
         "aliases": [
           "content"
@@ -1593,6 +3725,75 @@
         "tier": 85
       },
       {
+        "answer": "Admiration",
+        "aliases": [
+          "admiring"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Longing",
+        "aliases": [
+          "yearning"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Humiliation",
+        "aliases": [
+          "humiliated"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Indignation",
+        "aliases": [
+          "outrage",
+          "outraged",
+          "indignant"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Apathy",
+        "aliases": [
+          "indifference",
+          "apathetic"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Wonder",
+        "aliases": [
+          "wonderment"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Angst",
+        "aliases": [
+          "existential angst",
+          "existential dread"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bittersweetness",
+        "aliases": [
+          "bittersweet",
+          "feeling bittersweet"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Interest",
+        "aliases": [
+          "interested",
+          "fascination"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "Melancholy",
         "aliases": [
           "melancholia"
@@ -1612,6 +3813,50 @@
       {
         "answer": "Limerence",
         "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Tenderness",
+        "aliases": [
+          "tender"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Hiraeth",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Mono no aware",
+        "aliases": [
+          "mono no aware feeling"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Amae",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Sehnsucht",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Fernweh",
+        "aliases": [
+          "wanderlust"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kama muta",
+        "aliases": [
+          "being moved",
+          "feeling moved"
+        ],
         "tier": 100
       }
     ]
@@ -1665,6 +3910,36 @@
           "right brain",
           "left hemisphere",
           "right hemisphere"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Grey matter",
+        "aliases": [
+          "gray matter"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "White matter",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Neurons",
+        "aliases": [
+          "neuron",
+          "neurones",
+          "neurone",
+          "nerve cells",
+          "brain cells"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The limbic system",
+        "aliases": [
+          "limbic"
         ],
         "tier": 30
       },
@@ -1727,6 +4002,56 @@
         "tier": 60
       },
       {
+        "answer": "The midbrain",
+        "aliases": [
+          "mesencephalon"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The motor cortex",
+        "aliases": [
+          "primary motor cortex"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The somatosensory cortex",
+        "aliases": [
+          "sensory cortex",
+          "primary somatosensory cortex"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The visual cortex",
+        "aliases": [
+          "primary visual cortex",
+          "v1",
+          "striate cortex"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The olfactory bulb",
+        "aliases": [
+          "olfactory bulbs"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The neocortex",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The optic nerve",
+        "aliases": [
+          "optic nerves"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "The basal ganglia",
         "aliases": [],
         "tier": 85
@@ -1775,6 +4100,114 @@
         "tier": 85
       },
       {
+        "answer": "The forebrain",
+        "aliases": [
+          "prosencephalon"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The hindbrain",
+        "aliases": [
+          "rhombencephalon"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The auditory cortex",
+        "aliases": [
+          "primary auditory cortex"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The optic chiasm",
+        "aliases": [
+          "optic chiasma"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The ventricles",
+        "aliases": [
+          "lateral ventricles",
+          "brain ventricles",
+          "ventricle"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The meninges",
+        "aliases": [
+          "dura mater",
+          "arachnoid mater",
+          "pia mater"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The caudate nucleus",
+        "aliases": [
+          "caudate"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The putamen",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "The striatum",
+        "aliases": [
+          "ventral striatum",
+          "dorsal striatum"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The ventral tegmental area",
+        "aliases": [
+          "vta"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The cingulate gyrus",
+        "aliases": [
+          "posterior cingulate cortex"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The orbitofrontal cortex",
+        "aliases": [
+          "ofc"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Gyri and sulci",
+        "aliases": [
+          "gyrus",
+          "gyri",
+          "sulcus",
+          "sulci",
+          "the folds"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Glial cells",
+        "aliases": [
+          "glia",
+          "astrocytes",
+          "oligodendrocytes",
+          "microglia"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "The reticular formation",
         "aliases": [
           "reticular activating system"
@@ -1800,6 +4233,122 @@
         "answer": "The periaqueductal grey",
         "aliases": [
           "periaqueductal gray"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The fornix",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The mammillary bodies",
+        "aliases": [
+          "mamillary bodies",
+          "mammillary body"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The globus pallidus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The raphe nuclei",
+        "aliases": [
+          "raphe nucleus"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The inferior colliculus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The dorsolateral prefrontal cortex",
+        "aliases": [
+          "dlpfc"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The ventromedial prefrontal cortex",
+        "aliases": [
+          "vmpfc"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The precuneus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The angular gyrus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The fusiform gyrus",
+        "aliases": [
+          "fusiform face area",
+          "ffa"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The entorhinal cortex",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The parahippocampal gyrus",
+        "aliases": [
+          "parahippocampal cortex"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The dentate gyrus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The subthalamic nucleus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The arcuate fasciculus",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The habenula",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The suprachiasmatic nucleus",
+        "aliases": [
+          "scn"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The central sulcus",
+        "aliases": [
+          "fissure of rolando",
+          "rolandic fissure"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The vermis",
+        "aliases": [
+          "cerebellar vermis"
         ],
         "tier": 100
       }
@@ -1932,6 +4481,53 @@
         "tier": 60
       },
       {
+        "answer": "FSH",
+        "aliases": [
+          "follicle stimulating hormone"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "LH",
+        "aliases": [
+          "luteinising hormone",
+          "luteinizing hormone"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "hCG",
+        "aliases": [
+          "human chorionic gonadotropin",
+          "the pregnancy hormone",
+          "chorionic gonadotropin"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "TSH",
+        "aliases": [
+          "thyroid stimulating hormone",
+          "thyrotropin"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "GLP-1",
+        "aliases": [
+          "glucagon like peptide 1",
+          "glucagon like peptide"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Vitamin D",
+        "aliases": [
+          "calcitriol"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "Ghrelin",
         "aliases": [
           "the hunger hormone"
@@ -1966,6 +4562,82 @@
         "tier": 85
       },
       {
+        "answer": "Glycine",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Endocannabinoids",
+        "aliases": [
+          "endocannabinoid",
+          "2 ag"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "ACTH",
+        "aliases": [
+          "adrenocorticotropic hormone",
+          "corticotropin"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Parathyroid hormone",
+        "aliases": [
+          "pth",
+          "parathormone"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Calcitonin",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Erythropoietin",
+        "aliases": [
+          "epo"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "DHT",
+        "aliases": [
+          "dihydrotestosterone"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "DHEA",
+        "aliases": [
+          "dehydroepiandrosterone"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "T3",
+        "aliases": [
+          "triiodothyronine"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "GnRH",
+        "aliases": [
+          "gonadotropin releasing hormone"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Prostaglandins",
+        "aliases": [
+          "prostaglandin"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "Orexin",
         "aliases": [
           "hypocretin"
@@ -1984,6 +4656,98 @@
       },
       {
         "answer": "Nitric oxide",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Angiotensin",
+        "aliases": [
+          "angiotensin ii",
+          "angiotensin 2"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Cholecystokinin",
+        "aliases": [
+          "cck"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Secretin",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Gastrin",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Relaxin",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Enkephalins",
+        "aliases": [
+          "enkephalin"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Dynorphin",
+        "aliases": [
+          "dynorphins"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Neuropeptide Y",
+        "aliases": [
+          "npy"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "MSH",
+        "aliases": [
+          "melanocyte stimulating hormone",
+          "melanotropin"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kisspeptin",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Phenylethylamine",
+        "aliases": [
+          "pea",
+          "phenethylamine"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "CRH",
+        "aliases": [
+          "corticotropin releasing hormone",
+          "crf"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Peptide YY",
+        "aliases": [
+          "pyy"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Adiponectin",
         "aliases": [],
         "tier": 100
       }
@@ -2042,6 +4806,46 @@
           "behaviour therapy",
           "behavior therapy"
         ],
+        "tier": 30
+      },
+      {
+        "answer": "Counselling",
+        "aliases": [
+          "counseling",
+          "talk therapy",
+          "talking therapy"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Group therapy",
+        "aliases": [
+          "group psychotherapy",
+          "support group"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Couples therapy",
+        "aliases": [
+          "couples counselling",
+          "marriage counselling",
+          "relationship therapy",
+          "relationship counselling"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Exposure therapy",
+        "aliases": [
+          "exposure",
+          "graded exposure"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Music therapy",
+        "aliases": [],
         "tier": 30
       },
       {
@@ -2117,6 +4921,97 @@
         "tier": 60
       },
       {
+        "answer": "Drama therapy",
+        "aliases": [
+          "dramatherapy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Mindfulness-based stress reduction",
+        "aliases": [
+          "mbsr",
+          "mindfulness"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Systematic desensitisation",
+        "aliases": [
+          "systematic desensitization",
+          "desensitisation"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Aversion therapy",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Cognitive therapy",
+        "aliases": [
+          "beck cognitive therapy",
+          "becks cognitive therapy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Psychedelic-assisted therapy",
+        "aliases": [
+          "psychedelic therapy",
+          "mdma assisted therapy",
+          "psilocybin therapy",
+          "psychedelic assisted psychotherapy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Equine therapy",
+        "aliases": [
+          "horse therapy",
+          "equine assisted therapy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Animal-assisted therapy",
+        "aliases": [
+          "pet therapy",
+          "animal therapy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Behavioural activation",
+        "aliases": [
+          "behavioral activation"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Motivational interviewing",
+        "aliases": [
+          "mi"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Positive psychology",
+        "aliases": [
+          "positive psychotherapy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Integrative therapy",
+        "aliases": [
+          "integrative psychotherapy",
+          "eclectic therapy"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "Transactional analysis",
         "aliases": [],
         "tier": 85
@@ -2171,6 +5066,111 @@
         "tier": 85
       },
       {
+        "answer": "Dance movement therapy",
+        "aliases": [
+          "dance therapy",
+          "movement therapy"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Flooding",
+        "aliases": [
+          "implosion therapy"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cognitive processing therapy",
+        "aliases": [
+          "cpt"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Trauma-focused CBT",
+        "aliases": [
+          "tf cbt",
+          "trauma focused cognitive behavioural therapy"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Prolonged exposure therapy",
+        "aliases": [
+          "prolonged exposure"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Somatic experiencing",
+        "aliases": [
+          "somatic therapy",
+          "somatic psychotherapy"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Adlerian therapy",
+        "aliases": [
+          "individual psychology",
+          "adlerian"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Object relations therapy",
+        "aliases": [
+          "object relations"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mentalisation-based treatment",
+        "aliases": [
+          "mbt",
+          "mentalization based treatment",
+          "mentalisation"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cognitive analytic therapy",
+        "aliases": [
+          "cat"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Emotion-focused therapy",
+        "aliases": [
+          "eft",
+          "emotionally focused therapy"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Bibliotherapy",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Attachment-based therapy",
+        "aliases": [
+          "attachment therapy"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Emotional freedom technique",
+        "aliases": [
+          "eft tapping",
+          "tapping",
+          "tapping therapy"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "Logotherapy",
         "aliases": [
           "frankl logotherapy"
@@ -2200,6 +5200,76 @@
         "answer": "Lacanian psychoanalysis",
         "aliases": [
           "lacanian analysis"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Sensorimotor psychotherapy",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Kleinian analysis",
+        "aliases": [
+          "kleinian"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Self psychology",
+        "aliases": [
+          "kohut self psychology"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Intensive short-term dynamic psychotherapy",
+        "aliases": [
+          "istdp",
+          "brief psychodynamic therapy",
+          "short term dynamic psychotherapy"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Transpersonal psychology",
+        "aliases": [
+          "transpersonal therapy"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Body psychotherapy",
+        "aliases": [
+          "reichian therapy",
+          "body oriented psychotherapy"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bioenergetic analysis",
+        "aliases": [
+          "bioenergetics"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Morita therapy",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Naikan therapy",
+        "aliases": [
+          "naikan"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Sandplay therapy",
+        "aliases": [
+          "sand tray therapy",
+          "sandtray"
         ],
         "tier": 100
       }
@@ -2278,6 +5348,38 @@
         "tier": 30
       },
       {
+        "answer": "Cherry picking",
+        "aliases": [
+          "cherry picking fallacy",
+          "selective evidence",
+          "card stacking"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Anecdotal evidence",
+        "aliases": [
+          "anecdotal fallacy",
+          "appeal to anecdote",
+          "anecdote"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "False equivalence",
+        "aliases": [
+          "false equivalency"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Non sequitur",
+        "aliases": [
+          "it does not follow"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "Appeal to emotion",
         "aliases": [
           "emotional appeal fallacy"
@@ -2344,6 +5446,80 @@
         "tier": 60
       },
       {
+        "answer": "Appeal to tradition",
+        "aliases": [
+          "argumentum ad antiquitatem",
+          "weve always done it this way"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Shifting the burden of proof",
+        "aliases": [
+          "burden of proof",
+          "burden of proof fallacy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Appeal to fear",
+        "aliases": [
+          "argumentum ad metum",
+          "fearmongering"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The middle ground fallacy",
+        "aliases": [
+          "argument to moderation",
+          "golden mean fallacy",
+          "false compromise"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Appeal to pity",
+        "aliases": [
+          "argumentum ad misericordiam"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Poisoning the well",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Guilt by association",
+        "aliases": [
+          "association fallacy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "False analogy",
+        "aliases": [
+          "weak analogy",
+          "faulty analogy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Wishful thinking",
+        "aliases": [
+          "appeal to wishful thinking"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Two wrongs make a right",
+        "aliases": [
+          "two wrongs"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "Equivocation",
         "aliases": [],
         "tier": 85
@@ -2392,6 +5568,106 @@
         "tier": 85
       },
       {
+        "answer": "Appeal to force",
+        "aliases": [
+          "argumentum ad baculum",
+          "appeal to the stick"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The fallacy of composition",
+        "aliases": [
+          "composition"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The fallacy of division",
+        "aliases": [
+          "division"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Appeal to consequences",
+        "aliases": [
+          "argumentum ad consequentiam"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Appeal to novelty",
+        "aliases": [
+          "argumentum ad novitatem",
+          "appeal to the new"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Argument from incredulity",
+        "aliases": [
+          "personal incredulity",
+          "appeal to incredulity"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Reductio ad Hitlerum",
+        "aliases": [
+          "godwins law",
+          "ad hitlerum",
+          "playing the hitler card"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Argumentum ad nauseam",
+        "aliases": [
+          "ad nauseam",
+          "proof by assertion",
+          "argument by repetition"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The fallacy of relative privation",
+        "aliases": [
+          "relative privation",
+          "not as bad as",
+          "appeal to worse problems"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The prosecutor's fallacy",
+        "aliases": [
+          "prosecutors fallacy"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Thought-terminating cliché",
+        "aliases": [
+          "thought stopper"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Appeal to ridicule",
+        "aliases": [
+          "appeal to mockery"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The base rate fallacy",
+        "aliases": [
+          "base rate neglect"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "The fallacy fallacy",
         "aliases": [
           "argument from fallacy"
@@ -2418,6 +5694,83 @@
       {
         "answer": "The naturalistic fallacy",
         "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Argument from silence",
+        "aliases": [
+          "argumentum ex silentio"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The fallacy of the single cause",
+        "aliases": [
+          "causal oversimplification",
+          "single cause fallacy"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The ecological fallacy",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Ignoratio elenchi",
+        "aliases": [
+          "irrelevant conclusion",
+          "missing the point"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The continuum fallacy",
+        "aliases": [
+          "sorites fallacy",
+          "fallacy of the beard",
+          "line drawing fallacy"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The masked man fallacy",
+        "aliases": [
+          "intensional fallacy"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The McNamara fallacy",
+        "aliases": [
+          "quantitative fallacy"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The moralistic fallacy",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Appeal to the stone",
+        "aliases": [
+          "argumentum ad lapidem"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Bulverism",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The fallacy of accident",
+        "aliases": [
+          "dicto simpliciter",
+          "sweeping generalisation",
+          "sweeping generalization"
+        ],
         "tier": 100
       }
     ]
@@ -2487,6 +5840,67 @@
         "tier": 30
       },
       {
+        "answer": "Forgetting",
+        "aliases": [
+          "forgetfulness",
+          "forgetting things"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Repressed memories",
+        "aliases": [
+          "repressed memory",
+          "repression",
+          "recovered memories"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Alzheimer's disease",
+        "aliases": [
+          "alzheimers",
+          "dementia"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Mnemonics",
+        "aliases": [
+          "mnemonic",
+          "memory aids",
+          "acronyms"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Mandela effect",
+        "aliases": [
+          "mandela",
+          "collective false memory"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Blackouts",
+        "aliases": [
+          "blackout",
+          "alcohol blackout",
+          "drunk blackout",
+          "blacking out"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Flashbacks",
+        "aliases": [
+          "flashback",
+          "intrusive memories",
+          "traumatic flashbacks"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "Flashbulb memory",
         "aliases": [],
         "tier": 60
@@ -2546,6 +5960,79 @@
         "tier": 60
       },
       {
+        "answer": "The memory palace",
+        "aliases": [
+          "method of loci",
+          "mind palace",
+          "loci method"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Retrograde amnesia",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Anterograde amnesia",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Sensory memory",
+        "aliases": [
+          "iconic memory",
+          "echoic memory"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Recall",
+        "aliases": [
+          "free recall"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Priming",
+        "aliases": [
+          "memory priming"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Interference",
+        "aliases": [
+          "proactive interference",
+          "retroactive interference",
+          "interference theory"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Memory consolidation",
+        "aliases": [
+          "consolidation"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Absent-mindedness",
+        "aliases": [
+          "absent minded",
+          "absentmindedness"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Recognition",
+        "aliases": [
+          "recognition memory",
+          "recall versus recognition"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "The Zeigarnik effect",
         "aliases": [
           "zeigarnik"
@@ -2584,6 +6071,117 @@
         "tier": 85
       },
       {
+        "answer": "Encoding",
+        "aliases": [
+          "encoding specificity",
+          "memory encoding"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Retrieval cues",
+        "aliases": [
+          "cue dependent memory",
+          "cue dependent forgetting",
+          "retrieval failure"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Context-dependent memory",
+        "aliases": [
+          "context effect",
+          "context dependent forgetting"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "State-dependent memory",
+        "aliases": [
+          "state dependent learning",
+          "state dependent forgetting"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Levels of processing",
+        "aliases": [
+          "depth of processing",
+          "craik and lockhart"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The von Restorff effect",
+        "aliases": [
+          "isolation effect",
+          "von restorff"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Autobiographical memory",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Prospective memory",
+        "aliases": [
+          "remembering to remember"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Implicit and explicit memory",
+        "aliases": [
+          "implicit memory",
+          "explicit memory",
+          "declarative memory",
+          "non declarative memory"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The magical number seven",
+        "aliases": [
+          "magic number seven",
+          "millers law",
+          "seven plus or minus two"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Google effect",
+        "aliases": [
+          "digital amnesia",
+          "google amnesia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The doorway effect",
+        "aliases": [
+          "location updating effect",
+          "walking through a doorway"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Motivated forgetting",
+        "aliases": [
+          "memory suppression",
+          "suppression"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Long-term potentiation",
+        "aliases": [
+          "ltp"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "Cryptomnesia",
         "aliases": [
           "inadvertent plagiarism"
@@ -2615,6 +6213,77 @@
         "aliases": [
           "proustian memory",
           "madeleine moment"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Reconsolidation",
+        "aliases": [
+          "memory reconsolidation"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Mood-congruent memory",
+        "aliases": [
+          "mood congruence",
+          "mood dependent memory"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The generation effect",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Presque vu",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Déjà vécu",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The seven sins of memory",
+        "aliases": [
+          "schacter seven sins",
+          "seven sins"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Transient global amnesia",
+        "aliases": [
+          "tga"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Imagination inflation",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The telescoping effect",
+        "aliases": [
+          "telescoping",
+          "forward telescoping"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Retrieval-induced forgetting",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The engram",
+        "aliases": [
+          "memory trace",
+          "engrams"
         ],
         "tier": 100
       }
@@ -2668,6 +6337,100 @@
       {
         "answer": "The terrible twos",
         "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Insecure attachment",
+        "aliases": [
+          "anxious attachment",
+          "avoidant attachment",
+          "disorganised attachment",
+          "disorganized attachment",
+          "insecure"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tantrums",
+        "aliases": [
+          "temper tantrums",
+          "tantrum",
+          "temper tantrum"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Potty training",
+        "aliases": [
+          "toilet training"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Play",
+        "aliases": [
+          "pretend play",
+          "imaginative play",
+          "symbolic play",
+          "learning through play"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Babbling",
+        "aliases": [
+          "baby babble",
+          "babble"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Puberty",
+        "aliases": [
+          "adolescence"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Helicopter parenting",
+        "aliases": [
+          "helicopter parents",
+          "helicopter parent",
+          "overparenting"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Gentle parenting",
+        "aliases": [
+          "gentle parents"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Imaginary friends",
+        "aliases": [
+          "imaginary friend"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Piaget's stages of cognitive development",
+        "aliases": [
+          "piaget stages",
+          "piagets stages",
+          "stages of cognitive development",
+          "stages of development",
+          "piaget"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Screen time",
+        "aliases": [
+          "screen time limits",
+          "too much screen time"
+        ],
         "tier": 30
       },
       {
@@ -2733,6 +6496,143 @@
         "tier": 60
       },
       {
+        "answer": "Social learning theory",
+        "aliases": [
+          "observational learning",
+          "modelling",
+          "modeling",
+          "learning by imitation"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The concrete operational stage",
+        "aliases": [
+          "concrete operational",
+          "concrete operations"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The formal operational stage",
+        "aliases": [
+          "formal operational",
+          "formal operations"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Identity crisis",
+        "aliases": [
+          "identity versus role confusion",
+          "identity vs role confusion",
+          "identity formation"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Maternal deprivation",
+        "aliases": [
+          "bowlby maternal deprivation",
+          "44 thieves",
+          "forty four thieves"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Infant reflexes",
+        "aliases": [
+          "rooting reflex",
+          "grasp reflex",
+          "palmar grasp",
+          "sucking reflex",
+          "reflexes"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Executive function",
+        "aliases": [
+          "self regulation",
+          "self control",
+          "executive functioning"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Temperament",
+        "aliases": [
+          "easy baby",
+          "difficult baby",
+          "thomas and chess"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Parenting styles",
+        "aliases": [
+          "authoritative parenting",
+          "authoritarian parenting",
+          "permissive parenting",
+          "baumrind"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Birth order",
+        "aliases": [
+          "firstborn",
+          "middle child syndrome",
+          "youngest child",
+          "only child syndrome"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Adverse childhood experiences",
+        "aliases": [
+          "aces",
+          "childhood trauma",
+          "early adversity"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Growth mindset",
+        "aliases": [
+          "fixed mindset",
+          "dweck growth mindset",
+          "mindset"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Neuroplasticity",
+        "aliases": [
+          "brain plasticity",
+          "plasticity"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Tabula rasa",
+        "aliases": [
+          "blank slate",
+          "locke blank slate"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The transitional object",
+        "aliases": [
+          "comfort blanket",
+          "security blanket",
+          "comfort object",
+          "winnicott transitional object"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "Schemas",
         "aliases": [
           "schema",
@@ -2791,6 +6691,98 @@
         "tier": 85
       },
       {
+        "answer": "Trust versus mistrust",
+        "aliases": [
+          "trust vs mistrust",
+          "basic trust"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Monotropy",
+        "aliases": [
+          "monotropic attachment"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Joint attention",
+        "aliases": [
+          "shared attention"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Animism",
+        "aliases": [
+          "childhood animism"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The three mountains task",
+        "aliases": [
+          "three mountain task",
+          "three mountains"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Private speech",
+        "aliases": [
+          "inner speech",
+          "self talk"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ecological systems theory",
+        "aliases": [
+          "bronfenbrenner",
+          "microsystem",
+          "bioecological model"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Telegraphic speech",
+        "aliases": [
+          "two word stage",
+          "two word utterances"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The language acquisition device",
+        "aliases": [
+          "lad",
+          "chomsky lad",
+          "universal grammar"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Social referencing",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Synaptic pruning",
+        "aliases": [
+          "pruning"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The good enough mother",
+        "aliases": [
+          "good enough parenting",
+          "good enough parent",
+          "winnicott good enough"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "The Moro reflex",
         "aliases": [
           "startle reflex"
@@ -2818,6 +6810,67 @@
         "answer": "The internal working model",
         "aliases": [
           "internal working models"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Centration",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Reversibility",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Holophrases",
+        "aliases": [
+          "holophrase",
+          "one word stage",
+          "holophrastic stage"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The wug test",
+        "aliases": [
+          "wug",
+          "wugs"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Overextension",
+        "aliases": [
+          "underextension"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Goodness of fit",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The A-not-B error",
+        "aliases": [
+          "a not b task",
+          "a not b"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Myelination",
+        "aliases": [
+          "myelinisation"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The holding environment",
+        "aliases": [
+          "holding"
         ],
         "tier": 100
       }
@@ -2899,6 +6952,98 @@
         "tier": 30
       },
       {
+        "answer": "Kindness",
+        "aliases": [
+          "kind"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Honesty",
+        "aliases": [
+          "honest"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Confidence",
+        "aliases": [
+          "confident",
+          "self confidence",
+          "self confident"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Laziness",
+        "aliases": [
+          "lazy"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Stubbornness",
+        "aliases": [
+          "stubborn"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Loyalty",
+        "aliases": [
+          "loyal"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Arrogance",
+        "aliases": [
+          "arrogant"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sociopath",
+        "aliases": [
+          "sociopathy",
+          "sociopathic"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Creativity",
+        "aliases": [
+          "creative"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Emotional intelligence",
+        "aliases": [
+          "eq",
+          "emotionally intelligent"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "People-pleasing",
+        "aliases": [
+          "people pleaser"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Alpha male",
+        "aliases": [
+          "alpha",
+          "alpha female",
+          "sigma male",
+          "beta male",
+          "sigma"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "Conscientiousness",
         "aliases": [
           "conscientious"
@@ -2967,6 +7112,107 @@
         "tier": 60
       },
       {
+        "answer": "Generosity",
+        "aliases": [
+          "generous"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sensitivity",
+        "aliases": [
+          "sensitive"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Humility",
+        "aliases": [
+          "humble",
+          "modesty",
+          "modest"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Patience",
+        "aliases": [
+          "patient"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Courage",
+        "aliases": [
+          "brave",
+          "bravery",
+          "courageous"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Assertiveness",
+        "aliases": [
+          "assertive"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Charisma",
+        "aliases": [
+          "charismatic"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "INFJ",
+        "aliases": [
+          "the advocate"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "ENFP",
+        "aliases": [
+          "the campaigner"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "INTP",
+        "aliases": [
+          "the logician"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The four temperaments",
+        "aliases": [
+          "sanguine",
+          "choleric",
+          "melancholic",
+          "phlegmatic",
+          "four humours"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Codependency",
+        "aliases": [
+          "codependent",
+          "co dependent"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Cynicism",
+        "aliases": [
+          "cynical",
+          "cynic"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "Machiavellianism",
         "aliases": [
           "machiavellian"
@@ -3006,6 +7252,84 @@
         "tier": 85
       },
       {
+        "answer": "ENTJ",
+        "aliases": [
+          "the commander"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "ISTJ",
+        "aliases": [
+          "the logistician"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "ENTP",
+        "aliases": [
+          "the debater"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Type C personality",
+        "aliases": [
+          "type c"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Type D personality",
+        "aliases": [
+          "type d",
+          "distressed personality"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sadism",
+        "aliases": [
+          "everyday sadism",
+          "the dark tetrad",
+          "sadistic"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Honesty-humility",
+        "aliases": [
+          "honesty humility factor"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Self-efficacy",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Psychoticism",
+        "aliases": [
+          "eysenck psychoticism"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hostility",
+        "aliases": [
+          "hostile"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Emotional stability",
+        "aliases": [
+          "emotionally stable"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "Locus of control",
         "aliases": [
           "internal locus of control"
@@ -3030,6 +7354,62 @@
       {
         "answer": "Hardiness",
         "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "ISTP",
+        "aliases": [
+          "the virtuoso"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Novelty seeking",
+        "aliases": [
+          "cloninger novelty seeking"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Harm avoidance",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Social dominance orientation",
+        "aliases": [
+          "sdo"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Right-wing authoritarianism",
+        "aliases": [
+          "rwa",
+          "right wing authoritarian"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Absorption",
+        "aliases": [
+          "tellegen absorption"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Field dependence",
+        "aliases": [
+          "field independence",
+          "field dependent"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The light triad",
+        "aliases": [
+          "light triad traits"
+        ],
         "tier": 100
       }
     ]
@@ -3085,6 +7465,49 @@
         "tier": 30
       },
       {
+        "answer": "The Oedipus complex",
+        "aliases": [
+          "oedipal complex",
+          "oedipus"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Peter Pan syndrome",
+        "aliases": [
+          "peter pan complex",
+          "peter pan"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Munchausen syndrome",
+        "aliases": [
+          "munchausens",
+          "munchausen by proxy",
+          "munchausen"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Asperger's syndrome",
+        "aliases": [
+          "aspergers",
+          "asperger syndrome",
+          "asperger"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Narcissism",
+        "aliases": [
+          "narcissus complex",
+          "narcissist",
+          "narcissistic personality disorder"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "The Hawthorne effect",
         "aliases": [],
         "tier": 60
@@ -3105,6 +7528,79 @@
       {
         "answer": "The Mozart effect",
         "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Electra complex",
+        "aliases": [
+          "electra"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Florence Nightingale effect",
+        "aliases": [
+          "nightingale effect",
+          "florence nightingale syndrome"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Peter principle",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The Thatcher effect",
+        "aliases": [
+          "thatcher illusion",
+          "margaret thatcher illusion"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Havana syndrome",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Machiavellianism",
+        "aliases": [
+          "machiavellian"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sadism",
+        "aliases": [
+          "sadist",
+          "sadistic",
+          "marquis de sade"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Masochism",
+        "aliases": [
+          "masochist",
+          "masochistic",
+          "sadomasochism"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Rashomon effect",
+        "aliases": [
+          "rashomon"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Goldilocks effect",
+        "aliases": [
+          "goldilocks principle",
+          "goldilocks"
+        ],
         "tier": 60
       },
       {
@@ -3152,6 +7648,129 @@
         "answer": "The Werther effect",
         "aliases": [
           "copycat suicide effect"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Cassandra complex",
+        "aliases": [
+          "cassandra syndrome",
+          "cassandra"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Capgras delusion",
+        "aliases": [
+          "capgras syndrome",
+          "capgras",
+          "imposter syndrome delusion"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cotard's syndrome",
+        "aliases": [
+          "cotard delusion",
+          "cotard",
+          "walking corpse syndrome"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Othello syndrome",
+        "aliases": [
+          "morbid jealousy",
+          "othello"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Alice in Wonderland syndrome",
+        "aliases": [
+          "todd syndrome",
+          "alice in wonderland"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Matthew effect",
+        "aliases": [
+          "rich get richer",
+          "matthew principle"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Golem effect",
+        "aliases": [
+          "golem"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Garcia effect",
+        "aliases": [
+          "conditioned taste aversion",
+          "sauce bearnaise syndrome",
+          "garcia"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Yerkes-Dodson law",
+        "aliases": [
+          "yerkes dodson",
+          "yerkes dodson curve"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Truman Show delusion",
+        "aliases": [
+          "truman syndrome",
+          "truman show syndrome",
+          "truman delusion"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Semmelweis reflex",
+        "aliases": [
+          "semmelweis effect",
+          "semmelweis"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Adonis complex",
+        "aliases": [
+          "muscle dysmorphia",
+          "bigorexia",
+          "adonis"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mesmerism",
+        "aliases": [
+          "mesmerised",
+          "mesmer",
+          "animal magnetism"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Lucifer effect",
+        "aliases": [
+          "lucifer"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The ELIZA effect",
+        "aliases": [
+          "eliza"
         ],
         "tier": 85
       },
@@ -3209,6 +7828,91 @@
       {
         "answer": "Lima syndrome",
         "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Fregoli delusion",
+        "aliases": [
+          "fregoli syndrome",
+          "fregoli"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Diogenes syndrome",
+        "aliases": [
+          "diogenes"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Galatea effect",
+        "aliases": [
+          "galatea"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Proteus effect",
+        "aliases": [
+          "proteus"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Dorian Gray syndrome",
+        "aliases": [
+          "dorian gray"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Icarus complex",
+        "aliases": [
+          "icarus"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Jonah complex",
+        "aliases": [
+          "jonah"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Ulysses syndrome",
+        "aliases": [
+          "ulysses",
+          "immigrant syndrome"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "London syndrome",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Bovarism",
+        "aliases": [
+          "bovarysme",
+          "madame bovary syndrome"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Tinkerbell effect",
+        "aliases": [
+          "tinkerbell"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Papageno effect",
+        "aliases": [
+          "papageno"
+        ],
         "tier": 100
       }
     ]
@@ -3308,6 +8012,61 @@
         "tier": 30
       },
       {
+        "answer": "Oversleeping",
+        "aliases": [
+          "sleeping in",
+          "lie in",
+          "sleeping too much"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Napping",
+        "aliases": [
+          "nap",
+          "naps",
+          "power nap",
+          "power naps",
+          "afternoon nap"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The sleep cycle",
+        "aliases": [
+          "sleep cycles",
+          "sleep stages",
+          "stages of sleep"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Recurring dreams",
+        "aliases": [
+          "recurring dream",
+          "recurrent dreams"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Wet dreams",
+        "aliases": [
+          "wet dream",
+          "nocturnal emission",
+          "nocturnal emissions"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Yawning",
+        "aliases": [
+          "yawn",
+          "yawns",
+          "contagious yawning"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "The circadian rhythm",
         "aliases": [
           "body clock",
@@ -3359,6 +8118,102 @@
         "tier": 60
       },
       {
+        "answer": "Sleep inertia",
+        "aliases": [
+          "grogginess",
+          "waking up groggy",
+          "morning grogginess"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Drooling",
+        "aliases": [
+          "drooling in your sleep",
+          "dribbling"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sleep hygiene",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Hypersomnia",
+        "aliases": [
+          "idiopathic hypersomnia",
+          "excessive daytime sleepiness",
+          "excessive sleepiness"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Light sleep",
+        "aliases": [
+          "stage 1 sleep",
+          "n1 sleep",
+          "stage one sleep"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Siesta",
+        "aliases": [
+          "siestas"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Sleep regression",
+        "aliases": [
+          "baby sleep regression",
+          "four month sleep regression"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Night sweats",
+        "aliases": [
+          "sweating in your sleep"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Vivid dreams",
+        "aliases": [
+          "vivid dreaming"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Morning erections",
+        "aliases": [
+          "morning wood",
+          "morning erection",
+          "nocturnal penile tumescence"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Falling dreams",
+        "aliases": [
+          "dreams of falling",
+          "falling dream",
+          "dreaming of falling"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Teeth falling out dreams",
+        "aliases": [
+          "teeth dreams",
+          "dreams about teeth falling out",
+          "losing teeth dream"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "Microsleep",
         "aliases": [],
         "tier": 85
@@ -3397,6 +8252,97 @@
         "tier": 85
       },
       {
+        "answer": "Sleep drunkenness",
+        "aliases": [
+          "confusional arousal",
+          "confusional arousals"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Cataplexy",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Sleep eating",
+        "aliases": [
+          "sleep related eating disorder",
+          "nocturnal eating"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "REM sleep behaviour disorder",
+        "aliases": [
+          "rem behaviour disorder",
+          "rem behavior disorder",
+          "rbd",
+          "acting out dreams"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hypnopompia",
+        "aliases": [
+          "hypnopompic hallucinations",
+          "hypnopompic state"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Chronotype",
+        "aliases": [
+          "chronotypes",
+          "night owl",
+          "morning lark",
+          "early bird",
+          "morning person"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Social jet lag",
+        "aliases": [
+          "social jetlag"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Shift work sleep disorder",
+        "aliases": [
+          "shift work disorder",
+          "shift work"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sundowning",
+        "aliases": [
+          "sundown syndrome"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sleep-dependent memory consolidation",
+        "aliases": [
+          "memory consolidation during sleep",
+          "memory consolidation",
+          "consolidation"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Sleep pressure",
+        "aliases": [
+          "homeostatic sleep drive",
+          "adenosine build up",
+          "process s",
+          "sleep drive"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "Segmented sleep",
         "aliases": [
           "biphasic sleep",
@@ -3426,6 +8372,82 @@
       {
         "answer": "Fatal familial insomnia",
         "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Sleep spindles",
+        "aliases": [
+          "sleep spindle"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "K-complexes",
+        "aliases": [
+          "k complex"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Non-24-hour sleep-wake disorder",
+        "aliases": [
+          "non 24",
+          "free running sleep disorder"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Catathrenia",
+        "aliases": [
+          "sleep related groaning",
+          "sleep groaning"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Rhythmic movement disorder",
+        "aliases": [
+          "head banging in sleep",
+          "sleep head banging",
+          "jactatio capitis"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Dream incorporation",
+        "aliases": [
+          "incorporating sounds into dreams",
+          "stimulus incorporation"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The dream lag effect",
+        "aliases": [
+          "dream lag"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Hypnopaedia",
+        "aliases": [
+          "sleep learning"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Ultradian rhythms",
+        "aliases": [
+          "ultradian rhythm",
+          "ultradian cycle"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "REM rebound",
+        "aliases": [
+          "rem rebound effect"
+        ],
         "tier": 100
       }
     ]
@@ -3501,6 +8523,26 @@
         "tier": 30
       },
       {
+        "answer": "Magic Eye",
+        "aliases": [
+          "autostereogram",
+          "magic eye pictures",
+          "stereogram",
+          "magic eye picture"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Pareidolia",
+        "aliases": [
+          "seeing faces in things",
+          "faces in clouds",
+          "jesus on toast",
+          "face pareidolia"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "The spinning dancer",
         "aliases": [
           "silhouette illusion"
@@ -3572,6 +8614,106 @@
         "tier": 60
       },
       {
+        "answer": "The hollow mask illusion",
+        "aliases": [
+          "hollow face illusion",
+          "hollow mask",
+          "hollow face"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Rotating snakes",
+        "aliases": [
+          "peripheral drift illusion",
+          "kitaoka rotating snakes",
+          "rotating snakes illusion"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "My wife and my mother-in-law",
+        "aliases": [
+          "young woman old woman illusion",
+          "old lady young lady",
+          "young lady or old woman"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The scintillating grid",
+        "aliases": [
+          "scintillating grid illusion"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The wagon-wheel effect",
+        "aliases": [
+          "wagon wheel illusion",
+          "stroboscopic effect",
+          "reverse rotation illusion",
+          "wheels spinning backwards"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Phantom vibration syndrome",
+        "aliases": [
+          "phantom vibration",
+          "phantom phone vibration",
+          "phantom ringing"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The impossible trident",
+        "aliases": [
+          "blivet",
+          "devils tuning fork",
+          "impossible fork",
+          "devils fork"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Trompe-l'œil",
+        "aliases": [
+          "trompe loeil",
+          "trompe l oeil"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Forced perspective",
+        "aliases": [
+          "forced perspective photography",
+          "holding up the leaning tower of pisa"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Pepper's ghost",
+        "aliases": [
+          "peppers ghost",
+          "hologram illusion"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Change blindness",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Inattentional blindness",
+        "aliases": [
+          "invisible gorilla",
+          "gorilla experiment"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "The Hermann grid",
         "aliases": [
           "hermann grid illusion"
@@ -3620,6 +8762,112 @@
         "tier": 85
       },
       {
+        "answer": "The lilac chaser",
+        "aliases": [
+          "pac man illusion",
+          "lilac chaser illusion"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Hering illusion",
+        "aliases": [
+          "hering"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Poggendorff illusion",
+        "aliases": [
+          "poggendorff"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Jastrow illusion",
+        "aliases": [
+          "jastrow",
+          "jastrow shapes"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Fraser spiral",
+        "aliases": [
+          "fraser spiral illusion",
+          "false spiral"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mach bands",
+        "aliases": [
+          "mach band illusion"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Simultaneous contrast",
+        "aliases": [
+          "colour contrast illusion",
+          "simultaneous colour contrast",
+          "simultaneous color contrast"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The barber pole illusion",
+        "aliases": [
+          "barber pole",
+          "barbers pole illusion"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The phi phenomenon",
+        "aliases": [
+          "apparent motion",
+          "beta movement",
+          "phi"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Anamorphosis",
+        "aliases": [
+          "anamorphic illusion",
+          "anamorphic art",
+          "3d pavement art",
+          "3d street art"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Moiré patterns",
+        "aliases": [
+          "moire",
+          "moire pattern",
+          "moire effect"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Fata Morgana",
+        "aliases": [
+          "fata morgana mirage"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hybrid images",
+        "aliases": [
+          "einstein marilyn illusion",
+          "marilyn einstein",
+          "hybrid image"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "Troxler fading",
         "aliases": [
           "troxler effect"
@@ -3650,6 +8898,100 @@
       {
         "answer": "The autokinetic effect",
         "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Ouchi illusion",
+        "aliases": [
+          "ouchi"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Ehrenstein illusion",
+        "aliases": [
+          "ehrenstein"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Neon colour spreading",
+        "aliases": [
+          "neon color spreading",
+          "neon spreading"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Cornsweet illusion",
+        "aliases": [
+          "craik obrien cornsweet",
+          "cornsweet"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The flash lag effect",
+        "aliases": [
+          "flash lag illusion",
+          "flash lag"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Vection",
+        "aliases": [
+          "illusion of self motion",
+          "train illusion",
+          "illusory self motion"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The tritone paradox",
+        "aliases": [
+          "tritone"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The speech-to-song illusion",
+        "aliases": [
+          "speech to song",
+          "sometimes behave so strangely"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Aristotle illusion",
+        "aliases": [
+          "crossed fingers illusion",
+          "aristotle"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The thermal grill illusion",
+        "aliases": [
+          "thermal grill"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Pinocchio illusion",
+        "aliases": [
+          "pinocchio effect",
+          "pinocchio"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Brocken spectre",
+        "aliases": [
+          "brocken spectre illusion",
+          "brocken bow",
+          "spectre of the brocken"
+        ],
         "tier": 100
       }
     ]
@@ -3731,6 +9073,87 @@
         "tier": 30
       },
       {
+        "answer": "Bribery",
+        "aliases": [
+          "bribe",
+          "bribes",
+          "bribing"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Threats",
+        "aliases": [
+          "threatening",
+          "intimidation",
+          "coercion",
+          "threat"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Manipulation",
+        "aliases": [
+          "manipulating",
+          "emotional manipulation"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Gaslighting",
+        "aliases": [
+          "gaslight"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Love bombing",
+        "aliases": [
+          "love bomb"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Lying",
+        "aliases": [
+          "deception",
+          "lies",
+          "deceit"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Blackmail",
+        "aliases": [
+          "emotional blackmail",
+          "blackmailing"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Propaganda",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "Advertising",
+        "aliases": [
+          "adverts",
+          "ads",
+          "marketing",
+          "advertisement"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Brainwashing",
+        "aliases": [
+          "indoctrination",
+          "brainwash"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "The door-in-the-face technique",
         "aliases": [
           "door in the face"
@@ -3796,6 +9219,130 @@
         "tier": 60
       },
       {
+        "answer": "Storytelling",
+        "aliases": [
+          "narrative persuasion",
+          "telling a story"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Humour",
+        "aliases": [
+          "humor",
+          "jokes",
+          "making them laugh"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Rhetoric",
+        "aliases": [
+          "ethos pathos logos",
+          "ethos",
+          "pathos",
+          "logos",
+          "rhetorical devices"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Celebrity endorsement",
+        "aliases": [
+          "influencer marketing",
+          "endorsements",
+          "endorsement",
+          "influencers"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "FOMO",
+        "aliases": [
+          "fear of missing out"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Urgency",
+        "aliases": [
+          "act now",
+          "deadline pressure",
+          "creating urgency",
+          "time pressure"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Logic",
+        "aliases": [
+          "logical argument",
+          "reasoning",
+          "evidence",
+          "facts",
+          "statistics"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Subliminal messaging",
+        "aliases": [
+          "subliminal advertising",
+          "subliminal messages",
+          "subliminal"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Testimonials",
+        "aliases": [
+          "testimonial",
+          "reviews",
+          "customer reviews"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Free samples",
+        "aliases": [
+          "free trial",
+          "free sample",
+          "free trials"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ultimatums",
+        "aliases": [
+          "ultimatum",
+          "take it or leave it"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Playing hard to get",
+        "aliases": [
+          "hard to get"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Negging",
+        "aliases": [
+          "neg"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Playing the victim",
+        "aliases": [
+          "victim card",
+          "sympathy play",
+          "playing on sympathy"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "Low-balling",
         "aliases": [
           "the low ball technique"
@@ -3836,6 +9383,118 @@
         "tier": 85
       },
       {
+        "answer": "Priming",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Loaded language",
+        "aliases": [
+          "emotive language",
+          "weasel words",
+          "loaded words"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Card stacking",
+        "aliases": [
+          "cherry picking",
+          "one sided evidence"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The decoy effect",
+        "aliases": [
+          "decoy pricing",
+          "decoy"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Charm pricing",
+        "aliases": [
+          "99p pricing",
+          "psychological pricing",
+          "prices ending in 99",
+          "9 99 pricing"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The assumptive close",
+        "aliases": [
+          "assuming the sale",
+          "assumptive selling"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The yes ladder",
+        "aliases": [
+          "yes set",
+          "getting them to say yes",
+          "yes momentum"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hypnosis",
+        "aliases": [
+          "hypnotic suggestion",
+          "suggestion"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The mere exposure effect",
+        "aliases": [
+          "mere exposure",
+          "familiarity"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The contrast principle",
+        "aliases": [
+          "contrast effect",
+          "perceptual contrast"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dog whistling",
+        "aliases": [
+          "dog whistle",
+          "dog whistles"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Astroturfing",
+        "aliases": [
+          "astroturf"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Distraction",
+        "aliases": [
+          "misdirection"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The boiling frog",
+        "aliases": [
+          "gradualism",
+          "salami tactics",
+          "boiling frog technique"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "The pique technique",
         "aliases": [
           "unusual request technique"
@@ -3865,6 +9524,61 @@
         "answer": "Two-sided messaging",
         "aliases": [
           "two sided argument"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Glittering generalities",
+        "aliases": [
+          "glittering generality"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Plain folks",
+        "aliases": [
+          "plain folks appeal",
+          "man of the people"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Transfer",
+        "aliases": [
+          "transfer technique",
+          "transfer propaganda"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The elaboration likelihood model",
+        "aliases": [
+          "elm",
+          "central route",
+          "peripheral route",
+          "central and peripheral routes"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The sleeper effect",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Shilling",
+        "aliases": [
+          "shill",
+          "shills",
+          "planted supporters"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The alternative close",
+        "aliases": [
+          "alternative choice close",
+          "would you like the red or the blue"
         ],
         "tier": 100
       }
@@ -3934,6 +9648,55 @@
         "tier": 30
       },
       {
+        "answer": "Confirmation bias",
+        "aliases": [],
+        "tier": 30
+      },
+      {
+        "answer": "The availability heuristic",
+        "aliases": [
+          "availability bias",
+          "availability"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Heuristics",
+        "aliases": [
+          "heuristic",
+          "rules of thumb",
+          "mental shortcuts",
+          "rule of thumb"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cognitive biases",
+        "aliases": [
+          "cognitive bias",
+          "biases",
+          "bias"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Game theory",
+        "aliases": [
+          "behavioural game theory",
+          "behavioral game theory"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Incentives",
+        "aliases": [
+          "incentive",
+          "perverse incentives",
+          "financial incentives"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "Prospect theory",
         "aliases": [],
         "tier": 60
@@ -3994,6 +9757,93 @@
         "tier": 60
       },
       {
+        "answer": "Hindsight bias",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "The gambler's fallacy",
+        "aliases": [
+          "gamblers fallacy"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Scarcity",
+        "aliases": [
+          "scarcity effect",
+          "scarcity mindset",
+          "artificial scarcity"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Social proof",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Opportunity cost",
+        "aliases": [
+          "opportunity cost neglect",
+          "opportunity costs"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Rational choice theory",
+        "aliases": [
+          "rational choice",
+          "rational actor model"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Risk aversion",
+        "aliases": [
+          "risk averse",
+          "risk seeking"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Self-control",
+        "aliases": [
+          "willpower",
+          "self control problems"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Irrational exuberance",
+        "aliases": [
+          "bubbles",
+          "speculative bubble",
+          "market bubble",
+          "speculative bubbles"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Social norms",
+        "aliases": [
+          "social norm nudges",
+          "descriptive norms",
+          "most people pay their tax on time"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The planning fallacy",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Optimism bias",
+        "aliases": [],
+        "tier": 60
+      },
+      {
         "answer": "Present bias",
         "aliases": [],
         "tier": 85
@@ -4033,6 +9883,117 @@
         "tier": 85
       },
       {
+        "answer": "Reciprocity",
+        "aliases": [
+          "reciprocal altruism",
+          "reciprocation"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Expected utility theory",
+        "aliases": [
+          "expected utility",
+          "utility",
+          "utility maximisation",
+          "utility maximization"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Time inconsistency",
+        "aliases": [
+          "time inconsistent preferences",
+          "dynamic inconsistency"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Commitment devices",
+        "aliases": [
+          "commitment device",
+          "ulysses contract",
+          "precommitment",
+          "pre commitment"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Money illusion",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Regret aversion",
+        "aliases": [
+          "anticipated regret",
+          "regret theory"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ambiguity aversion",
+        "aliases": [
+          "ellsberg paradox",
+          "uncertainty aversion"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Satisficing",
+        "aliases": [
+          "satisfice",
+          "herbert simon satisficing"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The representativeness heuristic",
+        "aliases": [
+          "representativeness",
+          "representative heuristic"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The affect heuristic",
+        "aliases": [
+          "affect"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Animal spirits",
+        "aliases": [
+          "keynes animal spirits"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The zero price effect",
+        "aliases": [
+          "the power of free",
+          "free effect",
+          "zero price"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The pain of paying",
+        "aliases": [
+          "cashless effect",
+          "pain of payment"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The hedonic treadmill",
+        "aliases": [
+          "hedonic adaptation"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "The dictator game",
         "aliases": [],
         "tier": 100
@@ -4059,6 +10020,89 @@
       {
         "answer": "The equity premium puzzle",
         "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "The Allais paradox",
+        "aliases": [
+          "allais"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The St Petersburg paradox",
+        "aliases": [
+          "saint petersburg paradox",
+          "st petersburg"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The recognition heuristic",
+        "aliases": [
+          "take the best",
+          "fast and frugal heuristics",
+          "gigerenzer"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The public goods game",
+        "aliases": [
+          "public goods experiment"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The denomination effect",
+        "aliases": [],
+        "tier": 100
+      },
+      {
+        "answer": "Reference dependence",
+        "aliases": [
+          "reference point",
+          "reference points"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Probability weighting",
+        "aliases": [
+          "overweighting small probabilities",
+          "probability weighting function"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The EAST framework",
+        "aliases": [
+          "east",
+          "easy attractive social timely"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The hot-cold empathy gap",
+        "aliases": [
+          "empathy gap",
+          "hot cold state"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The focusing illusion",
+        "aliases": [
+          "focusing effect",
+          "focalism"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "MINDSPACE",
+        "aliases": [
+          "mindspace framework"
+        ],
         "tier": 100
       }
     ]
@@ -4185,6 +10229,68 @@
         "tier": 30
       },
       {
+        "answer": "Cocaine addiction",
+        "aliases": [
+          "cocaine",
+          "coke addiction",
+          "crack addiction"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cannabis addiction",
+        "aliases": [
+          "weed addiction",
+          "cannabis dependence",
+          "marijuana addiction",
+          "cannabis"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sugar addiction",
+        "aliases": [
+          "sugar",
+          "sweets addiction"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Internet addiction",
+        "aliases": [
+          "internet addiction disorder",
+          "online addiction"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Binge watching",
+        "aliases": [
+          "tv addiction",
+          "netflix addiction",
+          "television addiction",
+          "binge watching tv"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "OCD",
+        "aliases": [
+          "obsessive compulsive disorder",
+          "compulsions",
+          "obsessions"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Vaping",
+        "aliases": [
+          "vape addiction",
+          "e cigarettes"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "Workaholism",
         "aliases": [
           "workaholic",
@@ -4225,17 +10331,114 @@
         "tier": 60
       },
       {
-        "answer": "Vaping",
+        "answer": "Doomscrolling",
         "aliases": [
-          "vape addiction",
-          "e cigarettes"
+          "doom scrolling"
         ],
         "tier": 60
       },
       {
-        "answer": "Doomscrolling",
+        "answer": "Meth addiction",
         "aliases": [
-          "doom scrolling"
+          "methamphetamine addiction",
+          "crystal meth addiction",
+          "crystal meth",
+          "meth"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Ketamine addiction",
+        "aliases": [
+          "ketamine",
+          "ket addiction"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Benzodiazepine addiction",
+        "aliases": [
+          "benzo addiction",
+          "xanax addiction",
+          "valium addiction",
+          "benzos"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Painkiller addiction",
+        "aliases": [
+          "prescription drug addiction",
+          "codeine addiction",
+          "oxycodone addiction",
+          "opioid painkillers",
+          "oxycontin"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Love addiction",
+        "aliases": [
+          "relationship addiction",
+          "addicted to love"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Self-harm",
+        "aliases": [
+          "cutting",
+          "self injury",
+          "self harming"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Thumb sucking",
+        "aliases": [
+          "sucking your thumb"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Knuckle cracking",
+        "aliases": [
+          "cracking knuckles",
+          "cracking your knuckles"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Nose picking",
+        "aliases": [
+          "rhinotillexomania",
+          "picking your nose"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Compulsive cleaning",
+        "aliases": [
+          "cleaning compulsion",
+          "obsessive cleaning",
+          "cleaning"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Junk food addiction",
+        "aliases": [
+          "fast food addiction",
+          "junk food"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Adrenaline addiction",
+        "aliases": [
+          "adrenaline junkie",
+          "thrill seeking",
+          "risk addiction"
         ],
         "tier": 60
       },
@@ -4278,6 +10481,116 @@
         "tier": 85
       },
       {
+        "answer": "Tanning addiction",
+        "aliases": [
+          "tanorexia",
+          "sunbed addiction"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Plastic surgery addiction",
+        "aliases": [
+          "cosmetic surgery addiction",
+          "surgery addiction"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Compulsive touching",
+        "aliases": [
+          "touching compulsion",
+          "tapping compulsion",
+          "compulsive tapping"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Nymphomania",
+        "aliases": [
+          "satyriasis"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Body-focused repetitive behaviours",
+        "aliases": [
+          "bfrb",
+          "bfrbs",
+          "body focused repetitive behaviors"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Rumination",
+        "aliases": [
+          "compulsive rumination",
+          "overthinking"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Trading addiction",
+        "aliases": [
+          "day trading addiction",
+          "crypto trading addiction",
+          "stock trading addiction",
+          "crypto addiction"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Steroid abuse",
+        "aliases": [
+          "anabolic steroid abuse",
+          "steroid addiction",
+          "steroids"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Solvent abuse",
+        "aliases": [
+          "glue sniffing",
+          "inhalant abuse",
+          "sniffing glue",
+          "inhalants"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Tattoo addiction",
+        "aliases": [
+          "addicted to tattoos"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Selfitis",
+        "aliases": [
+          "selfie addiction"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Dating app addiction",
+        "aliases": [
+          "tinder addiction",
+          "swiping addiction",
+          "hinge addiction"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Loot boxes",
+        "aliases": [
+          "loot box addiction",
+          "gacha",
+          "gacha addiction"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "Dromomania",
         "aliases": [
           "compulsive wandering"
@@ -4302,6 +10615,29 @@
         "answer": "Trichophagia",
         "aliases": [
           "hair eating"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Dermatophagia",
+        "aliases": [
+          "skin biting",
+          "biting your skin"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Trichotemnomania",
+        "aliases": [
+          "compulsive hair cutting"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Onychotillomania",
+        "aliases": [
+          "nail picking",
+          "compulsive nail picking"
         ],
         "tier": 100
       }
@@ -4410,6 +10746,79 @@
         "tier": 30
       },
       {
+        "answer": "Bullying",
+        "aliases": [
+          "group bullying",
+          "ganging up",
+          "ganging up on someone"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Rioting",
+        "aliases": [
+          "riot",
+          "riots"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cults",
+        "aliases": [
+          "cult",
+          "cult behaviour",
+          "cult mentality"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Tribalism",
+        "aliases": [
+          "tribal mentality",
+          "tribal"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Cancel culture",
+        "aliases": [
+          "cancelling",
+          "pile on",
+          "online pile on",
+          "pile ons"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Panic buying",
+        "aliases": [
+          "stockpiling",
+          "toilet roll panic",
+          "hoarding toilet roll"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Hooliganism",
+        "aliases": [
+          "football hooligans",
+          "hooligans",
+          "football violence"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Viral trends",
+        "aliases": [
+          "going viral",
+          "tiktok trends",
+          "social media trends",
+          "memes",
+          "trends"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "Social loafing",
         "aliases": [
           "loafing",
@@ -4475,6 +10884,135 @@
         "tier": 60
       },
       {
+        "answer": "The Mexican wave",
+        "aliases": [
+          "the wave",
+          "stadium wave"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Flash mobs",
+        "aliases": [
+          "flash mob",
+          "flashmob"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Witch hunts",
+        "aliases": [
+          "witch hunt",
+          "witch hunting"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hazing",
+        "aliases": [
+          "initiation rituals",
+          "initiations",
+          "initiation ceremonies"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The wisdom of the crowd",
+        "aliases": [
+          "wisdom of crowds",
+          "crowd wisdom",
+          "collective intelligence"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Social identity theory",
+        "aliases": [
+          "social identity",
+          "tajfel"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Prejudice",
+        "aliases": [
+          "discrimination",
+          "stereotyping",
+          "racism"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Social comparison",
+        "aliases": [
+          "comparing yourself to others",
+          "keeping up with the joneses",
+          "social comparison theory"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Crowd psychology",
+        "aliases": [
+          "le bon",
+          "the crowd",
+          "psychology of crowds",
+          "crowd behaviour"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Hive mind",
+        "aliases": [
+          "hivemind",
+          "collective consciousness"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Rumour spreading",
+        "aliases": [
+          "rumours",
+          "rumour mill",
+          "gossip",
+          "rumors"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Compliance",
+        "aliases": [
+          "complying",
+          "going along with the group"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Brainwashing",
+        "aliases": [
+          "cult brainwashing",
+          "indoctrination"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Radicalisation",
+        "aliases": [
+          "radicalization",
+          "extremism",
+          "online radicalisation"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Filter bubbles",
+        "aliases": [
+          "filter bubble",
+          "algorithmic bubble"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "Pluralistic ignorance",
         "aliases": [
           "ignorancia pluralista"
@@ -4516,6 +11054,112 @@
         "tier": 85
       },
       {
+        "answer": "Collective effervescence",
+        "aliases": [
+          "durkheim collective effervescence"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Out-group homogeneity",
+        "aliases": [
+          "outgroup homogeneity effect",
+          "out group homogeneity effect",
+          "they all look the same"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Intergroup conflict",
+        "aliases": [
+          "realistic conflict theory",
+          "robbers cave",
+          "intergroup hostility"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The contact hypothesis",
+        "aliases": [
+          "intergroup contact",
+          "contact theory"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Collective behaviour",
+        "aliases": [
+          "collective action",
+          "mass movements",
+          "collective behavior"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Mass psychogenic illness",
+        "aliases": [
+          "dancing plague",
+          "laughing epidemic",
+          "tanganyika laughter epidemic",
+          "mass sociogenic illness"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Copycat crime",
+        "aliases": [
+          "copycat crimes",
+          "copycat behaviour"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Social dilemmas",
+        "aliases": [
+          "social dilemma",
+          "tragedy of the commons",
+          "commons dilemma",
+          "free rider problem"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Group cohesion",
+        "aliases": [
+          "cohesiveness",
+          "team cohesion",
+          "group cohesiveness"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Normative social influence",
+        "aliases": [
+          "normative influence",
+          "informational social influence",
+          "informational influence"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Basking in reflected glory",
+        "aliases": [
+          "birging",
+          "birg",
+          "reflected glory"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Swarm behaviour",
+        "aliases": [
+          "swarm intelligence",
+          "swarming",
+          "swarm behavior"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "Abilene paradox",
         "aliases": [],
         "tier": 100
@@ -4537,6 +11181,70 @@
         "answer": "Informational cascade",
         "aliases": [
           "information cascade"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Superordinate goals",
+        "aliases": [
+          "superordinate goal"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The sucker effect",
+        "aliases": [
+          "sucker aversion"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Köhler effect",
+        "aliases": [
+          "kohler motivation gain"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Shared information bias",
+        "aliases": [
+          "hidden profile"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The group attribution error",
+        "aliases": [
+          "group attribution"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The ultimate attribution error",
+        "aliases": [
+          "ultimate attribution"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The black sheep effect",
+        "aliases": [
+          "black sheep"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Cutting off reflected failure",
+        "aliases": [
+          "corfing",
+          "corf"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Social impact theory",
+        "aliases": [
+          "latane social impact"
         ],
         "tier": 100
       }
@@ -4668,6 +11376,85 @@
         "tier": 30
       },
       {
+        "answer": "Waving",
+        "aliases": [
+          "wave",
+          "waving hello",
+          "waving goodbye"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Kissing",
+        "aliases": [
+          "kiss",
+          "a kiss on the cheek"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "High five",
+        "aliases": [
+          "high fives",
+          "high fiving"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Fist bump",
+        "aliases": [
+          "fist bumps",
+          "fist bumping"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The middle finger",
+        "aliases": [
+          "flipping the bird",
+          "giving the finger",
+          "the finger",
+          "flipping someone off"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Laughing",
+        "aliases": [
+          "laughter",
+          "laugh"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Crying",
+        "aliases": [
+          "tears",
+          "cry",
+          "weeping"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Clapping",
+        "aliases": [
+          "applause",
+          "clap",
+          "applauding"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Head shake",
+        "aliases": [
+          "shaking your head",
+          "shaking head",
+          "head shaking",
+          "shaking of the head"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "Winking",
         "aliases": [
           "wink"
@@ -4735,6 +11522,109 @@
         "tier": 60
       },
       {
+        "answer": "Staring",
+        "aliases": [
+          "stare",
+          "glaring",
+          "glare",
+          "dirty look",
+          "death stare"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Leaning in",
+        "aliases": [
+          "leaning forward",
+          "leaning towards someone"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Fidgeting",
+        "aliases": [
+          "fidget",
+          "fidgets"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Raised eyebrows",
+        "aliases": [
+          "eyebrow raise",
+          "eyebrow flash",
+          "raising your eyebrows",
+          "raised eyebrow"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Head tilt",
+        "aliases": [
+          "tilting your head",
+          "tilted head"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Peace sign",
+        "aliases": [
+          "v sign",
+          "two fingers"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Salute",
+        "aliases": [
+          "saluting",
+          "military salute"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Facepalm",
+        "aliases": [
+          "face palm",
+          "facepalming"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Thumbs down",
+        "aliases": [
+          "thumb down"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Intonation",
+        "aliases": [
+          "pitch",
+          "voice pitch",
+          "inflection",
+          "inflexion"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Volume",
+        "aliases": [
+          "loudness",
+          "shouting",
+          "raising your voice",
+          "whispering"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Dance",
+        "aliases": [
+          "dancing"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "Micro-expression",
         "aliases": [
           "microexpression",
@@ -4778,6 +11668,129 @@
         "tier": 85
       },
       {
+        "answer": "Pursed lips",
+        "aliases": [
+          "pursing your lips",
+          "lip pursing"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Hands on hips",
+        "aliases": [
+          "akimbo",
+          "arms akimbo"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The OK sign",
+        "aliases": [
+          "ok hand gesture",
+          "ok gesture",
+          "ok hand sign"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Curtsy",
+        "aliases": [
+          "curtsey",
+          "curtsying"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Namaste",
+        "aliases": [
+          "pressing palms together",
+          "anjali mudra",
+          "prayer hands"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Beckoning",
+        "aliases": [
+          "come here gesture",
+          "crooked finger",
+          "beckon"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Shushing",
+        "aliases": [
+          "finger to lips",
+          "shush",
+          "shh"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Air quotes",
+        "aliases": [
+          "finger quotes",
+          "air quotation marks"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Crossing fingers",
+        "aliases": [
+          "fingers crossed",
+          "crossed fingers"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Appearance",
+        "aliases": [
+          "clothing",
+          "dress",
+          "what you wear",
+          "artifactics",
+          "tattoos",
+          "physical appearance"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Pace of speech",
+        "aliases": [
+          "speech rate",
+          "talking fast",
+          "speaking speed",
+          "rate of speech"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Whistling",
+        "aliases": [
+          "wolf whistle",
+          "whistle"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Gaze aversion",
+        "aliases": [
+          "looking away",
+          "avoiding eye contact",
+          "averting your gaze"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Blinking",
+        "aliases": [
+          "blink rate",
+          "blink"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "Chronemics",
         "aliases": [],
         "tier": 100
@@ -4799,6 +11812,56 @@
         "answer": "Olfactics",
         "aliases": [
           "olfactic communication"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Kowtow",
+        "aliases": [
+          "kowtowing"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The fig sign",
+        "aliases": [
+          "fig gesture",
+          "fig"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The sign of the horns",
+        "aliases": [
+          "devil horns",
+          "rock on sign",
+          "horn sign",
+          "horns"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The shaka",
+        "aliases": [
+          "shaka sign",
+          "hang loose"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Vulcan salute",
+        "aliases": [
+          "live long and prosper",
+          "vulcan"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Pheromones",
+        "aliases": [
+          "pheromone",
+          "chemical signals",
+          "scent signals"
         ],
         "tier": 100
       }
@@ -4923,6 +11986,65 @@
         "tier": 30
       },
       {
+        "answer": "Crack",
+        "aliases": [
+          "crack cocaine",
+          "freebase",
+          "rocks"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Spice",
+        "aliases": [
+          "synthetic cannabinoids",
+          "k2",
+          "synthetic cannabis",
+          "mamba",
+          "black mamba",
+          "synthetic weed"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Poppers",
+        "aliases": [
+          "amyl nitrite",
+          "alkyl nitrites",
+          "amyl"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Benzodiazepines",
+        "aliases": [
+          "benzodiazepine",
+          "benzo",
+          "street benzos"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Sertraline",
+        "aliases": [
+          "zoloft",
+          "ssris",
+          "ssri",
+          "antidepressants",
+          "antidepressant",
+          "citalopram"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "CBD",
+        "aliases": [
+          "cannabidiol",
+          "cbd oil"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "Methamphetamine",
         "aliases": [
           "crystal meth",
@@ -4992,6 +12114,115 @@
         "tier": 60
       },
       {
+        "answer": "Tramadol",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Oxycodone",
+        "aliases": [
+          "oxycontin",
+          "oxy",
+          "percocet",
+          "oxys"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Methadone",
+        "aliases": [],
+        "tier": 60
+      },
+      {
+        "answer": "Mephedrone",
+        "aliases": [
+          "meow meow",
+          "m cat",
+          "mcat",
+          "4 mmc",
+          "drone"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "GHB",
+        "aliases": [
+          "gbl",
+          "liquid ecstasy",
+          "g",
+          "gamma hydroxybutyrate"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Lithium",
+        "aliases": [
+          "lithium carbonate"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Antipsychotics",
+        "aliases": [
+          "antipsychotic",
+          "quetiapine",
+          "olanzapine",
+          "seroquel",
+          "risperidone"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Barbiturates",
+        "aliases": [
+          "barbiturate",
+          "phenobarbital",
+          "seconal",
+          "downers"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Bath salts",
+        "aliases": [
+          "synthetic cathinones",
+          "flakka",
+          "mdpv",
+          "monkey dust"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Solvents",
+        "aliases": [
+          "glue",
+          "glue sniffing",
+          "aerosols",
+          "inhalants",
+          "petrol sniffing",
+          "lighter fluid",
+          "butane"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "THC",
+        "aliases": [
+          "tetrahydrocannabinol"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Rohypnol",
+        "aliases": [
+          "flunitrazepam",
+          "roofies",
+          "date rape drug",
+          "roofie"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "Ayahuasca",
         "aliases": [
           "yage"
@@ -5039,6 +12270,110 @@
         "tier": 85
       },
       {
+        "answer": "Zopiclone",
+        "aliases": [
+          "z drugs",
+          "zolpidem",
+          "ambien",
+          "sleeping pills"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Chloroform",
+        "aliases": [],
+        "tier": 85
+      },
+      {
+        "answer": "Coca leaves",
+        "aliases": [
+          "coca",
+          "coca leaf",
+          "coca tea"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Ephedrine",
+        "aliases": [
+          "ephedra",
+          "ma huang"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "2C-B",
+        "aliases": [
+          "2cb",
+          "tucibi",
+          "nexus"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Nutmeg",
+        "aliases": [
+          "myristicin"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "DXM",
+        "aliases": [
+          "dextromethorphan",
+          "robotripping",
+          "cough syrup",
+          "cough medicine"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Xylazine",
+        "aliases": [
+          "tranq",
+          "tranq dope"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Buprenorphine",
+        "aliases": [
+          "subutex",
+          "suboxone",
+          "bupe"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Vyvanse",
+        "aliases": [
+          "lisdexamfetamine",
+          "elvanse",
+          "lisdexamfetamine dimesylate"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Antihistamines",
+        "aliases": [
+          "benadryl",
+          "diphenhydramine",
+          "promethazine",
+          "antihistamine"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Quaaludes",
+        "aliases": [
+          "methaqualone",
+          "ludes",
+          "mandrax",
+          "quaalude"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "Ibogaine",
         "aliases": [
           "iboga"
@@ -5070,6 +12405,90 @@
         "aliases": [
           "areca nut",
           "paan"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Theobromine",
+        "aliases": [
+          "chocolate"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "5-MeO-DMT",
+        "aliases": [
+          "toad venom",
+          "bufo",
+          "the toad"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "San Pedro cactus",
+        "aliases": [
+          "san pedro",
+          "wachuma",
+          "huachuma"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Datura",
+        "aliases": [
+          "jimsonweed",
+          "devils trumpet",
+          "thornapple"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Belladonna",
+        "aliases": [
+          "deadly nightshade",
+          "atropine"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Scopolamine",
+        "aliases": [
+          "devils breath",
+          "hyoscine",
+          "burundanga"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Morning glory seeds",
+        "aliases": [
+          "lsa",
+          "hawaiian baby woodrose",
+          "morning glory"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "MDA",
+        "aliases": [
+          "sass",
+          "sally",
+          "methylenedioxyamphetamine"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Nitazenes",
+        "aliases": [
+          "nitazene",
+          "isotonitazene"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Carfentanil",
+        "aliases": [
+          "carfentanyl"
         ],
         "tier": 100
       }
@@ -5167,6 +12586,68 @@
         "tier": 30
       },
       {
+        "answer": "Buzzfeed quizzes",
+        "aliases": [
+          "buzzfeed quiz",
+          "buzzfeed personality quiz",
+          "online personality quiz",
+          "online quiz"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The Hogwarts house quiz",
+        "aliases": [
+          "which hogwarts house are you",
+          "harry potter house quiz",
+          "pottermore quiz",
+          "sorting hat",
+          "sorting hat quiz"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The love languages quiz",
+        "aliases": [
+          "love languages",
+          "five love languages",
+          "love language test",
+          "love language quiz",
+          "love language"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Attachment style quiz",
+        "aliases": [
+          "attachment style test",
+          "attachment style",
+          "attachment styles quiz"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "The 11-plus",
+        "aliases": [
+          "eleven plus",
+          "11 plus exam",
+          "eleven plus exam"
+        ],
+        "tier": 30
+      },
+      {
+        "answer": "Psychometric tests",
+        "aliases": [
+          "psychometric test",
+          "aptitude test",
+          "verbal reasoning test",
+          "numerical reasoning test",
+          "psychometrics",
+          "aptitude tests"
+        ],
+        "tier": 30
+      },
+      {
         "answer": "Raven's Progressive Matrices",
         "aliases": [
           "ravens progressive matrices",
@@ -5222,6 +12703,80 @@
         "tier": 60
       },
       {
+        "answer": "The dark triad test",
+        "aliases": [
+          "dirty dozen",
+          "short dark triad",
+          "dark triad",
+          "dark triad quiz"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The psychopath test",
+        "aliases": [
+          "psychopathy test",
+          "am i a psychopath quiz",
+          "levenson psychopathy scale",
+          "psychopath quiz"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "WISC",
+        "aliases": [
+          "wechsler intelligence scale for children",
+          "wisc v",
+          "wisc 5"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The SAT",
+        "aliases": [
+          "scholastic aptitude test",
+          "sats"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "The Implicit Association Test",
+        "aliases": [
+          "iat",
+          "harvard implicit bias test",
+          "implicit bias test"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Belbin team roles",
+        "aliases": [
+          "belbin",
+          "belbin test",
+          "belbin team inventory"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "CliftonStrengths",
+        "aliases": [
+          "strengthsfinder",
+          "gallup strengths",
+          "clifton strengths",
+          "strengths finder"
+        ],
+        "tier": 60
+      },
+      {
+        "answer": "Multiple intelligences test",
+        "aliases": [
+          "gardner multiple intelligences",
+          "multiple intelligences",
+          "multiple intelligences quiz"
+        ],
+        "tier": 60
+      },
+      {
         "answer": "HEXACO",
         "aliases": [
           "hexaco model"
@@ -5268,6 +12823,131 @@
         "tier": 85
       },
       {
+        "answer": "Army Alpha",
+        "aliases": [
+          "army alpha and beta",
+          "army beta",
+          "army alpha test"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Binet-Simon scale",
+        "aliases": [
+          "binet simon",
+          "simon binet",
+          "binet simon test"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The cognitive reflection test",
+        "aliases": [
+          "crt",
+          "bat and ball problem",
+          "bat and ball"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "MoCA",
+        "aliases": [
+          "montreal cognitive assessment"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "MMSE",
+        "aliases": [
+          "mini mental state examination",
+          "mini mental",
+          "mini mental state exam"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Rosenberg self-esteem scale",
+        "aliases": [
+          "rosenberg scale",
+          "rosenberg",
+          "self esteem scale"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Big Five Inventory",
+        "aliases": [
+          "bfi",
+          "bfi 2"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Insights Discovery",
+        "aliases": [
+          "insights colours",
+          "insights profile",
+          "insights colors"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "The Hogan Personality Inventory",
+        "aliases": [
+          "hogan",
+          "hpi",
+          "hogan assessment"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "VIA character strengths",
+        "aliases": [
+          "via survey",
+          "via strengths",
+          "via",
+          "character strengths survey"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Holland Codes",
+        "aliases": [
+          "riasec",
+          "holland code test",
+          "holland occupational themes",
+          "holland code"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Graphology",
+        "aliases": [
+          "handwriting analysis",
+          "handwriting test"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "CAT4",
+        "aliases": [
+          "cat test",
+          "cognitive abilities test",
+          "cat 4",
+          "cognitive ability test"
+        ],
+        "tier": 85
+      },
+      {
+        "answer": "Situational judgement test",
+        "aliases": [
+          "sjt",
+          "situational judgment test",
+          "situational judgement"
+        ],
+        "tier": 85
+      },
+      {
         "answer": "Kaufman Assessment Battery",
         "aliases": [
           "kabc",
@@ -5303,6 +12983,93 @@
         "answer": "Szondi Test",
         "aliases": [
           "szondi"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The trail making test",
+        "aliases": [
+          "trail making",
+          "trails test"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "IPIP",
+        "aliases": [
+          "international personality item pool",
+          "ipip neo"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Personality Assessment Inventory",
+        "aliases": [
+          "pai"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Millon Clinical Multiaxial Inventory",
+        "aliases": [
+          "mcmi",
+          "millon"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Predictive Index",
+        "aliases": [
+          "pi behavioral assessment"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "Sentence completion test",
+        "aliases": [
+          "rotter incomplete sentences",
+          "incomplete sentences blank",
+          "sentence completion"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "House-Tree-Person",
+        "aliases": [
+          "htp",
+          "house tree person test"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The Lüscher colour test",
+        "aliases": [
+          "luscher color test",
+          "luscher test",
+          "luscher"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "MSCEIT",
+        "aliases": [
+          "mayer salovey caruso",
+          "mayer salovey caruso emotional intelligence test"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "NART",
+        "aliases": [
+          "national adult reading test"
+        ],
+        "tier": 100
+      },
+      {
+        "answer": "The British Ability Scales",
+        "aliases": [
+          "bas",
+          "british ability scale"
         ],
         "tier": 100
       }
