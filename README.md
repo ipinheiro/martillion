@@ -10,13 +10,19 @@ https://ipinheiro.github.io/martillion/
 
 ## Develop
 
-No build step, no dependencies. Serve the folder and open it:
+No build step and no runtime dependencies. Serve the folder and open it:
 
     uv run python -m http.server 8123
 
-Run the tests (Node 20+):
+Install the one dev tool (Biome, for lint and format) and run the checks (Node 24+):
 
-    npm test
+    npm install
+    npm test          # unit and data tests
+    npm run check     # lint and format check
+    npm run format    # rewrite files to the house format
+
+Every module starts with `// @ts-check`, so an editor with TypeScript support (VS Code out of
+the box) type-checks the JSDoc comments as you type.
 
 ## Add questions
 
