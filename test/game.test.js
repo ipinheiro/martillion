@@ -1,6 +1,6 @@
-import test from "node:test";
 import assert from "node:assert/strict";
-import { sampleQuestions, updateRecent, createUprising, ROUNDS, RECENT_LIMIT } from "../js/game.js";
+import test from "node:test";
+import { createUprising, RECENT_LIMIT, ROUNDS, sampleQuestions, updateRecent } from "../js/game.js";
 
 function seededRng(seed) {
   let state = seed >>> 0;
@@ -11,14 +11,21 @@ function seededRng(seed) {
 }
 
 function makeBank() {
-  const topics = ["animals-nature", "films-tv", "books-stories", "the-world", "psychology", "theory-revolution"];
+  const topics = [
+    "animals-nature",
+    "films-tv",
+    "books-stories",
+    "the-world",
+    "psychology",
+    "theory-revolution",
+  ];
   return topics.flatMap((topic) =>
     [1, 2, 3, 4].map((n) => ({
       id: `${topic}-0${n}`,
       topic,
       prompt: `Name something (${topic} ${n})`,
       answers: [{ answer: "Anything", aliases: [], tier: 60 }],
-    }))
+    })),
   );
 }
 

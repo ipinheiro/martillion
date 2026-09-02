@@ -1,6 +1,6 @@
-import test from "node:test";
 import assert from "node:assert/strict";
-import { normalize, matchAnswer } from "../js/matcher.js";
+import test from "node:test";
+import { matchAnswer, normalize } from "../js/matcher.js";
 
 const answers = [
   { answer: "The Terminator", aliases: ["t-800"], tier: 10 },

@@ -9,11 +9,36 @@ export const TIERS = {
 };
 
 const STAGES = [
-  { min: 650, name: "Full communism", verdict: "Full communism achieved", flavour: "The state has withered away. Utopia, scientifically." },
-  { min: 500, name: "Socialism", verdict: "Socialism achieved", flavour: "From each according to their ability. Ability detected." },
-  { min: 350, name: "Revolution brewing", verdict: "Revolution brewing", flavour: "A spectre is haunting this quiz." },
-  { min: 200, name: "Capitalism", verdict: "Stuck in capitalism", flavour: "You have nothing to lose but your chains." },
-  { min: 0, name: "Feudalism", verdict: "Stuck in feudalism", flavour: "The material conditions were not yet ripe." },
+  {
+    min: 650,
+    name: "Full communism",
+    verdict: "Full communism achieved",
+    flavour: "The state has withered away. Utopia, scientifically.",
+  },
+  {
+    min: 500,
+    name: "Socialism",
+    verdict: "Socialism achieved",
+    flavour: "From each according to their ability. Ability detected.",
+  },
+  {
+    min: 350,
+    name: "Revolution brewing",
+    verdict: "Revolution brewing",
+    flavour: "A spectre is haunting this quiz.",
+  },
+  {
+    min: 200,
+    name: "Capitalism",
+    verdict: "Stuck in capitalism",
+    flavour: "You have nothing to lose but your chains.",
+  },
+  {
+    min: 0,
+    name: "Feudalism",
+    verdict: "Stuck in feudalism",
+    flavour: "The material conditions were not yet ripe.",
+  },
 ];
 
 export const PLAN_TARGET = 2000;

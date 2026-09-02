@@ -1,4 +1,4 @@
-import { tierInfo, stageForScore } from "./scorer.js";
+import { stageForScore, tierInfo } from "./scorer.js";
 
 export function shareText(roundPoints, total) {
   const stage = stageForScore(total);

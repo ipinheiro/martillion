@@ -1,7 +1,7 @@
-import { createStorage } from "./storage.js";
+import { createUprising, ROUNDS, sampleQuestions, updateRecent } from "./game.js";
 import { fiveYearPlans } from "./scorer.js";
-import { sampleQuestions, createUprising, updateRecent, ROUNDS } from "./game.js";
-import { shareText, copyShare } from "./share.js";
+import { copyShare, shareText } from "./share.js";
+import { createStorage } from "./storage.js";
 
 const storage = createStorage(window.localStorage);
 let state = storage.load();
@@ -42,7 +42,7 @@ const TOPIC_LABELS = {
   "films-tv": "Films & TV",
   "books-stories": "Books & stories",
   "the-world": "The world",
-  "psychology": "Psychology",
+  psychology: "Psychology",
   "theory-revolution": "Theory & revolution",
 };
 
@@ -117,10 +117,16 @@ function finishGame(finished) {
     bestScore: Math.max(state.bestScore, summary.total),
     totalPoints: state.totalPoints + summary.total,
     gamesPlayed: state.gamesPlayed + 1,
-    recentQuestionIds: updateRecent(state.recentQuestionIds, summary.rounds.map((r) => r.questionId)),
+    recentQuestionIds: updateRecent(
+      state.recentQuestionIds,
+      summary.rounds.map((r) => r.questionId),
+    ),
   };
   storage.save(state);
-  lastShare = shareText(summary.rounds.map((r) => r.points), summary.total);
+  lastShare = shareText(
+    summary.rounds.map((r) => r.points),
+    summary.total,
+  );
   renderResults(summary);
 }
 
@@ -135,7 +141,7 @@ function renderResults(summary) {
       const shown = round.matchedAnswer ?? (round.input.trim() || "no answer");
       item.textContent = `${round.tier.emoji} ${round.prompt} - ${shown} (+${round.points})`;
       return item;
-    })
+    }),
   );
   $("results-records").textContent =
     summary.total >= state.bestScore
@@ -161,7 +167,9 @@ $("answer-form").addEventListener("submit", (event) => {
 $("share-button").addEventListener("click", async () => {
   const copied = await copyShare(lastShare);
   $("share-button").textContent = copied ? "Copied to clipboard" : "Copy failed, comrade";
-  setTimeout(() => { $("share-button").textContent = "Share the struggle"; }, 2000);
+  setTimeout(() => {
+    $("share-button").textContent = "Share the struggle";
+  }, 2000);
 });
 $("again-button").addEventListener("click", startGame);
 

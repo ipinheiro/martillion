@@ -4,7 +4,8 @@ const DEFAULTS = { bestScore: 0, totalPoints: 0, gamesPlayed: 0, recentQuestionI
 
 function isValid(state) {
   return (
-    typeof state === "object" && state !== null &&
+    typeof state === "object" &&
+    state !== null &&
     typeof state.bestScore === "number" &&
     typeof state.totalPoints === "number" &&
     typeof state.gamesPlayed === "number" &&

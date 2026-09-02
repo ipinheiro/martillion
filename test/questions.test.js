@@ -1,9 +1,16 @@
-import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
+import test from "node:test";
 import { normalize } from "../js/matcher.js";
 
-const TOPICS = ["animals-nature", "films-tv", "books-stories", "the-world", "psychology", "theory-revolution"];
+const TOPICS = [
+  "animals-nature",
+  "films-tv",
+  "books-stories",
+  "the-world",
+  "psychology",
+  "theory-revolution",
+];
 const AUTHORED_TIERS = [10, 30, 60, 85, 100];
 
 const bank = JSON.parse(await readFile(new URL("../data/questions.json", import.meta.url), "utf8"));

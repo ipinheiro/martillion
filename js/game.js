@@ -1,5 +1,5 @@
 import { matchAnswer } from "./matcher.js";
-import { tierInfo, stageForScore } from "./scorer.js";
+import { stageForScore, tierInfo } from "./scorer.js";
 
 export const ROUNDS = 7;
 export const MAX_PER_TOPIC = 2;
@@ -43,7 +43,9 @@ export function updateRecent(recentIds, playedIds) {
 export function createUprising(questions) {
   const rounds = [];
   return {
-    get round() { return rounds.length; },
+    get round() {
+      return rounds.length;
+    },
     isOver: () => rounds.length >= questions.length,
     current: () => questions[rounds.length],
     submit(input) {

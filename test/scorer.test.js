@@ -1,6 +1,6 @@
-import test from "node:test";
 import assert from "node:assert/strict";
-import { tierInfo, stageForScore, fiveYearPlans } from "../js/scorer.js";
+import test from "node:test";
+import { fiveYearPlans, stageForScore, tierInfo } from "../js/scorer.js";
 
 test("tierInfo returns name and emoji for every tier", () => {
   assert.deepEqual(tierInfo(100), { name: "Full Marx", emoji: "⭐" });

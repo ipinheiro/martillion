@@ -1,12 +1,12 @@
 /* Martillion - constructivist poster, printed in two inks on aged cream. */
 
 :root {
-  --red: #C8102E;
-  --red-deep: #8F0A1E;
-  --ink: #1B1712;
-  --cream: #F3E9D2;
-  --cream-dim: #E4D5B5;
-  --star: #E8B923;
+  --red: #c8102e;
+  --red-deep: #8f0a1e;
+  --ink: #1b1712;
+  --cream: #f3e9d2;
+  --cream-dim: #e4d5b5;
+  --star: #e8b923;
 
   --ink-70: rgba(27, 23, 18, 0.7);
   --ink-45: rgba(27, 23, 18, 0.45);
@@ -52,22 +52,22 @@ body::before {
   z-index: 0;
   pointer-events: none;
   background-repeat: no-repeat;
-  background-position: 0 0, 0 0.6rem, 0 100%, 0 0, 0 0;
-  background-size: 100% 0.6rem, 100% 2px, 100% 6.5rem, 100% 100%, 100% 100%;
+  background-position:
+    0 0,
+    0 0.6rem,
+    0 100%,
+    0 0,
+    0 0;
+  background-size:
+    100% 0.6rem,
+    100% 2px,
+    100% 6.5rem,
+    100% 100%,
+    100% 100%;
   background-image:
-    linear-gradient(var(--red), var(--red)),
-    linear-gradient(var(--ink), var(--ink)),
-    repeating-linear-gradient(
-      64deg,
-      rgba(200, 16, 46, 0.22) 0 0.5rem,
-      transparent 0.5rem 1.7rem
-    ),
-    linear-gradient(
-      74deg,
-      transparent 0 52%,
-      rgba(200, 16, 46, 0.07) 52% 90%,
-      transparent 90% 100%
-    ),
+    linear-gradient(var(--red), var(--red)), linear-gradient(var(--ink), var(--ink)),
+    repeating-linear-gradient(64deg, rgba(200, 16, 46, 0.22) 0 0.5rem, transparent 0.5rem 1.7rem),
+    linear-gradient(74deg, transparent 0 52%, rgba(200, 16, 46, 0.07) 52% 90%, transparent 90% 100%),
     radial-gradient(
       135% 105% at 18% 0%,
       rgba(243, 233, 210, 0.95) 0%,
@@ -104,7 +104,6 @@ body::after {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
   min-height: 100svh;
   padding-block: 3rem 3.5rem;
 }
@@ -114,8 +113,9 @@ body::after {
   justify-content: flex-start;
 }
 
-[hidden] {
-  display: none !important;
+/* Outranks .screen's display: flex, so the hidden attribute keeps working on screens. */
+.screen[hidden] {
+  display: none;
 }
 
 /* A watermark star, printed faintly under the title. */
@@ -301,11 +301,7 @@ h1 {
   margin-top: 0.9rem;
   border: var(--rule);
   /* A barber-pole track, so the drain reads even at a glance. */
-  background-image: repeating-linear-gradient(
-    45deg,
-    var(--cream-dim) 0 6px,
-    #DBCAA6 6px 12px
-  );
+  background-image: repeating-linear-gradient(45deg, var(--cream-dim) 0 6px, #dbcaa6 6px 12px);
 }
 
 #timer-bar {
@@ -497,7 +493,9 @@ button {
   cursor: pointer;
   /* The block sits proud of the page, the way a pressed plate does. */
   box-shadow: var(--offset) var(--offset) 0 var(--ink);
-  transition: transform 0.08s ease-out, box-shadow 0.08s ease-out;
+  transition:
+    transform 0.08s ease-out,
+    box-shadow 0.08s ease-out;
 }
 
 button.primary {
@@ -543,6 +541,7 @@ button.primary:focus-visible {
   *,
   *::before,
   *::after {
+    /* biome-ignore lint/complexity/noImportantStyles: reduced motion must win over every rule */
     transition-duration: 0.01ms !important;
   }
 }
