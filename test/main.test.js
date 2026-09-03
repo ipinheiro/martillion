@@ -316,3 +316,21 @@ test("running out of time after a considered rejection repeats the reason at zer
     'Time\'s up. The committee has considered "chicken". Chickens fly. Badly, briefly, over a fence. Still flying. Zero points, comrade.',
   );
 });
+
+test("a finished game stores the answers the bank did not know, and only those", async () => {
+  const { $, storage, type, runOutTheClock } = await boot();
+  $("start-button").dispatch("click");
+  const next = () => $("next-button").dispatch("click");
+  type(" roomba ");
+  type("hen");
+  type("Anything");
+  next();
+  for (let i = 0; i < 6; i++) {
+    await runOutTheClock();
+    next();
+  }
+  const saved = JSON.parse(storage.data.get(KEY));
+  assert.equal(saved.unverified.length, 1, "the known rejection is not stored");
+  assert.equal(saved.unverified[0].input, "roomba");
+  assert.match(saved.unverified[0].questionId, /^[a-z-]+-0[12]$/);
+});

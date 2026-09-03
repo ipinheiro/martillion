@@ -1,6 +1,16 @@
 // @ts-check
+import { normalize } from "./matcher.js";
 
 export const KEY = "martillion.v1";
+/** Newest unknown answers kept. */
+export const UNVERIFIED_LIMIT = 200;
+
+/**
+ * An answer the bank did not know, kept so the bank can be widened from real play.
+ * @typedef {object} Unverified
+ * @property {string} questionId
+ * @property {string} input
+ */
 
 /**
  * @typedef {object} SavedState
@@ -8,16 +18,32 @@ export const KEY = "martillion.v1";
  * @property {number} totalPoints
  * @property {number} gamesPlayed
  * @property {string[]} recentQuestionIds
+ * @property {Unverified[]} unverified
  */
 
 /** @typedef {Pick<Storage, "getItem" | "setItem">} Backend */
 
 /** @returns {SavedState} */
 export function defaultState() {
-  return { bestScore: 0, totalPoints: 0, gamesPlayed: 0, recentQuestionIds: [] };
+  return { bestScore: 0, totalPoints: 0, gamesPlayed: 0, recentQuestionIds: [], unverified: [] };
 }
 
 const NUMBER_FIELDS = /** @type {const} */ (["bestScore", "totalPoints", "gamesPlayed"]);
+
+/**
+ * @param {unknown} value
+ * @returns {value is Unverified}
+ */
+function isUnverified(value) {
+  if (typeof value !== "object" || value === null) return false;
+  const entry = /** @type {Record<string, unknown>} */ (value);
+  return (
+    typeof entry.questionId === "string" &&
+    entry.questionId.length > 0 &&
+    typeof entry.input === "string" &&
+    entry.input.length > 0
+  );
+}
 
 /**
  * @param {unknown} value
@@ -28,7 +54,19 @@ export function isValidState(value) {
   const candidate = /** @type {Record<string, unknown>} */ (value);
   if (!NUMBER_FIELDS.every((field) => Number.isFinite(candidate[field]))) return false;
   const ids = candidate.recentQuestionIds;
-  return Array.isArray(ids) && ids.every((id) => typeof id === "string");
+  if (!Array.isArray(ids) || !ids.every((id) => typeof id === "string")) return false;
+  return Array.isArray(candidate.unverified) && candidate.unverified.every(isUnverified);
+}
+
+/**
+ * Fills in fields added since a state was first stored, so an older state loads instead of
+ * resetting to defaults.
+ * @param {unknown} value
+ */
+function migrate(value) {
+  if (typeof value !== "object" || value === null) return value;
+  const candidate = /** @type {Record<string, unknown>} */ (value);
+  return "unverified" in candidate ? candidate : { ...candidate, unverified: [] };
 }
 
 /** @param {SavedState} state */
@@ -38,6 +76,10 @@ function clone(state) {
     totalPoints: state.totalPoints,
     gamesPlayed: state.gamesPlayed,
     recentQuestionIds: [...state.recentQuestionIds],
+    unverified: state.unverified.map((entry) => ({
+      questionId: entry.questionId,
+      input: entry.input,
+    })),
   };
 }
 
@@ -48,6 +90,27 @@ function parse(raw) {
   } catch {
     return null;
   }
+}
+
+/**
+ * Folds newly offered unknown answers into the stored list. Inputs are trimmed; an empty one, or
+ * a repeat of the same normalised input on the same question, is not added; the newest
+ * UNVERIFIED_LIMIT are kept.
+ * @param {Unverified[]} existing
+ * @param {Unverified[]} additions
+ * @returns {Unverified[]}
+ */
+export function mergeUnverified(existing, additions) {
+  const merged = [...existing];
+  const seen = new Set(existing.map((entry) => `${entry.questionId}\n${normalize(entry.input)}`));
+  for (const entry of additions) {
+    const input = entry.input.trim();
+    const key = `${entry.questionId}\n${normalize(input)}`;
+    if (!input || seen.has(key)) continue;
+    seen.add(key);
+    merged.push({ questionId: entry.questionId, input });
+  }
+  return merged.slice(-UNVERIFIED_LIMIT);
 }
 
 /**
@@ -65,7 +128,7 @@ export function createStorage(backend) {
       return clone(memory);
     }
     if (raw === null) return clone(memory);
-    const parsed = parse(raw);
+    const parsed = migrate(parse(raw));
     memory = isValidState(parsed) ? clone(parsed) : defaultState();
     return clone(memory);
   }

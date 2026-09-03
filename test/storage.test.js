@@ -1,6 +1,13 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { createStorage, defaultState, isValidState, KEY } from "../js/storage.js";
+import {
+  createStorage,
+  defaultState,
+  isValidState,
+  KEY,
+  mergeUnverified,
+  UNVERIFIED_LIMIT,
+} from "../js/storage.js";
 
 function fakeBackend(initial = {}) {
   const data = Object.assign(Object.create(null), initial);
@@ -17,7 +24,8 @@ const played = {
   bestScore: 630,
   totalPoints: 4100,
   gamesPlayed: 9,
-  recentQuestionIds: ["films-tv-01"],
+  recentQuestionIds: ["films-tv-001"],
+  unverified: [{ questionId: "films-tv-001", input: "roomba" }],
 };
 
 test("KEY is the versioned storage key", () => {
@@ -30,6 +38,7 @@ test("defaultState returns a fresh object each call", () => {
     totalPoints: 0,
     gamesPlayed: 0,
     recentQuestionIds: [],
+    unverified: [],
   });
   assert.notEqual(defaultState().recentQuestionIds, defaultState().recentQuestionIds);
 });
@@ -78,7 +87,7 @@ test("a __proto__ key in stored JSON cannot pollute the loaded state", () => {
   const raw =
     '{"bestScore":1,"totalPoints":1,"gamesPlayed":1,"recentQuestionIds":[],"__proto__":{"polluted":true}}';
   const loaded = createStorage(fakeBackend({ [KEY]: raw })).load();
-  assert.equal(Object.keys(loaded).length, 4);
+  assert.equal(Object.keys(loaded).length, 5);
   assert.equal(Object.getPrototypeOf(loaded), Object.prototype);
   assert.equal("polluted" in loaded, false);
 });
@@ -111,4 +120,48 @@ test("load returns distinct array objects (no shared reference)", () => {
   assert.notEqual(first.recentQuestionIds, second.recentQuestionIds);
   first.recentQuestionIds.push("x");
   assert.deepEqual(storage.load().recentQuestionIds, []);
+});
+
+test("isValidState requires every unverified entry to carry a question id and an input", () => {
+  assert.equal(isValidState({ ...played, unverified: "roomba" }), false);
+  assert.equal(isValidState({ ...played, unverified: [{ questionId: "q" }] }), false);
+  assert.equal(isValidState({ ...played, unverified: [{ questionId: "q", input: "" }] }), false);
+  assert.equal(
+    isValidState({ ...played, unverified: [{ questionId: "", input: "roomba" }] }),
+    false,
+  );
+});
+
+test("a state stored before the harvest loads with an empty list and its scores intact", () => {
+  const older = {
+    bestScore: 630,
+    totalPoints: 4100,
+    gamesPlayed: 9,
+    recentQuestionIds: ["films-tv-001"],
+  };
+  const storage = createStorage(fakeBackend({ [KEY]: JSON.stringify(older) }));
+  assert.deepEqual(storage.load(), { ...older, unverified: [] });
+});
+
+test("mergeUnverified trims, skips repeats per question, and keeps the newest", () => {
+  const existing = [{ questionId: "q1", input: "roomba" }];
+  const merged = mergeUnverified(existing, [
+    { questionId: "q1", input: " Roomba! " },
+    { questionId: "q2", input: "Roomba" },
+    { questionId: "q2", input: " smoothie " },
+    { questionId: "q2", input: "   " },
+  ]);
+  assert.deepEqual(merged, [
+    { questionId: "q1", input: "roomba" },
+    { questionId: "q2", input: "Roomba" },
+    { questionId: "q2", input: "smoothie" },
+  ]);
+  const many = Array.from({ length: UNVERIFIED_LIMIT + 5 }, (_, i) => ({
+    questionId: "q",
+    input: `miss ${i}`,
+  }));
+  const capped = mergeUnverified([], many);
+  assert.equal(capped.length, UNVERIFIED_LIMIT);
+  assert.equal(capped[0].input, "miss 5");
+  assert.equal(capped.at(-1)?.input, `miss ${UNVERIFIED_LIMIT + 4}`);
 });
