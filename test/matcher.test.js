@@ -85,11 +85,11 @@ test("the closest fuzzy match wins over an earlier farther one", () => {
   assert.equal(matchAnswer("bruce wanner", heroes).entry, heroes[1]);
 });
 
-test("an equidistant tie goes to the higher tier regardless of order", () => {
+test("an equidistant tie goes to the commoner tier regardless of order", () => {
   const rivers = [
     { answer: "Rhine", aliases: [], tier: 10 },
     { answer: "Rhone", aliases: [], tier: 60 },
   ];
-  assert.equal(matchAnswer("Rhune", rivers).entry, rivers[1]);
-  assert.equal(matchAnswer("Rhune", [...rivers].reverse()).entry, rivers[1]);
+  assert.equal(matchAnswer("Rhune", rivers).entry, rivers[0]);
+  assert.equal(matchAnswer("Rhune", [...rivers].reverse()).entry, rivers[0]);
 });

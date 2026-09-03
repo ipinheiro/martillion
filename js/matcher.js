@@ -65,7 +65,7 @@ function forms(entry) {
 }
 
 /**
- * Exact match first. Otherwise the closest form within tolerance, ties to the rarer tier.
+ * Exact match first. Otherwise the closest form within tolerance, ties to the commoner tier.
  * @param {string} input
  * @param {AnswerEntry[]} answers
  * @returns {MatchResult}
@@ -85,8 +85,9 @@ export function matchAnswer(input, answers) {
       const distance = levenshtein(norm, form);
       if (distance > tolerance(form.length)) continue;
       const closer = best === null || distance < best.distance;
-      const rarerTie = best !== null && distance === best.distance && entry.tier > best.entry.tier;
-      if (closer || rarerTie) best = { entry, distance };
+      const commonerTie =
+        best !== null && distance === best.distance && entry.tier < best.entry.tier;
+      if (closer || commonerTie) best = { entry, distance };
     }
   }
   return best ? { status: "matched", entry: best.entry } : { status: "unverified", entry: null };
