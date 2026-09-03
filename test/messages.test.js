@@ -86,3 +86,29 @@ test("roundLine shows the recognised answer, else the input, else no answer", ()
 test("roundCounter formats the round header", () => {
   assert.equal(roundCounter(1, 7), "Round 1 of 7");
 });
+
+const CHICKEN = "Chickens fly. Badly, briefly, over a fence. Still flying.";
+
+test("revealDetail repeats the committee's reason after a considered rejection", () => {
+  const result = round({
+    input: " chicken ",
+    matchedAnswer: null,
+    reason: CHICKEN,
+    tier: tierById("utopian"),
+  });
+  assert.equal(
+    revealDetail(result),
+    `Time's up. The committee has considered "chicken". ${CHICKEN} Zero points, comrade.`,
+  );
+});
+
+test("rejectionMessage gives the committee's reason when it has one", () => {
+  assert.equal(
+    rejectionMessage(" Chicken ", CHICKEN),
+    `The committee has considered "Chicken". ${CHICKEN} Try another.`,
+  );
+  assert.equal(
+    rejectionMessage("Roomba", null),
+    '"Roomba" is not a recognised answer. Try another.',
+  );
+});

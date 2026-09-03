@@ -221,8 +221,8 @@ export function init(doc, options = {}) {
       renderReveal(outcome.result);
       return;
     }
-    if (outcome.status === "unverified") {
-      $("round-feedback").textContent = rejectionMessage(input.value);
+    if (outcome.status === "unverified" || outcome.status === "rejected") {
+      $("round-feedback").textContent = rejectionMessage(input.value, outcome.reason);
       input.value = "";
     }
     input.focus();

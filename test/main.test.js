@@ -86,6 +86,13 @@ function makeBank() {
         { answer: "Anything", aliases: [], tier: 60 },
         { answer: "Rare thing", aliases: [], tier: 100 },
       ],
+      rejected: [
+        {
+          answer: "Chicken",
+          aliases: ["hen"],
+          reason: "Chickens fly. Badly, briefly, over a fence. Still flying.",
+        },
+      ],
     })),
   );
 }
@@ -281,4 +288,31 @@ test("the timer gives whatever is in the box one last try when the round runs ou
   assert.deepEqual(visible(), ["screen-reveal"], "the next round's timer runs out too");
   assert.equal($("reveal-tier").textContent, "No answer");
   assert.equal($("reveal-detail").textContent, "Time's up. Silence. The revolution needs answers.");
+});
+
+test("a considered rejection shows the committee's reason and the round carries on", async () => {
+  const { $, visible, type } = await boot();
+  $("start-button").dispatch("click");
+  type("hen");
+  assert.deepEqual(visible(), ["screen-round"]);
+  assert.equal(
+    $("round-feedback").textContent,
+    'The committee has considered "hen". Chickens fly. Badly, briefly, over a fence. Still flying. Try another.',
+  );
+  assert.equal($("answer-input").value, "", "the box is cleared for the next try");
+  type("Anything");
+  assert.deepEqual(visible(), ["screen-reveal"]);
+});
+
+test("running out of time after a considered rejection repeats the reason at zero", async () => {
+  const { $, type, runOutTheClock } = await boot();
+  $("start-button").dispatch("click");
+  type("chicken");
+  await runOutTheClock();
+  assert.equal($("reveal-tier").textContent, "Utopian");
+  assert.equal($("reveal-points").textContent, "+0");
+  assert.equal(
+    $("reveal-detail").textContent,
+    'Time\'s up. The committee has considered "chicken". Chickens fly. Badly, briefly, over a fence. Still flying. Zero points, comrade.',
+  );
 });
