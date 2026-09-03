@@ -51,8 +51,8 @@ for (const question of bank) {
   test(`question ${question.id} is well formed`, () => {
     assert.match(
       question.id,
-      new RegExp(`^${question.topic}-\\d{2}$`),
-      "id is <topic>-<two digits>",
+      new RegExp(`^${question.topic}-\\d{3}$`),
+      "id is <topic>-<three digits>",
     );
     assert.ok(typeof question.prompt === "string" && question.prompt.length > 0, "prompt");
     const count = question.answers.length;
@@ -102,7 +102,7 @@ test("every authored form, typed exactly, scores its own entry", () => {
 });
 
 test("the Bible is a novel over 500 pages and scores Full Marx", () => {
-  const question = bank.find((q) => q.id === "books-stories-07");
+  const question = bank.find((q) => q.id === "books-stories-007");
   assert.equal(question.prompt, "Name a novel over 500 pages");
   const match = matchAnswer("the bible", question.answers);
   assert.equal(match.entry?.answer, "The Bible");
