@@ -1857,6 +1857,30 @@
         "aliases": [],
         "tier": 100
       }
+    ],
+    "rejected": [
+      {
+        "answer": "Chicken",
+        "aliases": [
+          "hen",
+          "cockerel",
+          "rooster"
+        ],
+        "reason": "Chickens fly. Badly, briefly, over a fence. Still flying."
+      },
+      {
+        "answer": "Turkey",
+        "aliases": [],
+        "reason": "Wild turkeys fly, and roost in trees to prove it."
+      },
+      {
+        "answer": "Peacock",
+        "aliases": [
+          "peafowl",
+          "peahen"
+        ],
+        "reason": "Peacocks fly. Ungracefully, but the committee has seen it."
+      }
     ]
   },
   {

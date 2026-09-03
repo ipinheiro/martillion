@@ -442,6 +442,15 @@
         ],
         "tier": 100
       }
+    ],
+    "rejected": [
+      {
+        "answer": "Imposter syndrome",
+        "aliases": [
+          "impostor syndrome"
+        ],
+        "reason": "Imposter syndrome is a feeling, not a bias. The committee sympathises."
+      }
     ]
   },
   {

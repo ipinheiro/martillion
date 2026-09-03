@@ -1661,6 +1661,13 @@
         "aliases": [],
         "tier": 100
       }
+    ],
+    "rejected": [
+      {
+        "answer": "Smoothie",
+        "aliases": [],
+        "reason": "A smoothie is a drink. The committee does not drink its breakfast."
+      }
     ]
   },
   {

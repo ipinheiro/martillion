@@ -82,6 +82,19 @@ for (const question of bank) {
         forms.add(form);
       }
     }
+    for (const entry of question.rejected ?? []) {
+      assert.ok(typeof entry.answer === "string" && entry.answer.length > 0, "rejected answer");
+      assert.ok(Array.isArray(entry.aliases), `aliases array on rejected ${entry.answer}`);
+      assert.ok(
+        typeof entry.reason === "string" && entry.reason.length > 0,
+        `reason on rejected ${entry.answer}`,
+      );
+      for (const form of [entry.answer, ...entry.aliases].map(normalize)) {
+        assert.ok(form.length > 0, `non-empty normalised form on rejected ${entry.answer}`);
+        assert.ok(!forms.has(form), `duplicate normalised form "${form}"`);
+        forms.add(form);
+      }
+    }
   });
 }
 
@@ -89,7 +102,7 @@ test("every authored form, typed exactly, scores its own entry", () => {
   for (const question of bank) {
     for (const entry of question.answers) {
       for (const form of [entry.answer, ...entry.aliases]) {
-        const match = matchAnswer(form, question.answers);
+        const match = matchAnswer(form, question.answers, question.rejected ?? []);
         assert.equal(
           match.entry,
           entry,
@@ -107,4 +120,39 @@ test("the Bible is a novel over 500 pages and scores Full Marx", () => {
   assert.equal(match.entry?.answer, "The Bible");
   assert.equal(match.entry?.tier, 100);
   assert.ok(match.entry?.remark);
+});
+
+test("every rejected form, typed exactly, returns its own rejection", () => {
+  for (const question of bank) {
+    for (const entry of question.rejected ?? []) {
+      for (const form of [entry.answer, ...entry.aliases]) {
+        const match = matchAnswer(form, question.answers, question.rejected);
+        assert.equal(match.status, "rejected", `${question.id}: "${form}" is a rejection`);
+        assert.equal(
+          match.entry,
+          entry,
+          `${question.id}: "${form}" should match "${entry.answer}"`,
+        );
+      }
+    }
+  }
+});
+
+test("the seed rejections resolve with their reasons", () => {
+  const seeds = [
+    ["animals-nature-005", "chicken", "Chickens fly."],
+    ["animals-nature-005", "turkey", "Wild turkeys fly"],
+    ["animals-nature-005", "peacock", "Peacocks fly."],
+    ["films-tv-001", "transformers", "Transformers is a franchise."],
+    ["films-tv-001", "iron man", "Iron Man is a man in a suit."],
+    ["the-world-005", "smoothie", "A smoothie is a drink."],
+    ["psychology-001", "imposter syndrome", "Imposter syndrome is a feeling"],
+  ];
+  for (const [id, input, opening] of seeds) {
+    const question = bank.find((q) => q.id === id);
+    assert.ok(question, id);
+    const match = matchAnswer(input, question.answers, question.rejected);
+    assert.equal(match.status, "rejected", `${id}: "${input}"`);
+    assert.ok(match.entry?.reason.startsWith(opening), `${id}: "${input}" reason`);
+  }
 });

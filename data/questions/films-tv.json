@@ -372,6 +372,22 @@
         "aliases": [],
         "tier": 100
       }
+    ],
+    "rejected": [
+      {
+        "answer": "Transformers",
+        "aliases": [
+          "transformer"
+        ],
+        "reason": "Transformers is a franchise. Name one of them."
+      },
+      {
+        "answer": "Iron Man",
+        "aliases": [
+          "tony stark"
+        ],
+        "reason": "Iron Man is a man in a suit. The suit does not vote."
+      }
     ]
   },
   {
