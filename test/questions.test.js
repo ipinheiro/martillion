@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
-import { MIN_TOPICS, RECENT_LIMIT, ROUNDS, validateBank } from "../js/game.js";
+import { MIN_TOPICS, validateBank } from "../js/game.js";
 import { matchAnswer, normalize } from "../js/matcher.js";
 import { AUTHORED_POINTS } from "../js/scorer.js";
 import { TOPICS } from "../js/topics.js";
@@ -39,7 +39,6 @@ test("every topic file is an array of questions for that topic, sorted by id", (
 test("the bank passes runtime validation and can feed the sampler", () => {
   validateBank(bank);
   assert.ok(new Set(bank.map((q) => q.topic)).size >= MIN_TOPICS);
-  assert.ok(bank.length - RECENT_LIMIT >= ROUNDS, "enough questions to avoid repeats");
 });
 
 test("ids and prompts are unique across the bank", () => {

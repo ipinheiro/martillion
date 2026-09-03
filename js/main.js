@@ -3,6 +3,7 @@ import {
   createUprising,
   PERFECT_SCORE,
   ROUNDS,
+  recentLimit,
   sampleQuestions,
   updateRecent,
   validateBank,
@@ -267,6 +268,7 @@ export function init(doc, options = {}) {
       recentQuestionIds: updateRecent(
         state.recentQuestionIds,
         summary.rounds.map((round) => round.questionId),
+        recentLimit(bank.length),
       ),
     };
     storage.save(state);

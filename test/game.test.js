@@ -5,8 +5,8 @@ import {
   MAX_PER_TOPIC,
   MIN_TOPICS,
   PERFECT_SCORE,
-  RECENT_LIMIT,
   ROUNDS,
+  recentLimit,
   sampleQuestions,
   updateRecent,
   validateBank,
@@ -46,7 +46,6 @@ function makeBank(topics = TOPICS, perTopic = 4) {
 test("constants agree with the spec", () => {
   assert.equal(ROUNDS, 7);
   assert.equal(MAX_PER_TOPIC, 2);
-  assert.equal(RECENT_LIMIT, 40);
   assert.equal(MIN_TOPICS, 4);
   assert.equal(PERFECT_SCORE, 700);
 });
@@ -96,12 +95,19 @@ test("sampleQuestions throws when the topic cap cannot fill a game", () => {
   );
 });
 
-test("updateRecent appends and caps at the limit", () => {
-  const recent = Array.from({ length: RECENT_LIMIT }, (_, i) => `old-${i}`);
-  const next = updateRecent(recent, ["new-1", "new-2"]);
-  assert.equal(next.length, RECENT_LIMIT);
+test("updateRecent appends and caps at the given limit", () => {
+  const recent = Array.from({ length: 40 }, (_, i) => `old-${i}`);
+  const next = updateRecent(recent, ["new-1", "new-2"], 40);
+  assert.equal(next.length, 40);
   assert.deepEqual(next.slice(-2), ["new-1", "new-2"]);
   assert.ok(!next.includes("old-0"));
+  assert.deepEqual(updateRecent(["old"], ["new"], 0), []);
+});
+
+test("recentLimit remembers everything but one game's worth, never below zero", () => {
+  assert.equal(recentLimit(150), 143);
+  assert.equal(recentLimit(ROUNDS), 0);
+  assert.equal(recentLimit(3), 0);
 });
 
 test("a recognised answer closes the round with the full round object", () => {
@@ -217,6 +223,6 @@ test("played questions are excluded from the next game end to end", () => {
       assert.ok(!seen.has(id), `question ${id} repeated across games`);
       seen.add(id);
     }
-    recent = updateRecent(recent, ids);
+    recent = updateRecent(recent, ids, recentLimit(bank.length));
   }
 });

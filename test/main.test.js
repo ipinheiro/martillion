@@ -257,7 +257,7 @@ test("a full game scores, saves, and reports a new personal best only when earne
   const saved = JSON.parse(storage.data.get(KEY));
   assert.equal(saved.bestScore, 340);
   assert.equal(saved.gamesPlayed, 1);
-  assert.equal(saved.recentQuestionIds.length, 7);
+  assert.equal(saved.recentQuestionIds.length, 5, "the bank has 12 questions, so 12 - 7 are kept");
 
   $("again-button").dispatch("click");
   for (let i = 0; i < 7; i++) {

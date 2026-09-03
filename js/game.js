@@ -5,10 +5,18 @@ import { TOPICS } from "./topics.js";
 
 export const ROUNDS = 7;
 export const MAX_PER_TOPIC = 2;
-export const RECENT_LIMIT = 40;
 /** Distinct topics a bank needs before the per-topic cap can still fill a game. */
 export const MIN_TOPICS = Math.ceil(ROUNDS / MAX_PER_TOPIC);
 export const PERFECT_SCORE = ROUNDS * TOP_TIER.points;
+
+/**
+ * How many played ids to remember: everything but one game's worth, so the whole bank is seen
+ * before anything repeats, and never below zero.
+ * @param {number} bankSize
+ */
+export function recentLimit(bankSize) {
+  return Math.max(0, bankSize - ROUNDS);
+}
 
 /**
  * @typedef {object} Question
@@ -124,9 +132,11 @@ export function sampleQuestions(bank, recentIds, rng) {
 /**
  * @param {string[]} recentIds
  * @param {string[]} playedIds
+ * @param {number} limit ids to keep; `slice(-0)` would keep everything, hence the guard
  */
-export function updateRecent(recentIds, playedIds) {
-  return [...recentIds, ...playedIds].slice(-RECENT_LIMIT);
+export function updateRecent(recentIds, playedIds, limit) {
+  if (limit <= 0) return [];
+  return [...recentIds, ...playedIds].slice(-limit);
 }
 
 /**
