@@ -1,7 +1,7 @@
 # Martillion third uprising
 
 Date: 2026-09-03
-Status: proposed
+Status: implemented (2026-09-03)
 Builds on: `2026-09-02-second-uprising-design.md` and, through it, the original design. Both stay authoritative where this document is silent.
 
 ## Overview
