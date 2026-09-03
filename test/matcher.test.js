@@ -93,3 +93,60 @@ test("an equidistant tie goes to the commoner tier regardless of order", () => {
   assert.equal(matchAnswer("Rhune", rivers).entry, rivers[0]);
   assert.equal(matchAnswer("Rhune", [...rivers].reverse()).entry, rivers[0]);
 });
+
+const rejected = [
+  {
+    answer: "Chicken",
+    aliases: ["hen"],
+    reason: "Chickens fly. Badly, briefly, over a fence. Still flying.",
+  },
+  {
+    answer: "Iron Man",
+    aliases: ["tony stark"],
+    reason: "Iron Man is a man in a suit. The suit does not vote.",
+  },
+];
+
+test("a considered rejection is reported with its entry", () => {
+  assert.deepEqual(matchAnswer("Hen", answers, rejected), {
+    status: "rejected",
+    entry: rejected[0],
+  });
+});
+
+test("an exact rejection beats a fuzzy answer", () => {
+  const spiders = [{ answer: "Sun spider", aliases: [], tier: 85 }];
+  const seaSpider = [{ answer: "Sea spider", aliases: [], reason: "Not a spider. Not deep." }];
+  assert.equal(matchAnswer("sea spider", spiders, seaSpider).status, "rejected");
+  assert.equal(
+    matchAnswer("sea spider", spiders).entry,
+    spiders[0],
+    "without the rejection it fuzzes",
+  );
+});
+
+test("a rejection is matched with the same typo tolerance", () => {
+  assert.deepEqual(matchAnswer("chiken", answers, rejected), {
+    status: "rejected",
+    entry: rejected[0],
+  });
+});
+
+test("a fuzzy answer beats a fuzzy rejection at the same distance", () => {
+  const rivers = [{ answer: "Rhine", aliases: [], tier: 10 }];
+  const rhone = [{ answer: "Rhone", aliases: [], reason: "Wrong river." }];
+  assert.equal(matchAnswer("Rhune", rivers, rhone).entry, rivers[0]);
+});
+
+test("an equidistant tie between rejections goes to the one listed first", () => {
+  const rivers = [
+    { answer: "Rhone", aliases: [], reason: "First." },
+    { answer: "Rhine", aliases: [], reason: "Second." },
+  ];
+  assert.equal(matchAnswer("Rhune", [], rivers).entry, rivers[0]);
+  assert.equal(matchAnswer("Rhune", [], [...rivers].reverse()).entry, rivers[1]);
+});
+
+test("with no rejections given, unknown input is unverified as before", () => {
+  assert.deepEqual(matchAnswer("Roomba", answers), { status: "unverified", entry: null });
+});
