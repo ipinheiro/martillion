@@ -71,7 +71,7 @@ Enforced by the data test:
 
 - `rejected`, when present, is an array. Each entry has an `answer` string, an `aliases` array, and a non-empty `reason` string.
 - No two forms in a question, across `answers` and `rejected`, normalise to the same string.
-- Every rejected form, typed exactly, returns its own entry at status `rejected`. This runs over the whole bank, and it is what catches a rejection sitting inside fuzzy tolerance of an answer.
+- Every rejected form, typed exactly, returns its own entry at status `rejected`. This runs over the whole bank and pins the match order against real data: with exact rejections checked before fuzzy answers it holds by construction, and a regression in that order would fail here first.
 
 Not enforced, but the rule: the list is for answers real players give that the committee genuinely rules out, and for franchise names where the player should name a member instead. It is not a place to enumerate wrong answers nobody would type.
 
