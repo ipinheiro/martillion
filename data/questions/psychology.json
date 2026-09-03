@@ -1,6 +1,6 @@
 [
   {
-    "id": "psychology-01",
+    "id": "psychology-001",
     "topic": "psychology",
     "prompt": "Name a cognitive bias",
     "answers": [
@@ -442,10 +442,19 @@
         ],
         "tier": 100
       }
+    ],
+    "rejected": [
+      {
+        "answer": "Imposter syndrome",
+        "aliases": [
+          "impostor syndrome"
+        ],
+        "reason": "Imposter syndrome is a feeling, not a bias. The committee sympathises."
+      }
     ]
   },
   {
-    "id": "psychology-02",
+    "id": "psychology-002",
     "topic": "psychology",
     "prompt": "Name a famous psychology experiment",
     "answers": [
@@ -979,7 +988,7 @@
     ]
   },
   {
-    "id": "psychology-03",
+    "id": "psychology-003",
     "topic": "psychology",
     "prompt": "Name a psychological disorder",
     "answers": [
@@ -1587,7 +1596,7 @@
     ]
   },
   {
-    "id": "psychology-04",
+    "id": "psychology-004",
     "topic": "psychology",
     "prompt": "Name a famous psychologist",
     "answers": [
@@ -2056,7 +2065,7 @@
     ]
   },
   {
-    "id": "psychology-05",
+    "id": "psychology-005",
     "topic": "psychology",
     "prompt": "Name a defence mechanism",
     "answers": [
@@ -2356,7 +2365,7 @@
     ]
   },
   {
-    "id": "psychology-06",
+    "id": "psychology-006",
     "topic": "psychology",
     "prompt": "Name a Freudian concept",
     "answers": [
@@ -2784,7 +2793,7 @@
     ]
   },
   {
-    "id": "psychology-07",
+    "id": "psychology-007",
     "topic": "psychology",
     "prompt": "Name a phobia",
     "answers": [
@@ -3302,7 +3311,7 @@
     ]
   },
   {
-    "id": "psychology-08",
+    "id": "psychology-008",
     "topic": "psychology",
     "prompt": "Name an emotion",
     "answers": [
@@ -3862,7 +3871,7 @@
     ]
   },
   {
-    "id": "psychology-09",
+    "id": "psychology-009",
     "topic": "psychology",
     "prompt": "Name a part of the brain",
     "answers": [
@@ -4355,7 +4364,7 @@
     ]
   },
   {
-    "id": "psychology-10",
+    "id": "psychology-010",
     "topic": "psychology",
     "prompt": "Name a neurotransmitter or hormone",
     "answers": [
@@ -4754,7 +4763,7 @@
     ]
   },
   {
-    "id": "psychology-11",
+    "id": "psychology-011",
     "topic": "psychology",
     "prompt": "Name a school of psychotherapy",
     "answers": [
@@ -5276,7 +5285,7 @@
     ]
   },
   {
-    "id": "psychology-12",
+    "id": "psychology-012",
     "topic": "psychology",
     "prompt": "Name a logical fallacy",
     "answers": [
@@ -5776,7 +5785,7 @@
     ]
   },
   {
-    "id": "psychology-13",
+    "id": "psychology-013",
     "topic": "psychology",
     "prompt": "Name a memory phenomenon",
     "answers": [
@@ -6290,7 +6299,7 @@
     ]
   },
   {
-    "id": "psychology-14",
+    "id": "psychology-014",
     "topic": "psychology",
     "prompt": "Name a concept from child development",
     "answers": [
@@ -6877,7 +6886,7 @@
     ]
   },
   {
-    "id": "psychology-15",
+    "id": "psychology-015",
     "topic": "psychology",
     "prompt": "Name a personality trait or personality type",
     "answers": [
@@ -7415,7 +7424,7 @@
     ]
   },
   {
-    "id": "psychology-16",
+    "id": "psychology-016",
     "topic": "psychology",
     "prompt": "Name a psychological effect named after a person or place",
     "answers": [
@@ -7918,7 +7927,7 @@
     ]
   },
   {
-    "id": "psychology-17",
+    "id": "psychology-017",
     "topic": "psychology",
     "prompt": "Name a sleep phenomenon",
     "answers": [
@@ -8453,7 +8462,7 @@
     ]
   },
   {
-    "id": "psychology-18",
+    "id": "psychology-018",
     "topic": "psychology",
     "prompt": "Name an optical or sensory illusion",
     "answers": [
@@ -8997,7 +9006,7 @@
     ]
   },
   {
-    "id": "psychology-19",
+    "id": "psychology-019",
     "topic": "psychology",
     "prompt": "Name a persuasion technique",
     "answers": [
@@ -9585,7 +9594,7 @@
     ]
   },
   {
-    "id": "psychology-20",
+    "id": "psychology-020",
     "topic": "psychology",
     "prompt": "Name a concept from behavioural economics",
     "answers": [
@@ -10108,7 +10117,7 @@
     ]
   },
   {
-    "id": "psychology-21",
+    "id": "psychology-021",
     "topic": "psychology",
     "prompt": "Name an addiction or compulsive behaviour",
     "answers": [
@@ -10644,7 +10653,7 @@
     ]
   },
   {
-    "id": "psychology-22",
+    "id": "psychology-022",
     "topic": "psychology",
     "prompt": "Name a group behaviour phenomenon",
     "answers": [
@@ -11251,7 +11260,7 @@
     ]
   },
   {
-    "id": "psychology-23",
+    "id": "psychology-023",
     "topic": "psychology",
     "prompt": "Name a form of nonverbal communication",
     "answers": [
@@ -11868,7 +11877,7 @@
     ]
   },
   {
-    "id": "psychology-24",
+    "id": "psychology-024",
     "topic": "psychology",
     "prompt": "Name a psychoactive substance",
     "answers": [
@@ -12495,7 +12504,7 @@
     ]
   },
   {
-    "id": "psychology-25",
+    "id": "psychology-025",
     "topic": "psychology",
     "prompt": "Name an intelligence or personality test",
     "answers": [

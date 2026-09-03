@@ -7,19 +7,27 @@ import { NO_ANSWER } from "./scorer.js";
 /** @param {RoundResult} result */
 export function revealDetail(result) {
   if (result.tier.id === NO_ANSWER.id) return "Time's up. Silence. The revolution needs answers.";
+  const typed = result.input.trim();
   if (result.matchedAnswer === null) {
-    return `Time's up. The committee could not verify "${result.input.trim()}". Zero points, comrade.`;
+    if (result.reason) {
+      return `Time's up. The committee has considered "${typed}". ${result.reason} Zero points, comrade.`;
+    }
+    return `Time's up. The committee could not verify "${typed}". Zero points, comrade.`;
   }
   const line = `The committee recognises "${result.matchedAnswer}".`;
   return result.remark ? `${line} ${result.remark}` : line;
 }
 
 /**
- * Shown on the round screen when an answer is not recognised; the round carries on.
+ * Shown on the round screen when an answer does not score; the round carries on. With a reason,
+ * the committee has considered the answer and rules it out.
  * @param {string} input
+ * @param {string | null} [reason]
  */
-export function rejectionMessage(input) {
-  return `"${input.trim()}" is not a recognised answer. Try another.`;
+export function rejectionMessage(input, reason = null) {
+  const typed = input.trim();
+  if (reason) return `The committee has considered "${typed}". ${reason} Try another.`;
+  return `"${typed}" is not a recognised answer. Try another.`;
 }
 
 /**

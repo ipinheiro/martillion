@@ -27,9 +27,23 @@ the box) type-checks the JSDoc comments as you type.
 ## Add questions
 
 The bank lives in `data/questions/`, one file per topic. Edit the topic's file following the
-schema and authoring rules in `docs/superpowers/specs/2026-09-02-second-uprising-design.md`,
-then run `npm test` - the data test enforces the rules. An answer the bank does not recognise
-scores zero, so cover the common answers exhaustively.
+schema and authoring rules in `docs/superpowers/specs/2026-09-03-third-uprising-design.md`,
+which builds on the second uprising's, then run `npm test` - the data test enforces the rules.
+An answer the bank does not recognise scores zero, so cover the common answers exhaustively.
+
+A question may also carry a `rejected` list: answers real players give that the committee rules
+out, each with a `reason` shown mid-round in place of the bare "not recognised" line.
+
+## Widen the bank from real play
+
+The game keeps the answers it could not place. On any device that has played, open the browser
+console and run
+
+    JSON.parse(localStorage.getItem("martillion.v1")).unverified
+
+for the newest 200 as `{ questionId, input }`. The share text ends with a "could not verify" line
+when a game had any, so a pasted score carries them too. Each one is worth admitting to the bank,
+rejecting with a reason, or ignoring.
 
 ## Sprites
 

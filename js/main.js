@@ -3,7 +3,9 @@ import {
   createUprising,
   PERFECT_SCORE,
   ROUNDS,
+  recentLimit,
   sampleQuestions,
+  unverifiedAttempts,
   updateRecent,
   validateBank,
 } from "./game.js";
@@ -20,7 +22,7 @@ import { paintSprite, spriteToSvgString } from "./pixel.js";
 import { fiveYearPlans, PLAN_TARGET, TOP_TIER } from "./scorer.js";
 import { copyShare, shareText } from "./share.js";
 import { HAMMER_SICKLE, MARX_HERO, reactionFor, SPRITE_COLOURS, STAR } from "./sprites.js";
-import { createStorage } from "./storage.js";
+import { createStorage, mergeUnverified } from "./storage.js";
 import { TOPICS, topicLabel } from "./topics.js";
 
 export const ROUND_SECONDS = 30;
@@ -220,8 +222,8 @@ export function init(doc, options = {}) {
       renderReveal(outcome.result);
       return;
     }
-    if (outcome.status === "unverified") {
-      $("round-feedback").textContent = rejectionMessage(input.value);
+    if (outcome.status === "unverified" || outcome.status === "rejected") {
+      $("round-feedback").textContent = rejectionMessage(input.value, outcome.reason);
       input.value = "";
     }
     input.focus();
@@ -267,7 +269,9 @@ export function init(doc, options = {}) {
       recentQuestionIds: updateRecent(
         state.recentQuestionIds,
         summary.rounds.map((round) => round.questionId),
+        recentLimit(bank.length),
       ),
+      unverified: mergeUnverified(state.unverified, unverifiedAttempts(summary)),
     };
     storage.save(state);
     lastShare = shareText(summary);

@@ -86,6 +86,13 @@ function makeBank() {
         { answer: "Anything", aliases: [], tier: 60 },
         { answer: "Rare thing", aliases: [], tier: 100 },
       ],
+      rejected: [
+        {
+          answer: "Chicken",
+          aliases: ["hen"],
+          reason: "Chickens fly. Badly, briefly, over a fence. Still flying.",
+        },
+      ],
     })),
   );
 }
@@ -257,7 +264,7 @@ test("a full game scores, saves, and reports a new personal best only when earne
   const saved = JSON.parse(storage.data.get(KEY));
   assert.equal(saved.bestScore, 340);
   assert.equal(saved.gamesPlayed, 1);
-  assert.equal(saved.recentQuestionIds.length, 7);
+  assert.equal(saved.recentQuestionIds.length, 5, "the bank has 12 questions, so 12 - 7 are kept");
 
   $("again-button").dispatch("click");
   for (let i = 0; i < 7; i++) {
@@ -281,4 +288,49 @@ test("the timer gives whatever is in the box one last try when the round runs ou
   assert.deepEqual(visible(), ["screen-reveal"], "the next round's timer runs out too");
   assert.equal($("reveal-tier").textContent, "No answer");
   assert.equal($("reveal-detail").textContent, "Time's up. Silence. The revolution needs answers.");
+});
+
+test("a considered rejection shows the committee's reason and the round carries on", async () => {
+  const { $, visible, type } = await boot();
+  $("start-button").dispatch("click");
+  type("hen");
+  assert.deepEqual(visible(), ["screen-round"]);
+  assert.equal(
+    $("round-feedback").textContent,
+    'The committee has considered "hen". Chickens fly. Badly, briefly, over a fence. Still flying. Try another.',
+  );
+  assert.equal($("answer-input").value, "", "the box is cleared for the next try");
+  type("Anything");
+  assert.deepEqual(visible(), ["screen-reveal"]);
+});
+
+test("running out of time after a considered rejection repeats the reason at zero", async () => {
+  const { $, type, runOutTheClock } = await boot();
+  $("start-button").dispatch("click");
+  type("chicken");
+  await runOutTheClock();
+  assert.equal($("reveal-tier").textContent, "Utopian");
+  assert.equal($("reveal-points").textContent, "+0");
+  assert.equal(
+    $("reveal-detail").textContent,
+    'Time\'s up. The committee has considered "chicken". Chickens fly. Badly, briefly, over a fence. Still flying. Zero points, comrade.',
+  );
+});
+
+test("a finished game stores the answers the bank did not know, and only those", async () => {
+  const { $, storage, type, runOutTheClock } = await boot();
+  $("start-button").dispatch("click");
+  const next = () => $("next-button").dispatch("click");
+  type(" roomba ");
+  type("hen");
+  type("Anything");
+  next();
+  for (let i = 0; i < 6; i++) {
+    await runOutTheClock();
+    next();
+  }
+  const saved = JSON.parse(storage.data.get(KEY));
+  assert.equal(saved.unverified.length, 1, "the known rejection is not stored");
+  assert.equal(saved.unverified[0].input, "roomba");
+  assert.match(saved.unverified[0].questionId, /^[a-z-]+-0[12]$/);
 });

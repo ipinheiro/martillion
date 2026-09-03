@@ -1,9 +1,18 @@
 // @ts-check
+import { normalize } from "./matcher.js";
 
-/** @param {import("./game.js").Summary} summary */
+/**
+ * Score, verdict, one emoji per round, and, when the bank did not know something, the committee
+ * line. Player input reaches the share only on that line and only through `normalize`, which
+ * leaves letters, digits, and single spaces: nothing that could forge a score line.
+ * @param {import("./game.js").Summary} summary
+ */
 export function shareText(summary) {
   const emojis = summary.rounds.map((round) => round.tier.emoji).join("");
-  return `Martillion ✊ ${summary.total} - ${summary.stage.verdict}\n${emojis}`;
+  const lines = [`Martillion ✊ ${summary.total} - ${summary.stage.verdict}`, emojis];
+  const misses = [...new Set(summary.rounds.flatMap((round) => round.unverified).map(normalize))];
+  if (misses.length > 0) lines.push(`The committee could not verify: ${misses.join(", ")}`);
+  return lines.join("\n");
 }
 
 /**

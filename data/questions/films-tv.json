@@ -1,6 +1,6 @@
 [
   {
-    "id": "films-tv-01",
+    "id": "films-tv-001",
     "topic": "films-tv",
     "prompt": "Name a fictional robot",
     "answers": [
@@ -372,10 +372,26 @@
         "aliases": [],
         "tier": 100
       }
+    ],
+    "rejected": [
+      {
+        "answer": "Transformers",
+        "aliases": [
+          "transformer"
+        ],
+        "reason": "Transformers is a franchise. Name one of them."
+      },
+      {
+        "answer": "Iron Man",
+        "aliases": [
+          "tony stark"
+        ],
+        "reason": "Iron Man is a man in a suit. The suit does not vote."
+      }
     ]
   },
   {
-    "id": "films-tv-02",
+    "id": "films-tv-002",
     "topic": "films-tv",
     "prompt": "Name a film that won the Best Picture Oscar",
     "answers": [
@@ -805,7 +821,7 @@
     ]
   },
   {
-    "id": "films-tv-03",
+    "id": "films-tv-003",
     "topic": "films-tv",
     "prompt": "Name a fictional villain",
     "answers": [
@@ -1186,7 +1202,7 @@
     ]
   },
   {
-    "id": "films-tv-04",
+    "id": "films-tv-004",
     "topic": "films-tv",
     "prompt": "Name an animated film",
     "answers": [
@@ -1570,7 +1586,7 @@
     ]
   },
   {
-    "id": "films-tv-05",
+    "id": "films-tv-005",
     "topic": "films-tv",
     "prompt": "Name a long-running TV series",
     "answers": [
@@ -1922,7 +1938,7 @@
     ]
   },
   {
-    "id": "films-tv-06",
+    "id": "films-tv-006",
     "topic": "films-tv",
     "prompt": "Name a film director",
     "answers": [
@@ -2342,7 +2358,7 @@
     ]
   },
   {
-    "id": "films-tv-07",
+    "id": "films-tv-007",
     "topic": "films-tv",
     "prompt": "Name a fictional world or planet",
     "answers": [
@@ -2662,7 +2678,7 @@
     ]
   },
   {
-    "id": "films-tv-08",
+    "id": "films-tv-008",
     "topic": "films-tv",
     "prompt": "Name a horror film",
     "answers": [
@@ -3022,7 +3038,7 @@
     ]
   },
   {
-    "id": "films-tv-09",
+    "id": "films-tv-009",
     "topic": "films-tv",
     "prompt": "Name a film based on a true story",
     "answers": [
@@ -3351,7 +3367,7 @@
     ]
   },
   {
-    "id": "films-tv-10",
+    "id": "films-tv-010",
     "topic": "films-tv",
     "prompt": "Name a fictional spy or detective",
     "answers": [
@@ -3756,7 +3772,7 @@
     ]
   },
   {
-    "id": "films-tv-11",
+    "id": "films-tv-011",
     "topic": "films-tv",
     "prompt": "Name a movie monster",
     "answers": [
@@ -4147,7 +4163,7 @@
     ]
   },
   {
-    "id": "films-tv-12",
+    "id": "films-tv-012",
     "topic": "films-tv",
     "prompt": "Name a film with a famous twist ending",
     "answers": [
@@ -4468,7 +4484,7 @@
     ]
   },
   {
-    "id": "films-tv-13",
+    "id": "films-tv-013",
     "topic": "films-tv",
     "prompt": "Name a sitcom",
     "answers": [
@@ -4816,7 +4832,7 @@
     ]
   },
   {
-    "id": "films-tv-14",
+    "id": "films-tv-014",
     "topic": "films-tv",
     "prompt": "Name a superhero",
     "answers": [
@@ -5215,7 +5231,7 @@
     ]
   },
   {
-    "id": "films-tv-15",
+    "id": "films-tv-015",
     "topic": "films-tv",
     "prompt": "Name a film not in the English language",
     "answers": [
@@ -5562,7 +5578,7 @@
     ]
   },
   {
-    "id": "films-tv-16",
+    "id": "films-tv-016",
     "topic": "films-tv",
     "prompt": "Name a fictional artificial intelligence",
     "answers": [
@@ -5911,7 +5927,7 @@
     ]
   },
   {
-    "id": "films-tv-17",
+    "id": "films-tv-017",
     "topic": "films-tv",
     "prompt": "Name a Studio Ghibli film",
     "answers": [
@@ -6100,7 +6116,7 @@
     ]
   },
   {
-    "id": "films-tv-18",
+    "id": "films-tv-018",
     "topic": "films-tv",
     "prompt": "Name a documentary",
     "answers": [
@@ -6447,7 +6463,7 @@
     ]
   },
   {
-    "id": "films-tv-19",
+    "id": "films-tv-019",
     "topic": "films-tv",
     "prompt": "Name a film franchise with four or more films",
     "answers": [
@@ -6848,7 +6864,7 @@
     ]
   },
   {
-    "id": "films-tv-20",
+    "id": "films-tv-020",
     "topic": "films-tv",
     "prompt": "Name a movie musical",
     "answers": [
@@ -7200,7 +7216,7 @@
     ]
   },
   {
-    "id": "films-tv-21",
+    "id": "films-tv-021",
     "topic": "films-tv",
     "prompt": "Name a Pixar or DreamWorks film",
     "answers": [
@@ -7560,7 +7576,7 @@
     ]
   },
   {
-    "id": "films-tv-22",
+    "id": "films-tv-022",
     "topic": "films-tv",
     "prompt": "Name an actor who has played a superhero",
     "answers": [
@@ -7938,7 +7954,7 @@
     ]
   },
   {
-    "id": "films-tv-23",
+    "id": "films-tv-023",
     "topic": "films-tv",
     "prompt": "Name a crime or detective TV series",
     "answers": [
@@ -8280,7 +8296,7 @@
     ]
   },
   {
-    "id": "films-tv-24",
+    "id": "films-tv-024",
     "topic": "films-tv",
     "prompt": "Name a film set in space",
     "answers": [
@@ -8637,7 +8653,7 @@
     ]
   },
   {
-    "id": "films-tv-25",
+    "id": "films-tv-025",
     "topic": "films-tv",
     "prompt": "Name a romcom",
     "answers": [

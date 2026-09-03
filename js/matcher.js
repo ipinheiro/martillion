@@ -10,9 +10,19 @@
  */
 
 /**
- * @typedef {object} MatchResult
- * @property {"matched" | "unverified" | "empty"} status
- * @property {AnswerEntry | null} entry
+ * An answer the committee has considered and rules out, with the reason it gives.
+ * @typedef {object} RejectedEntry
+ * @property {string} answer
+ * @property {string[]} aliases
+ * @property {string} reason
+ */
+
+/** Anything with a canonical answer and its aliases. @typedef {Pick<AnswerEntry, "answer" | "aliases">} Entry */
+
+/**
+ * @typedef {{ status: "matched", entry: AnswerEntry }
+ *   | { status: "rejected", entry: RejectedEntry }
+ *   | { status: "unverified" | "empty", entry: null }} MatchResult
  */
 
 const ARTICLE = /^(the|a|an)\s+/;
@@ -59,35 +69,69 @@ export function tolerance(length) {
   return 0;
 }
 
-/** @param {AnswerEntry} entry */
+/** @param {Entry} entry */
 function forms(entry) {
   return [entry.answer, ...entry.aliases].map(normalize);
 }
 
 /**
- * Exact match first. Otherwise the closest form within tolerance, ties to the rarer tier.
- * @param {string} input
- * @param {AnswerEntry[]} answers
- * @returns {MatchResult}
+ * @template {Entry} T
+ * @param {string} norm
+ * @param {T[]} entries
+ * @returns {T | null}
  */
-export function matchAnswer(input, answers) {
-  const norm = normalize(input);
-  if (!norm) return { status: "empty", entry: null };
+function exact(norm, entries) {
+  return entries.find((entry) => forms(entry).includes(norm)) ?? null;
+}
 
-  const candidates = answers.map((entry) => ({ entry, forms: forms(entry) }));
-  const exact = candidates.find((candidate) => candidate.forms.includes(norm));
-  if (exact) return { status: "matched", entry: exact.entry };
-
-  /** @type {{ entry: AnswerEntry, distance: number } | null} */
+/**
+ * The closest entry within tolerance. `prefer(candidate, best)` breaks an equidistant tie.
+ * @template {Entry} T
+ * @param {string} norm
+ * @param {T[]} entries
+ * @param {(candidate: T, best: T) => boolean} prefer
+ * @returns {T | null}
+ */
+function closest(norm, entries, prefer) {
+  /** @type {{ entry: T, distance: number } | null} */
   let best = null;
-  for (const { entry, forms: entryForms } of candidates) {
-    for (const form of entryForms) {
+  for (const entry of entries) {
+    for (const form of forms(entry)) {
       const distance = levenshtein(norm, form);
       if (distance > tolerance(form.length)) continue;
       const closer = best === null || distance < best.distance;
-      const rarerTie = best !== null && distance === best.distance && entry.tier > best.entry.tier;
-      if (closer || rarerTie) best = { entry, distance };
+      const tie = best !== null && distance === best.distance && prefer(entry, best.entry);
+      if (closer || tie) best = { entry, distance };
     }
   }
-  return best ? { status: "matched", entry: best.entry } : { status: "unverified", entry: null };
+  return best ? best.entry : null;
+}
+
+/** @type {(candidate: AnswerEntry, best: AnswerEntry) => boolean} */
+const commoner = (candidate, best) => candidate.tier < best.tier;
+const first = () => false;
+
+/**
+ * Exact answer, exact rejection, fuzzy answer, fuzzy rejection. Exact beats fuzzy across both
+ * pools, so a rejection typed perfectly can never score as a typo of an answer. A tie between
+ * answers goes to the commoner tier; between rejections, to the one listed first.
+ * @param {string} input
+ * @param {AnswerEntry[]} answers
+ * @param {RejectedEntry[]} [rejected]
+ * @returns {MatchResult}
+ */
+export function matchAnswer(input, answers, rejected = []) {
+  const norm = normalize(input);
+  if (!norm) return { status: "empty", entry: null };
+
+  const exactAnswer = exact(norm, answers);
+  if (exactAnswer) return { status: "matched", entry: exactAnswer };
+  const exactRejection = exact(norm, rejected);
+  if (exactRejection) return { status: "rejected", entry: exactRejection };
+
+  const fuzzyAnswer = closest(norm, answers, commoner);
+  if (fuzzyAnswer) return { status: "matched", entry: fuzzyAnswer };
+  const fuzzyRejection = closest(norm, rejected, first);
+  if (fuzzyRejection) return { status: "rejected", entry: fuzzyRejection };
+  return { status: "unverified", entry: null };
 }

@@ -5,9 +5,10 @@ import {
   MAX_PER_TOPIC,
   MIN_TOPICS,
   PERFECT_SCORE,
-  RECENT_LIMIT,
   ROUNDS,
+  recentLimit,
   sampleQuestions,
+  unverifiedAttempts,
   updateRecent,
   validateBank,
 } from "../js/game.js";
@@ -39,6 +40,13 @@ function makeBank(topics = TOPICS, perTopic = 4) {
           remark: "The committee is impressed.",
         },
       ],
+      rejected: [
+        {
+          answer: "Chicken",
+          aliases: ["hen"],
+          reason: "Chickens fly. Badly, briefly, over a fence. Still flying.",
+        },
+      ],
     })),
   );
 }
@@ -46,7 +54,6 @@ function makeBank(topics = TOPICS, perTopic = 4) {
 test("constants agree with the spec", () => {
   assert.equal(ROUNDS, 7);
   assert.equal(MAX_PER_TOPIC, 2);
-  assert.equal(RECENT_LIMIT, 40);
   assert.equal(MIN_TOPICS, 4);
   assert.equal(PERFECT_SCORE, 700);
 });
@@ -59,6 +66,7 @@ test("validateBank returns a well-formed bank and rejects everything else", () =
   assert.throws(() => validateBank(makeBank(THREE_TOPICS, 10)), /cannot fill a game/);
   assert.throws(() => validateBank([{ id: "x", topic: "films-tv", prompt: "p" }]), /Malformed/);
   assert.throws(() => validateBank([{ ...bank[0], topic: "sports" }]), /Malformed question/);
+  assert.throws(() => validateBank([{ ...bank[0], rejected: "no" }]), /Malformed/);
 });
 
 test("sampleQuestions returns seven distinct questions", () => {
@@ -96,12 +104,19 @@ test("sampleQuestions throws when the topic cap cannot fill a game", () => {
   );
 });
 
-test("updateRecent appends and caps at the limit", () => {
-  const recent = Array.from({ length: RECENT_LIMIT }, (_, i) => `old-${i}`);
-  const next = updateRecent(recent, ["new-1", "new-2"]);
-  assert.equal(next.length, RECENT_LIMIT);
+test("updateRecent appends and caps at the given limit", () => {
+  const recent = Array.from({ length: 40 }, (_, i) => `old-${i}`);
+  const next = updateRecent(recent, ["new-1", "new-2"], 40);
+  assert.equal(next.length, 40);
   assert.deepEqual(next.slice(-2), ["new-1", "new-2"]);
   assert.ok(!next.includes("old-0"));
+  assert.deepEqual(updateRecent(["old"], ["new"], 0), []);
+});
+
+test("recentLimit remembers everything but one game's worth, never below zero", () => {
+  assert.equal(recentLimit(150), 143);
+  assert.equal(recentLimit(ROUNDS), 0);
+  assert.equal(recentLimit(3), 0);
 });
 
 test("a recognised answer closes the round with the full round object", () => {
@@ -115,26 +130,31 @@ test("a recognised answer closes the round with the full round object", () => {
     input: "rarest",
     matchedAnswer: "Rare thing",
     remark: "The committee is impressed.",
+    reason: null,
+    unverified: [],
     tier: { id: "full-marx", name: "Full Marx", points: 100, emoji: "⭐" },
   });
   assert.equal(uprising.round, 1);
 });
 
-test("an unrecognised answer is rejected, remembered, and the round carries on", () => {
+test("an unknown answer is remembered as an attempt and the round carries on", () => {
   const [question] = makeBank();
   const uprising = createUprising([question]);
-  assert.deepEqual(uprising.submit("roomba"), { status: "unverified", result: null });
-  assert.deepEqual(uprising.submit("hoover"), { status: "unverified", result: null });
+  assert.deepEqual(uprising.submit("roomba"), { status: "unverified", result: null, reason: null });
+  assert.deepEqual(uprising.submit("hoover"), { status: "unverified", result: null, reason: null });
   assert.equal(uprising.round, 0);
-  assert.deepEqual(uprising.rejected, ["roomba", "hoover"]);
+  assert.deepEqual(uprising.attempts, [
+    { input: "roomba", reason: null },
+    { input: "hoover", reason: null },
+  ]);
   assert.equal(uprising.submit("Anything").status, "matched");
-  assert.deepEqual(uprising.rejected, []);
+  assert.deepEqual(uprising.attempts, []);
 });
 
 test("empty input is neither accepted nor remembered", () => {
   const uprising = createUprising(makeBank().slice(0, 1));
-  assert.deepEqual(uprising.submit("   "), { status: "empty", result: null });
-  assert.deepEqual(uprising.rejected, []);
+  assert.deepEqual(uprising.submit("   "), { status: "empty", result: null, reason: null });
+  assert.deepEqual(uprising.attempts, []);
   assert.equal(uprising.round, 0);
 });
 
@@ -217,6 +237,65 @@ test("played questions are excluded from the next game end to end", () => {
       assert.ok(!seen.has(id), `question ${id} repeated across games`);
       seen.add(id);
     }
-    recent = updateRecent(recent, ids);
+    recent = updateRecent(recent, ids, recentLimit(bank.length));
   }
+});
+
+const CHICKEN = "Chickens fly. Badly, briefly, over a fence. Still flying.";
+
+test("a considered rejection is reported with its reason and the round carries on", () => {
+  const [question] = makeBank();
+  const uprising = createUprising([question]);
+  assert.deepEqual(uprising.submit("hen"), { status: "rejected", result: null, reason: CHICKEN });
+  assert.equal(uprising.round, 0);
+  assert.deepEqual(uprising.attempts, [{ input: "hen", reason: CHICKEN }]);
+});
+
+test("timeout after a considered rejection carries the reason, submitted or left in the box", () => {
+  const [question] = makeBank();
+  const submitted = createUprising([question]);
+  submitted.submit("chicken");
+  const afterSubmit = submitted.timeout("");
+  assert.equal(afterSubmit.tier, UTOPIAN);
+  assert.equal(afterSubmit.input, "chicken");
+  assert.equal(afterSubmit.reason, CHICKEN);
+  assert.deepEqual(afterSubmit.unverified, []);
+
+  const inBox = createUprising([question]).timeout("chicken");
+  assert.equal(inBox.tier, UTOPIAN);
+  assert.equal(inBox.input, "chicken");
+  assert.equal(inBox.reason, CHICKEN);
+});
+
+test("timeout lists every unknown attempt, including the one left in the box", () => {
+  const uprising = createUprising(makeBank().slice(0, 1));
+  uprising.submit(" roomba ");
+  uprising.submit("hoover");
+  const result = uprising.timeout("dyson");
+  assert.equal(result.tier, UTOPIAN);
+  assert.equal(result.input, "dyson");
+  assert.equal(result.reason, null);
+  assert.deepEqual(result.unverified, ["roomba", "hoover", "dyson"]);
+});
+
+test("a matched round after an unknown attempt has no reason and lists the attempt", () => {
+  const uprising = createUprising(makeBank().slice(0, 1));
+  uprising.submit(" roomba ");
+  uprising.submit("hen");
+  const outcome = uprising.submit("Anything");
+  assert.equal(outcome.result?.reason, null);
+  assert.deepEqual(outcome.result?.unverified, ["roomba"]);
+});
+
+test("unverifiedAttempts flattens the game's unknown answers with their question ids", () => {
+  const [first, second] = makeBank();
+  const uprising = createUprising([first, second]);
+  uprising.submit("roomba");
+  uprising.submit("Anything");
+  uprising.submit("hen");
+  uprising.timeout("dyson");
+  assert.deepEqual(unverifiedAttempts(uprising.summary()), [
+    { questionId: first.id, input: "roomba" },
+    { questionId: second.id, input: "dyson" },
+  ]);
 });
