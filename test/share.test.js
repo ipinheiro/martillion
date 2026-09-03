@@ -4,13 +4,15 @@ import { createUprising } from "../js/game.js";
 import { stageForScore, tierById } from "../js/scorer.js";
 import { copyShare, shareText } from "../js/share.js";
 
-function summaryOf(tierIds) {
+function summaryOf(tierIds, unverified = []) {
   const rounds = tierIds.map((id, i) => ({
     questionId: `q-${i}`,
     prompt: "Name a thing",
     input: "thing",
     matchedAnswer: null,
     remark: null,
+    reason: null,
+    unverified: unverified[i] ?? [],
     tier: tierById(id),
   }));
   const total = rounds.reduce((sum, round) => sum + round.tier.points, 0);

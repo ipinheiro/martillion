@@ -8,6 +8,7 @@ import {
   ROUNDS,
   recentLimit,
   sampleQuestions,
+  unverifiedAttempts,
   updateRecent,
   validateBank,
 } from "../js/game.js";
@@ -39,6 +40,13 @@ function makeBank(topics = TOPICS, perTopic = 4) {
           remark: "The committee is impressed.",
         },
       ],
+      rejected: [
+        {
+          answer: "Chicken",
+          aliases: ["hen"],
+          reason: "Chickens fly. Badly, briefly, over a fence. Still flying.",
+        },
+      ],
     })),
   );
 }
@@ -58,6 +66,7 @@ test("validateBank returns a well-formed bank and rejects everything else", () =
   assert.throws(() => validateBank(makeBank(THREE_TOPICS, 10)), /cannot fill a game/);
   assert.throws(() => validateBank([{ id: "x", topic: "films-tv", prompt: "p" }]), /Malformed/);
   assert.throws(() => validateBank([{ ...bank[0], topic: "sports" }]), /Malformed question/);
+  assert.throws(() => validateBank([{ ...bank[0], rejected: "no" }]), /Malformed/);
 });
 
 test("sampleQuestions returns seven distinct questions", () => {
@@ -121,26 +130,31 @@ test("a recognised answer closes the round with the full round object", () => {
     input: "rarest",
     matchedAnswer: "Rare thing",
     remark: "The committee is impressed.",
+    reason: null,
+    unverified: [],
     tier: { id: "full-marx", name: "Full Marx", points: 100, emoji: "⭐" },
   });
   assert.equal(uprising.round, 1);
 });
 
-test("an unrecognised answer is rejected, remembered, and the round carries on", () => {
+test("an unknown answer is remembered as an attempt and the round carries on", () => {
   const [question] = makeBank();
   const uprising = createUprising([question]);
-  assert.deepEqual(uprising.submit("roomba"), { status: "unverified", result: null });
-  assert.deepEqual(uprising.submit("hoover"), { status: "unverified", result: null });
+  assert.deepEqual(uprising.submit("roomba"), { status: "unverified", result: null, reason: null });
+  assert.deepEqual(uprising.submit("hoover"), { status: "unverified", result: null, reason: null });
   assert.equal(uprising.round, 0);
-  assert.deepEqual(uprising.rejected, ["roomba", "hoover"]);
+  assert.deepEqual(uprising.attempts, [
+    { input: "roomba", reason: null },
+    { input: "hoover", reason: null },
+  ]);
   assert.equal(uprising.submit("Anything").status, "matched");
-  assert.deepEqual(uprising.rejected, []);
+  assert.deepEqual(uprising.attempts, []);
 });
 
 test("empty input is neither accepted nor remembered", () => {
   const uprising = createUprising(makeBank().slice(0, 1));
-  assert.deepEqual(uprising.submit("   "), { status: "empty", result: null });
-  assert.deepEqual(uprising.rejected, []);
+  assert.deepEqual(uprising.submit("   "), { status: "empty", result: null, reason: null });
+  assert.deepEqual(uprising.attempts, []);
   assert.equal(uprising.round, 0);
 });
 
@@ -225,4 +239,63 @@ test("played questions are excluded from the next game end to end", () => {
     }
     recent = updateRecent(recent, ids, recentLimit(bank.length));
   }
+});
+
+const CHICKEN = "Chickens fly. Badly, briefly, over a fence. Still flying.";
+
+test("a considered rejection is reported with its reason and the round carries on", () => {
+  const [question] = makeBank();
+  const uprising = createUprising([question]);
+  assert.deepEqual(uprising.submit("hen"), { status: "rejected", result: null, reason: CHICKEN });
+  assert.equal(uprising.round, 0);
+  assert.deepEqual(uprising.attempts, [{ input: "hen", reason: CHICKEN }]);
+});
+
+test("timeout after a considered rejection carries the reason, submitted or left in the box", () => {
+  const [question] = makeBank();
+  const submitted = createUprising([question]);
+  submitted.submit("chicken");
+  const afterSubmit = submitted.timeout("");
+  assert.equal(afterSubmit.tier, UTOPIAN);
+  assert.equal(afterSubmit.input, "chicken");
+  assert.equal(afterSubmit.reason, CHICKEN);
+  assert.deepEqual(afterSubmit.unverified, []);
+
+  const inBox = createUprising([question]).timeout("chicken");
+  assert.equal(inBox.tier, UTOPIAN);
+  assert.equal(inBox.input, "chicken");
+  assert.equal(inBox.reason, CHICKEN);
+});
+
+test("timeout lists every unknown attempt, including the one left in the box", () => {
+  const uprising = createUprising(makeBank().slice(0, 1));
+  uprising.submit(" roomba ");
+  uprising.submit("hoover");
+  const result = uprising.timeout("dyson");
+  assert.equal(result.tier, UTOPIAN);
+  assert.equal(result.input, "dyson");
+  assert.equal(result.reason, null);
+  assert.deepEqual(result.unverified, ["roomba", "hoover", "dyson"]);
+});
+
+test("a matched round after an unknown attempt has no reason and lists the attempt", () => {
+  const uprising = createUprising(makeBank().slice(0, 1));
+  uprising.submit(" roomba ");
+  uprising.submit("hen");
+  const outcome = uprising.submit("Anything");
+  assert.equal(outcome.result?.reason, null);
+  assert.deepEqual(outcome.result?.unverified, ["roomba"]);
+});
+
+test("unverifiedAttempts flattens the game's unknown answers with their question ids", () => {
+  const [first, second] = makeBank();
+  const uprising = createUprising([first, second]);
+  uprising.submit("roomba");
+  uprising.submit("Anything");
+  uprising.submit("hen");
+  uprising.timeout("dyson");
+  assert.deepEqual(unverifiedAttempts(uprising.summary()), [
+    { questionId: first.id, input: "roomba" },
+    { questionId: second.id, input: "dyson" },
+  ]);
 });

@@ -17,6 +17,8 @@ const round = (overrides) => ({
   input: "bender",
   matchedAnswer: "Bender",
   remark: null,
+  reason: null,
+  unverified: [],
   tier: tierById("masses"),
   ...overrides,
 });
